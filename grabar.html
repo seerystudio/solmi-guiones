@@ -15,17 +15,26 @@ h1{font-size:30px;margin:0 0 6px} h2{font-size:24px;margin:2px 0 6px;line-height
 .n{font:14px/1.45 Arial,sans-serif;color:#555;margin:4px 0}
 .fin{margin-top:26px;padding-top:14px;border-top:1px dashed #999}
 .vid{position:sticky;top:16px;align-self:start}
-.vid button{font:15px Arial,sans-serif;padding:10px 14px;border:1px solid #111;background:#fff;color:#111;cursor:pointer;margin:6px 10px 6px 0}
-.vid a{font:14px Arial,sans-serif}
-.vid iframe{width:100%;height:600px;border:1px solid #ccc;margin-top:6px}
+.vid iframe{display:block;width:100%;height:620px;border:1px solid #ccc;margin-top:6px;background:#fafafa}
+.d[contenteditable]{border-radius:4px;padding:4px 8px;margin-left:-8px;outline:none;cursor:text}
+.d[contenteditable]:hover{background:#f4f4f4}
+.d[contenteditable]:focus{background:#fff;box-shadow:0 0 0 1px #111}
+.d.mod{border-left:3px solid #111;border-radius:0 4px 4px 0}
+.ed{font:13px Arial,sans-serif;color:#555;margin:2px 0 0}
+.ed button{font:inherit;color:#111;background:none;border:0;padding:0;text-decoration:underline;cursor:pointer}
+.aviso{font:15px/1.5 Arial,sans-serif;border:1px solid #111;padding:12px 14px;margin:20px 0 0}
+#toast{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);font:14px Arial,sans-serif;background:#111;color:#fff;padding:9px 14px;border-radius:6px;opacity:0;transition:opacity .2s;pointer-events:none}
+#toast.on{opacity:1}
 ul{padding-left:20px} li{margin:8px 0}
-@media (max-width:820px){.g{grid-template-columns:1fr;gap:12px} .vid{position:static} .d{font-size:21px}}
-@media print{.vid{display:none} .g{grid-template-columns:1fr;break-inside:avoid-page}}
+@media (max-width:900px){.g{grid-template-columns:1fr 260px;gap:20px} .vid iframe{height:520px} .d{font-size:21px}}
+@media (max-width:640px){.g{grid-template-columns:1fr} .vid{position:static;order:-1} .vid iframe{height:560px}}
+@media print{.vid,.ed,.aviso{display:none} .g{grid-template-columns:1fr;break-inside:avoid-page}}
 </style></head><body><main>
 <div class="top">
 <h1>Para grabar</h1>
 <p>Solmi &amp; Asociados · guiones que completó Víctor, uno por uno.</p>
 <p class="n">Los textos de Víctor están tal cual los escribió en la página de guiones, sin cambiar una palabra. Lo único agregado son los arranques (de la página) y, donde faltaba, un final sugerido marcado como tal. <a href="./">Volver a la página de guiones</a></p>
+<p class="aviso">Podés agregar o borrar palabras: tocá cualquier texto y escribí. Se guarda solo y se ve igual desde cualquier aparato. Si te arrepentís, cada texto cambiado tiene «volver al original». <span id="estado"></span></p>
 </div>
 <p class="parte">1 · Los fijados</p>
 <section class="g">
@@ -33,28 +42,28 @@ ul{padding-left:20px} li{margin:8px 0}
     <p class="meta">Fijado 01 · Completo · POV: la consulta</p>
     <h2>Quién soy</h2>
     <p class="n">La cámara es el que consulta. Emanuel pregunta del otro lado del escritorio y Víctor le contesta mirando a cámara.</p>
-    <div class="l"><p class="q">EMANUEL</p><p class="d">Víctor, ¿qué me puede pasar si en toda mi vida no hablo nunca con un abogado?</p><p class="n">Arranque que eligió Víctor</p></div><div class="l"><p class="q">VÍCTOR</p><p class="d">Soy abogado con formacion en administracion de empresas. Somos un estudio de amplia cobertura,  enfocamos nuestra mirada en comercios y empresas. Hoy la actividad necesita soluciones rapidas, por eso buscamos acuerdos para que la actividad continue</p></div><div class="l"><p class="q">VÍCTOR · otra toma</p><p class="d">Soy Abogado con formacion en administracion de empresas. Por muchos años me dedique a la actividad privada y conozco desde adentro las dificultades que vive la gente a diario</p><p class="n">Lo que escribió en la nota del fijado «Quién soy». Arranca igual que el texto de arriba: grabá las dos y se elige en edición.</p></div><div class="fin"><p class="q">FINAL SUGERIDO · no lo escribió Víctor</p><p class="d">Lo que nos diferencia te lo cuento en el otro video fijado.</p><p class="n">Este fijado tiene que mandar al segundo. Su texto no lo hace.</p></div>
+    <div class="l"><p class="q">EMANUEL</p><p class="d" contenteditable="true" spellcheck="false" data-k="F01|0" data-o="Víctor, ¿qué me puede pasar si en toda mi vida no hablo nunca con un abogado?" data-sec="Fijado 01 · Quién soy" data-q="EMANUEL">Víctor, ¿qué me puede pasar si en toda mi vida no hablo nunca con un abogado?</p><p class="ed" data-for="F01|0" hidden>Editado · <button type="button" data-volver="F01|0">volver al original</button></p><p class="n">Arranque que eligió Víctor</p></div><div class="l"><p class="q">VÍCTOR</p><p class="d" contenteditable="true" spellcheck="false" data-k="F01|1" data-o="Soy abogado con formacion en administracion de empresas. Somos un estudio de amplia cobertura,  enfocamos nuestra mirada en comercios y empresas. Hoy la actividad necesita soluciones rapidas, por eso buscamos acuerdos para que la actividad continue" data-sec="Fijado 01 · Quién soy" data-q="VÍCTOR">Soy abogado con formacion en administracion de empresas. Somos un estudio de amplia cobertura,  enfocamos nuestra mirada en comercios y empresas. Hoy la actividad necesita soluciones rapidas, por eso buscamos acuerdos para que la actividad continue</p><p class="ed" data-for="F01|1" hidden>Editado · <button type="button" data-volver="F01|1">volver al original</button></p></div><div class="l"><p class="q">VÍCTOR · otra toma</p><p class="d" contenteditable="true" spellcheck="false" data-k="F01|2" data-o="Soy Abogado con formacion en administracion de empresas. Por muchos años me dedique a la actividad privada y conozco desde adentro las dificultades que vive la gente a diario" data-sec="Fijado 01 · Quién soy" data-q="VÍCTOR · otra toma">Soy Abogado con formacion en administracion de empresas. Por muchos años me dedique a la actividad privada y conozco desde adentro las dificultades que vive la gente a diario</p><p class="ed" data-for="F01|2" hidden>Editado · <button type="button" data-volver="F01|2">volver al original</button></p><p class="n">Lo que escribió en la nota del fijado «Quién soy». Arranca igual que el texto de arriba: grabá las dos y se elige en edición.</p></div><div class="fin"><p class="q">FINAL SUGERIDO · no lo escribió Víctor</p><p class="d" contenteditable="true" spellcheck="false" data-k="F01|fin0" data-o="Lo que nos diferencia te lo cuento en el otro video fijado." data-sec="Fijado 01 · Quién soy" data-q="Final sugerido">Lo que nos diferencia te lo cuento en el otro video fijado.</p><p class="ed" data-for="F01|fin0" hidden>Editado · <button type="button" data-volver="F01|fin0">volver al original</button></p><p class="n">Este fijado tiene que mandar al segundo. Su texto no lo hace.</p></div>
   </div>
-  <div class="vid" data-id="Dbo8iYZR1M7"><p class="n">Video de referencia del formato</p><button type="button">Ver el video</button>
-    <a href="https://www.instagram.com/reel/Dbo8iYZR1M7/" target="_blank" rel="noopener">abrir en Instagram</a></div>
+  <div class="vid"><p class="n">Video de referencia · POV: la consulta · <a href="https://www.instagram.com/reel/Dbo8iYZR1M7/" target="_blank" rel="noopener">abrir en Instagram</a></p>
+    <iframe src="https://www.instagram.com/reel/Dbo8iYZR1M7/embed" loading="lazy" allowfullscreen scrolling="no" title="Video de referencia"></iframe></div>
 </section><section class="g">
   <div class="txt">
     <p class="meta">Fijado 02 · Completo · La falsa entrevista</p>
     <h2>Qué nos diferencia</h2>
     <p class="n">Emanuel pregunta desde atrás de la cámara, como en una nota. Víctor contesta mirando apenas al costado.</p>
-    <div class="l"><p class="q">EMANUEL</p><p class="d">Víctor, hay cientos de abogados. ¿Por qué elegir Solmi &amp; Asociados?</p><p class="n">Arranque del guion 2E</p></div><div class="l"><p class="q">VÍCTOR</p><p class="d">Me dedico hace muchos años a la actividad empresaria. Conocemos y vivimos las necesidades de los comercios y empresas. Por eso es tan importante asesorarse. Que cada cliente sea su mejor version, es nuestro exito</p><p class="n">Lo que escribió en la nota del fijado «Qué nos diferencia»</p></div><div class="fin"><p class="q">FINAL SUGERIDO · no lo escribió Víctor</p><p class="d">(Opcional) Cómo trabajamos, te lo cuento en el otro video fijado.</p><p class="n">Su texto ya cierra bien. Esto es solo si querés que mande al tercer fijado.</p></div>
+    <div class="l"><p class="q">EMANUEL</p><p class="d" contenteditable="true" spellcheck="false" data-k="F02|0" data-o="Víctor, hay cientos de abogados. ¿Por qué elegir Solmi &amp; Asociados?" data-sec="Fijado 02 · Qué nos diferencia" data-q="EMANUEL">Víctor, hay cientos de abogados. ¿Por qué elegir Solmi &amp; Asociados?</p><p class="ed" data-for="F02|0" hidden>Editado · <button type="button" data-volver="F02|0">volver al original</button></p><p class="n">Arranque del guion 2E</p></div><div class="l"><p class="q">VÍCTOR</p><p class="d" contenteditable="true" spellcheck="false" data-k="F02|1" data-o="Me dedico hace muchos años a la actividad empresaria. Conocemos y vivimos las necesidades de los comercios y empresas. Por eso es tan importante asesorarse. Que cada cliente sea su mejor version, es nuestro exito" data-sec="Fijado 02 · Qué nos diferencia" data-q="VÍCTOR">Me dedico hace muchos años a la actividad empresaria. Conocemos y vivimos las necesidades de los comercios y empresas. Por eso es tan importante asesorarse. Que cada cliente sea su mejor version, es nuestro exito</p><p class="ed" data-for="F02|1" hidden>Editado · <button type="button" data-volver="F02|1">volver al original</button></p><p class="n">Lo que escribió en la nota del fijado «Qué nos diferencia»</p></div><div class="fin"><p class="q">FINAL SUGERIDO · no lo escribió Víctor</p><p class="d" contenteditable="true" spellcheck="false" data-k="F02|fin0" data-o="(Opcional) Cómo trabajamos, te lo cuento en el otro video fijado." data-sec="Fijado 02 · Qué nos diferencia" data-q="Final sugerido">(Opcional) Cómo trabajamos, te lo cuento en el otro video fijado.</p><p class="ed" data-for="F02|fin0" hidden>Editado · <button type="button" data-volver="F02|fin0">volver al original</button></p><p class="n">Su texto ya cierra bien. Esto es solo si querés que mande al tercer fijado.</p></div>
   </div>
-  <div class="vid" data-id="DavyC1fDgAn"><p class="n">Video de referencia del formato</p><button type="button">Ver el video</button>
-    <a href="https://www.instagram.com/reel/DavyC1fDgAn/" target="_blank" rel="noopener">abrir en Instagram</a></div>
+  <div class="vid"><p class="n">Video de referencia · La falsa entrevista · <a href="https://www.instagram.com/reel/DavyC1fDgAn/" target="_blank" rel="noopener">abrir en Instagram</a></p>
+    <iframe src="https://www.instagram.com/reel/DavyC1fDgAn/embed" loading="lazy" allowfullscreen scrolling="no" title="Video de referencia"></iframe></div>
 </section><section class="g">
   <div class="txt">
     <p class="meta">Fijado 03 · Completo · Teleprompter, sin solemnidad</p>
     <h2>Cómo trabajamos</h2>
     <p class="n">Víctor a cámara con el texto en el celular, suelto, como en una charla.</p>
-    <div class="l"><p class="q">VÍCTOR</p><p class="d">Te voy a explicar qué pasa cuando nos confiás tu caso. Paso a paso, y sin palabras difíciles.</p><p class="n">Arranque del guion 3D. Su texto es más corto que un paso a paso: si queda raro, arrancá directo con lo de abajo.</p></div><div class="l"><p class="q">VÍCTOR</p><p class="d">Queremos escucharlos, analizar tu caso. Te acompañamos en todo el proceso y vemos juntos las mejores opciones. En el Estudio Solmi y Asociados nuestro objetivo es buscar acuerdos antes que un juicio</p><p class="n">Lo que escribió en la nota del fijado «Cómo trabajamos»</p></div><div class="fin"><p class="q">FINAL SUGERIDO · no lo escribió Víctor</p><p class="d">Consultar no te obliga a nada. Si querés contarnos lo tuyo, el WhatsApp está en el perfil.</p><p class="n">o</p><p class="d">Si estás pensando ir a un abogado y no querés ir a juicio, comunicate con nosotros.</p><p class="n">Es el único fijado que invita a escribir y su texto no lo hace. La segunda opción es una frase que él ya usó en otros dos guiones.</p></div>
+    <div class="l"><p class="q">VÍCTOR</p><p class="d" contenteditable="true" spellcheck="false" data-k="F03|0" data-o="Te voy a explicar qué pasa cuando nos confiás tu caso. Paso a paso, y sin palabras difíciles." data-sec="Fijado 03 · Cómo trabajamos" data-q="VÍCTOR">Te voy a explicar qué pasa cuando nos confiás tu caso. Paso a paso, y sin palabras difíciles.</p><p class="ed" data-for="F03|0" hidden>Editado · <button type="button" data-volver="F03|0">volver al original</button></p><p class="n">Arranque del guion 3D. Su texto es más corto que un paso a paso: si queda raro, arrancá directo con lo de abajo.</p></div><div class="l"><p class="q">VÍCTOR</p><p class="d" contenteditable="true" spellcheck="false" data-k="F03|1" data-o="Queremos escucharlos, analizar tu caso. Te acompañamos en todo el proceso y vemos juntos las mejores opciones. En el Estudio Solmi y Asociados nuestro objetivo es buscar acuerdos antes que un juicio" data-sec="Fijado 03 · Cómo trabajamos" data-q="VÍCTOR">Queremos escucharlos, analizar tu caso. Te acompañamos en todo el proceso y vemos juntos las mejores opciones. En el Estudio Solmi y Asociados nuestro objetivo es buscar acuerdos antes que un juicio</p><p class="ed" data-for="F03|1" hidden>Editado · <button type="button" data-volver="F03|1">volver al original</button></p><p class="n">Lo que escribió en la nota del fijado «Cómo trabajamos»</p></div><div class="fin"><p class="q">FINAL SUGERIDO · no lo escribió Víctor</p><p class="d" contenteditable="true" spellcheck="false" data-k="F03|fin0" data-o="Consultar no te obliga a nada. Si querés contarnos lo tuyo, el WhatsApp está en el perfil." data-sec="Fijado 03 · Cómo trabajamos" data-q="Final sugerido">Consultar no te obliga a nada. Si querés contarnos lo tuyo, el WhatsApp está en el perfil.</p><p class="ed" data-for="F03|fin0" hidden>Editado · <button type="button" data-volver="F03|fin0">volver al original</button></p><p class="n">o</p><p class="d" contenteditable="true" spellcheck="false" data-k="F03|fin1" data-o="Si estás pensando ir a un abogado y no querés ir a juicio, comunicate con nosotros." data-sec="Fijado 03 · Cómo trabajamos" data-q="Final sugerido">Si estás pensando ir a un abogado y no querés ir a juicio, comunicate con nosotros.</p><p class="ed" data-for="F03|fin1" hidden>Editado · <button type="button" data-volver="F03|fin1">volver al original</button></p><p class="n">Es el único fijado que invita a escribir y su texto no lo hace. La segunda opción es una frase que él ya usó en otros dos guiones.</p></div>
   </div>
-  <div class="vid" data-id="Db661pnRLe0"><p class="n">Video de referencia del formato</p><button type="button">Ver el video</button>
-    <a href="https://www.instagram.com/reel/Db661pnRLe0/" target="_blank" rel="noopener">abrir en Instagram</a></div>
+  <div class="vid"><p class="n">Video de referencia · Teleprompter, sin solemnidad · <a href="https://www.instagram.com/reel/Db661pnRLe0/" target="_blank" rel="noopener">abrir en Instagram</a></p>
+    <iframe src="https://www.instagram.com/reel/Db661pnRLe0/embed" loading="lazy" allowfullscreen scrolling="no" title="Video de referencia"></iframe></div>
 </section>
 <p class="parte">2 · Los demás que completó</p>
 <section class="g">
@@ -62,49 +71,94 @@ ul{padding-left:20px} li{margin:8px 0}
     <p class="meta">1C · Completo · POV: la consulta</p>
     <h2>¿Una pelea se puede arreglar antes del juicio?</h2>
     <p class="n">La cámara es el que consulta. Emanuel pregunta del otro lado del escritorio y Víctor le contesta mirando a cámara.</p>
-    <div class="l"><p class="q">EMANUEL</p><p class="d">Víctor, siempre escuché que si hay pelea, termina en juicio. ¿Es así?</p><p class="n">Arranque que eligió Víctor. También escribió esta variante: «Víctor, siempre escuché que si hay conflicto, termina en juicio. ¿Es así?»</p></div><div class="l"><p class="q">VÍCTOR</p><p class="d">Por supuesto que no!! La minoria termina en juicio. Cuando nos reunimos con los clientes les explicamos de los beneficios de llegar a acuerdos, donde todos pueden salir ganando. Con menos costos, mas rapido y el comercio o negocio puede continuar trabajando con normalidad.</p></div><div class="fin"><p class="q">FINAL SUGERIDO · no lo escribió Víctor</p><p class="d">Si estás pensando ir a un abogado y no querés ir a juicio, comunicate con nosotros.</p><p class="n">o</p><p class="d">¿Conocés a alguien peleado con un socio, un vecino o un inquilino? Mandáselo.</p><p class="n">Su texto termina sin pedido. La primera es una frase suya de otros guiones.</p></div>
+    <div class="l"><p class="q">EMANUEL</p><p class="d" contenteditable="true" spellcheck="false" data-k="1C|0" data-o="Víctor, siempre escuché que si hay pelea, termina en juicio. ¿Es así?" data-sec="1C · ¿Una pelea se puede arreglar antes del juicio?" data-q="EMANUEL">Víctor, siempre escuché que si hay pelea, termina en juicio. ¿Es así?</p><p class="ed" data-for="1C|0" hidden>Editado · <button type="button" data-volver="1C|0">volver al original</button></p><p class="n">Arranque que eligió Víctor. También escribió esta variante: «Víctor, siempre escuché que si hay conflicto, termina en juicio. ¿Es así?»</p></div><div class="l"><p class="q">VÍCTOR</p><p class="d" contenteditable="true" spellcheck="false" data-k="1C|1" data-o="Por supuesto que no!! La minoria termina en juicio. Cuando nos reunimos con los clientes les explicamos de los beneficios de llegar a acuerdos, donde todos pueden salir ganando. Con menos costos, mas rapido y el comercio o negocio puede continuar trabajando con normalidad." data-sec="1C · ¿Una pelea se puede arreglar antes del juicio?" data-q="VÍCTOR">Por supuesto que no!! La minoria termina en juicio. Cuando nos reunimos con los clientes les explicamos de los beneficios de llegar a acuerdos, donde todos pueden salir ganando. Con menos costos, mas rapido y el comercio o negocio puede continuar trabajando con normalidad.</p><p class="ed" data-for="1C|1" hidden>Editado · <button type="button" data-volver="1C|1">volver al original</button></p></div><div class="fin"><p class="q">FINAL SUGERIDO · no lo escribió Víctor</p><p class="d" contenteditable="true" spellcheck="false" data-k="1C|fin0" data-o="Si estás pensando ir a un abogado y no querés ir a juicio, comunicate con nosotros." data-sec="1C · ¿Una pelea se puede arreglar antes del juicio?" data-q="Final sugerido">Si estás pensando ir a un abogado y no querés ir a juicio, comunicate con nosotros.</p><p class="ed" data-for="1C|fin0" hidden>Editado · <button type="button" data-volver="1C|fin0">volver al original</button></p><p class="n">o</p><p class="d" contenteditable="true" spellcheck="false" data-k="1C|fin1" data-o="¿Conocés a alguien peleado con un socio, un vecino o un inquilino? Mandáselo." data-sec="1C · ¿Una pelea se puede arreglar antes del juicio?" data-q="Final sugerido">¿Conocés a alguien peleado con un socio, un vecino o un inquilino? Mandáselo.</p><p class="ed" data-for="1C|fin1" hidden>Editado · <button type="button" data-volver="1C|fin1">volver al original</button></p><p class="n">Su texto termina sin pedido. La primera es una frase suya de otros guiones.</p></div>
   </div>
-  <div class="vid" data-id="Dbo8iYZR1M7"><p class="n">Video de referencia del formato</p><button type="button">Ver el video</button>
-    <a href="https://www.instagram.com/reel/Dbo8iYZR1M7/" target="_blank" rel="noopener">abrir en Instagram</a></div>
+  <div class="vid"><p class="n">Video de referencia · POV: la consulta · <a href="https://www.instagram.com/reel/Dbo8iYZR1M7/" target="_blank" rel="noopener">abrir en Instagram</a></p>
+    <iframe src="https://www.instagram.com/reel/Dbo8iYZR1M7/embed" loading="lazy" allowfullscreen scrolling="no" title="Video de referencia"></iframe></div>
 </section><section class="g">
   <div class="txt">
     <p class="meta">1D · Completo · POV: la consulta</p>
     <h2>¿Qué pasa en una primera consulta?</h2>
     <p class="n">La cámara es el que consulta. Emanuel pregunta del otro lado del escritorio y Víctor le contesta mirando a cámara.</p>
-    <div class="l"><p class="q">EMANUEL</p><p class="d">Hola… la verdad, no sé ni por dónde empezar.</p><p class="n">Arranque del guion</p></div><div class="l"><p class="q">VÍCTOR</p><p class="d">Los escuchamos, cada persona y empresa es un caso unico,  vemos donde estan parados y tratamos de darle la mejor estrategia de solucion a su caso</p></div><div class="fin"><p class="q">FINAL SUGERIDO · no lo escribió Víctor</p><p class="d">Y consultar no te obliga a nada: después de la charla, decidís vos.</p><p class="n">Su texto termina sin remate. «Consultar no te obliga a nada» ya es suyo: está en su web.</p></div>
+    <div class="l"><p class="q">EMANUEL</p><p class="d" contenteditable="true" spellcheck="false" data-k="1D|0" data-o="Hola… la verdad, no sé ni por dónde empezar." data-sec="1D · ¿Qué pasa en una primera consulta?" data-q="EMANUEL">Hola… la verdad, no sé ni por dónde empezar.</p><p class="ed" data-for="1D|0" hidden>Editado · <button type="button" data-volver="1D|0">volver al original</button></p><p class="n">Arranque del guion</p></div><div class="l"><p class="q">VÍCTOR</p><p class="d" contenteditable="true" spellcheck="false" data-k="1D|1" data-o="Los escuchamos, cada persona y empresa es un caso unico,  vemos donde estan parados y tratamos de darle la mejor estrategia de solucion a su caso" data-sec="1D · ¿Qué pasa en una primera consulta?" data-q="VÍCTOR">Los escuchamos, cada persona y empresa es un caso unico,  vemos donde estan parados y tratamos de darle la mejor estrategia de solucion a su caso</p><p class="ed" data-for="1D|1" hidden>Editado · <button type="button" data-volver="1D|1">volver al original</button></p></div><div class="fin"><p class="q">FINAL SUGERIDO · no lo escribió Víctor</p><p class="d" contenteditable="true" spellcheck="false" data-k="1D|fin0" data-o="Y consultar no te obliga a nada: después de la charla, decidís vos." data-sec="1D · ¿Qué pasa en una primera consulta?" data-q="Final sugerido">Y consultar no te obliga a nada: después de la charla, decidís vos.</p><p class="ed" data-for="1D|fin0" hidden>Editado · <button type="button" data-volver="1D|fin0">volver al original</button></p><p class="n">Su texto termina sin remate. «Consultar no te obliga a nada» ya es suyo: está en su web.</p></div>
   </div>
-  <div class="vid" data-id="Dbo8iYZR1M7"><p class="n">Video de referencia del formato</p><button type="button">Ver el video</button>
-    <a href="https://www.instagram.com/reel/Dbo8iYZR1M7/" target="_blank" rel="noopener">abrir en Instagram</a></div>
+  <div class="vid"><p class="n">Video de referencia · POV: la consulta · <a href="https://www.instagram.com/reel/Dbo8iYZR1M7/" target="_blank" rel="noopener">abrir en Instagram</a></p>
+    <iframe src="https://www.instagram.com/reel/Dbo8iYZR1M7/embed" loading="lazy" allowfullscreen scrolling="no" title="Video de referencia"></iframe></div>
 </section><section class="g">
   <div class="txt">
     <p class="meta">2C · Completo · La falsa entrevista</p>
     <h2>¿Por qué un abogado te diría que no hagas juicio?</h2>
     <p class="n">Emanuel pregunta desde atrás de la cámara, como en una nota. Víctor contesta mirando apenas al costado.</p>
-    <div class="l"><p class="q">EMANUEL</p><p class="d">Víctor, ¿por qué un abogado te diría que no hagas juicio?</p><p class="n">Arranque del guion</p></div><div class="l"><p class="q">VÍCTOR</p><p class="d">Porque los juicios son largos y costosos.  Por que ademas de Abogados, vivimos y conocemos las dificultades que hay. Porque un acuerdo es mas economico, mas beneficioso para las partes, con menos tiempo se da una solucion y por sobre todo, el comerciante o empresario se puede concentrar en lo que saben, dedicarse a sus negocios. Si estas pensando ir a un abogado y no queres ir a juicio, comunicate con nosotros.</p></div><div class="fin"><p class="n">Tiene final: lo cerró él con el llamado a comunicarse.</p></div>
+    <div class="l"><p class="q">EMANUEL</p><p class="d" contenteditable="true" spellcheck="false" data-k="2C|0" data-o="Víctor, ¿por qué un abogado te diría que no hagas juicio?" data-sec="2C · ¿Por qué un abogado te diría que no hagas juicio?" data-q="EMANUEL">Víctor, ¿por qué un abogado te diría que no hagas juicio?</p><p class="ed" data-for="2C|0" hidden>Editado · <button type="button" data-volver="2C|0">volver al original</button></p><p class="n">Arranque del guion</p></div><div class="l"><p class="q">VÍCTOR</p><p class="d" contenteditable="true" spellcheck="false" data-k="2C|1" data-o="Porque los juicios son largos y costosos.  Por que ademas de Abogados, vivimos y conocemos las dificultades que hay. Porque un acuerdo es mas economico, mas beneficioso para las partes, con menos tiempo se da una solucion y por sobre todo, el comerciante o empresario se puede concentrar en lo que saben, dedicarse a sus negocios. Si estas pensando ir a un abogado y no queres ir a juicio, comunicate con nosotros." data-sec="2C · ¿Por qué un abogado te diría que no hagas juicio?" data-q="VÍCTOR">Porque los juicios son largos y costosos.  Por que ademas de Abogados, vivimos y conocemos las dificultades que hay. Porque un acuerdo es mas economico, mas beneficioso para las partes, con menos tiempo se da una solucion y por sobre todo, el comerciante o empresario se puede concentrar en lo que saben, dedicarse a sus negocios. Si estas pensando ir a un abogado y no queres ir a juicio, comunicate con nosotros.</p><p class="ed" data-for="2C|1" hidden>Editado · <button type="button" data-volver="2C|1">volver al original</button></p></div><div class="fin"><p class="n">Tiene final: lo cerró él con el llamado a comunicarse.</p></div>
   </div>
-  <div class="vid" data-id="DavyC1fDgAn"><p class="n">Video de referencia del formato</p><button type="button">Ver el video</button>
-    <a href="https://www.instagram.com/reel/DavyC1fDgAn/" target="_blank" rel="noopener">abrir en Instagram</a></div>
+  <div class="vid"><p class="n">Video de referencia · La falsa entrevista · <a href="https://www.instagram.com/reel/DavyC1fDgAn/" target="_blank" rel="noopener">abrir en Instagram</a></p>
+    <iframe src="https://www.instagram.com/reel/DavyC1fDgAn/embed" loading="lazy" allowfullscreen scrolling="no" title="Video de referencia"></iframe></div>
 </section><section class="g">
   <div class="txt">
     <p class="meta">2D · Completo · La falsa entrevista</p>
     <h2>¿Todos los problemas legales terminan en juicio?</h2>
     <p class="n">Emanuel pregunta desde atrás de la cámara, como en una nota. Víctor contesta mirando apenas al costado.</p>
-    <div class="l"><p class="q">EMANUEL</p><p class="d">Víctor, ¿todos los problemas legales terminan en juicio?</p><p class="n">Arranque del guion</p></div><div class="l"><p class="q">VÍCTOR</p><p class="d">Por supuesto que no! genera mucho stress para las partes. Un acuerdo, es mas rapido, menos conflictivo y permite a ambos salir ganando. En el estudio Solmi y Asociados  intentamos no ir a juicio y llagar a un acuerdo. Si estas pensando ir a un abogado y no queres ir a juicio, comunicate con nosotros.</p></div><div class="fin"><p class="n">Tiene final: lo cerró él con el llamado a comunicarse. Ojo: es el mismo cierre que el 2C, y arranca igual que el 1C («Por supuesto que no!»). No los publiques la misma semana.</p></div>
+    <div class="l"><p class="q">EMANUEL</p><p class="d" contenteditable="true" spellcheck="false" data-k="2D|0" data-o="Víctor, ¿todos los problemas legales terminan en juicio?" data-sec="2D · ¿Todos los problemas legales terminan en juicio?" data-q="EMANUEL">Víctor, ¿todos los problemas legales terminan en juicio?</p><p class="ed" data-for="2D|0" hidden>Editado · <button type="button" data-volver="2D|0">volver al original</button></p><p class="n">Arranque del guion</p></div><div class="l"><p class="q">VÍCTOR</p><p class="d" contenteditable="true" spellcheck="false" data-k="2D|1" data-o="Por supuesto que no! genera mucho stress para las partes. Un acuerdo, es mas rapido, menos conflictivo y permite a ambos salir ganando. En el estudio Solmi y Asociados  intentamos no ir a juicio y llagar a un acuerdo. Si estas pensando ir a un abogado y no queres ir a juicio, comunicate con nosotros." data-sec="2D · ¿Todos los problemas legales terminan en juicio?" data-q="VÍCTOR">Por supuesto que no! genera mucho stress para las partes. Un acuerdo, es mas rapido, menos conflictivo y permite a ambos salir ganando. En el estudio Solmi y Asociados  intentamos no ir a juicio y llagar a un acuerdo. Si estas pensando ir a un abogado y no queres ir a juicio, comunicate con nosotros.</p><p class="ed" data-for="2D|1" hidden>Editado · <button type="button" data-volver="2D|1">volver al original</button></p></div><div class="fin"><p class="n">Tiene final: lo cerró él con el llamado a comunicarse. Ojo: es el mismo cierre que el 2C, y arranca igual que el 1C («Por supuesto que no!»). No los publiques la misma semana.</p></div>
   </div>
-  <div class="vid" data-id="DavyC1fDgAn"><p class="n">Video de referencia del formato</p><button type="button">Ver el video</button>
-    <a href="https://www.instagram.com/reel/DavyC1fDgAn/" target="_blank" rel="noopener">abrir en Instagram</a></div>
+  <div class="vid"><p class="n">Video de referencia · La falsa entrevista · <a href="https://www.instagram.com/reel/DavyC1fDgAn/" target="_blank" rel="noopener">abrir en Instagram</a></p>
+    <iframe src="https://www.instagram.com/reel/DavyC1fDgAn/embed" loading="lazy" allowfullscreen scrolling="no" title="Video de referencia"></iframe></div>
 </section>
 <p class="parte">3 · Pendientes · todavía sin completar</p>
 <ul><li><b>1B</b> · Si al negocio le va mal, ¿me pueden sacar la casa? <span class="n">(POV: la consulta)</span></li><li><b>2A</b> · El error que más ves en los que tienen un negocio <span class="n">(La falsa entrevista)</span></li><li><b>2B</b> · La frase del que está empezando a tener algo propio <span class="n">(La falsa entrevista)</span></li><li><b>3A</b> · Las empresas familiares que llegan a los nietos <span class="n">(Teleprompter)</span></li><li><b>3B</b> · Lo que la gente hace para proteger su casa, y no la protege <span class="n">(Teleprompter)</span></li><li><b>3C</b> · Lo que ves en una mediación y nadie te cuenta <span class="n">(Teleprompter)</span></li></ul>
 <p class="n">Los guiones 2E y 3D no los completó en sus casilleros, pero quedan cubiertos por lo que escribió en las notas de los fijados 02 y 03.</p>
 </main>
+<div id="toast" role="status"></div>
 <script>
-document.addEventListener('click', ev => {
-  const b = ev.target.closest('.vid button'); if (!b) return;
-  const box = b.parentElement;
-  if (box.querySelector('iframe')) return;
-  b.insertAdjacentHTML('afterend', `<iframe src="https://www.instagram.com/reel/${box.dataset.id}/embed" loading="lazy" allowfullscreen scrolling="no"></iframe>`);
-  b.remove();
+/* Ediciones: en este navegador y en la planilla (tablero propio, aparte del de Víctor). Gana lo más nuevo. */
+const NUBE = 'https://script.google.com/macros/s/AKfycbxgjYt2q3iZXebWQTGmeCoIkdg6bAyGNUPSIwTy47F43D51ED09QDCZU1WNqTMlQp31qw/exec', TABLERO = 'solmi-grabar';
+const leer = (k, d) => { try { const v = localStorage.getItem(k); return v === null ? d : JSON.parse(v); } catch { return d; } };
+const anotar = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} };
+let ed = leer('gr-ed', {}), fecha = leer('gr-fecha', 0), tSub, tToast;
+const campos = [...document.querySelectorAll('.d[data-k]')];
+const hora = () => new Date().toTimeString().slice(0, 5);
+function toast(t, ms = 1800){ const el = document.getElementById('toast'); el.textContent = t; el.classList.add('on'); clearTimeout(tToast); tToast = setTimeout(() => el.classList.remove('on'), ms); }
+function marcar(p){
+  const mod = p.dataset.k in ed;
+  p.classList.toggle('mod', mod);
+  document.querySelector(`.ed[data-for="${CSS.escape(p.dataset.k)}"]`).hidden = !mod;
+}
+function pintar(){ campos.forEach(p => { if (document.activeElement !== p) p.textContent = ed[p.dataset.k] ?? p.dataset.o; marcar(p); }); }
+function filas(){ return campos.map(p => [p.dataset.sec, p.dataset.q, p.textContent.trim(), p.dataset.k in ed ? 'editado' : 'original']); }
+async function subir(){
+  try {
+    const o = await (await fetch(NUBE, {method: 'POST', body: JSON.stringify({t: TABLERO, fecha, estado: {ed}, filas: filas()})})).json();
+    if (!o.ok) throw 0;
+    toast('Guardado · ' + hora());
+  } catch { toast('Sin conexión: quedó guardado en este aparato', 3000); }
+}
+function cambio(){
+  fecha = Math.max(Date.now(), fecha + 1);
+  anotar('gr-ed', ed); anotar('gr-fecha', fecha);
+  clearTimeout(tSub); tSub = setTimeout(subir, 1200);
+}
+document.addEventListener('input', ev => {
+  const p = ev.target.closest('.d[data-k]'); if (!p) return;
+  const t = p.textContent.replace(/\s+/g, ' ').trim();
+  if (t === p.dataset.o.replace(/\s+/g, ' ').trim()) delete ed[p.dataset.k]; else ed[p.dataset.k] = p.textContent;
+  marcar(p); cambio();
 });
+document.addEventListener('paste', ev => {
+  if (!ev.target.closest('.d[data-k]')) return;
+  ev.preventDefault(); document.execCommand('insertText', false, (ev.clipboardData || window.clipboardData).getData('text/plain'));
+});
+document.addEventListener('keydown', ev => { if (ev.key === 'Enter' && ev.target.closest('.d[data-k]')) { ev.preventDefault(); ev.target.blur(); } });
+document.addEventListener('click', ev => {
+  const b = ev.target.closest('[data-volver]'); if (!b) return;
+  delete ed[b.dataset.volver]; cambio(); pintar();
+});
+pintar();
+(async () => {
+  try {
+    const o = await (await fetch(NUBE + '?t=' + TABLERO)).json();
+    if (o.ok && o.estado && o.fecha > fecha && !document.activeElement.matches('.d[data-k]')) {
+      ed = o.estado.ed || {}; fecha = o.fecha; anotar('gr-ed', ed); anotar('gr-fecha', fecha); pintar();
+    }
+  } catch {}
+})();
 </script>
 </body></html>
