@@ -149,7 +149,8 @@ document.addEventListener('paste', ev => {
 document.addEventListener('keydown', ev => { if (ev.key === 'Enter' && ev.target.closest('.d[data-k]')) { ev.preventDefault(); ev.target.blur(); } });
 document.addEventListener('click', ev => {
   const b = ev.target.closest('[data-volver]'); if (!b) return;
-  delete ed[b.dataset.volver]; cambio(); pintar();
+  const p = document.querySelector(`.d[data-k="${CSS.escape(b.dataset.volver)}"]`);
+  delete ed[b.dataset.volver]; p.textContent = p.dataset.o; marcar(p); cambio();
 });
 pintar();
 (async () => {
