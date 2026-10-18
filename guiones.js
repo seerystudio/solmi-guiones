@@ -14,7 +14,8 @@ window.GUIONES = {
     "Sin nombres ni casos que se puedan reconocer.",
     "Sin comparaciones con otros estudios y sin prometer resultados.",
     "Casi todos duran entre 30 y 40 segundos; el fijado de cómo trabajamos, un poco más. Frases cortas, como en una charla.",
-    "Se graba de a dos: Emanuel filma y hace las preguntas."
+    "Se graba de a dos: Emanuel filma y hace las preguntas.",
+    "Siempre en plural, como equipo: «en el estudio», «nos sentamos», «te explicamos». Es como habla tu web («encontramos en el trabajo en equipo nuestra principal fuente de inspiración»). Solo tu historia de empresario va en primera persona."
   ],
   refs: [
     {
@@ -31,19 +32,19 @@ window.GUIONES = {
       guiones: [
         {
           v: "A", tipo: "Presentación · va fijado al perfil",
-          titulo: "¿A qué te dedicás, explicado fácil?",
+          titulo: "¿A qué se dedican, explicado fácil?",
           hooks: [
             ["Pregunta inducida", "Víctor, ¿por qué nadie entiende qué hace un abogado hasta el día que lo necesita?"],
             ["Contracorriente", "Víctor, siempre pensé que a un abogado se lo llama cuando ya hay lío. ¿Es así?"],
             ["Provocación", "Víctor, no tengo idea de qué hace un abogado. ¿Me lo explicás como si tuviera diez años?"],
-            ["Lista", "Víctor, explicame a qué te dedicás con tres ejemplos que me puedan pasar a mí."],
-            ["Contraste", "Víctor, ¿vos sos de los abogados que pelean o de los que arreglan?"],
+            ["Lista", "Víctor, explicame a qué se dedican en el estudio con tres ejemplos que me puedan pasar a mí."],
+            ["Contraste", "Víctor, ¿ustedes son de los abogados que pelean o de los que arreglan?"],
             ["Secreto", "Víctor, ¿qué hace un abogado cuando no está en un juicio?"],
             ["Advertencia", "Víctor, ¿qué me puede pasar si en toda mi vida no hablo nunca con un abogado?"],
-            ["Impacto visual", "[Sin hablar] Emanuel deja sobre el escritorio un contrato, una escritura y las llaves de una casa. «Víctor, ¿con cuál de estos me ayudás vos?»"],
+            ["Impacto visual", "[Sin hablar] Emanuel deja sobre el escritorio un contrato, una escritura y las llaves de una casa. «Víctor, ¿con cuál de estos me ayudan ustedes?»"],
             ["Vulnerabilidad", "Víctor, te confieso: cada vez que escucho «abogado» pienso en juicios y peleas. ¿Me convencés de lo contrario?"],
             ["Error", "Víctor, ¿cuál es el error del que llama a un abogado recién cuando ya es tarde?"],
-            ["Pregunta inducida", "Víctor, si se lo tuvieras que explicar a un chico de diez años, ¿qué le dirías que hacés?"],
+            ["Pregunta inducida", "Víctor, si se lo tuvieras que explicar a un chico de diez años, ¿qué le dirías que hacen en el estudio?"],
             ["Contracorriente", "Víctor, dicen que a los abogados hay que tenerlos lejos. ¿Tienen razón?"],
             ["Provocación", "Víctor, ¿los abogados no están solo para los juicios?"],
             ["Lista", "Víctor, ¿en qué tres momentos de la vida conviene tener un abogado cerca?"],
@@ -56,18 +57,18 @@ window.GUIONES = {
             ["Error", "Víctor, ¿cuál es el peor momento para conocer a tu abogado?"],
             ["Pregunta inducida", "Víctor, en un cumpleaños alguien te pregunta «¿y vos qué hacés?». ¿Qué le contestás?"]
           ],
-          angulo: "Contestás con tres situaciones de la vida real, no con nombres de áreas.",
+          angulo: "Contestás con tres situaciones de la vida real, no con nombres de áreas. En plural: lo que hace el equipo.",
           dur: "≈40 s",
-          hook: { quien: "Emanuel", dice: "Víctor, ¿me podés explicar fácil a qué te dedicás? Para que gente común como yo entienda.", placa: "POV: le pedís a un abogado que te explique a qué se dedica. Fácil.", plano: "Vos del otro lado del escritorio, mirando a cámara." },
+          hook: { quien: "Emanuel", dice: "Víctor, ¿me podés explicar fácil a qué se dedican en el estudio? Para que gente común como yo entienda.", placa: "POV: le pedís a un estudio de abogados que te explique a qué se dedica. Fácil.", plano: "Vos del otro lado del escritorio, mirando a cámara." },
           beats: [
-            ["0:05", "V", "Una frase corta que prometa explicarlo simple.", "Te lo explico con tres situaciones."],
-            ["0:08", "V", "Situación 1 · un negocio con alguien. Qué hacés vos ahí.", "Abrís un negocio con un amigo. Todo bien. Yo me ocupo de que quede escrito qué pasa el día que no esté todo bien."],
-            ["0:15", "V", "Situación 2 · lo que juntaste: la casa, un campo, lo de toda la vida.", "Tenés tu casa, un campo, lo que juntaste en toda una vida. Me ocupo de que quede ordenado y protegido, le vaya como le vaya al negocio."],
+            ["0:05", "V", "Una frase corta que prometa explicarlo simple.", "Te cuento lo que hacemos con tres situaciones."],
+            ["0:08", "V", "Situación 1 · un negocio con alguien. Qué hace el estudio ahí.", "Abrís un negocio con un amigo. Todo bien. Nosotros nos ocupamos de que quede escrito qué pasa el día que no esté todo bien."],
+            ["0:15", "V", "Situación 2 · lo que juntaste: la casa, un campo, lo de toda la vida.", "Tenés tu casa, un campo, lo que juntaste en toda una vida. Nos ocupamos de que quede ordenado y protegido, le vaya como le vaya al negocio."],
             ["0:23", "V", "Situación 3 · un problema que todavía no llegó a juicio.", "Y si ya tenés un problema con alguien, antes de ir a juicio nos sentamos a ver si se puede arreglar."],
-            ["0:30", "E", "¿O sea que sos un abogado que no pelea?"],
-            ["0:33", "V", "Una sola frase que resuma cómo trabajás. Es la que se va a recordar.", "Soy un abogado que prefiere que no haga falta."]
+            ["0:30", "E", "¿O sea que son abogados que no pelean?"],
+            ["0:33", "V", "Una sola frase que resuma cómo trabajan. Es la que se va a recordar.", "Somos abogados que preferimos que no haga falta."]
           ],
-          cta: "Sin pedido: es la presentación. Termina con tu nombre y San Pedro en pantalla.",
+          cta: "Sin pedido: es la presentación. Termina con Solmi & Asociados y San Pedro en pantalla.",
           ojo: "Evitá los nombres de las áreas («planificación patrimonial», «derecho comercial»): el que te ve por primera vez no habla así."
         },
         {
@@ -144,7 +145,7 @@ window.GUIONES = {
           dur: "≈35 s",
           hook: { quien: "Emanuel", dice: "Víctor, ¿es verdad que una pelea se puede arreglar antes de llegar a un juicio?", placa: "POV: le preguntás a un abogado si una pelea se puede arreglar sin juicio", plano: "Vos del otro lado del escritorio, mirando a cámara." },
           beats: [
-            ["0:04", "V", "Sí o no, y prometé contar cómo es.", "Sí. Y te cuento cómo es esa mesa, porque casi nadie la conoce."],
+            ["0:04", "V", "Sí o no, y prometé contar cómo es.", "Sí. Y te contamos cómo es esa mesa, porque casi nadie la conoce."],
             ["0:08", "V", "Cómo es esa primera mesa, contada como una escena.", "Te sentás en una mesa con la otra persona, y alguien en el medio que ordena la charla. Al principio nadie se mira."],
             ["0:13", "V", "Qué tiene esa mesa que no tiene un juicio.", "Pero ahí pasa algo que en un juicio no pasa: el que decide todavía sos vos, no un juez."],
             ["0:20", "E", "¿Y si no se arregla?"],
@@ -184,13 +185,13 @@ window.GUIONES = {
             ["Pregunta inducida", "¿Qué tengo que decir primero?"],
             ["Impacto visual", "[Sin hablar] Emanuel saca del bolsillo un papel doblado mil veces y lo alisa sobre el escritorio."]
           ],
-          angulo: "Para el que ya te vio y está pensando en consultar: la cámara es él, llegando a tu escritorio.",
+          angulo: "Para el que ya te vio y está pensando en consultar: la cámara es él, llegando al estudio.",
           dur: "≈32 s",
           hook: { quien: "Emanuel", dice: "Hola… la verdad, no sé ni por dónde empezar." },
           beats: [
             ["0:03", "V", "Cómo lo recibís. Algo humano, antes de hablar de nada legal.", "Sentate tranquilo. ¿Querés un café?"],
             ["0:06", "E", "¿Tenía que traer algo? No sé nada de leyes."],
-            ["0:09", "V", "Qué conviene traer (tu web dice «llevá todo lo que tengas») y qué le pedís que haga.", "Lo que tengas: un contrato, un mensaje, un recibo. Aunque te parezca poca cosa. Y lo que no sepas, lo pregunto yo. Contame qué te pasó, con tus palabras."],
+            ["0:09", "V", "Qué conviene traer (tu web dice «llevá todo lo que tengas») y qué le pedís que haga.", "Lo que tengas: un contrato, un mensaje, un recibo. Aunque te parezca poca cosa. Y lo que no sepas, lo preguntamos nosotros. Contame qué te pasó, con tus palabras."],
             ["0:15", "V", "Con qué se va cuando termina la charla.", "Cuando terminemos, vas a saber cómo estás parado y qué opciones tenés. En criollo."],
             ["0:21", "E", "¿Y si después no quiero hacer nada?"],
             ["0:23", "V", "Tu remate: qué es y qué no es una consulta.", "Decidís vos, y no tiene que ser hoy. Consultar no te obliga a nada."]
@@ -212,7 +213,7 @@ window.GUIONES = {
       guiones: [
         {
           v: "A", tipo: "Empresas",
-          titulo: "El error que más ves en los que tienen un negocio",
+          titulo: "El error que más vemos en los que tienen un negocio",
           hooks: [
             ["Contracorriente", "Víctor, dicen que entre amigos no hace falta firmar nada. ¿Estás de acuerdo?"],
             ["Pregunta inducida", "Víctor, ¿por qué tantos negocios que arrancan entre amigos terminan mal?"],
@@ -222,7 +223,7 @@ window.GUIONES = {
             ["Contraste", "Víctor, ¿qué es peor para un negocio: un mal socio, o un buen socio sin nada firmado?"],
             ["Provocación", "Víctor, ¿firmar un papel con tu socio es desconfiar de él?"],
             ["Impacto visual", "[Sin hablar] Dos manos que se estrechan, como cerrando un trato. «Víctor, ¿esto alcanza para arrancar un negocio?»"],
-            ["Error", "Víctor, ¿qué error ves todos los días en los que tienen un negocio?"],
+            ["Error", "Víctor, ¿qué error ven todos los días en el estudio en los que tienen un negocio?"],
             ["Pregunta inducida", "Víctor, ¿por qué los que abren un negocio con un amigo no quieren firmar nada?"],
             ["Contracorriente", "Víctor, ¿un apretón de manos vale menos que un contrato?"],
             ["Vulnerabilidad", "Víctor, abrí un negocio con un amigo y no firmamos nada. ¿Me tengo que preocupar?", "Solo si es real."],
@@ -239,9 +240,9 @@ window.GUIONES = {
             ["Contracorriente", "Víctor, ¿firmar todo no es de empresa grande?"],
             ["Transformación", "Víctor, ¿en qué momento un socio pasa de amigo a enemigo?"]
           ],
-          angulo: "Desde tu lugar de empresario y abogado, el error de todos los días.",
+          angulo: "Desde el lugar del estudio, abogados que conocen los negocios desde adentro: el error de todos los días.",
           dur: "≈40 s",
-          hook: { quien: "Emanuel", dice: "Víctor, vos que sos empresario y abogado: ¿cuál es el error que más ves en los que tienen un negocio?", placa: "El error que más veo en los que tienen un negocio", plano: "Vos de costado al escritorio o de pie junto al mapa, mirando a Emanuel." },
+          hook: { quien: "Emanuel", dice: "Víctor, ustedes que conocen los negocios desde adentro: ¿cuál es el error que más ven en los que tienen un negocio?", placa: "El error que más vemos en los que tienen un negocio", plano: "Vos de costado al escritorio o de pie junto al mapa, mirando a Emanuel." },
           beats: [
             ["0:05", "V", "El error, en pocas palabras. Sin dudar.", "Que todo está de palabra."],
             ["0:08", "V", "Con quién pasa, y por qué la gente lo hace igual.", "Con el socio, con el proveedor, con el que te alquila el local. Mientras anda bien, nadie quiere firmar nada, para no quedar como desconfiado."],
@@ -272,7 +273,7 @@ window.GUIONES = {
             ["Provocación", "Víctor, ¿ordenar lo que tengo no es de viejos?"],
             ["Lista", "Víctor, ¿qué es lo primero que tendría que ordenar alguien que recién empieza a tener lo suyo?"],
             ["Advertencia", "Víctor, si hoy no ordeno lo mío, ¿quién lo va a ordenar después?"],
-            ["Error", "Víctor, ¿cuál es la frase que más escuchás del que recién empieza a tener lo suyo?", "Es la pregunta original sin «patrimonio»."],
+            ["Error", "Víctor, ¿cuál es la frase que más escuchan en el estudio del que recién empieza a tener lo suyo?", "Es la pregunta original sin «patrimonio»."],
             ["Pregunta inducida", "Víctor, ¿cuándo es el momento de ordenar lo que uno tiene?"],
             ["Contraste", "Víctor, ¿qué vale más: lo que ganás o cómo lo tenés ordenado?"],
             ["Impacto visual", "[Sin hablar] Una caja de zapatos llena de papeles sueltos: boletas, un título del auto, una escritura. «Víctor, ¿esto está ordenado?»"],
@@ -284,11 +285,11 @@ window.GUIONES = {
           ],
           angulo: "Entra por lo que la gente quiere lograr, no por un problema.",
           dur: "≈35 s",
-          hook: { quien: "Emanuel", dice: "Víctor, ¿qué frase escuchás más de la gente que está empezando a tener algo propio?", placa: "La frase que más escucho del que está empezando a tener algo propio", plano: "Vos de costado al escritorio o de pie junto al mapa, mirando a Emanuel." },
+          hook: { quien: "Emanuel", dice: "Víctor, ¿qué frase escuchan más en el estudio de la gente que está empezando a tener algo propio?", placa: "La frase que más escuchamos del que está empezando a tener algo propio", plano: "Vos de costado al escritorio o de pie junto al mapa, mirando a Emanuel." },
           beats: [
             ["0:04", "V", "La frase, entre comillas, como te la dicen.", "«Primero lo hago crecer, después lo ordeno.»"],
             ["0:08", "V", "Por qué es lógico que lo piensen.", "Y es lógico: cuando estás arrancando, lo último que querés es un papel más."],
-            ["0:13", "V", "Qué le dirías vos.", "Yo les digo que ordenar también es armar. Y es mucho más fácil cuando todavía es poco."],
+            ["0:13", "V", "Qué le dicen ustedes.", "Nosotros les decimos que ordenar también es armar. Y es mucho más fácil cuando todavía es poco."],
             ["0:18", "E", "¿Por ejemplo?"],
             ["0:20", "V", "Dos o tres decisiones concretas, solo nombradas, sin explicar cómo se hacen.", "A nombre de quién ponés la casa. Si el negocio está separado de lo tuyo. Qué pasa si mañana te pasa algo. Son decisiones de hoy."]
           ],
@@ -303,17 +304,17 @@ window.GUIONES = {
             ["Pregunta inducida", "Víctor, ¿cómo puede ser que ganar un juicio no siempre sea ganar?"],
             ["Secreto", "Víctor, ¿qué te cuesta un juicio, además de plata?"],
             ["Advertencia", "Víctor, si voy a juicio por bronca, ¿qué me puede salir mal?"],
-            ["Caso real", "Víctor, ¿alguna vez le dijiste a alguien «no vayas a juicio» y te hizo caso?", "Solo si es real. Sin nombres."],
+            ["Caso real", "Víctor, ¿alguna vez le dijeron a alguien «no vayas a juicio» y les hizo caso?", "Solo si es real. Sin nombres."],
             ["Predicción", "Víctor, si hoy le hago juicio a alguien que conozco, ¿cómo va a estar esa relación cuando termine?"],
             ["Error", "Víctor, ¿cuál es el error del que va a juicio con ganas de «ganarle» al otro?"],
             ["Impacto visual", "[Sin hablar] Emanuel apoya sobre el escritorio una carpeta gorda, llena de papeles. Víctor la cierra y la corre para un costado. «¿Por qué?»"],
             ["Provocación", "Víctor, arreglar ¿no es perder?"],
             ["Tuya, de Perfil y Fortuna", "Víctor, vos siempre decís que hay que mirar a largo plazo. ¿Un juicio es mirar a largo plazo?", "La frase es tuya: «Siempre hay que mirar a futuro, a largo plazo»."],
-            ["Pregunta inducida", "Víctor, ¿vos le dirías a un cliente que no te contrate para un juicio?"],
-            ["Vulnerabilidad", "Víctor, quiero hacerle juicio a alguien por orgullo. ¿Me frenarías?", "Solo si es real."],
+            ["Pregunta inducida", "Víctor, ¿ustedes le dirían a un cliente que no los contrate para un juicio?"],
+            ["Vulnerabilidad", "Víctor, quiero hacerle juicio a alguien por orgullo. ¿Me frenarían?", "Solo si es real."],
             ["Advertencia", "Víctor, antes de hacerle juicio a un pariente, ¿qué tendría que pensar?"],
             ["Contraste", "Víctor, ¿qué pesa más: tener razón o terminar la pelea?"],
-            ["Secreto", "Víctor, ¿qué le preguntás a alguien antes de decirle «vamos a juicio»?"],
+            ["Secreto", "Víctor, ¿qué le preguntan a alguien antes de decirle «vamos a juicio»?"],
             ["Provocación", "Víctor, ¿un abogado que no quiere juicios no es un abogado raro?"],
             ["Transformación", "Víctor, ¿qué le pasa a alguien entre el día que empieza un juicio y el día que termina?"],
             ["Pregunta inducida", "Víctor, si tengo razón, ¿por qué no iría a juicio?"],
@@ -322,18 +323,18 @@ window.GUIONES = {
             ["Provocación", "Víctor, ¿no ir a juicio no es dejar que el otro se salga con la suya?"],
             ["Impacto visual", "[Sin hablar] Emanuel golpea la mesa: «¡Quiero juicio!». Víctor, tranquilo, le sirve un vaso de agua."],
             ["Pregunta inducida", "Víctor, si voy a juicio y gano, ¿por qué no estaría contento?"],
-            ["Error", "Víctor, ¿cuál es la frase que más te repiten los que quieren ir a juicio?"],
+            ["Error", "Víctor, ¿cuál es la frase que más les repiten los que quieren ir a juicio?"],
             ["Secreto", "Víctor, ¿qué no se recupera nunca después de un juicio con alguien que conocés?"],
             ["Contraste", "Víctor, ¿un juicio o una charla? ¿Qué elegirías si fuera tu hermano?"]
           ],
-          angulo: "Tu forma de trabajar, contada por vos, sin compararte con nadie.",
+          angulo: "La forma de trabajar del estudio, contada por vos, sin compararse con nadie.",
           dur: "≈40 s",
           hook: { quien: "Emanuel", dice: "Víctor, ¿por qué un abogado te diría que no hagas juicio?", placa: "¿Un abogado que te dice que no hagas juicio?", plano: "Vos de costado al escritorio o de pie junto al mapa, mirando a Emanuel." },
           beats: [
             ["0:04", "V", "Tu respuesta corta: por qué a veces conviene no ir a juicio.", "Porque a veces ganar un juicio te sale más caro que arreglar."],
             ["0:09", "V", "Qué cuesta un juicio, además de la plata.", "Años. Plata. Y la relación con la otra persona, que casi siempre es alguien que conocés."],
-            ["0:16", "V", "Qué es acordar, para vos.", "Acordar no es ceder. Es elegir vos cuándo termina esto, en vez de que lo elija otro."],
-            ["0:22", "E", "¿Y por qué trabajás así?"],
+            ["0:16", "V", "Qué es acordar, para el estudio.", "Acordar no es ceder. Es elegir vos cuándo termina esto, en vez de que lo elija otro."],
+            ["0:22", "E", "¿Y por qué trabajan así?"],
             ["0:24", "V", "Tu porqué, con tus palabras. Es la respuesta más personal de todas: puede ser más larga.", "Esta es tuya. En Perfil y Fortuna dijiste algo en esa línea: «Siempre hay que mirar a futuro, a largo plazo»."]
           ],
           cta: "Mandáselo a quien esté con ganas de «ir a juicio».",
@@ -391,40 +392,40 @@ window.GUIONES = {
             ["Provocación", "Víctor, convenceme: ¿por qué vendría acá y no a otro estudio?"],
             ["Secreto", "Víctor, ¿qué no sabe la gente de un estudio hasta que se sienta en el escritorio?"],
             ["Error", "Víctor, ¿cuál es el error más común al elegir un abogado?"],
-            ["Vulnerabilidad", "Víctor, a los abogados les tengo desconfianza. ¿Por qué confiaría en vos?", "Solo si es real."],
+            ["Vulnerabilidad", "Víctor, a los abogados les tengo desconfianza. ¿Por qué confiaría en ustedes?", "Solo si es real."],
             ["Impacto visual", "[Sin hablar] Emanuel pasa el dedo por una lista larguísima de estudios en el celular y lo deja sobre el escritorio. «Víctor, ¿por qué ustedes?»"],
-            ["Promesa con tiempo", "Víctor, tenés treinta segundos para decirme por qué elegirte.", "El guion dura unos 40 s: los 30 son para la respuesta, no para el video."],
-            ["Predicción", "Víctor, si hoy te elijo a vos, ¿qué es lo primero que va a pasar?"],
-            ["Pregunta inducida", "Víctor, en San Pedro hay muchos abogados. ¿Por qué alguien tocaría tu puerta?"],
+            ["Promesa con tiempo", "Víctor, tenés treinta segundos para decirme por qué elegirlos.", "El guion dura unos 40 s: los 30 son para la respuesta, no para el video."],
+            ["Predicción", "Víctor, si hoy los elijo a ustedes, ¿qué es lo primero que va a pasar?"],
+            ["Pregunta inducida", "Víctor, en San Pedro hay muchos abogados. ¿Por qué alguien tocaría la puerta del estudio?"],
             ["Error", "Víctor, ¿qué pregunta tendría que hacerle alguien a un abogado antes de elegirlo?"],
             ["Advertencia", "Víctor, ¿qué pasa si elijo mal a mi abogado?"],
-            ["Provocación", "Víctor, si fueras yo, ¿por qué no te elegirías?"],
-            ["Pregunta inducida", "Víctor, ¿cómo sé que no me vas a decir lo que quiero escuchar?"],
+            ["Provocación", "Víctor, si fueras yo, ¿por qué no elegiría a Solmi & Asociados?"],
+            ["Pregunta inducida", "Víctor, ¿cómo sé que no me van a decir lo que quiero escuchar?"],
             ["Error", "Víctor, ¿qué mira la gente al elegir un abogado, y no tendría que mirar?"],
             ["Pregunta inducida", "Víctor, ¿por qué alguien elegiría un estudio de San Pedro?"],
             ["Advertencia", "Víctor, si un abogado te dice que sí a todo, ¿desconfío?", "Ojo: no puede sonar a crítica de otros estudios."],
             ["Provocación", "Víctor, ¿un abogado de confianza existe?"],
             ["Contraste", "Víctor, ¿el mejor abogado es el que más sabe o el que no te endulza el oído?"],
             ["Transformación", "Víctor, ¿cómo pasa un abogado de ser un desconocido a ser «mi abogado»?"],
-            ["Predicción", "Víctor, si hoy te consulto, ¿cómo sé que vas a pensar en mí dentro de unos años?"],
+            ["Predicción", "Víctor, si hoy los consulto, ¿cómo sé que van a pensar en mí dentro de unos años?"],
             ["Contracorriente", "Víctor, ¿para elegir abogado hay que preguntar a un conocido?"],
             ["Impacto visual", "[Sin hablar] Emanuel busca «abogado San Pedro» en el celular y hace scroll sin parar. Para. Mira a cámara. «Víctor…»"]
           ],
-          angulo: "Para el que ya llegó a tu perfil. No contestás con adjetivos: contás cosas que hacés. La respuesta llega a la mitad.",
+          angulo: "Para el que ya llegó a tu perfil. No contestás con adjetivos: contás cosas que hace el estudio. La respuesta llega a la mitad.",
           dur: "≈40 s",
           hook: { quien: "Emanuel", dice: "Víctor, hay cientos de abogados. ¿Por qué elegir Solmi & Asociados?", placa: "Hay cientos de abogados. ¿Por qué este?", plano: "Vos de costado al escritorio o de pie junto al mapa, mirando a Emanuel." },
           beats: [
             ["0:05", "V", "No contestes todavía: qué contesta todo el mundo a esta pregunta.", "Esa pregunta todos la contestan igual: compromiso, experiencia, cercanía. Y está bien, pero eso lo puede decir cualquiera."],
-            ["0:11", "V", "Qué vas a hacer vos en vez de decir adjetivos.", "Yo prefiero contarte lo que hago."],
-            ["0:14", "V", "Una cosa que hacés, que muestre cómo trabajás.", "Si lo tuyo no es lo mío, te lo digo en la primera charla, y te mando con quien sabe."],
-            ["0:20", "V", "Otra cosa que hacés, aunque no te convenga.", "Te digo cómo estás parado, aunque no sea lo que viniste a escuchar."],
-            ["0:26", "V", "Una más, mirando para adelante.", "Y pienso en cómo vas a estar más adelante, no solo en ganar esta."],
-            ["0:32", "E", "¿Y por qué trabajás así?"],
+            ["0:11", "V", "Qué hace el estudio en vez de decir adjetivos.", "Nosotros preferimos contarte lo que hacemos."],
+            ["0:14", "V", "Una cosa que hacen, que muestre cómo trabajan.", "Si lo tuyo no es lo nuestro, te lo decimos en la primera charla, y te mandamos con quien sabe."],
+            ["0:20", "V", "Otra cosa que hacen, aunque no les convenga.", "Te decimos cómo estás parado, aunque no sea lo que viniste a escuchar."],
+            ["0:26", "V", "Una más, mirando para adelante.", "Y pensamos en cómo vas a estar más adelante, no solo en ganar esta."],
+            ["0:32", "E", "¿Y por qué trabajan así?"],
             ["0:34", "V", "Tu porqué, en una frase. Es la que se va a recordar. (La del ejemplo es tuya: la citó la nota de Perfil y Fortuna.)", "Porque el que bien anda, bien acaba."]
           ],
           cta: "Sin pedido: va fijado. Si querés, termina con «cómo trabajamos, en el otro video fijado».",
-          confirmar: "¿Querés decir en público que si un caso no es lo tuyo, lo derivás?",
-          ojo: "Sin nombrar ni compararte con otros estudios: hablás de lo que hacés vos, no de lo que hacen los demás."
+          confirmar: "¿Quieren decir en público que si un caso no es lo de ustedes, lo derivan?",
+          ojo: "Sin nombrar ni compararte con otros estudios: hablás de lo que hace el estudio, no de lo que hacen los demás."
         }
       ]
     },
@@ -457,7 +458,7 @@ window.GUIONES = {
             ["Contraste", "Hermanos que siguen almorzando juntos y hermanos que no se hablan. Mismo negocio. ¿Qué cambió?"],
             ["Pregunta inducida", "¿Por qué los hermanos que se quieren se pelean por el negocio de los padres?"],
             ["Transformación", "El negocio del abuelo llegó a los nietos. No fue suerte."],
-            ["Vulnerabilidad", "Veo muchas familias con un negocio. Casi todas dejan para después la charla más difícil.", "Solo si lo ve seguido."],
+            ["Vulnerabilidad", "En el estudio vemos muchas familias con un negocio. Casi todas dejan para después la charla más difícil.", "Solo si lo ven seguido."],
             ["Contracorriente", "No hace falta ser una empresa grande para pensar en los nietos."],
             ["Pregunta inducida", "¿Tu negocio familiar tiene fecha de vencimiento?"],
             ["Contraste", "El negocio de la familia puede unirte o separarte. Depende de tres decisiones."],
@@ -466,7 +467,7 @@ window.GUIONES = {
             ["Error", "Muchos creen que alcanza con quererse. En una empresa familiar, no alcanza."],
             ["Contracorriente", "El negocio familiar no se hereda. Se prepara."],
             ["Secreto", "Hay una pregunta que toda familia con un negocio debería hacerse. Y casi ninguna se hace."],
-            ["Vulnerabilidad", "Soy empresario. Sé lo que es mezclar familia y trabajo.", "Víctor tiene empresas propias (BRIEF). Solo si trabaja con familia."]
+            ["Vulnerabilidad", "Conocemos desde adentro lo que es mezclar familia y trabajo.", "Víctor tiene empresas propias (BRIEF). Solo si trabaja con familia."]
           ],
           angulo: "Lo que tienen las que duran, contado con una sonrisa.",
           dur: "≈30 s",
@@ -496,7 +497,7 @@ window.GUIONES = {
             ["Pregunta inducida", "¿Qué hace la gente para proteger su casa? Casi todo, mal."],
             ["Error", "Querés proteger tu casa y hacés justo lo que la deja expuesta."],
             ["Lista", "Los consejos de asado para cuidar la casa. Ninguno funciona."],
-            ["Vulnerabilidad", "La mayoría llega a mi escritorio con la casa ya «protegida». Y no lo está."],
+            ["Vulnerabilidad", "La mayoría llega al estudio con la casa ya «protegida». Y no lo está."],
             ["Contraste", "La casa que creés protegida y la que está protegida. Desde afuera se ven iguales."],
             ["Transformación", "De «mi casa está a salvo» a «¿y ahora qué hago?». Pasa más de lo que pensás."],
             ["Impacto visual", "[Sin hablar] Una casa de juguete que pasa de mano en mano. Víctor la frena: «Pará.»"],
@@ -519,27 +520,27 @@ window.GUIONES = {
         },
         {
           v: "C", tipo: "Antes del juicio",
-          titulo: "Lo que ves en una mediación y nadie te cuenta",
+          titulo: "Lo que vemos en una mediación y nadie te cuenta",
           hooks: [
             ["Pregunta inducida", "¿Por qué dos personas que no se hablan hace años terminan arreglando en una mesa?"],
             ["Impacto visual", "[Sin hablar] Dos sillas enfrentadas, una mesa y dos vasos de agua sin tocar. Víctor se sienta: «Acá no pasa lo que te imaginás.»"],
-            ["Transformación", "Entran sin mirarse. Salen dándose la mano. Te muestro qué pasa en el medio."],
+            ["Transformación", "Entran sin mirarse. Salen dándose la mano. Te mostramos qué pasa en el medio."],
             ["Pregunta inducida", "¿Qué pasa cuando dos que están peleados se sientan en la misma mesa?"],
-            ["Secreto", "Me siento en mesas donde dos personas no se hablan. Lo que pasa ahí no sale en ningún lado."],
+            ["Secreto", "Nos sentamos en mesas donde dos personas no se hablan. Lo que pasa ahí no sale en ningún lado."],
             ["Error", "Casi todos llegan a la mesa con lo que quieren decir preparado. Y casi nunca sirve."],
             ["Advertencia", "Si alguna vez te toca sentarte frente a alguien con quien estás peleado, guardate este video."],
             ["Contraste", "Hermanos, vecinos, socios. Distintas peleas, la misma mesa."],
             ["Impacto visual", "[Sin hablar] Dos manos sobre una mesa, lejos una de otra. Muy despacio, se acercan."],
             ["Secreto", "Lo que se dice en voz baja en una mesa de acuerdo vale más que lo que se grita."],
             ["Contracorriente", "Una pelea legal no se parece a una serie. Se parece a una sobremesa."],
-            ["Lista", "Lo que vi sentado entre dos personas peleadas.", "No arranca con «tres»."],
+            ["Lista", "Lo que vimos sentados entre dos personas peleadas.", "No arranca con «tres»."],
             ["Impacto visual", "[Sin hablar] Víctor apoya una caja de pañuelos en el medio de la mesa. «Esto se usa más de lo que creés.»"],
             ["Pregunta inducida", "¿Qué hace falta para que dos que no se hablan vuelvan a hablar?"],
             ["Advertencia", "Antes de sentarte a arreglar con alguien, te conviene saber cómo es esa mesa."],
-            ["Contracorriente", "Las peleas legales no son frías. Son lo más humano que vi."],
+            ["Contracorriente", "Las peleas legales no son frías. Son lo más humano que vimos."],
             ["Pregunta inducida", "¿De qué se habla cuando dos personas peleadas se sientan a arreglar?"]
           ],
-          angulo: "Lo humano de esa mesa, contado desde tu silla.",
+          angulo: "Lo humano de esa mesa, contado desde la silla del estudio.",
           dur: "≈30 s",
           hook: { quien: "Víctor", dice: "En las películas, una pelea legal es gritos y un juez. Sentado en una mesa de acuerdo, se ven dos personas que no se animan a mirarse." },
           beats: [
@@ -553,41 +554,41 @@ window.GUIONES = {
           v: "D", tipo: "Va fijado al perfil",
           titulo: "Qué pasa cuando nos confiás tu caso, paso a paso",
           hooks: [
-            ["Promesa con tiempo", "Te explico en 90 segundos el paso a paso de cuando trabajás con el estudio.", "El guion dura ≈70 s."],
+            ["Promesa con tiempo", "Te explicamos en 90 segundos el paso a paso de cuando trabajás con el estudio.", "El guion dura ≈70 s."],
             ["Secreto", "Lo que pasa del otro lado del escritorio cuando nos contás tu caso."],
             ["Vulnerabilidad", "Si nunca fuiste a un abogado y te da un poco de miedo, quedate hasta el final."],
             ["Contraste", "Lo que te imaginás que pasa cuando vas al abogado, y lo que pasa cuando te sentás."],
             ["Impacto visual", "[Sin hablar] Víctor abre una carpeta vacía sobre el escritorio y escribe en la tapa «Tu caso». «Así arranca.»"],
             ["Advertencia", "Antes de llamar a un abogado, mirá cómo es por dentro. Te va a sacar el miedo."],
             ["Pregunta inducida", "¿Qué pasa después de que le contás a un abogado lo que te pasó?"],
-            ["Contracorriente", "Todos se imaginan que al abogado se entra y no se sale nunca más. Te muestro cómo es."],
+            ["Contracorriente", "Todos se imaginan que al abogado se entra y no se sale nunca más. Te mostramos cómo es."],
             ["Lista", "Los pasos, desde que nos escribís hasta que se termina."],
             ["Impacto visual", "[Sin hablar] Víctor pone sobre el escritorio seis post-its en fila, uno por paso, todavía en blanco."],
             ["Pregunta inducida", "¿Te da miedo no entender nada cuando vas al abogado?"],
             ["Advertencia", "Si estás por consultar a un abogado, guardá este video."],
-            ["Vulnerabilidad", "Sé que ir al abogado da miedo. Por eso te muestro cómo es, paso a paso."],
+            ["Vulnerabilidad", "Sabemos que ir al abogado da miedo. Por eso te mostramos cómo es, paso a paso."],
             ["Secreto", "¿Qué hace un abogado con tu caso cuando vos no estás mirando?"],
             ["Lista", "Seis pasos. Desde que te sentás hasta que termina."],
             ["Impacto visual", "[Sin hablar] Una puerta que se abre. Adentro, el escritorio de Víctor, con un café servido para el que llega."],
             ["Advertencia", "Si vas a ir al abogado por primera vez, empezá por acá."],
             ["Secreto", "Todo lo que pasa después de que nos escribís. Todo."],
-            ["Provocación", "Ir al abogado no tendría que dar miedo. Te muestro por qué."],
-            ["Vulnerabilidad", "Mucha gente me dice que llegó con un nudo en la panza. Por eso hice este video.", "Solo si es real."],
+            ["Provocación", "Ir al abogado no tendría que dar miedo. Te mostramos por qué."],
+            ["Vulnerabilidad", "Mucha gente nos dice que llegó con un nudo en la panza. Por eso hicimos este video.", "Solo si es real."],
             ["Error", "Muchos no consultan porque no saben qué pasa después. Acá está."]
           ],
           angulo: "El camino entero, de la primera charla al final, dicho con calma. Es el fijado «Cómo trabajamos»: más largo que los otros, porque el que llega al perfil quiere saber esto antes de escribir.",
           dur: "≈70 s",
-          hook: { quien: "Víctor", dice: "Te voy a explicar qué pasa cuando nos confiás tu caso. Paso a paso, y sin palabras difíciles.", placa: "Qué pasa cuando nos confiás tu caso" },
+          hook: { quien: "Víctor", dice: "Te vamos a explicar qué pasa cuando nos confiás tu caso. Paso a paso, y sin palabras difíciles.", placa: "Qué pasa cuando nos confiás tu caso" },
           beats: [
             ["0:06", "V", "Antes de los pasos: qué se imagina la gente. Plano medio.", "La mayoría se imagina que entra, le llenan la mesa de papeles y sale sin entender nada. No es así."],
-            ["0:12", "V", "Paso 1 · la primera charla. Primer plano.", "Primero, me contás lo que te pasó, con tus palabras. Traé los papeles que tengas, aunque te parezcan poca cosa. Y no hace falta que sepas de leyes."],
-            ["0:22", "V", "Paso 2 · cómo está parado. Plano medio.", "Después te pregunto lo que haga falta, y te explico claro cómo estás parado y qué opciones tenés."],
-            ["0:32", "V", "Paso 3 · antes de arrancar: cuándo se habla de los honorarios. Sin montos. Primer plano.", "Antes de arrancar, te digo cuánto sale y qué incluye. Así sabés desde el principio en qué te metés."],
+            ["0:12", "V", "Paso 1 · la primera charla. Primer plano.", "Primero, nos contás lo que te pasó, con tus palabras. Traé los papeles que tengas, aunque te parezcan poca cosa. Y no hace falta que sepas de leyes."],
+            ["0:22", "V", "Paso 2 · cómo está parado. Plano medio.", "Después te preguntamos lo que haga falta, y te explicamos claro cómo estás parado y qué opciones tenés."],
+            ["0:32", "V", "Paso 3 · antes de arrancar: cuándo se habla de los honorarios. Sin montos. Primer plano.", "Antes de arrancar, te decimos cuánto sale y qué incluye. Así sabés desde el principio en qué te metés."],
             ["0:40", "V", "Paso 4 · qué camino se toma. Plano medio.", "Si se puede arreglar sin juicio, arrancamos por ahí: negociar, sentarse a acordar. Si no se puede, vamos a juicio, pero sabiendo por qué."],
             ["0:52", "V", "Paso 5 · mientras dura. Primer plano.", "Y mientras dura, en cada paso sabés en qué está lo tuyo. No te enterás por otro lado."],
             ["1:00", "V", "El remate: qué es y qué no es venir al estudio. Plano medio.", "Y consultar no te obliga a nada: después de la charla, decidís vos."]
           ],
-          cta: "Si querés contarme lo tuyo, el WhatsApp está en el perfil.",
+          cta: "Si querés contarnos lo tuyo, el WhatsApp está en el perfil.",
           confirmar: "¿Los pasos son así en tu estudio? Sobre todo el de los honorarios (si los decís antes de arrancar) y el cierre con el WhatsApp.",
           ojo: "Frases cortas y un plano distinto por paso: aunque sea largo, cada paso tiene que durar poco. Sin montos, plazos ni promesas de resultado."
         }
@@ -659,11 +660,11 @@ window.GUIONES.fijados = {
   resumen: "Van fijados arriba de todo en el perfil. Son para el que ya llegó a la cuenta y quiere saber quién sos antes de escribirte",
   items: [
     {
-      n: "01", formato: "Quién soy",
+      n: "01", formato: "Quiénes somos",
       contesta: "¿Quién es? ¿En qué me puede ayudar?",
       ideas: [
-        "Abogado y empresario: conocés las dos sillas del escritorio, la del abogado y la del que tiene algo que cuidar.",
-        "En qué podés ayudar, contado como situaciones y no como áreas: si tenés un negocio, si querés proteger lo que juntaste, si tenés un problema y todavía no llegó a juicio.",
+        "Arranca por vos, abogado y empresario que conoce las dos sillas del escritorio, y enseguida pasa al equipo: en Solmi & Asociados se trabaja en equipo, como dice la web y como dijiste en Perfil y Fortuna.",
+        "En qué pueden ayudar, contado como situaciones y no como áreas: si tenés un negocio, si querés proteger lo que juntaste, si tenés un problema y todavía no llegó a juicio.",
         "Termina mandando al segundo fijado."
       ],
       pide: "Sugerido: teleprompter, en tono de charla. Contanos qué empresas tenés (el rubro, sin nombres)."
@@ -672,8 +673,8 @@ window.GUIONES.fijados = {
       n: "02", formato: "Qué nos diferencia",
       contesta: "¿Por qué este estudio y no otro?",
       ideas: [
-        "No decir «compromiso, experiencia, cercanía», que es lo que dice todo el mundo: contar cosas que hacés.",
-        "Por ejemplo: si lo tuyo no es lo mío, te lo digo en la primera charla. Te digo lo que hay, aunque no sea lo que viniste a escuchar. Pienso en cómo vas a estar a largo plazo, no en ganar esta.",
+        "No decir «compromiso, experiencia, cercanía», que es lo que dice todo el mundo: contar cosas que hace el estudio.",
+        "Por ejemplo: si lo tuyo no es lo nuestro, te lo decimos en la primera charla. Te decimos lo que hay, aunque no sea lo que viniste a escuchar. Pensamos en cómo vas a estar a largo plazo, no en ganar esta.",
         "Sin nombrar ni compararse con ningún otro estudio."
       ],
       pide: "Ya tiene guion: el 2E, en la fila de la falsa entrevista («Hay cientos de abogados: ¿por qué Solmi & Asociados?»)."
@@ -682,7 +683,7 @@ window.GUIONES.fijados = {
       n: "03", formato: "Cómo trabajamos",
       contesta: "¿Qué pasa si vengo con un problema?",
       ideas: [
-        "El camino desde que alguien entra por la puerta: te cuenta con sus palabras, le explicás cómo está parado y qué opciones tiene, y si se puede arreglar sin juicio, se arranca por ahí.",
+        "El camino desde que alguien entra por la puerta: te cuenta con sus palabras, le explican cómo está parado y qué opciones tiene, y si se puede arreglar sin juicio, se arranca por ahí.",
         "Remate: es una charla, no un trámite. Consultar no te obliga a nada.",
         "Es el único de los tres que invita a escribir."
       ],
@@ -709,7 +710,7 @@ window.GUIONES.perfil = {
       { nombre: "Preguntas", letra: "P", fondo: "azul" },
       { nombre: "Consultar", letra: "C", fondo: "hueso" }
     ],
-    fijados: ["Quién soy", "Qué nos diferencia", "Cómo trabajamos"]
+    fijados: ["Quiénes somos", "Qué nos diferencia", "Cómo trabajamos"]
   },
   notas: [
     "Hoy el perfil dice «SOLMI & Asociados | Estudio Jurídico» y, en la bio, solo «Estudio Jurídico · CABA, San Pedro y zona». No nombra nada que le pase a alguien.",
@@ -736,15 +737,15 @@ window.GUIONES.perfil.versiones = [
     "datos": {
       "nombre": "Víctor Solmi | Abogado",
       "categoria": "Abogado",
-      "bio": "Abogado y empresario en San Pedro\n¿Un negocio, un socio, tu casa? Lo ordenamos antes\nSi hay un conflicto, primero busco el acuerdo\n📍 Mitre 2250",
+      "bio": "Abogado y empresario en San Pedro\n¿Un negocio, un socio, tu casa? Lo ordenamos antes\nSi hay un conflicto, primero buscamos el acuerdo\n📍 Mitre 2250",
       "destacadas": [
         {
-          "nombre": "Quién soy",
+          "nombre": "Quiénes somos",
           "letra": "V",
           "fondo": "azul"
         },
         {
-          "nombre": "Qué hago",
+          "nombre": "Qué hacemos",
           "letra": "Q",
           "fondo": "hueso"
         },
@@ -754,15 +755,15 @@ window.GUIONES.perfil.versiones = [
           "fondo": "azul"
         },
         {
-          "nombre": "Escribime",
+          "nombre": "Escribinos",
           "letra": "E",
           "fondo": "hueso"
         }
       ],
       "fijados": [
-        "Quién soy",
-        "Por qué yo",
-        "Cómo trabajo"
+        "Quiénes somos",
+        "Por qué nosotros",
+        "Cómo trabajamos"
       ]
     }
   },
