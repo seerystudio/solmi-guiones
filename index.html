@@ -119,6 +119,10 @@ details.tr pre{white-space:pre-wrap;font-family:inherit;font-size:13px;color:var
 .ejlink{font-size:13px;color:var(--tenue);margin:6px 0 0}
 .porque{font-size:13.5px;line-height:1.4;margin:8px 0 0;padding:8px 10px;border-radius:10px;background:#FFF4EE;color:#141414}
 .tag-grabar.luego{background:#E7E5E0;color:#63625E}
+.varlist{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.varlist li{display:grid;gap:3px;font-size:14px;line-height:1.45}
+.varlist b{font-family:var(--tit);font-size:15.5px;letter-spacing:-.01em}
+.varlist span{color:#3A3935}
 .tag-grabar.luego::before{background:#63625E}
 .ejlink a{color:#C23A00;font-weight:600}
 .g h3{font-family:var(--tit);margin:0;font-size:25px;font-weight:800;line-height:1.05;letter-spacing:-.03em;padding-right:48px}
@@ -435,7 +439,7 @@ body.list .piez{width:auto}
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <div class="alerta" id="alerta" hidden>Este navegador no está guardando lo que escribís (puede ser una ventana privada). Antes de cerrar, tocá «Enviar» o bajate un respaldo.</div>
 
-<script src="guiones.js?v=2026-10-18g"></script>
+<script src="guiones.js?v=2026-10-18h"></script>
 <script>
 const D = window.GUIONES;
 const $ = s => document.querySelector(s);
@@ -554,7 +558,9 @@ function renderScript(r, g){
       </div></div>`).join('');
   const h = hechas(key, g), t = nV(g), c = conf[key], hk = elegido(key, g);
   const hooks = g.hooks ? `<details class="hks"><summary>${g.hooks.length} arranques más · o escribí el tuyo</summary><ol data-hkl="${key}">${hooksList(key, g)}</ol><div class="hkadd"><textarea data-hkin="${key}" rows="2" aria-label="Tu propio arranque" placeholder="Escribí tu propio arranque…"></textarea><button type="button" data-hkadd="${key}">Agregar</button></div></details>` : '';
-  const G = (D.grabar || {})[key];
+  const G0 = (D.grabar || {})[key];
+  const TV = G0 && D.tanda ? D.tanda.items.find(x => x.r === G0.r) : null;
+  const G = TV ? Object.assign({}, G0, {lineas: TV.lineas, cierre: TV.cierre, nota: TV.nota}) : G0;
   const ya = G && enJornada(G.r);
   const grab = G ? `<div class="sec grab"><p class="lab"><b>${ya ? 'Para grabar' : 'Guion listo'} · ${esc(G.r)}</b>${ya ? ' · ' + (ORDEN.indexOf(G.r) + 1) + ' de ' + ORDEN.length + ' en la jornada' : ' · para más adelante'}</p>
       ${G.nota ? `<p class="gnota">${esc(G.nota)}</p>` : ''}
@@ -644,6 +650,16 @@ function cardTanda(G, ahora){
       ${G.nota ? `<div class="sec"><p class="lab">Grabación</p><p class="gnota" style="margin:0">${esc(G.nota)}</p></div>` : ''}
     </article>`;
 }
+function renderVariaciones(){
+  const V = (D.tanda || {}).variaciones || []; if (!V.length) return '';
+  return `<section class="row" id="rV">
+    <div class="row-title"><span class="n">+</span><span class="f">Más ideas con los mismos formatos</span><span class="m">Lo que más le pasa a un comercio, una pyme o una empresa familiar. Cada una ya trae el problema, la explicación y la solución</span></div>
+    <div class="scripts">${V.map(v => `<article class="card g var-card">
+      <header><span class="var">Variaciones</span><h3>${esc(v.formato)}</h3></header>
+      <div class="sec"><ol class="varlist">${v.items.map(it => `<li><b>${esc(it.t)}</b><span>${esc(it.d)}</span></li>`).join('')}</ol></div>
+    </article>`).join('')}</div>
+  </section>`;
+}
 function renderTanda(){
   if (!D.tanda) return '';
   const pool = poolGuiones();
@@ -655,7 +671,7 @@ function renderTanda(){
   </section>` + (luego.length ? `<section class="row" id="rM">
     <div class="row-title"><span class="n">⏸</span><span class="f">Guionados para más adelante</span><span class="m">Listos, pero no van en esta grabación. Los de la primera tanda siguen en su fila</span></div>
     <div class="scripts">${luego.map(G => cardTanda(G, false)).join('')}</div>
-  </section>` : '');
+  </section>` : '') + renderVariaciones();
 }
 function renderFijados(){
   const F = D.fijados; if (!F) return '';
@@ -925,7 +941,7 @@ function irAPieza(id){
 }
 
 /* el recorrido de arriba y las flechas entre una fila y la siguiente */
-const RECORRIDO = (D.tanda ? [{id: 'G', t: 'Para grabar ahora'}, {id: 'M', t: 'Para más adelante'}] : [])
+const RECORRIDO = (D.tanda ? [{id: 'G', t: 'Para grabar ahora'}, {id: 'M', t: 'Para más adelante'}, {id: 'V', t: 'Más ideas'}] : [])
   .concat(D.fijados ? [{id: 'F', t: 'Los 3 fijados'}] : [])
   .concat(D.refs.map(r => ({id: r.n, t: String(r.n).padStart(2,'0') + ' · ' + r.formato})))
   .concat(D.ideas ? [{id: D.ideas.n, t: 'Otros formatos'}] : [])
@@ -934,7 +950,8 @@ const RECORRIDO = (D.tanda ? [{id: 'G', t: 'Para grabar ahora'}, {id: 'M', t: 'P
 const FLUJO = {
   '0': 'Lo primero: lo que se graba ahora',
   'G': 'Los que quedan para la próxima',
-  'M': 'Arriba de todo, en el perfil, van los tres fijados',
+  'M': 'Y para las próximas, más ideas con los mismos formatos',
+  'V': 'Arriba de todo, en el perfil, van los tres fijados',
   'P': 'Arriba de todo van los tres videos fijados',
   'F': 'Y después, los guiones, formato por formato',
   '1': 'El mismo tema, con otra mecánica',
@@ -1111,7 +1128,7 @@ function render(){
     ${renderRef(r)}
     <div class="scripts">${r.guiones.map(g => renderScript(r, g)).join('')}</div>
   </section>`).join('') + renderIdeas() + renderIdeas(D.estudios, 'est');
-  $('#jump').innerHTML = `<option value="0">Ir a…</option>` + (D.tanda ? `<option value="G">▶ · Para grabar ahora</option><option value="M">⏸ · Para más adelante</option>` : '') + (P ? `<option value="P">IG · El perfil</option>` : '') + (D.fijados ? `<option value="F">★ · Los 3 fijados</option>` : '') + D.refs.map(r => `<option value="${r.n}">${String(r.n).padStart(2,'0')} · ${esc(r.formato)}</option>`).join('') + (D.ideas ? `<option value="${D.ideas.n}">${String(D.ideas.n).padStart(2,'0')} · ${esc(D.ideas.titulo)}</option>` : '') + (D.estudios ? `<option value="${D.estudios.n}">${String(D.estudios.n).padStart(2,'0')} · ${esc(D.estudios.titulo)}</option>` : '');
+  $('#jump').innerHTML = `<option value="0">Ir a…</option>` + (D.tanda ? `<option value="G">▶ · Para grabar ahora</option><option value="M">⏸ · Para más adelante</option><option value="V">+ · Más ideas con los mismos formatos</option>` : '') + (P ? `<option value="P">IG · El perfil</option>` : '') + (D.fijados ? `<option value="F">★ · Los 3 fijados</option>` : '') + D.refs.map(r => `<option value="${r.n}">${String(r.n).padStart(2,'0')} · ${esc(r.formato)}</option>`).join('') + (D.ideas ? `<option value="${D.ideas.n}">${String(D.ideas.n).padStart(2,'0')} · ${esc(D.ideas.titulo)}</option>` : '') + (D.estudios ? `<option value="${D.estudios.n}">${String(D.estudios.n).padStart(2,'0')} · ${esc(D.estudios.titulo)}</option>` : '');
   prog();
 }
 render();

@@ -828,7 +828,7 @@ window.GUIONES.tanda = {
    "r": "R15",
    "tipo": "El ranking · cuidar lo que construiste",
    "titulo": "Ranking: lo que hace la gente para cuidar lo que construyó",
-   "meta": "Duración ≈40 s",
+   "meta": "Duración ≈55 s",
    "ej": "DbQ_BeHBEOx",
    "ejde": "El ranking · Eder Salinas",
    "nota": "de pie, con saco, plano medio, junto al mapa. Emanuel lee cada opción fuera de cuadro; Víctor contesta mirando a cámara. Se graba de un tirón y se corta seco entre opción y respuesta. La columna, los números y las palabras van en edición.",
@@ -836,101 +836,101 @@ window.GUIONES.tanda = {
     [
      "0:00",
      "V",
-     "Ranking de lo que hace la gente para cuidar lo que construyó. Dale.",
+     "Muchos que tienen un negocio creen que su casa está a salvo. Vamos a rankear lo que hace la gente para cuidar lo que construyó. Dale.",
      "En pantalla: RANKING · CUIDAR LO QUE CONSTRUISTE · columna del 1 al 7 vacía"
     ],
     [
-     "0:03",
+     "0:06",
      "E",
      "Ponerlo todo a nombre de la pareja.",
      ""
     ],
     [
-     "0:05",
+     "0:08",
      "V",
-     "Seis. Sigue expuesto, solo que a los problemas de otra persona.",
+     "Seis. Es lo que más vemos, y no protege: la casa sigue expuesta, solo que ahora a los problemas de otra persona.",
      "A validar · En pantalla: 6 · A nombre de la pareja"
     ],
     [
-     "0:09",
+     "0:14",
      "E",
      "Un fideicomiso.",
      ""
     ],
     [
-     "0:10",
+     "0:15",
      "V",
-     "Cuatro. Bien armado y a tiempo, sirve para construir. Para esconder, no sirve.",
+     "Cuatro. Es una herramienta para construir, no para esconder. Bien armado y a tiempo, sirve; armado a las apuradas, no.",
      "A validar · En pantalla: 4 · Fideicomiso"
     ],
     [
-     "0:15",
+     "0:21",
      "E",
      "Esperar a tener deudas para moverlo.",
      ""
     ],
     [
-     "0:17",
+     "0:22",
      "V",
-     "Siete, el último. Lo que se mueve a las apuradas se puede revisar.",
+     "Siete, el último. Lo que se mueve cuando ya hay deudas se puede revisar, y además queda mal parado.",
      "A validar · En pantalla: 7 · Moverlo cuando ya hay deudas"
     ],
     [
-     "0:21",
+     "0:28",
      "E",
      "Firmar todo con el socio.",
      ""
     ],
     [
-     "0:22",
+     "0:29",
      "V",
-     "Dos. Lo de palabra se recuerda distinto el día que las cosas andan mal.",
+     "Dos. Lo de palabra se recuerda distinto el día que las cosas andan mal. Escrito, los dos se acuerdan de lo mismo.",
      "En pantalla: 2 · Firmar con el socio"
     ],
     [
-     "0:26",
+     "0:35",
      "E",
      "Pasarle la casa a un hijo.",
      ""
     ],
     [
-     "0:27",
+     "0:36",
      "V",
      "Cinco. La casa donde vivís pasa a ser de otro. Y la decisión también.",
      "A validar · En pantalla: 5 · Pasársela a un hijo"
     ],
     [
-     "0:31",
+     "0:40",
      "E",
      "Separar lo del negocio de lo personal.",
      ""
     ],
     [
-     "0:32",
+     "0:41",
      "V",
-     "Tres. Que un problema del negocio no llegue a tu casa.",
+     "Tres. Cuentas separadas, el negocio con su propia estructura y cuidado con las garantías personales que firmás.",
      "A validar · En pantalla: 3 · Separar negocio y casa"
     ],
     [
-     "0:35",
+     "0:47",
      "E",
      "¿Y el número uno?",
      ""
     ],
     [
-     "0:36",
+     "0:48",
      "V",
-     "Ordenarlo cuando todavía no hay ningún problema. Lo que más cuida lo que construiste no es una figura: es pensarlo a tiempo.",
-     "En pantalla: 1 · Ordenarlo a tiempo"
+     "Ordenarlo cuando todavía no hay ningún problema. Se mira a nombre de quién está cada cosa, qué firmaste y qué querés que pase si al negocio le va mal. Con eso se arma el plan: a veces es una sociedad, a veces un contrato, a veces un fideicomiso. Depende de cada caso.",
+     "A validar · En pantalla: 1 · Ordenarlo a tiempo"
     ]
    ],
-   "cierre": "Si querés saber cómo estás parado, comentá CASA o mandanos un mensaje."
+   "cierre": "¿Cuál de estas hiciste vos? Comentá CASA o mandanos un mensaje y lo vemos juntos."
   },
   {
    "r": "R16",
    "tipo": "El ranking · resolver un conflicto",
    "titulo": "Ranking: formas de resolver un conflicto",
-   "meta": "Duración ≈38 s",
+   "meta": "Duración ≈50 s",
    "ej": "DbQ_BeHBEOx",
    "ejde": "El ranking · Eder Salinas",
    "nota": "igual que el R15, en la misma toma de pie: se graban los dos seguidos, con un cambio de corbata.",
@@ -938,104 +938,104 @@ window.GUIONES.tanda = {
     [
      "0:00",
      "V",
-     "Ranking de formas de resolver un conflicto. De la más sana a la peor. Dale.",
+     "Un cliente que no paga, un socio que se quiere ir, un proveedor que no cumple. Vamos a rankear cómo se resuelve un conflicto, de la forma más sana a la peor. Dale.",
      "En pantalla: RANKING · RESOLVER UN CONFLICTO · columna del 1 al 7"
     ],
     [
-     "0:04",
+     "0:07",
      "E",
      "Ir a juicio.",
      ""
     ],
     [
-     "0:05",
+     "0:08",
      "V",
-     "Cuatro. A veces es inevitable, pero es largo y costoso.",
+     "Cuatro. A veces es inevitable, y ahí vamos. Pero es largo y costoso, y mientras tanto el negocio tiene que seguir.",
      "En pantalla: 4 · Juicio"
     ],
     [
-     "0:09",
+     "0:14",
      "E",
      "Pelearse por WhatsApp.",
      ""
     ],
     [
-     "0:10",
+     "0:15",
      "V",
-     "Siete. Queda todo escrito y nadie sale ganando.",
+     "Siete. Queda todo escrito, se dicen cosas que después pesan, y nadie sale ganando.",
      "En pantalla: 7 · Pelearse por WhatsApp"
     ],
     [
-     "0:13",
+     "0:20",
      "E",
      "Una mediación.",
      ""
     ],
     [
-     "0:14",
+     "0:21",
      "V",
-     "Dos. Alguien en el medio ordena la charla, y las partes deciden.",
+     "Dos. Alguien en el medio ordena la charla, y lo que se acuerda lo deciden las partes, no un juez.",
      "A validar · En pantalla: 2 · Mediación"
     ],
     [
-     "0:18",
+     "0:27",
      "E",
      "No hacer nada y esperar.",
      ""
     ],
     [
-     "0:19",
+     "0:28",
      "V",
-     "Cinco. El problema no se va: crece.",
-     "En pantalla: 5 · Esperar"
+     "Cinco. El problema no se va: crece. Y a veces se pasan plazos que después no vuelven.",
+     "A validar · En pantalla: 5 · Esperar"
     ],
     [
-     "0:22",
+     "0:33",
      "E",
      "Mandar una carta documento de bronca.",
      ""
     ],
     [
-     "0:23",
+     "0:34",
      "V",
-     "Seis. Lo que escribís enojado se puede usar después.",
+     "Seis. Lo que escribís enojado se puede usar después. Una carta documento se manda, pero bien pensada.",
      "En pantalla: 6 · Carta documento de bronca"
     ],
     [
-     "0:27",
+     "0:39",
      "E",
      "Una conciliación.",
      ""
     ],
     [
-     "0:28",
+     "0:40",
      "V",
-     "Tres. Otra solución alternativa. Muchas veces se cierra ahí.",
+     "Tres. Otra solución alternativa: se sientan, se acercan posiciones, y muchas veces se cierra ahí.",
      "A validar · En pantalla: 3 · Conciliación"
     ],
     [
-     "0:31",
+     "0:45",
      "E",
      "¿Y el número uno?",
      ""
     ],
     [
-     "0:32",
+     "0:46",
      "V",
-     "Sentarse a negociar. Es la más rápida y la más sana, y todos pueden salir ganando.",
+     "Sentarse a negociar. Primero los escuchamos, vemos dónde están parados, hablamos con la otra parte y buscamos un acuerdo donde todos puedan salir ganando. Y se deja por escrito.",
      "En pantalla: 1 · Negociar"
     ]
    ],
-   "cierre": "Si tenés un conflicto, comentá CONSULTA o mandanos un mensaje."
+   "cierre": "¿Vos cuál elegiste la última vez? Comentá CONSULTA o mandanos un mensaje."
   },
   {
    "r": "R17",
    "tipo": "Clip de podcast · antes del juicio",
    "titulo": "Clip de podcast: «No trabajamos para ir a juicio»",
-   "meta": "Duración ≈35 s",
+   "meta": "Duración ≈50 s",
    "ej": "Dbb8EQJAPzB",
    "ejde": "Clip de podcast · @leonardo.mata.abogado",
-   "nota": "set de podcast en la oficina: dos sillas, dos micrófonos de mano o de mesa, Emanuel de espaldas o",
+   "nota": "set de podcast en la oficina: dos sillas, dos micrófonos de mano o de mesa, Emanuel de espaldas o fuera de cuadro. Luz cálida de costado. Víctor mira a Emanuel, no a cámara. Se graba como charla larga y se cortan los clips: R20 sale de la misma sesión.",
    "lineas": [
     [
      "0:00",
@@ -1045,42 +1045,54 @@ window.GUIONES.tanda = {
     ],
     [
      "0:02",
-     "V",
-     "En el estudio no trabajamos para ir a juicio. Trabajamos para que no haga falta.",
+     "E",
+     "Víctor, ¿un abogado no vive de los juicios?",
      ""
     ],
     [
-     "0:07",
+     "0:04",
      "V",
-     "Cuando viene un comerciante o un empresario, ya tiene bastantes problemas: los empleados, los proveedores, la caja.",
+     "Por supuesto que no. En el estudio no trabajamos para ir a juicio. Trabajamos para que no haga falta.",
      ""
     ],
     [
-     "0:14",
+     "0:09",
      "V",
-     "Llevarlo a un juicio largo, muchas veces, es sumarle uno más.",
+     "Pensá en un comerciante o un empresario. Ya tiene bastantes problemas: los empleados, los proveedores, la caja. Y encima aparece un socio que se quiere ir, o un cliente que no paga.",
      ""
     ],
     [
      "0:18",
      "V",
-     "Hay casos donde el juicio es inevitable, y ahí vamos. Pero antes buscamos soluciones alternativas: negociar, conciliar, mediar.",
+     "Si a eso le sumás un juicio, muchas veces es un problema más: es largo, es costoso, y mientras tanto el negocio tiene que seguir funcionando.",
+     "A validar"
+    ],
+    [
+     "0:26",
+     "V",
+     "Por eso buscamos soluciones alternativas: negociar, conciliar, mediar. En realidad son soluciones más rápidas, más eficaces, y es lo que hoy necesita la gente.",
      "En pantalla: negociar · conciliar · mediar"
     ],
     [
-     "0:27",
+     "0:35",
+     "V",
+     "¿Cómo? Primero te escuchamos y vemos dónde estás parado. Después hablamos con la otra parte y buscamos un acuerdo donde todos puedan salir ganando. Y lo dejamos por escrito. Si no se puede, vamos a juicio, pero sabiendo que lo intentamos.",
+     "A validar"
+    ],
+    [
+     "0:48",
      "V",
      "Nos gusta resolver los conflictos de la forma más rápida, sana y sin daños colaterales posible.",
-     "En pantalla: frase suya, de Fortuna"
+     ""
     ]
    ],
-   "cierre": "Si tenés un conflicto y querés evitar el juicio, comentá CONSULTA o mandanos un mensaje."
+   "cierre": "Si tenés un conflicto con un socio, un cliente o un proveedor, comentá CONSULTA o mandanos un mensaje."
   },
   {
    "r": "R18",
    "tipo": "Teleprompter · el equipo",
    "titulo": "El equipo, nuestro máximo estandarte",
-   "meta": "Duración ≈35 s",
+   "meta": "Duración ≈45 s",
    "ej": "Db661pnRLe0",
    "ejde": "Teleprompter · @clemente.jimenez_",
    "nota": "teleprompter en el celular, a cámara, en tono de charla (no de discurso): alternar plano medio y primer plano en cada frase. Encima, de b-roll, el equipo trabajando: dos o tres alrededor de una carpeta, una reunión vista desde atrás. Falta saber quiénes del equipo pueden salir en cámara (BRIEF §1, pregunta 21); si nadie, de espaldas y manos.",
@@ -1088,107 +1100,119 @@ window.GUIONES.tanda = {
     [
      "0:00",
      "V",
-     "Es imposible que uno sea especialista en todo.",
+     "Un problema en una empresa casi nunca es de un solo tema. Toca contratos, empleados, a veces la familia.",
      ""
     ],
     [
-     "0:03",
+     "0:06",
+     "V",
+     "Y es imposible que uno sea especialista en todo.",
+     ""
+    ],
+    [
+     "0:09",
      "V",
      "Por eso en el estudio Solmi & Asociados tenemos como máximo estandarte el trabajo en equipo. Es el que nos hace crecer en todos los aspectos.",
      "En pantalla: máximo estandarte: el trabajo en equipo"
     ],
     [
-     "0:11",
+     "0:16",
      "V",
-     "En realidad, estamos organizados por temáticas: cada caso lo mira quien más sabe de ese tema, y lo charlamos entre todos.",
-     "A confirmar · En pantalla: organizados por temáticas"
+     "Para vos significa algo simple: nos contás tu problema una sola vez, y lo resolvemos entre todos. Una sola puerta, una sola respuesta clara.",
+     "A confirmar · En pantalla: una sola puerta"
     ],
     [
-     "0:18",
+     "0:24",
      "V",
-     "Somos un equipo donde aportan los más jóvenes y los más experimentados.",
-     ""
+     "Somos un equipo donde aportan los más jóvenes y los más experimentados, en San Pedro y en Buenos Aires.",
+     "A confirmar"
     ],
     [
-     "0:22",
+     "0:30",
      "V",
      "Así proporcionamos soluciones alternativas, más rápidas y más eficaces, como las que hoy necesitan las personas, los comercios y las empresas.",
      "En pantalla: soluciones alternativas"
     ],
     [
-     "0:30",
+     "0:37",
      "V",
      "Te acompañamos en todo el proceso y vemos juntos las mejores opciones. Que cada cliente sea su mejor versión es nuestro éxito.",
      ""
     ]
    ],
-   "cierre": "Si querés que te escuchemos, comentá CONSULTA o mandanos un mensaje."
+   "cierre": "Si tenés un problema y no sabés por dónde empezar, comentá CONSULTA o mandanos un mensaje."
   },
   {
    "r": "R19",
    "tipo": "POV · soluciones alternativas",
    "titulo": "POV: «Quiero juicio sí o sí»",
-   "meta": "Duración ≈32 s",
+   "meta": "Duración ≈50 s",
    "ej": "Dbo8iYZR1M7",
    "ejde": "POV · @clemente.jimenez_",
-   "nota": "escritorio, la cámara es el cliente (como el POV de la primera tanda). El golpe en la mesa y el vaso",
+   "nota": "escritorio, la cámara es el cliente (como el POV de la primera tanda). El golpe en la mesa y el vaso de agua son el gancho visual: seco y con humor, sin exagerar.",
    "lineas": [
     [
      "0:00",
      "E",
-     "¡Quiero juicio! Sí o sí.",
-     "Golpe en la mesa · En pantalla: POV: le decís a tu abogado que querés juicio sí o sí"
+     "¡Quiero juicio! Sí o sí. Me debe plata hace meses.",
+     "Golpe en la mesa · En pantalla: POV: un cliente no te paga y querés juicio sí o sí"
     ],
     [
-     "0:03",
+     "0:04",
      "V",
-     "Sentate. Tomá un poco de agua.",
+     "Sentate. Tomá un poco de agua. Contame: ¿vos qué querés, tener razón o cobrar?",
      "Tranquilo, le sirve un vaso de agua"
     ],
     [
-     "0:06",
+     "0:10",
      "E",
-     "¿No me van a hacer juicio?",
+     "Cobrar.",
      ""
     ],
     [
-     "0:08",
+     "0:11",
      "V",
-     "Si hace falta, sí. Pero antes, en el estudio jurídico Solmi & Asociados te proponemos soluciones alternativas.",
-     "En pantalla: soluciones alternativas"
-    ],
-    [
-     "0:14",
-     "V",
-     "Negociar. Conciliar. Mediar.",
-     "En pantalla: negociar · conciliar · mediar"
+     "Entonces escuchá. Un juicio puede tardar, y mientras tanto la plata no entra y tu negocio la necesita.",
+     "A validar"
     ],
     [
      "0:17",
      "V",
-     "Son soluciones más rápidas, más eficaces, y tu comercio o tu empresa sigue trabajando con normalidad.",
-     "A validar"
+     "Por eso en el estudio jurídico Solmi & Asociados proponemos soluciones alternativas.",
+     "En pantalla: soluciones alternativas"
     ],
     [
-     "0:23",
-     "E",
-     "¿Y si no funcionan?",
-     ""
-    ],
-    [
-     "0:25",
+     "0:21",
      "V",
-     "Entonces vamos a juicio. Pero sabiendo que lo intentamos.",
+     "Primero, negociar: hablamos con el que te debe y buscamos un plan de pago que se pueda cumplir, por escrito.",
+     "A validar · En pantalla: 1 · Negociar"
+    ],
+    [
+     "0:28",
+     "V",
+     "Si no responde, una mediación: alguien en el medio ordena la charla, y lo que se acuerda queda firmado.",
+     "A validar · En pantalla: 2 · Mediar"
+    ],
+    [
+     "0:35",
+     "E",
+     "¿Y si no funciona?",
      ""
+    ],
+    [
+     "0:37",
+     "V",
+     "Entonces vamos a juicio. Pero sabiendo que lo intentamos, y con todo ordenado.",
+     "En pantalla: 3 · Juicio"
     ]
    ],
-   "cierre": "Si tenés un conflicto, comentá CONSULTA o mandanos un mensaje."
+   "cierre": "Si alguien te debe plata y no sabés por dónde empezar, comentá CONSULTA o mandanos un mensaje."
   },
   {
    "r": "R20",
    "tipo": "Clip de podcast · fideicomiso",
    "titulo": "Clip de podcast: el derecho también sirve para crear",
-   "meta": "Duración ≈35 s",
+   "meta": "Duración ≈50 s",
    "ej": "Dbb8EQJAPzB",
    "ejde": "Clip de podcast · @leonardo.mata.abogado",
    "nota": "misma sesión de podcast que R17.",
@@ -1208,29 +1232,233 @@ window.GUIONES.tanda = {
     [
      "0:08",
      "V",
-     "Un contrato bien hecho, un fideicomiso, una sociedad bien armada: son la base para que un proyecto dure en el tiempo.",
-     "En pantalla: frase suya, de Fortuna"
+     "Casi todos llaman al abogado cuando ya se pelearon. Y en ese momento las opciones son menos y más caras.",
+     "A validar"
     ],
     [
-     "0:16",
+     "0:14",
      "V",
-     "Pensá en dos hermanos que quieren construir juntos, o en un negocio que querés que siga cuando no estés.",
+     "Pensá en dos hermanos que quieren construir juntos. Antes de poner un ladrillo, se deja escrito cuánto pone cada uno, qué le toca a cada uno y qué pasa si uno se quiere ir.",
      ""
     ],
     [
-     "0:22",
+     "0:24",
      "V",
-     "Para eso no hace falta pelearse con nadie. Hace falta pensarlo antes.",
+     "Eso puede ser un contrato, una sociedad bien armada o un fideicomiso. Son la base firme para que un proyecto dure en el tiempo.",
+     "A validar · En pantalla: contrato · sociedad · fideicomiso"
+    ],
+    [
+     "0:32",
+     "V",
+     "Para eso no hace falta pelearse con nadie. Hace falta pensarlo antes, con calma.",
      ""
     ],
     [
-     "0:26",
+     "0:37",
      "V",
      "En una sociedad tan compleja, la clave está en simplificar.",
      ""
     ]
    ],
    "cierre": "Si tenés un proyecto que querés dejar bien armado, comentá CONSULTA o mandanos un mensaje."
+  },
+  {
+   "r": "R11",
+   "tipo": "POV · patrimonio",
+   "titulo": "Si al negocio le va mal, ¿me pueden sacar la casa?",
+   "meta": "Duración ≈50 s",
+   "ej": "Dbo8iYZR1M7",
+   "ejde": "POV · @clemente.jimenez_",
+   "nota": "escritorio, Víctor del otro lado mirando a cámara; Emanuel pregunta desde atrás. Opcional: las llaves del local y de la casa en el mismo llavero sobre el escritorio.",
+   "lineas": [
+    [
+     "0:00",
+     "E",
+     "Víctor, si a mi negocio le va mal, ¿me pueden sacar la casa?",
+     "En pantalla: POV: le preguntás a un abogado si tu negocio te puede costar la casa"
+    ],
+    [
+     "0:04",
+     "V",
+     "Es de las preguntas que más nos hacen. Casi todos los que tienen un negocio creen que no: que lo del negocio es del negocio, y la casa es la casa.",
+     ""
+    ],
+    [
+     "0:11",
+     "V",
+     "En realidad, depende de cómo armaste las cosas. Si el negocio está a tu nombre, si firmaste como garante de un préstamo o de un alquiler, si lo tuyo y lo del negocio están mezclados, una deuda del negocio puede llegar a lo personal.",
+     "A validar · En pantalla: a tu nombre · garantías · cuentas mezcladas"
+    ],
+    [
+     "0:24",
+     "E",
+     "¿Y qué hago?",
+     ""
+    ],
+    [
+     "0:26",
+     "V",
+     "Primero, mirar cómo estás parado: a nombre de quién está cada cosa y qué firmaste.",
+     "En pantalla: 1 · Mirar cómo estás parado"
+    ],
+    [
+     "0:31",
+     "V",
+     "Después, separar: que el negocio tenga su propia estructura, que las cuentas no se mezclen y que no firmes garantías personales sin saber hasta dónde te comprometen.",
+     "A validar · En pantalla: 2 · Separar"
+    ],
+    [
+     "0:40",
+     "V",
+     "Y hacerlo cuando todavía no hay problemas. Lo que se mueve con deudas encima se puede revisar.",
+     "A validar · En pantalla: 3 · Hacerlo a tiempo"
+    ]
+   ],
+   "cierre": "Si tenés un negocio y la casa a tu nombre, comentá CASA o mandanos un mensaje y vemos dónde estás parado."
+  },
+  {
+   "r": "R13",
+   "tipo": "Teleprompter · empresas familiares",
+   "titulo": "Las empresas familiares que llegan a los nietos",
+   "meta": "Duración ≈55 s",
+   "ej": "Db661pnRLe0",
+   "ejde": "Teleprompter · @clemente.jimenez_",
+   "nota": "teleprompter, primer plano y plano medio alternados en cada punto.",
+   "lineas": [
+    [
+     "0:00",
+     "V",
+     "Muchas empresas familiares no se caen por la plata. Se caen en la mesa del domingo.",
+     ""
+    ],
+    [
+     "0:05",
+     "V",
+     "El padre arma el negocio, los hijos entran a trabajar, y nadie deja escrito quién decide, cuánto cobra cada uno ni qué pasa el día que el fundador ya no está.",
+     ""
+    ],
+    [
+     "0:14",
+     "V",
+     "Mientras todo anda bien, no pasa nada. El problema aparece con una decisión difícil o cuando el negocio cambia de manos: ahí cada hermano se acuerda distinto.",
+     ""
+    ],
+    [
+     "0:23",
+     "V",
+     "En el estudio lo vemos seguido. Las que llegan a los nietos hacen tres cosas.",
+     ""
+    ],
+    [
+     "0:27",
+     "V",
+     "Una: saben quién decide. Y no deciden todos.",
+     "En pantalla: 1 · Quién decide"
+    ],
+    [
+     "0:31",
+     "V",
+     "Dos: lo hablaron con la mesa puesta, no en el velorio.",
+     "En pantalla: 2 · Hablarlo a tiempo"
+    ],
+    [
+     "0:35",
+     "V",
+     "Tres: lo dejaron escrito. Un acuerdo entre socios, un protocolo familiar o un plan para la sucesión, según cada familia.",
+     "A validar · En pantalla: 3 · Dejarlo escrito"
+    ],
+    [
+     "0:43",
+     "V",
+     "¿Cómo se hace? Nos sentamos con la familia, escuchamos a cada uno y lo ordenamos por escrito, para que la actividad continúe.",
+     ""
+    ],
+    [
+     "0:50",
+     "V",
+     "Al final, lo que llega a los nietos es cómo se hablaba en esa mesa.",
+     ""
+    ]
+   ],
+   "cierre": "Si trabajás con tu familia, comentá SOCIO o mandanos un mensaje."
+  }
+ ],
+ "variaciones": [
+  {
+   "formato": "El ranking (Emanuel propone, Víctor rankea)",
+   "items": [
+    {
+     "t": "Lo que más le cuesta a un negocio no tener por escrito",
+     "d": "Opciones: el acuerdo con el socio, el alquiler del local, las condiciones con los clientes, lo que se arregló con un proveedor, quién firma por la empresa. Número 1: el acuerdo con el socio. Cómo: qué pone cada uno, cómo se reparten las ganancias, qué pasa si uno se quiere ir."
+    },
+    {
+     "t": "Lo que se firma sin leer",
+     "d": "Opciones: una garantía personal para un préstamo del negocio, el contrato de alquiler comercial, un pagaré, ser garante de un amigo, el contrato de una franquicia. Número 1: la garantía personal, porque compromete lo tuyo por una deuda del negocio. Cómo: leer hasta dónde te compromete y preguntar antes de firmar."
+    },
+    {
+     "t": "Errores cuando un cliente no paga",
+     "d": "Opciones: no reclamar por escrito, aceptar un cheque sin mirar quién lo emite, dejar pasar meses, pelearse por WhatsApp, cortarle la mercadería sin avisar. Número 1 (el peor): dejar pasar el tiempo. Cómo: reclamar por escrito, proponer un plan de pago y, si no responde, mediación."
+    },
+    {
+     "t": "Excusas para no ordenar la empresa familiar",
+     "d": "Opciones: «somos familia, no hace falta», «papá decide», «lo vemos más adelante», «sale caro», «nos vamos a pelear». Número 1: «somos familia, no hace falta». Cómo: un acuerdo entre socios o un protocolo familiar, hablado con todos."
+    }
+   ]
+  },
+  {
+   "formato": "POV (la cámara es el cliente)",
+   "items": [
+    {
+     "t": "POV: tu socio se quiere ir y no firmaron nada",
+     "d": "Problema: nadie sabe cuánto le toca ni cómo se le paga. Explicación: lo de palabra se recuerda distinto. Solución: sentarse, valuar lo que hay y acordar la salida por escrito, en cuotas si hace falta."
+    },
+    {
+     "t": "POV: te llegó una carta documento de un ex empleado",
+     "d": "(lado empleador). Problema: el apuro por contestar. Explicación: hay plazos y lo que respondas se puede usar después. Solución: no contestar solo, traer la carta y los papeles, y ver si hay un acuerdo posible antes del juicio."
+    },
+    {
+     "t": "POV: te pagaron con un cheque que rebotó",
+     "d": "Problema: la plata no entra y el negocio la necesita. Explicación: hay caminos para reclamarlo, y conviene no dejar pasar el tiempo. Solución: reclamar por escrito, negociar un plan de pago y, si no, avanzar con lo que corresponda."
+    },
+    {
+     "t": "POV: tu hermano quiere vender su parte del negocio familiar",
+     "d": "Problema: ¿a quién se la vende y a qué precio? Explicación: si no hay nada escrito, puede entrar un desconocido. Solución: un acuerdo entre socios que diga cómo se vende una parte y quién tiene prioridad."
+    }
+   ]
+  },
+  {
+   "formato": "Clip de podcast (charla con micrófono)",
+   "items": [
+    {
+     "t": "«¿Por qué un empresario tendría que tener un abogado antes de tener un problema?»",
+     "d": "Víctor desde su historia: «me dedico hace muchos años a la actividad empresaria, conocemos y vivimos las necesidades de los comercios»."
+    },
+    {
+     "t": "«Cobrar sin pelearse con tu cliente.»",
+     "d": "El acuerdo como forma de cobrar y de no perder al cliente."
+    },
+    {
+     "t": "«Lo que nos enseñó tener empresas.»",
+     "d": "Lo que Víctor vio del otro lado del escritorio, y por qué eso cambió cómo trabaja el estudio."
+    }
+   ]
+  },
+  {
+   "formato": "Teleprompter (a cámara, tono de charla)",
+   "items": [
+    {
+     "t": "Lo que tiene que tener escrito un negocio con socios:",
+     "d": "qué pone cada uno, cómo se reparte, quién decide y qué pasa si uno se va."
+    },
+    {
+     "t": "Qué hacer cuando un cliente no te paga:",
+     "d": "reclamar por escrito, proponer un plan, mediación, y el juicio como último paso."
+    },
+    {
+     "t": "Tres cosas que firmás sin leer y te pueden costar caro:",
+     "d": "la garantía personal, el alquiler comercial y el pagaré."
+    }
+   ]
   }
  ]
 };
