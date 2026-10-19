@@ -609,7 +609,7 @@ window.GUIONES.fijados = {
         "En qué pueden ayudar, contado como situaciones y no como áreas: si tenés un negocio, si querés proteger lo que juntaste, si tenés un problema y todavía no llegó a juicio.",
         "Termina mandando al segundo fijado."
       ],
-      pide: "Sugerido: teleprompter, en tono de charla. Contanos qué empresas tenés (el rubro, sin nombres)."
+      pide: "Ya tiene guion: R9, en «Para grabar ahora», armado con lo que escribiste acá abajo."
     },
     {
       n: "02", formato: "Qué nos diferencia",
@@ -629,7 +629,7 @@ window.GUIONES.fijados = {
         "Remate: es una charla, no un trámite. Consultar no te obliga a nada.",
         "Es el único de los tres que invita a escribir."
       ],
-      pide: "Ya tiene guion: el 3D, en la fila del teleprompter («Qué pasa cuando nos confiás tu caso, paso a paso»)."
+      pide: "Ya tiene guion: R27, en «Para grabar ahora» (A teleprompter, B caminando por el estudio, C con lo que escribiste acá abajo)."
     }
   ]
 };
@@ -1683,14 +1683,14 @@ window.GUIONES.tanda = {
     [
      "0:16",
      "V",
-     "Para vos significa algo simple: nos contás tu problema una sola vez, y lo resolvemos entre todos. Una sola puerta, una sola respuesta clara.",
-     "A confirmar · En pantalla: una sola puerta"
+     "Para vos significa algo simple: un solo lugar donde consultar, y una respuesta clara.",
+     "En pantalla: una sola puerta"
     ],
     [
      "0:24",
      "V",
      "Somos un equipo donde aportan los más jóvenes y los más experimentados, en San Pedro y en Buenos Aires.",
-     "A confirmar"
+     "De fortuna y de la radio"
     ],
     [
      "0:30",
@@ -1771,8 +1771,8 @@ window.GUIONES.tanda = {
       [
        "0:21",
        "V",
-       "Y para el que viene es más simple: nos cuenta su problema una vez, y lo resolvemos entre todos.",
-       "A confirmar"
+       "Y para el que viene es más simple: un solo lugar donde consultar, y una respuesta clara.",
+       ""
       ]
      ],
      "cierre": "Si tu problema toca más de un tema, comentá CONSULTA o mandanos un mensaje.",
@@ -2837,150 +2837,168 @@ window.GUIONES.tanda = {
   },
   {
    "r": "R9",
-   "tipo": "POV · presentación",
-   "titulo": "¿A qué se dedican, explicado fácil?",
+   "tipo": "Teleprompter · presentación, fijado 1",
+   "titulo": "Quiénes somos: Solmi & Asociados",
    "meta": "Duración ≈50 s",
-   "ej": "Dbo8iYZR1M7",
-   "ejde": "POV · @clemente.jimenez_",
-   "nota": "escritorio, Víctor del otro lado mirando a cámara; Emanuel pregunta desde atrás. Se graba también el arranque que eligió Víctor («Víctor, ¿qué me puede pasar si en toda mi vida no hablo nunca con un abogado?») y se decide en edición.",
+   "ej": "Db661pnRLe0",
+   "ejde": "Teleprompter · @clemente.jimenez_",
+   "nota": "teleprompter, escritorio con el mapa de fondo, saco, luz cuidada. Plano medio en la presentación y primer plano en la última frase. B-roll: la puerta de Mitre 2250, el equipo trabajando de espaldas y las notas de Perfil y Fortuna (captura de la web o la revista impresa). Va fijado primero en el perfil.",
    "lineas": [
     [
      "0:00",
-     "E",
-     "Víctor, ¿me podés explicar fácil a qué se dedican en el estudio? Para que gente común como yo entienda.",
-     "En pantalla: POV: le pedís a un estudio de abogados que te explique a qué se dedica. Fácil."
+     "V",
+     "Soy Víctor Solmi. Abogado, con formación en administración de empresas, y durante muchos años, empresario.",
+     "De sus notas · En pantalla: VÍCTOR SOLMI · ABOGADO"
     ],
     [
-     "0:05",
+     "0:07",
      "V",
-     "Soy abogado con formación en administración de empresas. Somos un estudio de amplia cobertura, enfocamos nuestra mirada en comercios y empresas.",
-     "En pantalla: comercios y empresas"
+     "Por eso conozco desde adentro las dificultades que vive la gente a diario: las del que tiene un comercio, una empresa o un proyecto que cuidar.",
+     "De sus notas"
     ],
     [
-     "0:13",
+     "0:15",
      "V",
-     "¿Por qué comercios y empresas? Porque el que tiene un negocio vive con problemas que no esperan: un socio que se quiere ir, un cliente que no paga, un contrato que nadie leyó.",
-     ""
+     "Hoy, en Solmi & Asociados, trabajamos en equipo, organizados por temáticas, en San Pedro y en Buenos Aires.",
+     "De la radio · En pantalla: San Pedro · Buenos Aires"
     ],
     [
      "0:22",
      "V",
-     "Y hoy la actividad necesita soluciones rápidas. Un juicio de años, muchas veces, frena todo.",
-     ""
+     "Somos un estudio de amplia cobertura, y enfocamos nuestra mirada en comercios y empresas.",
+     "De sus notas · En pantalla: comercios y empresas"
     ],
     [
-     "0:27",
+     "0:28",
      "V",
-     "Por eso buscamos acuerdos para que la actividad continúe. Te escuchamos, vemos dónde estás parado y armamos la mejor estrategia: si se puede arreglar sin juicio, arrancamos por ahí.",
-     ""
+     "Te escuchamos, analizamos tu caso y vemos juntos las mejores opciones. Nuestro objetivo es buscar acuerdos antes que un juicio.",
+     "De sus notas · En pantalla: acuerdos antes que un juicio"
     ],
     [
      "0:37",
-     "E",
-     "¿O sea que prefieren arreglar antes que ir a juicio?",
+     "B",
+     "Las notas de Perfil y Fortuna en pantalla, en plano detalle",
+     "En pantalla: VÍCTOR SOLMI EN PERFIL Y FORTUNA"
+    ],
+    [
+     "0:38",
+     "V",
+     "Es una forma de trabajar que contamos también en Perfil y en Fortuna.",
      ""
     ],
     [
-     "0:40",
+     "0:42",
      "V",
-     "Por supuesto. Y si hace falta ir, vamos. Pero sabiendo que lo intentamos.",
-     ""
+     "Que cada cliente sea su mejor versión es nuestro éxito.",
+     "De sus notas"
     ]
    ],
-   "cierre": "Si tenés un comercio o una empresa, comentá CONSULTA o mandanos un mensaje.",
+   "cierre": "Si querés conocernos, mandanos un mensaje o comentá CONSULTA.",
    "hooks": [
-    "Víctor, ¿a qué se dedica un estudio de abogados cuando no hay ningún juicio?",
-    "Víctor, si tengo un negocio, ¿para qué necesito un abogado?",
-    "Víctor, ¿qué me puede pasar si en toda mi vida no hablo nunca con un abogado?",
-    "Víctor, ¿por qué un abogado con formación en empresas?",
-    "Víctor, explicame qué hacen como si tuviera un almacén en San Pedro.",
-    "Víctor, ¿un abogado no es para cuando ya hay lío?",
-    "Víctor, ¿qué hace un estudio que se enfoca en comercios y empresas?",
-    "Víctor, si alguien te pregunta en un asado «¿y ustedes qué hacen?», ¿qué le contestás?",
-    "Víctor, ¿por qué tantos comerciantes no tienen un abogado de confianza?",
-    "Víctor, ¿en qué me pueden ayudar si no estoy peleado con nadie?"
+    "Soy Víctor Solmi. Abogado, y durante muchos años, empresario.",
+    "Conozco las dos sillas del escritorio: la del que tiene un negocio y la del abogado.",
+    "Antes de ser abogado, fui empresario. Eso cambia cómo trabajamos.",
+    "Te presentamos Solmi & Asociados.",
+    "Quiénes somos y cómo te podemos ayudar.",
+    "Abogado con formación en administración de empresas. Esto es lo que hacemos.",
+    "Un estudio jurídico que conoce los negocios desde adentro.",
+    "Si es la primera vez que nos ves, empezá por acá.",
+    "Buscamos acuerdos antes que un juicio. Te contamos quiénes somos.",
+    "De la actividad empresaria al derecho: así nació nuestra forma de trabajar."
    ],
    "cierres": [
-    "Si tenés un comercio o una empresa, comentá CONSULTA o mandanos un mensaje.",
-    "¿Tenés un negocio y nunca hablaste con un abogado? Comentá CONSULTA o escribinos.",
-    "Si querés que te contemos cómo podemos ayudarte, comentá CONSULTA o mandanos un mensaje.",
-    "Contanos en los comentarios qué negocio tenés, o mandanos un mensaje.",
-    "Si tenés una duda con tu negocio, comentá CONSULTA y te escribimos, o mandanos un mensaje.",
-    "¿Algo de esto te pasó? Comentá CONSULTA o mandanos un mensaje con tu caso.",
-    "Si tenés un comercio en San Pedro o la zona, comentá CONSULTA o escribinos.",
-    "Comentá CONSULTA si querés saber cómo estás parado, o mandanos un mensaje.",
-    "¿Preferís arreglar antes que ir a juicio? Comentá CONSULTA o mandanos un mensaje.",
-    "Si tenés un socio, un proveedor o un contrato que te preocupa, comentá CONSULTA o escribinos."
+    "Si querés conocernos, mandanos un mensaje o comentá CONSULTA.",
+    "Si tenés un comercio o una empresa, escribinos o comentá CONSULTA.",
+    "Si es la primera vez que nos ves y tenés una duda, comentá CONSULTA o mandanos un mensaje.",
+    "Si preferís un acuerdo antes que un juicio, mandanos un mensaje o comentá CONSULTA.",
+    "Si estás en San Pedro o en Buenos Aires, escribinos o comentá CONSULTA.",
+    "Si querés que analicemos tu caso, mandanos un mensaje o comentá CONSULTA.",
+    "La primera consulta no se cobra: escribinos o comentá CONSULTA.",
+    "Si querés un abogado que entienda tu negocio, comentá CONSULTA o mandanos un mensaje.",
+    "Mirá los otros dos videos fijados, y si querés hablar con nosotros, comentá CONSULTA o escribinos.",
+    "Si querés que te acompañemos, mandanos un mensaje o comentá CONSULTA."
    ],
    "hookIdx": 0,
    "versiones": [
     {
      "r": "R9",
      "v": "B",
-     "titulo": "Una cosa es pelear un juicio, otra que no haga falta",
-     "mecanica": "el contraste",
-     "meta": "Duración ≈45 s",
-     "ej": "DcCRoubO1re",
-     "ejde": "@abogados.trevino",
+     "titulo": "Víctor, ¿a qué se dedican, explicado fácil?",
+     "mecanica": "POV, la consulta",
+     "meta": "Duración ≈50 s",
+     "ej": "Dbo8iYZR1M7",
+     "ejde": "POV · @clemente.jimenez_",
      "puntaje": 8,
-     "porque": "gancho claro y es el diferencial de Solmi; fácil de grabar en teleprompter",
-     "nota": "teleprompter, primer plano en la frase del contraste y plano medio en el resto.",
+     "porque": "la versión anterior, con las palabras que escribió Víctor; más cercana que la A",
+     "nota": "escritorio, Víctor del otro lado mirando a cámara; Emanuel pregunta desde atrás.",
      "lineas": [
       [
        "0:00",
-       "V",
-       "Una cosa es un abogado que te defiende en un juicio. Otra muy distinta es un estudio que hace que no llegues a uno. Te explicamos.",
-       "En pantalla: juicio vs. que no haga falta"
+       "E",
+       "Víctor, ¿me podés explicar fácil a qué se dedican en el estudio? Para que gente común como yo entienda.",
+       "En pantalla: POV: le pedís a un estudio de abogados que te explique a qué se dedica"
       ],
       [
-       "0:07",
+       "0:05",
        "V",
-       "El que tiene un comercio o una empresa casi siempre llama al abogado cuando el problema ya explotó: un socio que se fue, un cliente que no paga, un contrato que nadie leyó.",
+       "Soy abogado con formación en administración de empresas. Somos un estudio de amplia cobertura, enfocamos nuestra mirada en comercios y empresas.",
+       "En pantalla: comercios y empresas"
+      ],
+      [
+       "0:13",
+       "V",
+       "¿Por qué comercios y empresas? Porque el que tiene un negocio vive con problemas que no esperan: un socio que se quiere ir, un cliente que no paga, un contrato que nadie leyó.",
        ""
       ],
       [
-       "0:16",
+       "0:22",
        "V",
-       "En ese momento las opciones son menos, más lentas y más caras.",
-       "A validar"
-      ],
-      [
-       "0:20",
-       "V",
-       "Somos un estudio de amplia cobertura, enfocamos nuestra mirada en comercios y empresas. Y trabajamos para llegar antes.",
+       "Y hoy la actividad necesita soluciones rápidas. Un juicio de años, muchas veces, frena todo.",
        ""
       ],
       [
        "0:27",
        "V",
-       "¿Cómo? Revisando lo que firmás antes de firmarlo, dejando por escrito lo que hoy está de palabra, y cuando hay un conflicto, buscando un acuerdo para que la actividad continúe.",
-       "En pantalla: antes · por escrito · acuerdo"
+       "Por eso buscamos acuerdos para que la actividad continúe. Te escuchamos, vemos dónde estás parado y armamos la mejor estrategia: si se puede arreglar sin juicio, arrancamos por ahí.",
+       ""
+      ],
+      [
+       "0:37",
+       "E",
+       "¿O sea que prefieren arreglar antes que ir a juicio?",
+       ""
+      ],
+      [
+       "0:40",
+       "V",
+       "Por supuesto. Y si hace falta ir, vamos. Pero sabiendo que lo intentamos.",
+       ""
       ]
      ],
-     "cierre": "Si tenés un conflicto y preferís que no llegue a juicio, comentá CONSULTA o mandanos un mensaje.",
+     "cierre": "Si tenés un comercio o una empresa, comentá CONSULTA o mandanos un mensaje.",
      "hooks": [
-      "Una cosa es un abogado que te defiende en un juicio. Otra, un estudio que hace que no llegues.",
-      "Hay abogados para pelear y abogados para que no haga falta pelear.",
-      "Defenderte en un juicio o evitar el juicio: no es lo mismo.",
-      "La diferencia entre llamar a un abogado tarde y llamarlo a tiempo.",
-      "Una cosa es apagar el incendio. Otra, que no empiece.",
-      "Lo que hacemos en el estudio, en una sola diferencia.",
-      "Abogado de juicio o abogado de acuerdos. Te explicamos.",
-      "Hay dos formas de trabajar en derecho. Esta es la nuestra.",
-      "Pelear bien es importante. No tener que pelear, más.",
-      "Antes de que haya un juicio, hay un montón de soluciones. Te explicamos."
+      "Víctor, ¿a qué se dedica un estudio de abogados cuando no hay ningún juicio?",
+      "Víctor, si tengo un negocio, ¿para qué necesito un abogado?",
+      "Víctor, ¿qué me puede pasar si en toda mi vida no hablo nunca con un abogado?",
+      "Víctor, ¿por qué un abogado con formación en empresas?",
+      "Víctor, explicame qué hacen como si tuviera un almacén en San Pedro.",
+      "Víctor, ¿un abogado no es para cuando ya hay lío?",
+      "Víctor, ¿qué hace un estudio que se enfoca en comercios y empresas?",
+      "Víctor, si alguien te pregunta en un asado «¿y ustedes qué hacen?», ¿qué le contestás?",
+      "Víctor, ¿por qué tantos comerciantes no tienen un abogado de confianza?",
+      "Víctor, ¿en qué me pueden ayudar si no estoy peleado con nadie?"
      ],
      "cierres": [
-      "Si tenés un conflicto y preferís que no llegue a juicio, comentá CONSULTA o mandanos un mensaje.",
-      "Si querés un abogado antes de tener un problema, escribinos o comentá CONSULTA.",
-      "Si ya tenés un juicio encima, mandanos un mensaje o comentá CONSULTA.",
-      "Si tenés un negocio y querés prevenir, comentá CONSULTA o escribinos.",
-      "Si querés saber si tu caso tiene arreglo, mandanos un mensaje o comentá CONSULTA.",
-      "Si buscás soluciones más rápidas, comentá CONSULTA o escribinos.",
-      "Si te dijeron que no queda otra que el juicio, mandanos un mensaje o comentá CONSULTA.",
-      "Si querés cuidar la relación con la otra parte, comentá CONSULTA o escribinos.",
-      "Si querés conocernos, mandanos un mensaje o comentá CONSULTA.",
-      "Si querés resolverlo antes de que escale, comentá CONSULTA o escribinos."
+      "Si tenés un comercio o una empresa, comentá CONSULTA o mandanos un mensaje.",
+      "¿Tenés un negocio y nunca hablaste con un abogado? Comentá CONSULTA o escribinos.",
+      "Si querés que te contemos cómo podemos ayudarte, comentá CONSULTA o mandanos un mensaje.",
+      "Contanos en los comentarios qué negocio tenés, o mandanos un mensaje.",
+      "Si tenés una duda con tu negocio, comentá CONSULTA y te escribimos, o mandanos un mensaje.",
+      "¿Algo de esto te pasó? Comentá CONSULTA o mandanos un mensaje con tu caso.",
+      "Si tenés un comercio en San Pedro o la zona, comentá CONSULTA o escribinos.",
+      "Comentá CONSULTA si querés saber cómo estás parado, o mandanos un mensaje.",
+      "¿Preferís arreglar antes que ir a juicio? Comentá CONSULTA o mandanos un mensaje.",
+      "Si tenés un socio, un proveedor o un contrato que te preocupa, comentá CONSULTA o escribinos."
      ],
      "hookIdx": 0
     },
@@ -3085,7 +3103,7 @@ window.GUIONES.tanda = {
      "hookIdx": 0
     }
    ],
-   "recomendacion": "grabar C. Es más ágil que la A y muestra lo que hace el estudio con ejemplos, sin presentarse."
+   "recomendacion": "grabar A (teleprompter de presentación). Es el fijado 1: el que llega al perfil ve primero quién es Víctor y el respaldo del estudio. C sirve después como reel suelto."
   },
   {
    "r": "R10",
@@ -3142,7 +3160,7 @@ window.GUIONES.tanda = {
      "0:34",
      "V",
      "Decidís vos. Consultar no te obliga a nada. La primera consulta no se cobra, y todo lo que nos contás queda protegido por el secreto profesional.",
-     "A confirmar · En pantalla: la primera consulta no se cobra"
+     "En pantalla: la primera consulta no se cobra"
     ]
    ],
    "cierre": "Si tenés una duda y no sabés si es para un abogado, comentá CONSULTA o mandanos un mensaje.",
@@ -3248,7 +3266,7 @@ window.GUIONES.tanda = {
        "0:30",
        "V",
        "Falso. La primera consulta no se cobra.",
-       "A confirmar · En pantalla: Falso"
+       "En pantalla: Falso"
       ]
      ],
      "cierre": "¿Cuál creías que era verdad? Comentá CONSULTA o mandanos un mensaje.",
@@ -3922,7 +3940,7 @@ window.GUIONES.tanda = {
      "0:53",
      "V",
      "¿Cómo es la primera consulta? Una charla para que nos cuentes tu situación con tus palabras. No necesitás saber de leyes, no se cobra y consultar no te obliga a nada.",
-     "A confirmar · En pantalla: La primera consulta"
+     "En pantalla: La primera consulta"
     ],
     [
      "1:03",
@@ -4016,7 +4034,7 @@ window.GUIONES.tanda = {
        "0:23",
        "V",
        "No. Y consultar no te obliga a nada.",
-       "A confirmar · En pantalla: 4 · la consulta"
+       "En pantalla: 4 · la consulta"
       ],
       [
        "0:27",
@@ -4180,7 +4198,7 @@ window.GUIONES.tanda = {
      "0:39",
      "V",
      "En el estudio la revisamos con vos y te explicamos en palabras claras dónde estás parado. La primera consulta no se cobra.",
-     "A confirmar · En pantalla: 1ª consulta sin cargo"
+     "En pantalla: 1ª consulta sin cargo"
     ]
    ],
    "cierre": "Si recibiste una carta documento, mandanos un mensaje con una foto, o comentá CONSULTA.",
@@ -4262,7 +4280,7 @@ window.GUIONES.tanda = {
        "0:31",
        "V",
        "Te contestamos nosotros. La primera consulta no se cobra y consultar no te obliga a nada.",
-       "A confirmar · En pantalla: 1ª consulta sin cargo"
+       "En pantalla: 1ª consulta sin cargo"
       ]
      ],
      "cierre": "Si tenés una carta documento sin responder, escribinos como en este chat, o comentá CONSULTA.",
@@ -5303,7 +5321,7 @@ window.GUIONES.tanda = {
   },
   {
    "r": "R27",
-   "tipo": "Teleprompter · el estudio",
+   "tipo": "Teleprompter · cómo trabajamos, fijado 3",
    "titulo": "Cómo trabajamos en Solmi & Asociados",
    "meta": "Duración ≈55 s",
    "ej": "Db661pnRLe0",
@@ -5319,8 +5337,8 @@ window.GUIONES.tanda = {
     [
      "0:06",
      "V",
-     "Estamos organizados por temáticas, en San Pedro y en Buenos Aires: conmigo y con nuestros colaboradores.» (de la radio) ⚠️ confirmar «organizados por temáticas",
-     "A confirmar · De la radio · En pantalla: San Pedro · Buenos Aires"
+     "Estamos organizados por temáticas, en San Pedro y en Buenos Aires: conmigo y con nuestros colaboradores.",
+     "De la radio · En pantalla: San Pedro · Buenos Aires"
     ],
     [
      "0:14",
@@ -5395,8 +5413,8 @@ window.GUIONES.tanda = {
       [
        "0:04",
        "V",
-       "Somos un equipo organizado por temáticas. Es imposible que uno sea especialista en todo.» (de la radio y de Fortuna) ⚠️ confirmar «organizados por temáticas",
-       "Por el pasillo · A confirmar · De la radio y de fortuna · En pantalla: organizados por temáticas"
+       "Somos un equipo organizado por temáticas. Es imposible que uno sea especialista en todo.",
+       "Por el pasillo · De la radio y de fortuna · En pantalla: organizados por temáticas"
       ],
       [
        "0:10",
@@ -5459,75 +5477,87 @@ window.GUIONES.tanda = {
     {
      "r": "R27",
      "v": "C",
-     "titulo": "Clip de podcast: cómo nació el estudio",
+     "titulo": "Víctor, ¿qué pasa cuando alguien llega al estudio?",
      "mecanica": "clip de podcast",
-     "meta": "Duración ≈45 s",
+     "meta": "Duración ≈40 s",
      "ej": "Dbb8EQJAPzB",
      "ejde": "Clip de podcast · @leonardo.mata.abogado",
      "puntaje": 8,
-     "porque": "Víctor con sus palabras de Fortuna",
+     "porque": "con lo que Víctor escribió para el fijado 3",
      "nota": "",
      "lineas": [
       [
        "0:00",
        "E",
-       "Víctor, ¿cómo terminaste armando un estudio jurídico?",
+       "Víctor, ¿qué pasa cuando alguien llega al estudio con un problema?",
        ""
       ],
       [
        "0:03",
        "V",
-       "Vengo del mundo de la empresa y los negocios. Ahí aparecían dudas, incertidumbres y problemas concretos, y así me fui acercando al derecho.",
-       "De fortuna"
+       "Lo primero es escucharlo. Queremos que nos cuente su caso con sus palabras, sin apuro.",
+       "De sus notas"
       ],
       [
-       "0:13",
+       "0:09",
        "V",
-       "Fue por vocación. Es una pasión, y la intriga permanente de aprender todos los días.",
-       "De fortuna"
+       "Después lo analizamos y vemos juntos las mejores opciones. No hay una sola salida para todos los casos.",
+       "De sus notas"
       ],
       [
-       "0:19",
-       "V",
-       "Por eso el estudio mira tanto a los comercios y las empresas: conocemos y vivimos sus necesidades.",
+       "0:16",
+       "E",
+       "¿Y si ya viene decidido a hacer un juicio?",
        ""
       ],
       [
-       "0:26",
+       "0:18",
        "V",
-       "Lo armamos en equipo, en San Pedro, y trabajamos también en Buenos Aires. Siempre mirando a largo plazo.",
+       "Nuestro objetivo es buscar acuerdos antes que un juicio. Si hace falta ir, vamos; pero primero intentamos lo que es más rápido y cuida a todos.",
+       "De sus notas"
+      ],
+      [
+       "0:27",
+       "V",
+       "Y lo acompañamos en todo el proceso, de principio a fin.",
+       "De sus notas"
+      ],
+      [
+       "0:31",
+       "V",
+       "Es una charla, no un trámite. Y consultar no te obliga a nada.",
        ""
       ]
      ],
-     "cierre": "Si tenés un comercio o una empresa y querés hablar con nosotros, mandanos un mensaje o comentá CONSULTA.",
+     "cierre": "Si tenés un problema y querés que lo veamos juntos, mandanos un mensaje o comentá CONSULTA.",
      "hooks": [
-      "Víctor, ¿cómo terminaste armando un estudio jurídico?",
-      "Víctor, ¿por qué un empresario se hace abogado?",
-      "Víctor, ¿qué te enseñó la empresa que no te enseñó la facultad?",
-      "Víctor, ¿por qué el estudio mira tanto a los comercios?",
-      "Víctor, ¿cómo empezó Solmi & Asociados?",
-      "Víctor, ¿qué es lo que más te gusta del derecho?",
-      "Víctor, ¿por qué San Pedro y Buenos Aires?",
-      "Víctor, ¿qué tiene de distinto un abogado que tuvo empresas?",
-      "Víctor, ¿por qué elegiste trabajar en equipo?",
-      "Víctor, ¿qué buscás en cada cliente que llega?"
+      "Víctor, ¿qué pasa cuando alguien llega al estudio con un problema?",
+      "Víctor, ¿qué es lo primero que hacen en una consulta?",
+      "Víctor, ¿cómo deciden qué camino tomar en un caso?",
+      "Víctor, ¿qué significa acompañar a un cliente en todo el proceso?",
+      "Víctor, ¿por qué empiezan escuchando?",
+      "Víctor, ¿qué pasa si el cliente ya viene decidido a hacer un juicio?",
+      "Víctor, ¿hay una sola salida para cada problema?",
+      "Víctor, ¿cómo es una primera charla con ustedes?",
+      "Víctor, ¿qué tiene que traer alguien que viene por primera vez?",
+      "Víctor, ¿qué le dirías a alguien que duda en consultar?"
      ],
      "cierres": [
-      "Si tenés un comercio o una empresa y querés hablar con nosotros, mandanos un mensaje o comentá CONSULTA.",
-      "Si querés un abogado que entienda tu negocio, comentá CONSULTA o escribinos.",
-      "Si estás armando algo a largo plazo, mandanos un mensaje o comentá CONSULTA.",
-      "Si tenés una duda de tu negocio, escribinos o comentá CONSULTA.",
-      "Si querés conocernos, comentá CONSULTA o mandanos un mensaje.",
-      "Si te pasa lo que nos pasaba como empresarios, escribinos o comentá CONSULTA.",
-      "Si querés que tu negocio sea su mejor versión, mandanos un mensaje o comentá CONSULTA.",
-      "Si tenés un problema concreto en tu empresa, comentá CONSULTA o escribinos.",
-      "Si querés contarnos tu proyecto, mandanos un mensaje o comentá CONSULTA.",
-      "Si estás en la zona, escribinos o comentá CONSULTA."
+      "Si tenés un problema y querés que lo veamos juntos, mandanos un mensaje o comentá CONSULTA.",
+      "Si querés que te escuchemos, escribinos o comentá CONSULTA.",
+      "Si ya estás pensando en un juicio, antes comentá CONSULTA o mandanos un mensaje.",
+      "Si querés conocer tus opciones, mandanos un mensaje o comentá CONSULTA.",
+      "Es una charla, no un trámite: escribinos o comentá CONSULTA.",
+      "Si no sabés por dónde empezar, comentá CONSULTA o mandanos un mensaje.",
+      "Si querés que te acompañemos en todo el proceso, escribinos o comentá CONSULTA.",
+      "Consultar no te obliga a nada: mandanos un mensaje o comentá CONSULTA.",
+      "Si dudás en consultar, empezá con un mensaje o comentá CONSULTA.",
+      "Si tenés un comercio o una empresa, comentá CONSULTA o escribinos."
      ],
      "hookIdx": 0
     }
    ],
-   "recomendacion": "grabar B (dinámico). Es el único formato de la jornada que muestra el estudio por dentro; A queda como fijado."
+   "recomendacion": "grabar B (dinámico). Es el único formato de la jornada que muestra el estudio por dentro; A queda como fijado 3 si se prefiere a cámara."
   },
   {
    "r": "R28",
@@ -5859,14 +5889,14 @@ window.GUIONES.tanda = {
     [
      "0:31",
      "P",
-     "Los hermanos no se ponen de acuerdo con la casa de los padres.",
+     "Un cliente reclama porque el trabajo no quedó como esperaba.",
      ""
     ],
     [
      "0:34",
      "V",
-     "Se puede evitar, si se sientan a tiempo. Una mediación ayuda a ordenar la conversación.",
-     "A validar · En pantalla: Se puede evitar"
+     "Se puede evitar. Se revisa lo que se acordó y se propone una solución por escrito: un arreglo, un descuento o un nuevo plazo.",
+     "En pantalla: Se puede evitar"
     ],
     [
      "0:40",
@@ -5906,7 +5936,7 @@ window.GUIONES.tanda = {
     "Si tu situación no está en el video, contanos por mensaje o comentá CONSULTA.",
     "Si alguien te debe plata, comentá CONSULTA o mandanos un mensaje.",
     "Si tu socio se quiere ir, comentá SOCIO o escribinos.",
-    "Si es por la casa de tus padres, comentá CASA o mandanos un mensaje.",
+    "Si un cliente te hizo un reclamo, comentá CONSULTA o mandanos un mensaje.",
     "Si ya te llegó una demanda, escribinos hoy o comentá CONSULTA.",
     "Si querés intentar el acuerdo primero, mandanos un mensaje o comentá CONSULTA.",
     "Si un proveedor no te cumplió, comentá CONSULTA o escribinos.",
@@ -6991,18 +7021,6 @@ window.GUIONES.tanda = {
    "formato": "Temas nuevos (de lo que más rinde en Instagram, ver REFERENCIAS-VIRALES.md)",
    "items": [
     {
-     "t": "La casa de tus padres",
-     "d": "Problema: los padres tienen una casa y nadie habló nada. Explicación: cuando faltan, los hermanos se tienen que poner de acuerdo en el peor momento. Solución: hablarlo antes y elegir la herramienta (testamento, donación, fideicomiso), según cada familia."
-    },
-    {
-     "t": "Lo que los padres creen que asegura a sus hijos, y no",
-     "d": "Ronda rápida: poner todo a nombre de los hijos, no decir nada «para no preocuparlos», dejarlo escrito con tiempo. Cada respuesta se valida con Víctor."
-    },
-    {
-     "t": "Errores legales que puede estar cometiendo tu negocio",
-     "d": "Ronda rápida: todo de palabra, cuentas mezcladas, garantías personales firmadas sin leer, nadie sabe quién firma por la empresa. Cierre: comentá CONSULTA y te decimos cuáles tenés."
-    },
-    {
      "t": "Si vas a abrir una empresa, el error que sale caro",
      "d": "Antes del nombre y el logo: con quién, cómo se reparte y qué pasa si uno se va."
     },
@@ -7018,18 +7036,18 @@ window.GUIONES.tanda = {
 /* La jornada: los 7 que se graban (2026-10-19, siete formatos distintos), en orden de escenografía (podcast → escritorio → de pie → teleprompter → oficina).
    Elegidos el 18/10/2026 entre R9–R20. El resto queda guionado para más adelante. */
 window.GUIONES.jornada = {
-  orden: ["R26", "R25", "R31", "R32", "R23", "R28", "R30", "R29", "R24", "R27", "R22"],
+  orden: ["R26", "R9", "R25", "R31", "R23", "R28", "R30", "R29", "R24", "R27", "R22"],
   porque: {
-    R26: "El tema que más rinde con «fideicomiso»: la casa de los padres. Recomendada: B, en la sesión de podcast.",
+    R26: "El único de la casa de los padres en esta jornada, y el tema que más rinde con «fideicomiso». Recomendada: B, en la sesión de podcast.",
+    R9: "La presentación: va fijada primera en el perfil. Armada con lo que escribió Víctor en «Los 3 videos fijados», más el respaldo de Perfil y Fortuna. Recomendada: A, teleprompter.",
     R25: "De las preguntas que más se buscan: «me citaron a una mediación, ¿tengo que ir?». Y la mediación es lo que mejor hace el estudio. Recomendada: A, respuesta a una pregunta.",
     R31: "Pregunta del FAQ de la web: «me llegó una demanda, ¿es urgente?». El que la tiene en la mano escribe hoy. Recomendada: A, la advertencia.",
-    R32: "De lo más buscado: la casa que sigue a nombre de los padres. Recomendada: A, el caso. Avisar a Sergio Rosa antes de publicar.",
     R23: "La consulta más frecuente entre socios, explicada con calma. Recomendada: A, falsa entrevista.",
     R28: "Del buscador: «qué errores legales está cometiendo tu negocio». Recomendada: A, ronda rápida, el formato que más rinde en lo guardado.",
     R30: "Vuelve el ranking: Emanuel propone, Víctor pone el número. Tres temas distintos: grabar las tres en la misma sesión. Recomendada: A, lo que se firma sin leer.",
-    R29: "El de juicio: cinco situaciones, cuáles se pueden evitar y cuál no. Recomendada: A, situaciones en pantalla.",
+    R29: "El de juicio: cinco situaciones de comercio, cuáles se pueden evitar y cuál no. Recomendada: A, situaciones en pantalla.",
     R24: "Útil y concreto: el que está por firmar escribe para que le revisen el suyo. Recomendada: A, papel en la mesa.",
-    R27: "Cómo trabajamos, con las palabras de Víctor en la radio y en Fortuna. Recomendada: B, dinámico, caminando por el estudio. A, en teleprompter, queda como fijado.",
+    R27: "Cómo trabajamos (fijado 3), con las palabras de Víctor en la radio, en Fortuna y en sus notas. Recomendada: B, dinámico, caminando por el estudio.",
     R22: "El que recibe una carta documento necesita ayuda ahora. Recomendada: B, el chat de WhatsApp, que muestra qué pasa cuando alguien escribe. Va fijado."
   }
 };

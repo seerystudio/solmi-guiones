@@ -134,6 +134,9 @@ details.tr pre{white-space:pre-wrap;font-family:inherit;font-size:13px;color:var
 .recom{font-size:13px;line-height:1.4;margin:8px 0 0;color:#3A3935}
 .recom b{color:#C23A00}
 .vblk[hidden]{display:none}
+.imp{display:inline-flex;align-items:center;gap:6px;margin:0 0 8px 8px;padding:4px 11px;border:1px solid rgba(0,0,0,.25);border-radius:100px;background:#fff;color:#141414;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;vertical-align:top;cursor:pointer;transition:background .2s,border-color .2s}
+.imp:hover{border-color:#141414}
+.imp:focus-visible{outline:2px solid var(--naranja);outline-offset:2px}
 .par{display:flex;gap:14px;align-items:flex-start;flex:none}
 .refside{width:268px;position:sticky;top:76px;gap:10px}
 .refside .vblk:not([hidden]){display:flex;flex-direction:column;gap:10px}
@@ -476,7 +479,7 @@ body.list .piez{width:auto}
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <div class="alerta" id="alerta" hidden>Este navegador no está guardando lo que escribís (puede ser una ventana privada). Antes de cerrar, tocá «Enviar» o bajate un respaldo.</div>
 
-<script src="guiones.js?v=2026-10-19d"></script>
+<script src="guiones.js?v=2026-10-19e"></script>
 <script>
 const D = window.GUIONES;
 const $ = s => document.querySelector(s);
@@ -615,7 +618,7 @@ function renderScript(r, g){
     </div>` : '';
   return `<article class="card g${ya ? ' grabar' : ''}" data-v="${g.v}" data-k="${key}">
     <header>
-      <span class="var">${esc(g.tipo)}</span>${ya ? '<span class="tag-grabar">Grabar</span>' : G ? '<span class="tag-grabar luego">Más adelante</span>' : ''}
+      <span class="var">${esc(g.tipo)}</span>${ya ? '<span class="tag-grabar">Grabar</span>' : G ? '<span class="tag-grabar luego">Más adelante</span>' : ''}${G ? `<button type="button" class="imp" data-imprimir="${esc(G.r)}" title="Imprime la versión elegida, con tiempos, en formato SRT">Imprimir · SRT</button>` : ''}
       <h3>${esc(g.titulo)}</h3>
       <p class="angle">${esc(g.angulo)}</p>
       <div class="cont ${h === t ? 'full' : ''}" data-cont="${key}">${h} de ${t} respondidas</div>
@@ -688,7 +691,7 @@ function cardTanda(G, ahora){
         <ol>${X.lineas.map((l, i) => `<li class="${l[1] === 'E' || l[1] === 'C' || l[1] === 'P' ? 'e' : 'v'}${l[1] === 'C' ? ' chat' : ''}"><span class="t">${esc(l[0])}</span><div><div class="q">${quien(l[1])}</div>${E(base + '|' + i, l[2], 'tx')}${l[3] ? `<span class="nt">${esc(l[3])}</span>` : ''}</div></li>`).join('')}</ol>
         <div class="cierres"><div><b>Cierre:</b> ${E(base + '|cierre', X.cierre)}</div></div>
         ${conOpc ? opciones(X, base) : ''}`;
-  const tabs = vs.length > 1 ? `<div class="vtabs" role="group" aria-label="Versiones">${vs.map(x => `<button type="button" data-vsel="${esc(G.r)}" data-v="${x.v}" aria-pressed="${x.v === sel}">${x.v}${x.v === 'A' ? ' · original' : ' · ' + esc(x.mecanica)}${x.puntaje ? ` <small>${x.puntaje}/10</small>` : ''}</button>`).join('')}</div>
+  const tabs = vs.length > 1 ? `<div class="vtabs" role="group" aria-label="Versiones">${vs.map(x => `<button type="button" data-vsel="${esc(G.r)}" data-v="${x.v}" aria-pressed="${x.v === sel}">${x.v}${x.v === 'A' ? ' · ' + esc((G.tipo || '').split(' · ')[0].toLowerCase()) : ' · ' + esc(x.mecanica)}${x.puntaje ? ` <small>${x.puntaje}/10</small>` : ''}</button>`).join('')}</div>
         ${G.recomendacion ? `<p class="recom"><b>Recomendación:</b> ${esc(G.recomendacion)}</p>` : ''}` : '';
   const bloqueA = `<div class="vblk" data-vr="${esc(G.r)}" data-v="A"${sel === 'A' ? '' : ' hidden'}>
       <div class="sec grab"><p class="lab"><b>Guion para grabar</b> · tocá cualquier texto para cambiarlo, se guarda solo</p>${guion(G, G.r, true)}
@@ -710,7 +713,7 @@ function cardTanda(G, ahora){
     </div>`).join('')}</aside>`;
   return `<div class="par"><article class="card g tanda${ahora ? ' grabar' : ''}" data-k="${esc(G.r)}">
       <header>
-        <span class="var">${esc(G.tipo)}</span>${ahora ? `<span class="tag-grabar">Grabar · ${ORDEN.indexOf(G.r) + 1} de ${ORDEN.length}</span>` : '<span class="tag-grabar luego">Más adelante</span>'}
+        <span class="var">${esc(G.tipo)}</span>${ahora ? `<span class="tag-grabar">Grabar · ${ORDEN.indexOf(G.r) + 1} de ${ORDEN.length}</span>` : '<span class="tag-grabar luego">Más adelante</span>'}<button type="button" class="imp" data-imprimir="${esc(G.r)}" title="Imprime la versión elegida, con tiempos, en formato SRT">Imprimir · SRT</button>
         <h3>${esc(G.r)} · ${esc(G.titulo)}</h3>
         <p class="angle">${esc(G.meta)}${G.de ? ' · también en la fila del guion ' + esc(G.de) : ''}</p>
         ${por ? `<p class="porque">${esc(por)}</p>` : ''}
@@ -1367,6 +1370,49 @@ document.addEventListener('click', e => {
     const box = pb.closest('.vid');
     box.innerHTML = `<iframe src="https://www.instagram.com/reel/${box.dataset.embed}/embed" loading="lazy" allowfullscreen scrolling="no"></iframe>`;
   }
+});
+
+/* imprimir: la versión elegida de la ficha, con lo editado, en formato SRT (sirve para el teleprompter o en papel) */
+function srtDe(r){
+  const card = document.querySelector(`article.tanda[data-k="${CSS.escape(r)}"]`); if (!card) return null;
+  const blk = [...card.querySelectorAll('article > .vblk')].find(x => !x.hidden) || card;
+  const seg = s => { const [m, ss] = String(s).trim().split(':').map(Number); return (m || 0) * 60 + (ss || 0); };
+  const tc = t => { const ms = Math.round(t * 1000), z = (n, k) => String(n).padStart(k, '0');
+    return `${z(Math.floor(ms / 3600000), 2)}:${z(Math.floor(ms / 60000) % 60, 2)}:${z(Math.floor(ms / 1000) % 60, 2)},${z(ms % 1000, 3)}`; };
+  const dur = tx => Math.max(1.5, tx.split(/\s+/).length / 2.6);
+  const filas = [...blk.querySelectorAll('.grab > ol > li')].map(li => ({
+    t: seg(li.querySelector('.t').textContent), q: li.querySelector('.q').textContent.trim(),
+    tx: ((li.querySelector('[data-ed]') || {}).textContent || '').trim()
+  })).filter(f => f.q !== 'Imagen' && f.tx);
+  const cie = ((blk.querySelector('.cierres [data-ed]') || {}).textContent || '').trim();
+  if (cie) filas.push({t: null, q: 'Víctor', tx: cie});
+  let prev = 0;
+  const bloques = filas.map((f, i) => {
+    const ini = f.t == null ? prev : f.t;
+    const sig = filas[i + 1] && filas[i + 1].t != null ? filas[i + 1].t : ini + dur(f.tx);
+    const fin = Math.max(sig, ini + 1); prev = fin;
+    return `${i + 1}\n${tc(ini)} --> ${tc(fin)}\n${f.q === 'Víctor' ? '' : f.q.toUpperCase() + ': '}${f.tx}`;
+  });
+  const v = blk.dataset.v || 'A';
+  const sub = v === 'A' ? '' : ((blk.querySelector('.lab b') || {}).textContent || '');
+  return {r, v, titulo: card.querySelector('h3').textContent.trim(), sub, srt: bloques.join('\n\n') + '\n'};
+}
+document.addEventListener('click', e => {
+  const b = e.target.closest('[data-imprimir]'); if (!b) return;
+  const x = srtDe(b.dataset.imprimir); if (!x) return;
+  const nombre = `${x.r}-${x.v}`;
+  const url = URL.createObjectURL(new Blob([x.srt], {type: 'application/x-subrip;charset=utf-8'}));
+  const w = window.open('', '_blank');
+  if (!w){ const a = document.createElement('a'); a.href = url; a.download = nombre + '.srt'; a.click(); return; }
+  w.document.write(`<!doctype html><html lang="es"><head><meta charset="utf-8"><title>${esc(nombre)}.srt</title><style>
+    body{margin:36px;color:#141414;background:#fff;font:15px/1.55 ui-monospace,Consolas,Menlo,monospace}
+    h1{font:800 22px/1.15 system-ui,sans-serif;letter-spacing:-.02em;margin:0 0 6px}
+    p{font:14px/1.4 system-ui,sans-serif;color:#55534E;margin:0 0 24px}
+    a{color:#C23A00;font-weight:700}
+    pre{white-space:pre-wrap;margin:0;font:inherit}
+    @media print{body{margin:18mm}.np{display:none}}
+  </style></head><body><h1>${esc(x.titulo)}</h1><p>Versión ${esc(x.v)}${x.sub ? ' · ' + esc(x.sub.replace(/^Versión [ABC] · /, '')) : ''} · formato SRT<span class="np"> · <a href="${url}" download="${esc(nombre)}.srt">Descargar el .srt</a></span></p><pre>${esc(x.srt)}</pre><script>setTimeout(function(){print()},350)<\/script></body></html>`);
+  w.document.close();
 });
 
 /* enviar */
