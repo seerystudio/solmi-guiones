@@ -435,7 +435,7 @@ body.list .piez{width:auto}
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <div class="alerta" id="alerta" hidden>Este navegador no está guardando lo que escribís (puede ser una ventana privada). Antes de cerrar, tocá «Enviar» o bajate un respaldo.</div>
 
-<script src="guiones.js?v=2026-10-18e"></script>
+<script src="guiones.js?v=2026-10-18f"></script>
 <script>
 const D = window.GUIONES;
 const $ = s => document.querySelector(s);
@@ -559,7 +559,7 @@ function renderScript(r, g){
   const grab = G ? `<div class="sec grab"><p class="lab"><b>${ya ? 'Para grabar' : 'Guion listo'} · ${esc(G.r)}</b>${ya ? ' · ' + (ORDEN.indexOf(G.r) + 1) + ' de ' + ORDEN.length + ' en la jornada' : ' · para más adelante'}</p>
       ${G.nota ? `<p class="gnota">${esc(G.nota)}</p>` : ''}
       <ol>${G.lineas.map(l => `<li class="${l[1] === 'E' ? 'e' : 'v'}"><span class="t">${esc(l[0])}</span><div><div class="q">${l[1] === 'E' ? 'Emanuel' : 'Víctor'}</div><span class="tx">${esc(l[2])}</span>${l[3] ? `<span class="nt">${esc(l[3])}</span>` : ''}</div></li>`).join('')}</ol>
-      <div class="cierres"><div><b>Cierre B (por defecto):</b> ${esc(G.cierreB)}</div><div><b>Cierre A (si hay quién conteste):</b> ${esc(G.cierreA)}</div><div class="gnota">Se graban los dos cierres y se elige en edición.${G.validar ? ' A validar: ' + esc(G.validar) : ''}</div></div>
+      <div class="cierres"><div><b>Cierre:</b> ${esc(G.cierre)}</div>${G.validar ? '<div class="gnota">A validar: ' + esc(G.validar) + '</div>' : ''}</div>
     </div>` : '';
   return `<article class="card g${ya ? ' grabar' : ''}" data-v="${g.v}" data-k="${key}">
     <header>
@@ -622,7 +622,7 @@ function poolGuiones(){
   D.refs.forEach(r => r.guiones.forEach(g => {
     const G = (D.grabar || {})[r.n + g.v]; if (!G) return;
     out.push({r: G.r, tipo: g.tipo, titulo: g.titulo, meta: 'Duración ' + g.dur, ej: r.id, ejde: r.formato + ' · ' + r.cuenta,
-      nota: G.nota, lineas: G.lineas, cierreB: G.cierreB, cierreA: G.cierreA, de: String(r.n).padStart(2, '0') + g.v});
+      nota: G.nota, lineas: G.lineas, cierre: G.cierre, de: String(r.n).padStart(2, '0') + g.v});
   }));
   return out;
 }
@@ -639,7 +639,7 @@ function cardTanda(G, ahora){
       </header>
       <div class="sec grab"><p class="lab"><b>Guion para grabar</b></p>
         <ol>${G.lineas.map(l => `<li class="${l[1] === 'E' ? 'e' : 'v'}"><span class="t">${esc(l[0])}</span><div><div class="q">${quien(l[1])}</div><span class="tx">${esc(l[2])}</span>${l[3] ? `<span class="nt">${esc(l[3])}</span>` : ''}</div></li>`).join('')}</ol>
-        <div class="cierres"><div><b>Cierre B (por defecto):</b> ${esc(G.cierreB)}</div><div><b>Cierre A (si hay quién conteste):</b> ${esc(G.cierreA)}</div><div class="gnota">Se graban los dos cierres y se elige en edición.</div></div>
+        <div class="cierres"><div><b>Cierre:</b> ${esc(G.cierre)}</div></div>
       </div>
       ${G.nota ? `<div class="sec"><p class="lab">Grabación</p><p class="gnota" style="margin:0">${esc(G.nota)}</p></div>` : ''}
     </article>`;

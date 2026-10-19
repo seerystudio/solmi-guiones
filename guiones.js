@@ -842,8 +842,7 @@ window.GUIONES.grabar = {
       ["0:22", "E", "¿O sea que prefieren arreglar antes que ir a juicio?"],
       ["0:25", "V", "Sí. En el estudio, si se puede arreglar sin juicio, mejor.", "Sugerida: decilo con tus palabras."]
     ],
-    cierreB: "¿Tenés un comercio o una empresa? Poné sí o no.",
-    cierreA: "Si tenés un comercio o una empresa, comentá CONSULTA o mandanos un mensaje.",
+    cierre: "Si tenés un comercio o una empresa, comentá CONSULTA o mandanos un mensaje.",
     validar: "«Estudio de amplia cobertura» y «soluciones rápidas»."
   },
   "1B": {
@@ -856,8 +855,7 @@ window.GUIONES.grabar = {
       ["0:17", "V", "Depende de cómo armaste las cosas: a nombre de quién está el negocio, qué firmaste vos personalmente, si lo tuyo y lo del negocio están separados.", "A validar."],
       ["0:26", "V", "Que la casa sea tuya no alcanza. Lo que pesa es cómo armaste todo lo demás, y eso se decide antes.", "A validar."]
     ],
-    cierreB: "¿Alguna vez pensaste qué pasa con tu casa si al negocio le va mal? Poné sí o no.",
-    cierreA: "Si tenés un negocio y la casa a tu nombre, comentá CASA o mandanos un mensaje."
+    cierre: "Si tenés un negocio y la casa a tu nombre, comentá CASA o mandanos un mensaje."
   },
   "3B": {
     r: "R14", cuando: "Semana 2 · martes", nota: "Teleprompter: primer plano y plano medio alternados.",
@@ -868,8 +866,7 @@ window.GUIONES.grabar = {
       ["0:18", "V", "Tres: «Lo hago cuando empiecen los problemas». Lo que se mueve a las apuradas, cuando ya hay deudas, se puede revisar.", "Primer plano · a validar."],
       ["0:25", "V", "Ordenarlo con tiempo, cuando todavía no hay ningún problema, es otra historia.", "A validar."]
     ],
-    cierreB: "¿Cuál de las tres escuchaste en un asado? Poné 1, 2 o 3.",
-    cierreA: "Si alguna vez pensaste en una de estas tres, comentá CASA o mandanos un mensaje."
+    cierre: "Si alguna vez pensaste en una de estas tres, comentá CASA o mandanos un mensaje."
   },
   "2A": {
     r: "R12", cuando: "Semana 2 · jueves", nota: "Falsa entrevista: Víctor mira a Emanuel, no a cámara. Cambio de ropa.",
@@ -882,8 +879,7 @@ window.GUIONES.grabar = {
       ["0:23", "V", "Una anécdota tuya como empresario, sin nombres.", "Si no tenés una, se corta la pregunta."],
       ["0:30", "V", "Firmarlo es para que dentro de unos años los dos se acuerden de lo mismo."]
     ],
-    cierreB: "¿Con tu socio firmaron algo? Poné sí o no.",
-    cierreA: "Si tenés un negocio con alguien y no firmaron nada, comentá SOCIO o mandanos un mensaje."
+    cierre: "Si tenés un negocio con alguien y no firmaron nada, comentá SOCIO o mandanos un mensaje."
   },
   "1D": {
     r: "R10", cuando: "Semana 3 · martes", nota: "La cámara es el que llega al escritorio.",
@@ -896,8 +892,7 @@ window.GUIONES.grabar = {
       ["0:19", "E", "¿Y si después no quiero hacer nada?"],
       ["0:22", "V", "Decidís vos. Consultar no te obliga a nada."]
     ],
-    cierreB: "¿Alguna vez no fuiste a un abogado por miedo a lo que venía después? Poné sí o no.",
-    cierreA: "Si tenés una duda, comentá CONSULTA o mandanos un mensaje."
+    cierre: "Si tenés una duda, comentá CONSULTA o mandanos un mensaje."
   },
   "3A": {
     r: "R13", cuando: "Semana 3 · jueves", nota: "Teleprompter: primer plano y plano medio alternados.",
@@ -908,8 +903,7 @@ window.GUIONES.grabar = {
       ["0:17", "V", "Tres: lo dejaron escrito, para que no dependa de la memoria de nadie.", "Primer plano · a validar."],
       ["0:22", "V", "Al final, lo que llega a los nietos es cómo se hablaba en esa mesa."]
     ],
-    cierreB: "¿En tu familia ya hablaron de quién decide? Poné sí o todavía no.",
-    cierreA: "Si trabajás con tu familia, comentá SOCIO o mandanos un mensaje."
+    cierre: "Si trabajás con tu familia, comentá SOCIO o mandanos un mensaje."
   }
 };
 
@@ -1075,8 +1069,7 @@ window.GUIONES.tanda = {
      "En pantalla: herramienta para construir"
     ]
    ],
-   "cierreB": "¿Sabías que servía para esto? Poné sí o no.",
-   "cierreA": "Si tenés un proyecto y querés saber si te sirve, comentá CONSULTA o mandanos un mensaje."
+   "cierre": "Si tenés un proyecto y querés saber si te sirve, comentá CONSULTA o mandanos un mensaje."
   },
   {
    "r": "R16",
@@ -1124,8 +1117,7 @@ window.GUIONES.tanda = {
      "En pantalla: a veces no hace falta"
     ]
    ],
-   "cierreB": "¿Cuál de estos escuchaste? Poné el número.",
-   "cierreA": "Si estás pensando en uno, comentá CONSULTA o mandanos un mensaje."
+   "cierre": "Si estás pensando en uno, comentá CONSULTA o mandanos un mensaje."
   },
   {
    "r": "R17",
@@ -1173,8 +1165,7 @@ window.GUIONES.tanda = {
      "En pantalla: frase suya, de Fortuna"
     ]
    ],
-   "cierreB": "¿Vos qué preferís: arreglarlo o ir a juicio? Comentá.",
-   "cierreA": "Si tenés un conflicto y querés evitar el juicio, comentá CONSULTA o mandanos un mensaje."
+   "cierre": "Si tenés un conflicto y querés evitar el juicio, comentá CONSULTA o mandanos un mensaje."
   },
   {
    "r": "R18",
@@ -1216,8 +1207,7 @@ window.GUIONES.tanda = {
      ""
     ]
    ],
-   "cierreB": "¿Vos preferís un abogado que trabaje solo o un equipo? Comentá.",
-   "cierreA": "Si querés que te escuchemos, comentá CONSULTA o mandanos un mensaje."
+   "cierre": "Si querés que te escuchemos, comentá CONSULTA o mandanos un mensaje."
   },
   {
    "r": "R19",
@@ -1277,8 +1267,7 @@ window.GUIONES.tanda = {
      ""
     ]
    ],
-   "cierreB": "¿Alguna vez quisiste ir a juicio de pura bronca? Poné sí o no.",
-   "cierreA": "Si tenés un conflicto, comentá CONSULTA o mandanos un mensaje."
+   "cierre": "Si tenés un conflicto, comentá CONSULTA o mandanos un mensaje."
   },
   {
    "r": "R20",
@@ -1326,8 +1315,7 @@ window.GUIONES.tanda = {
      ""
     ]
    ],
-   "cierreB": "¿Tenés un proyecto que te gustaría dejar bien armado? Poné sí o no.",
-   "cierreA": "Comentá CONSULTA o mandanos un mensaje."
+   "cierre": "Si tenés un proyecto que querés dejar bien armado, comentá CONSULTA o mandanos un mensaje."
   }
  ]
 };
