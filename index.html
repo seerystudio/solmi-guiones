@@ -117,6 +117,9 @@ details.tr pre{white-space:pre-wrap;font-family:inherit;font-size:13px;color:var
 .grab .cierres{margin-top:12px;display:grid;gap:6px;font-size:14px;line-height:1.45}
 .grab .cierres b{color:#C23A00}
 .ejlink{font-size:13px;color:var(--tenue);margin:6px 0 0}
+.porque{font-size:13.5px;line-height:1.4;margin:8px 0 0;padding:8px 10px;border-radius:10px;background:#FFF4EE;color:#141414}
+.tag-grabar.luego{background:#E7E5E0;color:#63625E}
+.tag-grabar.luego::before{background:#63625E}
 .ejlink a{color:#C23A00;font-weight:600}
 .g h3{font-family:var(--tit);margin:0;font-size:25px;font-weight:800;line-height:1.05;letter-spacing:-.03em;padding-right:48px}
 .g .angle{margin:8px 0 0;font-size:13.5px;color:var(--tenue)}
@@ -432,7 +435,7 @@ body.list .piez{width:auto}
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <div class="alerta" id="alerta" hidden>Este navegador no está guardando lo que escribís (puede ser una ventana privada). Antes de cerrar, tocá «Enviar» o bajate un respaldo.</div>
 
-<script src="guiones.js?v=2026-10-18d"></script>
+<script src="guiones.js?v=2026-10-18e"></script>
 <script>
 const D = window.GUIONES;
 const $ = s => document.querySelector(s);
@@ -552,14 +555,15 @@ function renderScript(r, g){
   const h = hechas(key, g), t = nV(g), c = conf[key], hk = elegido(key, g);
   const hooks = g.hooks ? `<details class="hks"><summary>${g.hooks.length} arranques más · o escribí el tuyo</summary><ol data-hkl="${key}">${hooksList(key, g)}</ol><div class="hkadd"><textarea data-hkin="${key}" rows="2" aria-label="Tu propio arranque" placeholder="Escribí tu propio arranque…"></textarea><button type="button" data-hkadd="${key}">Agregar</button></div></details>` : '';
   const G = (D.grabar || {})[key];
-  const grab = G ? `<div class="sec grab"><p class="lab"><b>Para grabar · ${esc(G.r)}</b> · ${esc(G.cuando)}</p>
+  const ya = G && enJornada(G.r);
+  const grab = G ? `<div class="sec grab"><p class="lab"><b>${ya ? 'Para grabar' : 'Guion listo'} · ${esc(G.r)}</b>${ya ? ' · ' + (ORDEN.indexOf(G.r) + 1) + ' de ' + ORDEN.length + ' en la jornada' : ' · para más adelante'}</p>
       ${G.nota ? `<p class="gnota">${esc(G.nota)}</p>` : ''}
       <ol>${G.lineas.map(l => `<li class="${l[1] === 'E' ? 'e' : 'v'}"><span class="t">${esc(l[0])}</span><div><div class="q">${l[1] === 'E' ? 'Emanuel' : 'Víctor'}</div><span class="tx">${esc(l[2])}</span>${l[3] ? `<span class="nt">${esc(l[3])}</span>` : ''}</div></li>`).join('')}</ol>
       <div class="cierres"><div><b>Cierre B (por defecto):</b> ${esc(G.cierreB)}</div><div><b>Cierre A (si hay quién conteste):</b> ${esc(G.cierreA)}</div><div class="gnota">Se graban los dos cierres y se elige en edición.${G.validar ? ' A validar: ' + esc(G.validar) : ''}</div></div>
     </div>` : '';
-  return `<article class="card g${G ? ' grabar' : ''}" data-v="${g.v}" data-k="${key}">
+  return `<article class="card g${ya ? ' grabar' : ''}" data-v="${g.v}" data-k="${key}">
     <header>
-      <span class="var">${esc(g.tipo)}</span>${G ? '<span class="tag-grabar">Grabar</span>' : ''}
+      <span class="var">${esc(g.tipo)}</span>${ya ? '<span class="tag-grabar">Grabar</span>' : G ? '<span class="tag-grabar luego">Más adelante</span>' : ''}
       <h3>${esc(g.titulo)}</h3>
       <p class="angle">${esc(g.angulo)}</p>
       <div class="cont ${h === t ? 'full' : ''}" data-cont="${key}">${h} de ${t} respondidas</div>
@@ -610,16 +614,27 @@ function renderIdeas(I = D.ideas, pre = 'idea'){
     </aside>`).join('')}
   </section>`;
 }
-function renderTanda(){
-  const T = D.tanda; if (!T) return '';
+const ORDEN = (D.jornada || {}).orden || [];
+const enJornada = r => ORDEN.includes(r);
+/* todos los guiones terminados, de las dos tandas, con la misma forma */
+function poolGuiones(){
+  const out = (D.tanda ? D.tanda.items : []).map(x => Object.assign({}, x));
+  D.refs.forEach(r => r.guiones.forEach(g => {
+    const G = (D.grabar || {})[r.n + g.v]; if (!G) return;
+    out.push({r: G.r, tipo: g.tipo, titulo: g.titulo, meta: 'Duración ' + g.dur, ej: r.id, ejde: r.formato + ' · ' + r.cuenta,
+      nota: G.nota, lineas: G.lineas, cierreB: G.cierreB, cierreA: G.cierreA, de: String(r.n).padStart(2, '0') + g.v});
+  }));
+  return out;
+}
+function cardTanda(G, ahora){
   const quien = q => q === 'E' ? 'Emanuel' : q === 'B' ? 'Imagen' : 'Víctor';
-  return `<section class="row" id="rG">
-    <div class="row-title"><span class="n">▶</span><span class="f">${esc(T.titulo)}</span><span class="m">${esc(T.resumen)}</span></div>
-    <div class="scripts">${T.items.map(G => `<article class="card g grabar tanda" data-k="${esc(G.r)}">
+  const por = ahora && D.jornada.porque ? D.jornada.porque[G.r] : '';
+  return `<article class="card g tanda${ahora ? ' grabar' : ''}" data-k="${esc(G.r)}">
       <header>
-        <span class="var">${esc(G.tipo)}</span><span class="tag-grabar">Grabar</span>
+        <span class="var">${esc(G.tipo)}</span>${ahora ? `<span class="tag-grabar">Grabar · ${ORDEN.indexOf(G.r) + 1} de ${ORDEN.length}</span>` : '<span class="tag-grabar luego">Más adelante</span>'}
         <h3>${esc(G.r)} · ${esc(G.titulo)}</h3>
-        <p class="angle">${esc(G.meta)}</p>
+        <p class="angle">${esc(G.meta)}${G.de ? ' · también en la fila del guion ' + esc(G.de) : ''}</p>
+        ${por ? `<p class="porque">${esc(por)}</p>` : ''}
         ${G.ej ? `<p class="ejlink">Ejemplo: <a href="https://www.instagram.com/reel/${esc(G.ej)}/" target="_blank" rel="noopener">${esc(G.ejde)} ↗</a></p>` : ''}
       </header>
       <div class="sec grab"><p class="lab"><b>Guion para grabar</b></p>
@@ -627,8 +642,20 @@ function renderTanda(){
         <div class="cierres"><div><b>Cierre B (por defecto):</b> ${esc(G.cierreB)}</div><div><b>Cierre A (si hay quién conteste):</b> ${esc(G.cierreA)}</div><div class="gnota">Se graban los dos cierres y se elige en edición.</div></div>
       </div>
       ${G.nota ? `<div class="sec"><p class="lab">Grabación</p><p class="gnota" style="margin:0">${esc(G.nota)}</p></div>` : ''}
-    </article>`).join('')}</div>
-  </section>`;
+    </article>`;
+}
+function renderTanda(){
+  if (!D.tanda) return '';
+  const pool = poolGuiones();
+  const ahora = ORDEN.map(r => pool.find(x => x.r === r)).filter(Boolean);
+  const luego = (D.tanda.items || []).filter(x => !enJornada(x.r));
+  return `<section class="row" id="rG">
+    <div class="row-title"><span class="n">▶</span><span class="f">${esc(D.tanda.titulo)}</span><span class="m">${esc(D.tanda.resumen)}</span></div>
+    <div class="scripts">${ahora.map(G => cardTanda(G, true)).join('')}</div>
+  </section>` + (luego.length ? `<section class="row" id="rM">
+    <div class="row-title"><span class="n">⏸</span><span class="f">Guionados para más adelante</span><span class="m">Listos, pero no van en esta grabación. Los de la primera tanda siguen en su fila</span></div>
+    <div class="scripts">${luego.map(G => cardTanda(G, false)).join('')}</div>
+  </section>` : '');
 }
 function renderFijados(){
   const F = D.fijados; if (!F) return '';
@@ -898,7 +925,7 @@ function irAPieza(id){
 }
 
 /* el recorrido de arriba y las flechas entre una fila y la siguiente */
-const RECORRIDO = (D.tanda ? [{id: 'G', t: 'Para grabar ahora'}] : []).concat([{id: 'P', t: 'El perfil'}])
+const RECORRIDO = (D.tanda ? [{id: 'G', t: 'Para grabar ahora'}, {id: 'M', t: 'Para más adelante'}] : []).concat([{id: 'P', t: 'El perfil'}])
   .concat(D.fijados ? [{id: 'F', t: 'Los 3 fijados'}] : [])
   .concat(D.refs.map(r => ({id: r.n, t: String(r.n).padStart(2,'0') + ' · ' + r.formato})))
   .concat(D.ideas ? [{id: D.ideas.n, t: 'Otros formatos'}] : [])
@@ -906,7 +933,8 @@ const RECORRIDO = (D.tanda ? [{id: 'G', t: 'Para grabar ahora'}] : []).concat([{
   .concat([{id: 'DIS', t: 'Lo ya diseñado'}]);
 const FLUJO = {
   '0': 'Antes que nada: así se vería el perfil',
-  'G': 'Y abajo, todo lo que armamos antes',
+  'G': 'Los que quedan para la próxima',
+  'M': 'Y abajo, todo lo que armamos antes',
   'P': 'Arriba de todo van los tres videos fijados',
   'F': 'Y después, los guiones, formato por formato',
   '1': 'El mismo tema, con otra mecánica',
@@ -1084,7 +1112,7 @@ function render(){
     ${renderRef(r)}
     <div class="scripts">${r.guiones.map(g => renderScript(r, g)).join('')}</div>
   </section>`).join('') + renderIdeas() + renderIdeas(D.estudios, 'est') + renderDis();
-  $('#jump').innerHTML = `<option value="0">Ir a…</option>` + (D.tanda ? `<option value="G">▶ · Para grabar ahora</option>` : '') + (P ? `<option value="P">IG · El perfil</option>` : '') + (D.fijados ? `<option value="F">★ · Los 3 fijados</option>` : '') + D.refs.map(r => `<option value="${r.n}">${String(r.n).padStart(2,'0')} · ${esc(r.formato)}</option>`).join('') + (D.ideas ? `<option value="${D.ideas.n}">${String(D.ideas.n).padStart(2,'0')} · ${esc(D.ideas.titulo)}</option>` : '') + (D.estudios ? `<option value="${D.estudios.n}">${String(D.estudios.n).padStart(2,'0')} · ${esc(D.estudios.titulo)}</option>` : '') + `<option value="DIS">PZ · Lo que ya está diseñado</option>`;
+  $('#jump').innerHTML = `<option value="0">Ir a…</option>` + (D.tanda ? `<option value="G">▶ · Para grabar ahora</option><option value="M">⏸ · Para más adelante</option>` : '') + (P ? `<option value="P">IG · El perfil</option>` : '') + (D.fijados ? `<option value="F">★ · Los 3 fijados</option>` : '') + D.refs.map(r => `<option value="${r.n}">${String(r.n).padStart(2,'0')} · ${esc(r.formato)}</option>`).join('') + (D.ideas ? `<option value="${D.ideas.n}">${String(D.ideas.n).padStart(2,'0')} · ${esc(D.ideas.titulo)}</option>` : '') + (D.estudios ? `<option value="${D.estudios.n}">${String(D.estudios.n).padStart(2,'0')} · ${esc(D.estudios.titulo)}</option>` : '') + `<option value="DIS">PZ · Lo que ya está diseñado</option>`;
   prog();
 }
 render();

@@ -1021,7 +1021,7 @@ window.GUIONES.estudios = {
    con tanda.py: si cambia el guion, se cambia allá y se vuelve a generar. */
 window.GUIONES.tanda = {
  "titulo": "Para grabar ahora",
- "resumen": "Seis reels nuevos: dos rankings de fideicomiso, dos clips de podcast, el del equipo y un POV. En el orden de la jornada",
+ "resumen": "Los seis de esta grabación, elegidos entre las dos tandas, en el orden de la jornada: podcast, escritorio, de pie, teleprompter y oficina",
  "items": [
   {
    "r": "R15",
@@ -1330,4 +1330,18 @@ window.GUIONES.tanda = {
    "cierreA": "Comentá CONSULTA o mandanos un mensaje."
   }
  ]
+};
+
+/* La jornada: los 6 que se graban, en orden de escenografía (podcast → escritorio → de pie → teleprompter → oficina).
+   Elegidos el 18/10/2026 entre R9–R20. El resto queda guionado para más adelante. */
+window.GUIONES.jornada = {
+  orden: ["R17", "R19", "R11", "R15", "R13", "R18"],
+  porque: {
+    R17: "El formato del ejemplo que más nos gustó, con lo que ustedes dicen siempre: el acuerdo antes que el juicio.",
+    R19: "La frase de las soluciones alternativas, contada con humor.",
+    R11: "Una duda que se hace cualquiera que tiene un negocio. Es la candidata para el próximo anuncio.",
+    R15: "El ranking, y el fideicomiso como herramienta para construir, como lo dijiste en Fortuna.",
+    R13: "Es el tema que mejor le funcionó a otro estudio parecido.",
+    R18: "El trabajo en equipo, que es lo que más los define."
+  }
 };
