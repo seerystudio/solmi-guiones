@@ -1016,3 +1016,318 @@ window.GUIONES.estudios = {
     }
   ]
 };
+
+/* Segunda tanda para grabar (R15–R20). Generado desde vault-obsidian-git/clientes/estudio-solmi/REELS-2026-11-B.md
+   con tanda.py: si cambia el guion, se cambia allá y se vuelve a generar. */
+window.GUIONES.tanda = {
+ "titulo": "Para grabar ahora",
+ "resumen": "Seis reels nuevos: dos rankings de fideicomiso, dos clips de podcast, el del equipo y un POV. En el orden de la jornada",
+ "items": [
+  {
+   "r": "R15",
+   "tipo": "El ranking · fideicomiso",
+   "titulo": "Ranking: para qué sirve un fideicomiso",
+   "meta": "Duración ≈40 s",
+   "ej": "DbQ_BeHBEOx",
+   "ejde": "El ranking · Eder Salinas",
+   "nota": "de pie, con saco, plano medio. Un número por toma, con un paso o un cambio de plano entre puestos.",
+   "lineas": [
+    [
+     "0:00",
+     "V",
+     "Ranking de para qué sirve un fideicomiso. Del uso que todos conocen al que casi nadie sabe.",
+     "En pantalla: PARA QUÉ SIRVE UN FIDEICOMISO · TOP 5"
+    ],
+    [
+     "0:05",
+     "V",
+     "Puesto cinco: construir entre varios. Cada uno pone lo suyo para levantar un edificio, y las reglas quedan escritas desde el primer día.",
+     "A validar · En pantalla: 5 · Construir entre varios"
+    ],
+    [
+     "0:12",
+     "V",
+     "Cuatro: que el campo o la producción no dependa de una sola persona.",
+     "A validar · En pantalla: 4 · Que la producción siga"
+    ],
+    [
+     "0:17",
+     "V",
+     "Tres: respaldar un préstamo con un bien puntual, sin poner en juego todo lo demás.",
+     "A validar · En pantalla: 3 · Una garantía"
+    ],
+    [
+     "0:23",
+     "V",
+     "Dos: que la empresa familiar siga funcionando cuando cambia de manos.",
+     "A validar · En pantalla: 2 · Que la empresa siga"
+    ],
+    [
+     "0:28",
+     "V",
+     "Y el número uno, el que casi nadie conoce: cuidar a alguien que no puede administrar lo suyo. Un hijo menor, un familiar que necesita que otro lo haga por él.",
+     "A validar · En pantalla: 1 · Cuidar a alguien"
+    ],
+    [
+     "0:36",
+     "V",
+     "Fíjense que en ninguno dijimos esconder. Para nosotros, un fideicomiso es una herramienta para construir.",
+     "En pantalla: herramienta para construir"
+    ]
+   ],
+   "cierreB": "¿Sabías que servía para esto? Poné sí o no.",
+   "cierreA": "Si tenés un proyecto y querés saber si te sirve, comentá CONSULTA o mandanos un mensaje."
+  },
+  {
+   "r": "R16",
+   "tipo": "El ranking · fideicomiso",
+   "titulo": "Ranking: mitos del fideicomiso",
+   "meta": "Duración ≈35 s",
+   "ej": "DbQ_BeHBEOx",
+   "ejde": "El ranking · Eder Salinas",
+   "nota": "",
+   "lineas": [
+    [
+     "0:00",
+     "V",
+     "Ranking de mitos sobre el fideicomiso. Del más inocente al que te puede salir caro.",
+     "En pantalla: MITOS DEL FIDEICOMISO"
+    ],
+    [
+     "0:05",
+     "V",
+     "Cuatro: «Es solo para gente con mucha plata.» No. Se usa para cosas tan comunes como construir entre hermanos.",
+     "A validar · En pantalla: 4 · «Es para ricos»"
+    ],
+    [
+     "0:11",
+     "V",
+     "Tres: «Es complicadísimo.» Es un contrato. Lo importante es armarlo bien desde el principio.",
+     "En pantalla: 3 · «Es complicadísimo»"
+    ],
+    [
+     "0:16",
+     "V",
+     "Dos: «Lo armo con un modelo de internet.» Cada fideicomiso se arma para un fin concreto. Copiado, puede no servir para lo tuyo.",
+     "A validar · En pantalla: 2 · «Lo copio de internet»"
+    ],
+    [
+     "0:23",
+     "V",
+     "Y el más peligroso: «Me sirve para salvar lo mío si ya tengo deudas.» No. Lo que se mueve cuando ya hay deudas se puede revisar.",
+     "A validar · En pantalla: 1 · «Salva lo mío si ya debo»"
+    ],
+    [
+     "0:30",
+     "V",
+     "Por eso en el estudio, antes de hablar de fideicomiso, te preguntamos para qué lo querés. A veces la respuesta es que no te hace falta.",
+     "En pantalla: a veces no hace falta"
+    ]
+   ],
+   "cierreB": "¿Cuál de estos escuchaste? Poné el número.",
+   "cierreA": "Si estás pensando en uno, comentá CONSULTA o mandanos un mensaje."
+  },
+  {
+   "r": "R17",
+   "tipo": "Clip de podcast · antes del juicio",
+   "titulo": "Clip de podcast: «No trabajamos para ir a juicio»",
+   "meta": "Duración ≈35 s",
+   "ej": "Dbb8EQJAPzB",
+   "ejde": "Clip de podcast · @leonardo.mata.abogado",
+   "nota": "set de podcast en la oficina: dos sillas, dos micrófonos de mano o de mesa, Emanuel de espaldas o",
+   "lineas": [
+    [
+     "0:00",
+     "B",
+     "Dos segundos de un pasillo de tribunales o un martillo de juez. Material propio o de banco libre: nada de series (derechos)",
+     ""
+    ],
+    [
+     "0:02",
+     "V",
+     "En el estudio no trabajamos para ir a juicio. Trabajamos para que no haga falta.",
+     ""
+    ],
+    [
+     "0:07",
+     "V",
+     "Cuando viene un comerciante o un empresario, ya tiene bastantes problemas: los empleados, los proveedores, la caja.",
+     ""
+    ],
+    [
+     "0:14",
+     "V",
+     "Llevarlo a un juicio largo, muchas veces, es sumarle uno más.",
+     ""
+    ],
+    [
+     "0:18",
+     "V",
+     "Hay casos donde el juicio es inevitable, y ahí vamos. Pero antes buscamos soluciones alternativas: negociar, conciliar, mediar.",
+     "En pantalla: negociar · conciliar · mediar"
+    ],
+    [
+     "0:27",
+     "V",
+     "Nos gusta resolver los conflictos de la forma más rápida, sana y sin daños colaterales posible.",
+     "En pantalla: frase suya, de Fortuna"
+    ]
+   ],
+   "cierreB": "¿Vos qué preferís: arreglarlo o ir a juicio? Comentá.",
+   "cierreA": "Si tenés un conflicto y querés evitar el juicio, comentá CONSULTA o mandanos un mensaje."
+  },
+  {
+   "r": "R18",
+   "tipo": "Equipo",
+   "titulo": "El equipo, nuestro máximo estandarte",
+   "meta": "Duración ≈30 s",
+   "ej": null,
+   "ejde": "",
+   "nota": "la gracia es que se vea el equipo, no solo decirlo. Víctor caminando por la oficina mientras",
+   "lineas": [
+    [
+     "0:00",
+     "V",
+     "Es imposible que un abogado sea especialista en todo.",
+     ""
+    ],
+    [
+     "0:04",
+     "V",
+     "Por eso en el estudio jurídico Solmi & Asociados tenemos como máximo estandarte el trabajo en equipo. Nos hace crecer en todos los aspectos.",
+     "En pantalla: máximo estandarte: el equipo"
+    ],
+    [
+     "0:12",
+     "V",
+     "Cuando llega un caso, no lo mira una sola persona. Lo charlamos entre nosotros, hacemos interconsultas, y cada uno aporta lo que sabe.",
+     "A confirmar"
+    ],
+    [
+     "0:20",
+     "V",
+     "Trabajamos los más jóvenes y los más experimentados juntos. Todos aportan.",
+     ""
+    ],
+    [
+     "0:24",
+     "V",
+     "Así la respuesta que te damos es más sólida.",
+     ""
+    ]
+   ],
+   "cierreB": "¿Vos preferís un abogado que trabaje solo o un equipo? Comentá.",
+   "cierreA": "Si querés que te escuchemos, comentá CONSULTA o mandanos un mensaje."
+  },
+  {
+   "r": "R19",
+   "tipo": "POV · soluciones alternativas",
+   "titulo": "POV: «Quiero juicio sí o sí»",
+   "meta": "Duración ≈32 s",
+   "ej": "Dbo8iYZR1M7",
+   "ejde": "POV · @clemente.jimenez_",
+   "nota": "escritorio, la cámara es el cliente (como el POV de la primera tanda). El golpe en la mesa y el vaso",
+   "lineas": [
+    [
+     "0:00",
+     "E",
+     "¡Quiero juicio! Sí o sí.",
+     "Golpe en la mesa · En pantalla: POV: le decís a tu abogado que querés juicio sí o sí"
+    ],
+    [
+     "0:03",
+     "V",
+     "Sentate. Tomá un poco de agua.",
+     "Tranquilo, le sirve un vaso de agua"
+    ],
+    [
+     "0:06",
+     "E",
+     "¿No me van a hacer juicio?",
+     ""
+    ],
+    [
+     "0:08",
+     "V",
+     "Si hace falta, sí. Pero antes, en el estudio jurídico Solmi & Asociados te proponemos soluciones alternativas.",
+     "En pantalla: soluciones alternativas"
+    ],
+    [
+     "0:14",
+     "V",
+     "Negociar. Conciliar. Mediar.",
+     "En pantalla: negociar · conciliar · mediar"
+    ],
+    [
+     "0:17",
+     "V",
+     "Muchas veces son más rápidas, y vos seguís con tu vida y con tu negocio mientras se resuelve.",
+     "A validar"
+    ],
+    [
+     "0:23",
+     "E",
+     "¿Y si no funcionan?",
+     ""
+    ],
+    [
+     "0:25",
+     "V",
+     "Entonces vamos a juicio. Pero sabiendo que lo intentamos.",
+     ""
+    ]
+   ],
+   "cierreB": "¿Alguna vez quisiste ir a juicio de pura bronca? Poné sí o no.",
+   "cierreA": "Si tenés un conflicto, comentá CONSULTA o mandanos un mensaje."
+  },
+  {
+   "r": "R20",
+   "tipo": "Clip de podcast · fideicomiso",
+   "titulo": "Clip de podcast: el derecho también sirve para crear",
+   "meta": "Duración ≈35 s",
+   "ej": "Dbb8EQJAPzB",
+   "ejde": "Clip de podcast · @leonardo.mata.abogado",
+   "nota": "misma sesión de podcast que R17.",
+   "lineas": [
+    [
+     "0:00",
+     "E",
+     "Víctor, ¿qué es lo que la gente no sabe del derecho?",
+     ""
+    ],
+    [
+     "0:03",
+     "V",
+     "Que no es solo para cuando hay un problema. También es una herramienta de creación.",
+     "En pantalla: herramienta de creación"
+    ],
+    [
+     "0:08",
+     "V",
+     "Un contrato bien hecho, un fideicomiso, una sociedad bien armada: son la base para que un proyecto dure en el tiempo.",
+     "En pantalla: frase suya, de Fortuna"
+    ],
+    [
+     "0:16",
+     "V",
+     "Pensá en dos hermanos que quieren construir juntos, o en un negocio que querés que siga cuando no estés.",
+     ""
+    ],
+    [
+     "0:22",
+     "V",
+     "Para eso no hace falta pelearse con nadie. Hace falta pensarlo antes.",
+     ""
+    ],
+    [
+     "0:26",
+     "V",
+     "En una sociedad tan compleja, la clave está en simplificar.",
+     ""
+    ]
+   ],
+   "cierreB": "¿Tenés un proyecto que te gustaría dejar bien armado? Poné sí o no.",
+   "cierreA": "Comentá CONSULTA o mandanos un mensaje."
+  }
+ ]
+};

@@ -116,6 +116,8 @@ details.tr pre{white-space:pre-wrap;font-family:inherit;font-size:13px;color:var
 .grab .nt{display:block;font-size:12.5px;color:var(--tenue);margin-top:2px}
 .grab .cierres{margin-top:12px;display:grid;gap:6px;font-size:14px;line-height:1.45}
 .grab .cierres b{color:#C23A00}
+.ejlink{font-size:13px;color:var(--tenue);margin:6px 0 0}
+.ejlink a{color:#C23A00;font-weight:600}
 .g h3{font-family:var(--tit);margin:0;font-size:25px;font-weight:800;line-height:1.05;letter-spacing:-.03em;padding-right:48px}
 .g .angle{margin:8px 0 0;font-size:13.5px;color:var(--tenue)}
 .star{position:absolute;top:16px;right:16px;width:40px;height:40px;border-radius:50%;border:1px solid var(--lin);background:transparent;font-size:18px;line-height:1;color:#141414;transition:background .25s,color .25s,transform .3s var(--sal)}
@@ -430,7 +432,7 @@ body.list .piez{width:auto}
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <div class="alerta" id="alerta" hidden>Este navegador no está guardando lo que escribís (puede ser una ventana privada). Antes de cerrar, tocá «Enviar» o bajate un respaldo.</div>
 
-<script src="guiones.js?v=2026-10-18c"></script>
+<script src="guiones.js?v=2026-10-18d"></script>
 <script>
 const D = window.GUIONES;
 const $ = s => document.querySelector(s);
@@ -606,6 +608,26 @@ function renderIdeas(I = D.ideas, pre = 'idea'){
       <div class="sticky"><h4>${esc(lab[2])}</h4><p>${esc(it.pide)}</p></div>
       <div class="op">${['Lo haría', 'No me convence'].map(o => `<button type="button" data-conf="${pre}${j}" aria-pressed="${conf[pre + j] === o}">${o}</button>`).join('')}</div>
     </aside>`).join('')}
+  </section>`;
+}
+function renderTanda(){
+  const T = D.tanda; if (!T) return '';
+  const quien = q => q === 'E' ? 'Emanuel' : q === 'B' ? 'Imagen' : 'Víctor';
+  return `<section class="row" id="rG">
+    <div class="row-title"><span class="n">▶</span><span class="f">${esc(T.titulo)}</span><span class="m">${esc(T.resumen)}</span></div>
+    <div class="scripts">${T.items.map(G => `<article class="card g grabar tanda" data-k="${esc(G.r)}">
+      <header>
+        <span class="var">${esc(G.tipo)}</span><span class="tag-grabar">Grabar</span>
+        <h3>${esc(G.r)} · ${esc(G.titulo)}</h3>
+        <p class="angle">${esc(G.meta)}</p>
+        ${G.ej ? `<p class="ejlink">Ejemplo: <a href="https://www.instagram.com/reel/${esc(G.ej)}/" target="_blank" rel="noopener">${esc(G.ejde)} ↗</a></p>` : ''}
+      </header>
+      <div class="sec grab"><p class="lab"><b>Guion para grabar</b></p>
+        <ol>${G.lineas.map(l => `<li class="${l[1] === 'E' ? 'e' : 'v'}"><span class="t">${esc(l[0])}</span><div><div class="q">${quien(l[1])}</div><span class="tx">${esc(l[2])}</span>${l[3] ? `<span class="nt">${esc(l[3])}</span>` : ''}</div></li>`).join('')}</ol>
+        <div class="cierres"><div><b>Cierre B (por defecto):</b> ${esc(G.cierreB)}</div><div><b>Cierre A (si hay quién conteste):</b> ${esc(G.cierreA)}</div><div class="gnota">Se graban los dos cierres y se elige en edición.</div></div>
+      </div>
+      ${G.nota ? `<div class="sec"><p class="lab">Grabación</p><p class="gnota" style="margin:0">${esc(G.nota)}</p></div>` : ''}
+    </article>`).join('')}</div>
   </section>`;
 }
 function renderFijados(){
@@ -876,7 +898,7 @@ function irAPieza(id){
 }
 
 /* el recorrido de arriba y las flechas entre una fila y la siguiente */
-const RECORRIDO = [{id: 'P', t: 'El perfil'}]
+const RECORRIDO = (D.tanda ? [{id: 'G', t: 'Para grabar ahora'}] : []).concat([{id: 'P', t: 'El perfil'}])
   .concat(D.fijados ? [{id: 'F', t: 'Los 3 fijados'}] : [])
   .concat(D.refs.map(r => ({id: r.n, t: String(r.n).padStart(2,'0') + ' · ' + r.formato})))
   .concat(D.ideas ? [{id: D.ideas.n, t: 'Otros formatos'}] : [])
@@ -884,6 +906,7 @@ const RECORRIDO = [{id: 'P', t: 'El perfil'}]
   .concat([{id: 'DIS', t: 'Lo ya diseñado'}]);
 const FLUJO = {
   '0': 'Antes que nada: así se vería el perfil',
+  'G': 'Y abajo, todo lo que armamos antes',
   'P': 'Arriba de todo van los tres videos fijados',
   'F': 'Y después, los guiones, formato por formato',
   '1': 'El mismo tema, con otra mecánica',
@@ -1056,12 +1079,12 @@ function render(){
     ${D.intro.map(p => `<p>${esc(p)}</p>`).join('')}
     <ul>${D.reglas.map(p => `<li>${esc(p)}</li>`).join('')}</ul>
   </div></section>`;
-  $('#world').innerHTML = intro + renderPerfil() + renderFijados() + D.refs.map(r => `<section class="row" id="r${r.n}">
+  $('#world').innerHTML = intro + renderTanda() + renderPerfil() + renderFijados() + D.refs.map(r => `<section class="row" id="r${r.n}">
     <div class="row-title"><span class="n">${String(r.n).padStart(2,'0')}</span><span class="f">${esc(r.formato)}</span><span class="m">${esc(r.resumen)}</span></div>
     ${renderRef(r)}
     <div class="scripts">${r.guiones.map(g => renderScript(r, g)).join('')}</div>
   </section>`).join('') + renderIdeas() + renderIdeas(D.estudios, 'est') + renderDis();
-  $('#jump').innerHTML = `<option value="0">Ir a…</option>` + (P ? `<option value="P">IG · El perfil</option>` : '') + (D.fijados ? `<option value="F">★ · Los 3 fijados</option>` : '') + D.refs.map(r => `<option value="${r.n}">${String(r.n).padStart(2,'0')} · ${esc(r.formato)}</option>`).join('') + (D.ideas ? `<option value="${D.ideas.n}">${String(D.ideas.n).padStart(2,'0')} · ${esc(D.ideas.titulo)}</option>` : '') + (D.estudios ? `<option value="${D.estudios.n}">${String(D.estudios.n).padStart(2,'0')} · ${esc(D.estudios.titulo)}</option>` : '') + `<option value="DIS">PZ · Lo que ya está diseñado</option>`;
+  $('#jump').innerHTML = `<option value="0">Ir a…</option>` + (D.tanda ? `<option value="G">▶ · Para grabar ahora</option>` : '') + (P ? `<option value="P">IG · El perfil</option>` : '') + (D.fijados ? `<option value="F">★ · Los 3 fijados</option>` : '') + D.refs.map(r => `<option value="${r.n}">${String(r.n).padStart(2,'0')} · ${esc(r.formato)}</option>`).join('') + (D.ideas ? `<option value="${D.ideas.n}">${String(D.ideas.n).padStart(2,'0')} · ${esc(D.ideas.titulo)}</option>` : '') + (D.estudios ? `<option value="${D.estudios.n}">${String(D.estudios.n).padStart(2,'0')} · ${esc(D.estudios.titulo)}</option>` : '') + `<option value="DIS">PZ · Lo que ya está diseñado</option>`;
   prog();
 }
 render();
