@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Guiones · Solmi & Asociados</title>
-<meta name="description" content="Trece guiones para los primeros videos del estudio, con lugar para las respuestas de Víctor, y el perfil de Instagram de ejemplo.">
+<meta name="description" content="Guiones de Solmi & Asociados: lo que se graba ahora, lo que escribió Víctor y las referencias.">
 <meta name="robots" content="noindex">
 <style>
 @font-face{font-family:'General Sans';src:url(assets/generalsans-400.woff2) format('woff2');font-weight:400;font-display:swap}
@@ -435,7 +435,7 @@ body.list .piez{width:auto}
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <div class="alerta" id="alerta" hidden>Este navegador no está guardando lo que escribís (puede ser una ventana privada). Antes de cerrar, tocá «Enviar» o bajate un respaldo.</div>
 
-<script src="guiones.js?v=2026-10-18f"></script>
+<script src="guiones.js?v=2026-10-18g"></script>
 <script>
 const D = window.GUIONES;
 const $ = s => document.querySelector(s);
@@ -925,23 +925,22 @@ function irAPieza(id){
 }
 
 /* el recorrido de arriba y las flechas entre una fila y la siguiente */
-const RECORRIDO = (D.tanda ? [{id: 'G', t: 'Para grabar ahora'}, {id: 'M', t: 'Para más adelante'}] : []).concat([{id: 'P', t: 'El perfil'}])
+const RECORRIDO = (D.tanda ? [{id: 'G', t: 'Para grabar ahora'}, {id: 'M', t: 'Para más adelante'}] : [])
   .concat(D.fijados ? [{id: 'F', t: 'Los 3 fijados'}] : [])
   .concat(D.refs.map(r => ({id: r.n, t: String(r.n).padStart(2,'0') + ' · ' + r.formato})))
   .concat(D.ideas ? [{id: D.ideas.n, t: 'Otros formatos'}] : [])
   .concat(D.estudios ? [{id: D.estudios.n, t: 'Estudios que hacen lo mismo'}] : [])
-  .concat([{id: 'DIS', t: 'Lo ya diseñado'}]);
+  ;
 const FLUJO = {
-  '0': 'Antes que nada: así se vería el perfil',
+  '0': 'Lo primero: lo que se graba ahora',
   'G': 'Los que quedan para la próxima',
-  'M': 'Y abajo, todo lo que armamos antes',
+  'M': 'Arriba de todo, en el perfil, van los tres fijados',
   'P': 'Arriba de todo van los tres videos fijados',
   'F': 'Y después, los guiones, formato por formato',
   '1': 'El mismo tema, con otra mecánica',
   '2': 'Y el tercero, más suelto',
-  '3': 'Hay más formatos para probar',
-  '4': 'Y lo que hacen otros estudios como ustedes',
-  '5': 'Cuando la pieza ya está diseñada, va acá'
+  '3': 'Y lo que hacen otros estudios como ustedes',
+  '4': ''
 };
 const mapaHTML = () => `<div class="mapa"><span class="rotulo">El recorrido</span><div class="pasos">${RECORRIDO.map((p, i) => `${i ? '<span class="fx">→</span>' : ''}<button type="button" data-go="${esc(p.id)}">${esc(p.t)}</button>`).join('')}</div></div>`;
 const FLECHA_SVG = '<svg width="24" height="46" viewBox="0 0 24 46" fill="none" aria-hidden="true"><path d="M12 2 V31" stroke="currentColor" stroke-width="2" stroke-dasharray="5 6" stroke-linecap="round"/><path d="M5.5 27 L12 36 L18.5 27" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
@@ -1111,8 +1110,8 @@ function render(){
     <div class="row-title"><span class="n">${String(r.n).padStart(2,'0')}</span><span class="f">${esc(r.formato)}</span><span class="m">${esc(r.resumen)}</span></div>
     ${renderRef(r)}
     <div class="scripts">${r.guiones.map(g => renderScript(r, g)).join('')}</div>
-  </section>`).join('') + renderIdeas() + renderIdeas(D.estudios, 'est') + renderDis();
-  $('#jump').innerHTML = `<option value="0">Ir a…</option>` + (D.tanda ? `<option value="G">▶ · Para grabar ahora</option><option value="M">⏸ · Para más adelante</option>` : '') + (P ? `<option value="P">IG · El perfil</option>` : '') + (D.fijados ? `<option value="F">★ · Los 3 fijados</option>` : '') + D.refs.map(r => `<option value="${r.n}">${String(r.n).padStart(2,'0')} · ${esc(r.formato)}</option>`).join('') + (D.ideas ? `<option value="${D.ideas.n}">${String(D.ideas.n).padStart(2,'0')} · ${esc(D.ideas.titulo)}</option>` : '') + (D.estudios ? `<option value="${D.estudios.n}">${String(D.estudios.n).padStart(2,'0')} · ${esc(D.estudios.titulo)}</option>` : '') + `<option value="DIS">PZ · Lo que ya está diseñado</option>`;
+  </section>`).join('') + renderIdeas() + renderIdeas(D.estudios, 'est');
+  $('#jump').innerHTML = `<option value="0">Ir a…</option>` + (D.tanda ? `<option value="G">▶ · Para grabar ahora</option><option value="M">⏸ · Para más adelante</option>` : '') + (P ? `<option value="P">IG · El perfil</option>` : '') + (D.fijados ? `<option value="F">★ · Los 3 fijados</option>` : '') + D.refs.map(r => `<option value="${r.n}">${String(r.n).padStart(2,'0')} · ${esc(r.formato)}</option>`).join('') + (D.ideas ? `<option value="${D.ideas.n}">${String(D.ideas.n).padStart(2,'0')} · ${esc(D.ideas.titulo)}</option>` : '') + (D.estudios ? `<option value="${D.estudios.n}">${String(D.estudios.n).padStart(2,'0')} · ${esc(D.estudios.titulo)}</option>` : '');
   prog();
 }
 render();

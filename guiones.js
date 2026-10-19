@@ -6,7 +6,6 @@ window.GUIONES = {
   intro: [
     "Estos son los primeros videos: tres formatos y tres temas —empresas, patrimonio y lo que se puede arreglar antes de un juicio—. Cada fila es un formato: a la izquierda, un video de ejemplo; a la derecha, sus guiones. Los marcados «Pregunta frecuente de tu web» salen de las preguntas de tu página: la respuesta ya es tuya, solo hay que decirla hablando. Debajo de cada arranque hay otros para elegir: se escribieron cuarenta por guion y quedaron solo los que entendería un chico de cinco años y le importarían a media familia; los marcados «De tu web» o «Tuya» salen de tu página y de la nota de Perfil y Fortuna. Si te gusta más alguno, tocá «Este».",
     "Las preguntas ya están. Lo que falta sos vos: en cada casillero escribí cómo lo dirías hablando, no como lo escribirías. Si te trabás, tocá «Ver un ejemplo».",
-    "Más abajo está cómo se vería el perfil, en cuatro versiones: elegí la que más te guste y cambiale lo que quieras.",
     "Lo que escribís se guarda solo, a medida que escribís: si mañana abrís este mismo link en otro celular o en la compu, vas a ver lo último. Cuando termines, tocá «Enviar» arriba y mandalo por WhatsApp."
   ],
   reglas: [
@@ -597,63 +596,6 @@ window.GUIONES = {
   ]
 };
 
-window.GUIONES.ideas = {
-  n: 4,
-  titulo: "Ideas de otros formatos",
-  resumen: "Tres formatos más para los próximos meses. Se toma la forma, no el tono. Marcá si lo harías",
-  items: [
-    {
-      id: "DbQ_BeHBEOx", formato: "El ranking",
-      cuenta: "Eder Salinas", datos: "finanzas personales, México",
-      tags: ["Del 1 al 10", "Se arma en pantalla", "De pie, con saco"],
-      mecanica: [
-        "Anuncia un ranking y uno se queda hasta ver quién sale primero.",
-        "Cada puesto entra con su logo y una palabra: se entiende sin audio.",
-        "Con saco y en la calle se ve serio, y a la vez tiene movimiento."
-      ],
-      ideas: [
-        "Ranking de lo que más expone tu casa cuando tenés un negocio: de lo que menos riesgo trae a lo que más.",
-        "Ranking de los papeles que todo negocio debería tener firmados, del menos al más importante.",
-        "Ranking de las excusas para no ordenar nada: «soy joven», «a mí no me va a pasar», «sale caro».",
-        "Ranking de los peores errores al tener una empresa, del que menos cuesta al que más."
-      ],
-      pide: "Vos a cámara, de pie. Los íconos y los números se agregan en la edición."
-    },
-    {
-      id: "DcuOzmjFBhd", formato: "Dos caminos",
-      cuenta: "@estudiorossiyasociados", datos: "estudio jurídico, Argentina",
-      tags: ["Lado a lado", "Mismo punto de partida", "Remate en placa"],
-      mecanica: [
-        "Dos personas arrancan igual y cada una elige distinto: uno mira para saber cómo termina cada una.",
-        "Los carteles de arriba dicen qué eligió cada una: se entiende sin audio.",
-        "Cierra con una placa que dice de qué se trataba en realidad."
-      ],
-      ideas: [
-        "El que firmó con su socio y el que lo dejó de palabra: cinco años después.",
-        "El que ordenó lo suyo cuando le iba bien, y el que esperó a tener deudas.",
-        "El que se sentó a arreglar y el que fue directo a juicio: dónde está cada uno un año después.",
-        "Situaciones en las que se puede evitar el juicio: el mismo problema, contado por los dos caminos."
-      ],
-      pide: "Dos personas en cuadro, o la misma dos veces armado en edición. Vos podés ser el que lo cuenta desde afuera. Es actuado: corto y sin exagerar."
-    },
-    {
-      id: "DcPk7G7x2iT", formato: "Esto sí, esto no",
-      cuenta: "@clemente.jimenez_", datos: "abogado, México",
-      tags: ["Dos columnas", "Íconos que aparecen", "Sentado, suelto"],
-      mecanica: [
-        "Dos palabras opuestas arriba, y el que mira adivina de qué lado cae cada cosa.",
-        "Los íconos aparecen de a uno mientras habla: tiene ritmo sin moverse de la silla.",
-        "Mucho gesto y tono de charla: serio sin ser solemne."
-      ],
-      ideas: [
-        "Lo que protege tu casa y lo que no: ponerla a nombre de tu pareja, pasársela a un hijo, separar el negocio de lo tuyo.",
-        "Lo que conviene dejar firmado y lo que no hace falta cuando abrís un negocio con alguien.",
-        "Lo que se puede arreglar antes de un juicio y lo que no."
-      ],
-      pide: "Vos sentado, como en el teleprompter. Los íconos van en la edición. Explica un poco más, así que sirve para gente que ya te vio alguna vez."
-    }
-  ]
-};
 
 window.GUIONES.fijados = {
   titulo: "Importante · los 3 videos fijados",
@@ -692,142 +634,7 @@ window.GUIONES.fijados = {
   ]
 };
 
-/* Perfil de Instagram de ejemplo. Sale de PERFIL-Y-CAPTIONS.md (bio y nombre) y de
-   STORIES-Y-DESTACADAS.md (las cuatro destacadas y sus portadas). Todo se puede cambiar en la página. */
-window.GUIONES.perfil = {
-  titulo: "Así se vería el perfil",
-  resumen: "Cuatro versiones para elegir. Tocá una arriba del panel de la derecha y después cambiale lo que quieras: se guarda solo",
-  base: {
-    usuario: "estudiosolmi",
-    nombre: "Solmi & Asociados | Abogados",
-    categoria: "Servicio legal",
-    bio: "Víctor Solmi · abogado y empresario\nEmpresas, contratos y proteger lo tuyo ⚖️\nPriorizamos el acuerdo antes que el juicio\n📍 Mitre 2250, San Pedro",
-    link: "estudiosolmi.com.ar",
-    posts: "10", seguidores: "169", seguidos: "2",
-    destacadas: [
-      { nombre: "Áreas", letra: "A", fondo: "azul" },
-      { nombre: "Estudio", letra: "E", fondo: "hueso" },
-      { nombre: "Preguntas", letra: "P", fondo: "azul" },
-      { nombre: "Consultar", letra: "C", fondo: "hueso" }
-    ],
-    fijados: ["Quiénes somos", "Qué nos diferencia", "Cómo trabajamos"]
-  },
-  notas: [
-    "Hoy el perfil dice «SOLMI & Asociados | Estudio Jurídico» y, en la bio, solo «Estudio Jurídico · CABA, San Pedro y zona». No nombra nada que le pase a alguien.",
-    "El nombre tiene un máximo de 30 caracteres y es lo que Instagram usa para buscar: por eso dice «Abogados». La bio, 150.",
-    "La bio no invita a escribir todavía: falta saber si la primera consulta es paga y cuántas podés atender. El botón de WhatsApp alcanza.",
-    "Las destacadas van con una letra grande, en azul y hueso alternados, hasta tener el logo en vectores. Adentro: tus áreas, dónde queda el estudio, las diez preguntas de tu web y cómo consultar.",
-    "En la B el nombre pasa a ser el tuyo: sigue diciendo «Abogado», que es lo que busca la gente. El usuario no cambia en ninguna: la cuenta ya existe.",
-    "Los tres de la grilla son los videos fijados: Instagram muestra primero el último que fijás, así que se fijan en orden 03, 02, 01."
-  ]
-};
 
-/* Versiones del perfil para elegir. Cada una pisa sobre la base solo lo que cambia. */
-window.GUIONES.perfil.versiones = [
-  {
-    "v": "A",
-    "titulo": "El estudio",
-    "porque": "La propuesta de hasta ahora: el estudio primero, las tres áreas y el acuerdo antes del juicio.",
-    "datos": {}
-  },
-  {
-    "v": "B",
-    "titulo": "Víctor primero",
-    "porque": "Lo que pediste en la reunión: humanizar la marca. El nombre es el tuyo y la bio habla como hablás vos.",
-    "datos": {
-      "nombre": "Víctor Solmi | Abogado",
-      "categoria": "Abogado",
-      "bio": "Abogado y empresario en San Pedro\n¿Un negocio, un socio, tu casa? Lo ordenamos antes\nSi hay un conflicto, primero buscamos el acuerdo\n📍 Mitre 2250",
-      "destacadas": [
-        {
-          "nombre": "Quiénes somos",
-          "letra": "V",
-          "fondo": "azul"
-        },
-        {
-          "nombre": "Qué hacemos",
-          "letra": "Q",
-          "fondo": "hueso"
-        },
-        {
-          "nombre": "Preguntas",
-          "letra": "P",
-          "fondo": "azul"
-        },
-        {
-          "nombre": "Escribinos",
-          "letra": "E",
-          "fondo": "hueso"
-        }
-      ],
-      "fijados": [
-        "Quiénes somos",
-        "Por qué nosotros",
-        "Cómo trabajamos"
-      ]
-    }
-  },
-  {
-    "v": "C",
-    "titulo": "Antes del juicio",
-    "porque": "La frase de la propuesta arriba de todo: ordenar antes del conflicto, resolver antes del juicio.",
-    "datos": {
-      "bio": "Ordenar antes del conflicto.\nResolver antes del juicio.\nEmpresas · contratos · proteger tus bienes\nVíctor Solmi, abogado y empresario\n📍 San Pedro",
-      "destacadas": [
-        {
-          "nombre": "Áreas",
-          "letra": "A",
-          "fondo": "azul"
-        },
-        {
-          "nombre": "Antes del juicio",
-          "letra": "J",
-          "fondo": "hueso"
-        },
-        {
-          "nombre": "Preguntas",
-          "letra": "P",
-          "fondo": "azul"
-        },
-        {
-          "nombre": "Consultar",
-          "letra": "C",
-          "fondo": "hueso"
-        }
-      ]
-    }
-  },
-  {
-    "v": "D",
-    "titulo": "El largo plazo",
-    "porque": "Tu diferencial: la ética y mirar a futuro. Sale de Perfil y Fortuna y del guion de por qué elegirte.",
-    "datos": {
-      "bio": "Pensamos en cómo vas a estar más adelante, no solo en ganar esta\nAcuerdos antes que juicios\nEmpresas y proteger lo tuyo\n📍 San Pedro",
-      "destacadas": [
-        {
-          "nombre": "El estudio",
-          "letra": "E",
-          "fondo": "azul"
-        },
-        {
-          "nombre": "Cómo trabajamos",
-          "letra": "T",
-          "fondo": "hueso"
-        },
-        {
-          "nombre": "Preguntas",
-          "letra": "P",
-          "fondo": "azul"
-        },
-        {
-          "nombre": "Consultar",
-          "letra": "C",
-          "fondo": "hueso"
-        }
-      ]
-    }
-  }
-];
 
 /* Guiones finales para grabar (R9–R14). Salen de vault-obsidian-git/clientes/estudio-solmi/REELS-2026-11.md.
    Cada línea: [tiempo, quién, texto, nota]. Quién: "E" Emanuel, "V" Víctor. Se graban los dos cierres. */
@@ -910,7 +717,7 @@ window.GUIONES.grabar = {
 /* Estudios que hacen lo mismo (relevado el 18/10/2026). Sale de
    vault-obsidian-git/clientes/estudio-solmi/REFERENCIAS-ESTUDIOS.md. Las vistas son las de ese día. */
 window.GUIONES.estudios = {
-  n: 5,
+  n: 4,
   titulo: "Estudios que hacen lo mismo",
   resumen: "Seis cuentas de abogados que le hablan a empresas, a familias con patrimonio o que buscan el acuerdo. Qué les funciona y qué tomamos. En San Pedro nadie hace esto: el lugar está libre",
   labels: ["Qué les funciona", "Qué tomamos para Solmi & Asociados", "Qué pide"],
@@ -1019,105 +826,207 @@ window.GUIONES.tanda = {
  "items": [
   {
    "r": "R15",
-   "tipo": "El ranking · fideicomiso",
-   "titulo": "Ranking: para qué sirve un fideicomiso",
+   "tipo": "El ranking · cuidar lo que construiste",
+   "titulo": "Ranking: lo que hace la gente para cuidar lo que construyó",
    "meta": "Duración ≈40 s",
    "ej": "DbQ_BeHBEOx",
    "ejde": "El ranking · Eder Salinas",
-   "nota": "de pie, con saco, plano medio. Un número por toma, con un paso o un cambio de plano entre puestos.",
+   "nota": "de pie, con saco, plano medio, junto al mapa. Emanuel lee cada opción fuera de cuadro; Víctor contesta mirando a cámara. Se graba de un tirón y se corta seco entre opción y respuesta. La columna, los números y las palabras van en edición.",
    "lineas": [
     [
      "0:00",
      "V",
-     "Ranking de para qué sirve un fideicomiso. Del uso que todos conocen al que casi nadie sabe.",
-     "En pantalla: PARA QUÉ SIRVE UN FIDEICOMISO · TOP 5"
+     "Ranking de lo que hace la gente para cuidar lo que construyó. Dale.",
+     "En pantalla: RANKING · CUIDAR LO QUE CONSTRUISTE · columna del 1 al 7 vacía"
+    ],
+    [
+     "0:03",
+     "E",
+     "Ponerlo todo a nombre de la pareja.",
+     ""
     ],
     [
      "0:05",
      "V",
-     "Puesto cinco: construir entre varios. Cada uno pone lo suyo para levantar un edificio, y las reglas quedan escritas desde el primer día.",
-     "A validar · En pantalla: 5 · Construir entre varios"
+     "Seis. Sigue expuesto, solo que a los problemas de otra persona.",
+     "A validar · En pantalla: 6 · A nombre de la pareja"
     ],
     [
-     "0:12",
+     "0:09",
+     "E",
+     "Un fideicomiso.",
+     ""
+    ],
+    [
+     "0:10",
      "V",
-     "Cuatro: que el campo o la producción no dependa de una sola persona.",
-     "A validar · En pantalla: 4 · Que la producción siga"
+     "Cuatro. Bien armado y a tiempo, sirve para construir. Para esconder, no sirve.",
+     "A validar · En pantalla: 4 · Fideicomiso"
+    ],
+    [
+     "0:15",
+     "E",
+     "Esperar a tener deudas para moverlo.",
+     ""
     ],
     [
      "0:17",
      "V",
-     "Tres: respaldar un préstamo con un bien puntual, sin poner en juego todo lo demás.",
-     "A validar · En pantalla: 3 · Una garantía"
+     "Siete, el último. Lo que se mueve a las apuradas se puede revisar.",
+     "A validar · En pantalla: 7 · Moverlo cuando ya hay deudas"
     ],
     [
-     "0:23",
-     "V",
-     "Dos: que la empresa familiar siga funcionando cuando cambia de manos.",
-     "A validar · En pantalla: 2 · Que la empresa siga"
+     "0:21",
+     "E",
+     "Firmar todo con el socio.",
+     ""
     ],
     [
-     "0:28",
+     "0:22",
      "V",
-     "Y el número uno, el que casi nadie conoce: cuidar a alguien que no puede administrar lo suyo. Un hijo menor, un familiar que necesita que otro lo haga por él.",
-     "A validar · En pantalla: 1 · Cuidar a alguien"
+     "Dos. Lo de palabra se recuerda distinto el día que las cosas andan mal.",
+     "En pantalla: 2 · Firmar con el socio"
+    ],
+    [
+     "0:26",
+     "E",
+     "Pasarle la casa a un hijo.",
+     ""
+    ],
+    [
+     "0:27",
+     "V",
+     "Cinco. La casa donde vivís pasa a ser de otro. Y la decisión también.",
+     "A validar · En pantalla: 5 · Pasársela a un hijo"
+    ],
+    [
+     "0:31",
+     "E",
+     "Separar lo del negocio de lo personal.",
+     ""
+    ],
+    [
+     "0:32",
+     "V",
+     "Tres. Que un problema del negocio no llegue a tu casa.",
+     "A validar · En pantalla: 3 · Separar negocio y casa"
+    ],
+    [
+     "0:35",
+     "E",
+     "¿Y el número uno?",
+     ""
     ],
     [
      "0:36",
      "V",
-     "Fíjense que en ninguno dijimos esconder. Para nosotros, un fideicomiso es una herramienta para construir.",
-     "En pantalla: herramienta para construir"
+     "Ordenarlo cuando todavía no hay ningún problema. Lo que más cuida lo que construiste no es una figura: es pensarlo a tiempo.",
+     "En pantalla: 1 · Ordenarlo a tiempo"
     ]
    ],
-   "cierre": "Si tenés un proyecto y querés saber si te sirve, comentá CONSULTA o mandanos un mensaje."
+   "cierre": "Si querés saber cómo estás parado, comentá CASA o mandanos un mensaje."
   },
   {
    "r": "R16",
-   "tipo": "El ranking · fideicomiso",
-   "titulo": "Ranking: mitos del fideicomiso",
-   "meta": "Duración ≈35 s",
+   "tipo": "El ranking · resolver un conflicto",
+   "titulo": "Ranking: formas de resolver un conflicto",
+   "meta": "Duración ≈38 s",
    "ej": "DbQ_BeHBEOx",
    "ejde": "El ranking · Eder Salinas",
-   "nota": "",
+   "nota": "igual que el R15, en la misma toma de pie: se graban los dos seguidos, con un cambio de corbata.",
    "lineas": [
     [
      "0:00",
      "V",
-     "Ranking de mitos sobre el fideicomiso. Del más inocente al que te puede salir caro.",
-     "En pantalla: MITOS DEL FIDEICOMISO"
+     "Ranking de formas de resolver un conflicto. De la más sana a la peor. Dale.",
+     "En pantalla: RANKING · RESOLVER UN CONFLICTO · columna del 1 al 7"
+    ],
+    [
+     "0:04",
+     "E",
+     "Ir a juicio.",
+     ""
     ],
     [
      "0:05",
      "V",
-     "Cuatro: «Es solo para gente con mucha plata.» No. Se usa para cosas tan comunes como construir entre hermanos.",
-     "A validar · En pantalla: 4 · «Es para ricos»"
+     "Cuatro. A veces es inevitable, pero es largo y costoso.",
+     "En pantalla: 4 · Juicio"
     ],
     [
-     "0:11",
-     "V",
-     "Tres: «Es complicadísimo.» Es un contrato. Lo importante es armarlo bien desde el principio.",
-     "En pantalla: 3 · «Es complicadísimo»"
+     "0:09",
+     "E",
+     "Pelearse por WhatsApp.",
+     ""
     ],
     [
-     "0:16",
+     "0:10",
      "V",
-     "Dos: «Lo armo con un modelo de internet.» Cada fideicomiso se arma para un fin concreto. Copiado, puede no servir para lo tuyo.",
-     "A validar · En pantalla: 2 · «Lo copio de internet»"
+     "Siete. Queda todo escrito y nadie sale ganando.",
+     "En pantalla: 7 · Pelearse por WhatsApp"
+    ],
+    [
+     "0:13",
+     "E",
+     "Una mediación.",
+     ""
+    ],
+    [
+     "0:14",
+     "V",
+     "Dos. Alguien en el medio ordena la charla, y las partes deciden.",
+     "A validar · En pantalla: 2 · Mediación"
+    ],
+    [
+     "0:18",
+     "E",
+     "No hacer nada y esperar.",
+     ""
+    ],
+    [
+     "0:19",
+     "V",
+     "Cinco. El problema no se va: crece.",
+     "En pantalla: 5 · Esperar"
+    ],
+    [
+     "0:22",
+     "E",
+     "Mandar una carta documento de bronca.",
+     ""
     ],
     [
      "0:23",
      "V",
-     "Y el más peligroso: «Me sirve para salvar lo mío si ya tengo deudas.» No. Lo que se mueve cuando ya hay deudas se puede revisar.",
-     "A validar · En pantalla: 1 · «Salva lo mío si ya debo»"
+     "Seis. Lo que escribís enojado se puede usar después.",
+     "En pantalla: 6 · Carta documento de bronca"
     ],
     [
-     "0:30",
+     "0:27",
+     "E",
+     "Una conciliación.",
+     ""
+    ],
+    [
+     "0:28",
      "V",
-     "Por eso en el estudio, antes de hablar de fideicomiso, te preguntamos para qué lo querés. A veces la respuesta es que no te hace falta.",
-     "En pantalla: a veces no hace falta"
+     "Tres. Otra solución alternativa. Muchas veces se cierra ahí.",
+     "A validar · En pantalla: 3 · Conciliación"
+    ],
+    [
+     "0:31",
+     "E",
+     "¿Y el número uno?",
+     ""
+    ],
+    [
+     "0:32",
+     "V",
+     "Sentarse a negociar. Es la más rápida y la más sana, y todos pueden salir ganando.",
+     "En pantalla: 1 · Negociar"
     ]
    ],
-   "cierre": "Si estás pensando en uno, comentá CONSULTA o mandanos un mensaje."
+   "cierre": "Si tenés un conflicto, comentá CONSULTA o mandanos un mensaje."
   },
   {
    "r": "R17",
@@ -1169,41 +1078,47 @@ window.GUIONES.tanda = {
   },
   {
    "r": "R18",
-   "tipo": "Equipo",
+   "tipo": "Teleprompter · el equipo",
    "titulo": "El equipo, nuestro máximo estandarte",
-   "meta": "Duración ≈30 s",
-   "ej": null,
-   "ejde": "",
-   "nota": "la gracia es que se vea el equipo, no solo decirlo. Víctor caminando por la oficina mientras",
+   "meta": "Duración ≈35 s",
+   "ej": "Db661pnRLe0",
+   "ejde": "Teleprompter · @clemente.jimenez_",
+   "nota": "teleprompter en el celular, a cámara, en tono de charla (no de discurso): alternar plano medio y primer plano en cada frase. Encima, de b-roll, el equipo trabajando: dos o tres alrededor de una carpeta, una reunión vista desde atrás. Falta saber quiénes del equipo pueden salir en cámara (BRIEF §1, pregunta 21); si nadie, de espaldas y manos.",
    "lineas": [
     [
      "0:00",
      "V",
-     "Es imposible que un abogado sea especialista en todo.",
+     "Es imposible que uno sea especialista en todo.",
      ""
     ],
     [
-     "0:04",
+     "0:03",
      "V",
-     "Por eso en el estudio jurídico Solmi & Asociados tenemos como máximo estandarte el trabajo en equipo. Nos hace crecer en todos los aspectos.",
-     "En pantalla: máximo estandarte: el equipo"
+     "Por eso en el estudio Solmi & Asociados tenemos como máximo estandarte el trabajo en equipo. Es el que nos hace crecer en todos los aspectos.",
+     "En pantalla: máximo estandarte: el trabajo en equipo"
     ],
     [
-     "0:12",
+     "0:11",
      "V",
-     "Cuando llega un caso, no lo mira una sola persona. Lo charlamos entre nosotros, hacemos interconsultas, y cada uno aporta lo que sabe.",
-     "A confirmar"
+     "En realidad, estamos organizados por temáticas: cada caso lo mira quien más sabe de ese tema, y lo charlamos entre todos.",
+     "A confirmar · En pantalla: organizados por temáticas"
     ],
     [
-     "0:20",
+     "0:18",
      "V",
-     "Trabajamos los más jóvenes y los más experimentados juntos. Todos aportan.",
+     "Somos un equipo donde aportan los más jóvenes y los más experimentados.",
      ""
     ],
     [
-     "0:24",
+     "0:22",
      "V",
-     "Así la respuesta que te damos es más sólida.",
+     "Así proporcionamos soluciones alternativas, más rápidas y más eficaces, como las que hoy necesitan las personas, los comercios y las empresas.",
+     "En pantalla: soluciones alternativas"
+    ],
+    [
+     "0:30",
+     "V",
+     "Te acompañamos en todo el proceso y vemos juntos las mejores opciones. Que cada cliente sea su mejor versión es nuestro éxito.",
      ""
     ]
    ],
@@ -1251,7 +1166,7 @@ window.GUIONES.tanda = {
     [
      "0:17",
      "V",
-     "Muchas veces son más rápidas, y vos seguís con tu vida y con tu negocio mientras se resuelve.",
+     "Son soluciones más rápidas, más eficaces, y tu comercio o tu empresa sigue trabajando con normalidad.",
      "A validar"
     ],
     [
@@ -1328,8 +1243,8 @@ window.GUIONES.jornada = {
     R17: "El formato del ejemplo que más nos gustó, con lo que ustedes dicen siempre: el acuerdo antes que el juicio.",
     R19: "La frase de las soluciones alternativas, contada con humor.",
     R11: "Una duda que se hace cualquiera que tiene un negocio. Es la candidata para el próximo anuncio.",
-    R15: "El ranking, y el fideicomiso como herramienta para construir, como lo dijiste en Fortuna.",
+    R15: "El ranking como en el ejemplo: Emanuel te nombra cosas y vos las ubicás. El fideicomiso entra como una opción más.",
     R13: "Es el tema que mejor le funcionó a otro estudio parecido.",
-    R18: "El trabajo en equipo, que es lo que más los define."
+    R18: "El trabajo en equipo, en teleprompter y con tus palabras: las de la radio, las de Fortuna y las que escribiste acá."
   }
 };
