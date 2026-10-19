@@ -119,6 +119,19 @@ details.tr pre{white-space:pre-wrap;font-family:inherit;font-size:13px;color:var
 .ejlink{font-size:13px;color:var(--tenue);margin:6px 0 0}
 .porque{font-size:13.5px;line-height:1.4;margin:8px 0 0;padding:8px 10px;border-radius:10px;background:#FFF4EE;color:#141414}
 .tag-grabar.luego{background:#E7E5E0;color:#63625E}
+[data-ed]{outline:none;border-radius:5px;cursor:text;transition:background .15s}
+[data-ed]:hover{background:rgba(255,77,0,.07)}
+[data-ed]:focus{background:#fff;box-shadow:0 0 0 2px var(--naranja)}
+.ed.cambiado{background:#FFE9C7}
+.edreset{display:block;margin-top:3px;border:0;background:none;padding:0;font-size:12px;font-weight:600;color:#C23A00;text-decoration:underline;cursor:pointer}
+.edreset[hidden]{display:none}
+details.opc{margin-top:10px;border-top:1px solid var(--lin);padding-top:8px}
+details.opc summary{cursor:pointer;font-size:13px;font-weight:700;color:#C23A00}
+details.opc ol{list-style:none;margin:8px 0 0;padding:0;display:grid;gap:6px}
+details.opc li{display:grid;grid-template-columns:1fr auto;gap:8px;align-items:start;padding:7px 9px;border:1px solid var(--lin);border-radius:9px;background:#fff;font-size:13.5px;line-height:1.4}
+details.opc li.sel{border-color:var(--naranja);background:#FFF4EE}
+details.opc button{border:1px solid rgba(0,0,0,.2);background:transparent;border-radius:100px;padding:3px 10px;font-size:12px;font-weight:600;color:#141414;white-space:nowrap}
+details.opc li.sel button{background:#141414;border-color:#141414;color:#fff}
 .varlist{list-style:none;margin:0;padding:0;display:grid;gap:12px}
 .varlist li{display:grid;gap:3px;font-size:14px;line-height:1.45}
 .varlist b{font-family:var(--tit);font-size:15.5px;letter-spacing:-.01em}
@@ -439,7 +452,7 @@ body.list .piez{width:auto}
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <div class="alerta" id="alerta" hidden>Este navegador no está guardando lo que escribís (puede ser una ventana privada). Antes de cerrar, tocá «Enviar» o bajate un respaldo.</div>
 
-<script src="guiones.js?v=2026-10-18h"></script>
+<script src="guiones.js?v=2026-10-18j"></script>
 <script>
 const D = window.GUIONES;
 const $ = s => document.querySelector(s);
@@ -447,7 +460,7 @@ const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;
 /* guardado: todo en localStorage de este navegador y, si hay NUBE, también en la planilla de Google.
    Si falla, se avisa en vez de callarse. */
 const NUBE = 'https://script.google.com/macros/s/AKfycbxgjYt2q3iZXebWQTGmeCoIkdg6bAyGNUPSIwTy47F43D51ED09QDCZU1WNqTMlQp31qw/exec', TABLERO = 'solmi-asociados';
-const CLAVES = ['sv-resp', 'sv-fijo', 'sv-conf', 'sv-hkx', 'sv-perfil', 'sv-piezas'];
+const CLAVES = ['sv-resp', 'sv-fijo', 'sv-conf', 'sv-hkx', 'sv-perfil', 'sv-piezas', 'sv-ed'];
 const DONDE = NUBE ? 'Guardado' : 'Guardado en este dispositivo';
 let tToast;
 const hora = (h = new Date()) => String(h.getHours()).padStart(2,'0') + ':' + String(h.getMinutes()).padStart(2,'0');
@@ -505,7 +518,7 @@ async function bajar(){
     if (o.estado && o.fecha > leerN('sv-cambio') && !huboCambio){
       CLAVES.forEach(k => { if (k in o.estado) localStorage.setItem(k, JSON.stringify(o.estado[k])); else localStorage.removeItem(k); });
       anotarN('sv-cambio', o.fecha); anotarN('sv-subido', o.fecha);
-      resp = store.get('sv-resp', {}); fijo = store.get('sv-fijo', {}); conf = store.get('sv-conf', {}); hkx = store.get('sv-hkx', {});
+      resp = store.get('sv-resp', {}); ed = store.get('sv-ed', {}); fijo = store.get('sv-fijo', {}); conf = store.get('sv-conf', {}); hkx = store.get('sv-hkx', {});
       perfil = cargarPerfil(store.get('sv-perfil', {})); delete perfil.foto;
       piezas = store.get(PZK, []);
       render(); despuesDeRender(); if (!document.body.classList.contains('list')) apply();
@@ -521,6 +534,14 @@ addEventListener('online', () => subir());
 addEventListener('pagehide', () => subir(true));
 document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'hidden') subir(true); });
 let resp = store.get('sv-resp', {});
+/* textos de los guiones editables en la página. Cada edición guarda el texto nuevo y el original de ese momento:
+   si después el guion cambia en guiones.js, la edición vieja no pisa la versión nueva. */
+let ed = store.get('sv-ed', {});
+const edVal = (id, orig) => { const x = ed[id]; return x && x.o === orig ? x.t : orig; };
+function E(id, orig, cls = ''){
+  const v = edVal(id, orig), cambio = v !== orig;
+  return `<span class="${cls} ed${cambio ? ' cambiado' : ''}" contenteditable="true" spellcheck="true" data-ed="${esc(id)}" data-orig="${esc(orig)}">${esc(v)}</span><button type="button" class="edreset" data-edreset="${esc(id)}"${cambio ? '' : ' hidden'}>volver al original</button>`;
+}
 let fijo = store.get('sv-fijo', {});
 let conf = store.get('sv-conf', {});
 let hkx = store.get('sv-hkx', {});
@@ -564,8 +585,8 @@ function renderScript(r, g){
   const ya = G && enJornada(G.r);
   const grab = G ? `<div class="sec grab"><p class="lab"><b>${ya ? 'Para grabar' : 'Guion listo'} · ${esc(G.r)}</b>${ya ? ' · ' + (ORDEN.indexOf(G.r) + 1) + ' de ' + ORDEN.length + ' en la jornada' : ' · para más adelante'}</p>
       ${G.nota ? `<p class="gnota">${esc(G.nota)}</p>` : ''}
-      <ol>${G.lineas.map(l => `<li class="${l[1] === 'E' ? 'e' : 'v'}"><span class="t">${esc(l[0])}</span><div><div class="q">${l[1] === 'E' ? 'Emanuel' : 'Víctor'}</div><span class="tx">${esc(l[2])}</span>${l[3] ? `<span class="nt">${esc(l[3])}</span>` : ''}</div></li>`).join('')}</ol>
-      <div class="cierres"><div><b>Cierre:</b> ${esc(G.cierre)}</div>${G.validar ? '<div class="gnota">A validar: ' + esc(G.validar) + '</div>' : ''}</div>
+      <ol>${G.lineas.map((l, i) => `<li class="${l[1] === 'E' ? 'e' : 'v'}"><span class="t">${esc(l[0])}</span><div><div class="q">${l[1] === 'E' ? 'Emanuel' : 'Víctor'}</div>${E(G.r + '|' + i, l[2], 'tx')}${l[3] ? `<span class="nt">${esc(l[3])}</span>` : ''}</div></li>`).join('')}</ol>
+      <div class="cierres"><div><b>Cierre:</b> ${E(G.r + '|cierre', G.cierre)}</div>${G.validar ? '<div class="gnota">A validar: ' + esc(G.validar) + '</div>' : ''}</div>
     </div>` : '';
   return `<article class="card g${ya ? ' grabar' : ''}" data-v="${g.v}" data-k="${key}">
     <header>
@@ -643,12 +664,23 @@ function cardTanda(G, ahora){
         ${por ? `<p class="porque">${esc(por)}</p>` : ''}
         ${G.ej ? `<p class="ejlink">Ejemplo: <a href="https://www.instagram.com/reel/${esc(G.ej)}/" target="_blank" rel="noopener">${esc(G.ejde)} ↗</a></p>` : ''}
       </header>
-      <div class="sec grab"><p class="lab"><b>Guion para grabar</b></p>
-        <ol>${G.lineas.map(l => `<li class="${l[1] === 'E' ? 'e' : 'v'}"><span class="t">${esc(l[0])}</span><div><div class="q">${quien(l[1])}</div><span class="tx">${esc(l[2])}</span>${l[3] ? `<span class="nt">${esc(l[3])}</span>` : ''}</div></li>`).join('')}</ol>
-        <div class="cierres"><div><b>Cierre:</b> ${esc(G.cierre)}</div></div>
+      <div class="sec grab"><p class="lab"><b>Guion para grabar</b> · tocá cualquier texto para cambiarlo, se guarda solo</p>
+        <ol>${G.lineas.map((l, i) => `<li class="${l[1] === 'E' ? 'e' : 'v'}"><span class="t">${esc(l[0])}</span><div><div class="q">${quien(l[1])}</div>${E(G.r + '|' + i, l[2], 'tx')}${l[3] ? `<span class="nt">${esc(l[3])}</span>` : ''}</div></li>`).join('')}</ol>
+        <div class="cierres"><div><b>Cierre:</b> ${E(G.r + '|cierre', G.cierre)}</div></div>
+        ${opciones(G)}
       </div>
       ${G.nota ? `<div class="sec"><p class="lab">Grabación</p><p class="gnota" style="margin:0">${esc(G.nota)}</p></div>` : ''}
     </article>`;
+}
+/* arranques y cierres opcionales: «Usar este» lo pone en el guion (se guarda como una edición más) */
+function opciones(G){
+  const lista = (titulo, items, id, orig) => items && items.length ? `<details class="opc"><summary>${titulo}</summary><ol>${items.map(t => {
+    const sel = edVal(id, orig) === t;
+    return `<li class="${sel ? 'sel' : ''}"><span>${esc(t)}</span><button type="button" data-usar="${esc(id)}" data-txt="${esc(t)}">${sel ? 'Elegido' : 'Usar este'}</button></li>`;
+  }).join('')}</ol></details>` : '';
+  const hl = G.lineas[G.hookIdx || 0] || [];
+  return lista(`${(G.hooks || []).length} arranques más`, G.hooks, G.r + '|' + (G.hookIdx || 0), hl[2]) +
+         lista(`${(G.cierres || []).length} cierres más`, G.cierres, G.r + '|cierre', G.cierre);
 }
 function renderVariaciones(){
   const V = (D.tanda || {}).variaciones || []; if (!V.length) return '';
@@ -1131,6 +1163,47 @@ function render(){
   $('#jump').innerHTML = `<option value="0">Ir a…</option>` + (D.tanda ? `<option value="G">▶ · Para grabar ahora</option><option value="M">⏸ · Para más adelante</option><option value="V">+ · Más ideas con los mismos formatos</option>` : '') + (P ? `<option value="P">IG · El perfil</option>` : '') + (D.fijados ? `<option value="F">★ · Los 3 fijados</option>` : '') + D.refs.map(r => `<option value="${r.n}">${String(r.n).padStart(2,'0')} · ${esc(r.formato)}</option>`).join('') + (D.ideas ? `<option value="${D.ideas.n}">${String(D.ideas.n).padStart(2,'0')} · ${esc(D.ideas.titulo)}</option>` : '') + (D.estudios ? `<option value="${D.estudios.n}">${String(D.estudios.n).padStart(2,'0')} · ${esc(D.estudios.titulo)}</option>` : '');
   prog();
 }
+/* guiones editables: lo que se escribe se guarda en sv-ed (viaja a la planilla) y se copia a la otra tarjeta del mismo reel */
+const edSync = (id, v, desde) => document.querySelectorAll('[data-ed]').forEach(x => { if (x.dataset.ed === id && x !== desde) x.textContent = v; });
+const edMarcar = (id, cambio) => {
+  const span = [...document.querySelectorAll('[data-ed]')].find(x => x.dataset.ed === id), v = span ? span.textContent : '';
+  document.querySelectorAll('[data-usar]').forEach(x => { if (x.dataset.usar === id){ const sel = x.dataset.txt === v; x.textContent = sel ? 'Elegido' : 'Usar este'; x.closest('li').classList.toggle('sel', sel); } });
+  document.querySelectorAll('[data-ed]').forEach(x => { if (x.dataset.ed === id) x.classList.toggle('cambiado', cambio); });
+  document.querySelectorAll('[data-edreset]').forEach(b => { if (b.dataset.edreset === id) b.hidden = !cambio; });
+};
+document.addEventListener('input', e => {
+  const el = e.target.closest && e.target.closest('[data-ed]'); if (!el) return;
+  const id = el.dataset.ed, orig = el.dataset.orig, v = el.innerText.replace(/\s+/g, ' ').trim();
+  if (!v || v === orig) delete ed[id]; else ed[id] = {t: v, o: orig};
+  store.set('sv-ed', ed, true); edSync(id, v || orig, el); edMarcar(id, !!ed[id]);
+});
+document.addEventListener('paste', e => {
+  const el = e.target.closest && e.target.closest('[data-ed]'); if (!el) return;
+  e.preventDefault(); document.execCommand('insertText', false, (e.clipboardData || window.clipboardData).getData('text/plain'));
+});
+document.addEventListener('keydown', e => {
+  const el = e.target.closest && e.target.closest('[data-ed]'); if (el && e.key === 'Enter'){ e.preventDefault(); el.blur(); }
+});
+document.addEventListener('focusout', e => {
+  const el = e.target.closest && e.target.closest('[data-ed]'); if (el && ed[el.dataset.ed]) avisarGuardado();
+});
+document.addEventListener('click', e => {
+  const u = e.target.closest('[data-usar]'); if (!u) return;
+  const id = u.dataset.usar, t = u.dataset.txt, span = [...document.querySelectorAll('[data-ed]')].find(x => x.dataset.ed === id);
+  if (!span) return;
+  const orig = span.dataset.orig;
+  if (t === orig) delete ed[id]; else ed[id] = {t, o: orig};
+  store.set('sv-ed', ed);
+  document.querySelectorAll('[data-ed]').forEach(x => { if (x.dataset.ed === id) x.textContent = t; });
+  edMarcar(id, !!ed[id]);
+  document.querySelectorAll('[data-usar]').forEach(x => { if (x.dataset.usar === id){ const sel = x.dataset.txt === t; x.textContent = sel ? 'Elegido' : 'Usar este'; x.closest('li').classList.toggle('sel', sel); } });
+});
+document.addEventListener('click', e => {
+  const b = e.target.closest('[data-edreset]'); if (!b) return;
+  const id = b.dataset.edreset; delete ed[id]; store.set('sv-ed', ed);
+  document.querySelectorAll('[data-ed]').forEach(x => { if (x.dataset.ed === id) x.textContent = x.dataset.orig; });
+  edMarcar(id, false);
+});
 render();
 despuesDeRender();
 
