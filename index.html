@@ -101,6 +101,21 @@ details.tr pre{white-space:pre-wrap;font-family:inherit;font-size:13px;color:var
 .g[data-v="B"] .var::before{content:"B"}
 .g[data-v="C"] .var::before{content:"C";background:transparent;color:#141414;border:1.5px solid #141414}
 .g[data-v="D"] .var::before{content:"D";background:#63625E}
+.tag-grabar{display:inline-flex;align-items:center;gap:6px;margin:0 0 8px 8px;padding:4px 10px;border-radius:100px;background:var(--naranja);color:#fff;font-size:11px;font-weight:700;letter-spacing:.11em;text-transform:uppercase;vertical-align:top}
+.tag-grabar::before{content:"";width:7px;height:7px;border-radius:50%;background:#fff}
+.g.grabar{box-shadow:0 0 0 2px var(--naranja)}
+.grab{background:#FFF4EE}
+.grab .lab b{color:#C23A00}
+.grab .gnota{font-size:13px;color:var(--tenue);margin:0 0 10px}
+.grab ol{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.grab li{display:grid;grid-template-columns:38px 1fr;gap:10px;font-size:14.5px;line-height:1.45}
+.grab .t{font-size:12px;font-weight:700;color:var(--tenue);padding-top:2px}
+.grab .q{font-size:10.5px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--tenue)}
+.grab li.v .q{color:#C23A00}
+.grab li.e .tx{font-weight:600}
+.grab .nt{display:block;font-size:12.5px;color:var(--tenue);margin-top:2px}
+.grab .cierres{margin-top:12px;display:grid;gap:6px;font-size:14px;line-height:1.45}
+.grab .cierres b{color:#C23A00}
 .g h3{font-family:var(--tit);margin:0;font-size:25px;font-weight:800;line-height:1.05;letter-spacing:-.03em;padding-right:48px}
 .g .angle{margin:8px 0 0;font-size:13.5px;color:var(--tenue)}
 .star{position:absolute;top:16px;right:16px;width:40px;height:40px;border-radius:50%;border:1px solid var(--lin);background:transparent;font-size:18px;line-height:1;color:#141414;transition:background .25s,color .25s,transform .3s var(--sal)}
@@ -415,7 +430,7 @@ body.list .piez{width:auto}
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <div class="alerta" id="alerta" hidden>Este navegador no está guardando lo que escribís (puede ser una ventana privada). Antes de cerrar, tocá «Enviar» o bajate un respaldo.</div>
 
-<script src="guiones.js?v=2026-10-18"></script>
+<script src="guiones.js?v=2026-10-18b"></script>
 <script>
 const D = window.GUIONES;
 const $ = s => document.querySelector(s);
@@ -534,13 +549,20 @@ function renderScript(r, g){
       </div></div>`).join('');
   const h = hechas(key, g), t = nV(g), c = conf[key], hk = elegido(key, g);
   const hooks = g.hooks ? `<details class="hks"><summary>${g.hooks.length} arranques más · o escribí el tuyo</summary><ol data-hkl="${key}">${hooksList(key, g)}</ol><div class="hkadd"><textarea data-hkin="${key}" rows="2" aria-label="Tu propio arranque" placeholder="Escribí tu propio arranque…"></textarea><button type="button" data-hkadd="${key}">Agregar</button></div></details>` : '';
-  return `<article class="card g" data-v="${g.v}" data-k="${key}">
+  const G = (D.grabar || {})[key];
+  const grab = G ? `<div class="sec grab"><p class="lab"><b>Para grabar · ${esc(G.r)}</b> · ${esc(G.cuando)}</p>
+      ${G.nota ? `<p class="gnota">${esc(G.nota)}</p>` : ''}
+      <ol>${G.lineas.map(l => `<li class="${l[1] === 'E' ? 'e' : 'v'}"><span class="t">${esc(l[0])}</span><div><div class="q">${l[1] === 'E' ? 'Emanuel' : 'Víctor'}</div><span class="tx">${esc(l[2])}</span>${l[3] ? `<span class="nt">${esc(l[3])}</span>` : ''}</div></li>`).join('')}</ol>
+      <div class="cierres"><div><b>Cierre B (por defecto):</b> ${esc(G.cierreB)}</div><div><b>Cierre A (si hay quién conteste):</b> ${esc(G.cierreA)}</div><div class="gnota">Se graban los dos cierres y se elige en edición.${G.validar ? ' A validar: ' + esc(G.validar) : ''}</div></div>
+    </div>` : '';
+  return `<article class="card g${G ? ' grabar' : ''}" data-v="${g.v}" data-k="${key}">
     <header>
-      <span class="var">${esc(g.tipo)}</span>
+      <span class="var">${esc(g.tipo)}</span>${G ? '<span class="tag-grabar">Grabar</span>' : ''}
       <h3>${esc(g.titulo)}</h3>
       <p class="angle">${esc(g.angulo)}</p>
       <div class="cont ${h === t ? 'full' : ''}" data-cont="${key}">${h} de ${t} respondidas</div>
     </header>
+    ${grab}
     <div class="sec"><p class="lab">Arranque · primeros 3 segundos · dice ${esc(g.hook.quien)}</p>
       <div class="hook">
         <div class="say" data-say="${key}">${esc(hk || g.hook.dice)}</div>

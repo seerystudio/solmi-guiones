@@ -828,3 +828,87 @@ window.GUIONES.perfil.versiones = [
     }
   }
 ];
+
+/* Guiones finales para grabar (R9–R14). Salen de vault-obsidian-git/clientes/estudio-solmi/REELS-2026-11.md.
+   Cada línea: [tiempo, quién, texto, nota]. Quién: "E" Emanuel, "V" Víctor. Se graban los dos cierres. */
+window.GUIONES.grabar = {
+  "1A": {
+    r: "R9", cuando: "Semana 1 · martes", nota: "Va fijado al perfil. Se graban los dos arranques y se elige en edición: con tu texto encaja mejor el primero.",
+    lineas: [
+      ["0:00", "E", "Víctor, ¿me podés explicar fácil a qué se dedican en el estudio? Para que gente común como yo entienda.", "Arranque alternativo: «Víctor, ¿qué me puede pasar si en toda mi vida no hablo nunca con un abogado?»"],
+      ["0:04", "V", "Soy abogado con formación en administración de empresas."],
+      ["0:08", "V", "Somos un estudio de amplia cobertura, enfocamos nuestra mirada en comercios y empresas."],
+      ["0:14", "V", "Hoy la actividad necesita soluciones rápidas, por eso buscamos acuerdos para que la actividad continúe."],
+      ["0:22", "E", "¿O sea que prefieren arreglar antes que ir a juicio?"],
+      ["0:25", "V", "Sí. En el estudio, si se puede arreglar sin juicio, mejor.", "Sugerida: decilo con tus palabras."]
+    ],
+    cierreB: "¿Tenés un comercio o una empresa? Poné sí o no.",
+    cierreA: "Si tenés un comercio o una empresa, comentá CONSULTA o mandanos un mensaje.",
+    validar: "«Estudio de amplia cobertura» y «soluciones rápidas»."
+  },
+  "1B": {
+    r: "R11", cuando: "Semana 1 · jueves", nota: "Candidato al próximo anuncio.",
+    lineas: [
+      ["0:00", "E", "Víctor, si a mi negocio le va mal, ¿me pueden sacar la casa?"],
+      ["0:04", "V", "Casi todos los que tienen un negocio creen que no. Que lo del negocio es del negocio, y la casa es la casa."],
+      ["0:10", "V", "Y muchos se enteran de que no era tan simple el día que al negocio le va mal."],
+      ["0:15", "E", "¿Entonces me la pueden sacar?"],
+      ["0:17", "V", "Depende de cómo armaste las cosas: a nombre de quién está el negocio, qué firmaste vos personalmente, si lo tuyo y lo del negocio están separados.", "A validar."],
+      ["0:26", "V", "Que la casa sea tuya no alcanza. Lo que pesa es cómo armaste todo lo demás, y eso se decide antes.", "A validar."]
+    ],
+    cierreB: "¿Alguna vez pensaste qué pasa con tu casa si al negocio le va mal? Poné sí o no.",
+    cierreA: "Si tenés un negocio y la casa a tu nombre, comentá CASA o mandanos un mensaje."
+  },
+  "3B": {
+    r: "R14", cuando: "Semana 2 · martes", nota: "Teleprompter: primer plano y plano medio alternados.",
+    lineas: [
+      ["0:00", "V", "«La pongo a nombre de mi pareja y listo.» Si lo hiciste, tu casa no está tan protegida como creés."],
+      ["0:05", "V", "Ese es el clásico. La casa sigue expuesta, solo que ahora a los problemas de otra persona.", "Primer plano · a validar."],
+      ["0:11", "V", "Dos: «Se la paso a uno de los chicos». Si lo hacés sin más, la casa donde vivís pasa a ser de otro. Y la decisión también.", "Plano medio · a validar."],
+      ["0:18", "V", "Tres: «Lo hago cuando empiecen los problemas». Lo que se mueve a las apuradas, cuando ya hay deudas, se puede revisar.", "Primer plano · a validar."],
+      ["0:25", "V", "Ordenarlo con tiempo, cuando todavía no hay ningún problema, es otra historia.", "A validar."]
+    ],
+    cierreB: "¿Cuál de las tres escuchaste en un asado? Poné 1, 2 o 3.",
+    cierreA: "Si alguna vez pensaste en una de estas tres, comentá CASA o mandanos un mensaje."
+  },
+  "2A": {
+    r: "R12", cuando: "Semana 2 · jueves", nota: "Falsa entrevista: Víctor mira a Emanuel, no a cámara. Cambio de ropa.",
+    lineas: [
+      ["0:00", "E", "Víctor, ustedes que conocen los negocios desde adentro: ¿cuál es el error que más ven en los que tienen un negocio?"],
+      ["0:05", "V", "Que todo está de palabra."],
+      ["0:08", "V", "Con el socio, con el proveedor, con el que te alquila el local. Mientras anda bien, nadie quiere firmar nada, para no quedar como desconfiado."],
+      ["0:16", "V", "El problema es que lo de palabra se recuerda distinto el día que las cosas andan mal."],
+      ["0:21", "E", "¿A vos te pasó?"],
+      ["0:23", "V", "Una anécdota tuya como empresario, sin nombres.", "Si no tenés una, se corta la pregunta."],
+      ["0:30", "V", "Firmarlo es para que dentro de unos años los dos se acuerden de lo mismo."]
+    ],
+    cierreB: "¿Con tu socio firmaron algo? Poné sí o no.",
+    cierreA: "Si tenés un negocio con alguien y no firmaron nada, comentá SOCIO o mandanos un mensaje."
+  },
+  "1D": {
+    r: "R10", cuando: "Semana 3 · martes", nota: "La cámara es el que llega al escritorio.",
+    lineas: [
+      ["0:00", "E", "Hola… la verdad, no sé ni por dónde empezar."],
+      ["0:03", "V", "Sentate tranquilo.", "Con un gesto, antes de hablar de nada legal."],
+      ["0:05", "E", "No sé nada de leyes ni cómo explicarte lo mío."],
+      ["0:08", "V", "Los escuchamos. Cada persona y empresa es un caso único."],
+      ["0:13", "V", "Vemos dónde están parados y tratamos de darle la mejor estrategia de solución a su caso."],
+      ["0:19", "E", "¿Y si después no quiero hacer nada?"],
+      ["0:22", "V", "Decidís vos. Consultar no te obliga a nada."]
+    ],
+    cierreB: "¿Alguna vez no fuiste a un abogado por miedo a lo que venía después? Poné sí o no.",
+    cierreA: "Si tenés una duda, comentá CONSULTA o mandanos un mensaje."
+  },
+  "3A": {
+    r: "R13", cuando: "Semana 3 · jueves", nota: "Teleprompter: primer plano y plano medio alternados.",
+    lineas: [
+      ["0:00", "V", "Muchas empresas familiares no se caen por la plata. Se caen en la mesa del domingo."],
+      ["0:04", "V", "En el estudio lo vemos seguido: las que llegan a los nietos tienen tres cosas. Una: los hermanos saben quién decide. Y no deciden todos.", "Primer plano."],
+      ["0:12", "V", "Dos: lo hablaron con la mesa puesta. No en el velorio.", "Plano medio."],
+      ["0:17", "V", "Tres: lo dejaron escrito, para que no dependa de la memoria de nadie.", "Primer plano · a validar."],
+      ["0:22", "V", "Al final, lo que llega a los nietos es cómo se hablaba en esa mesa."]
+    ],
+    cierreB: "¿En tu familia ya hablaron de quién decide? Poné sí o todavía no.",
+    cierreA: "Si trabajás con tu familia, comentá SOCIO o mandanos un mensaje."
+  }
+};
