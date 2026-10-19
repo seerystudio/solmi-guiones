@@ -134,6 +134,12 @@ details.tr pre{white-space:pre-wrap;font-family:inherit;font-size:13px;color:var
 .recom{font-size:13px;line-height:1.4;margin:8px 0 0;color:#3A3935}
 .recom b{color:#C23A00}
 .vblk[hidden]{display:none}
+.par{display:flex;gap:14px;align-items:flex-start;flex:none}
+.refside{width:268px;position:sticky;top:76px;gap:10px}
+.refside .vblk:not([hidden]){display:flex;flex-direction:column;gap:10px}
+.refside .who{margin:0}
+.refside .refde{margin:0;font-family:var(--tit);font-size:17px;font-weight:700;line-height:1.2;letter-spacing:-.015em;color:var(--hueso)}
+.refside .sin{margin:0;font-size:13.5px;line-height:1.45;color:var(--gris)}
 details.opc{margin-top:10px;border-top:1px solid var(--lin);padding-top:8px}
 details.opc summary{cursor:pointer;font-size:13px;font-weight:700;color:#C23A00}
 details.opc ol{list-style:none;margin:8px 0 0;padding:0;display:grid;gap:6px}
@@ -215,9 +221,18 @@ body.list .igw{width:100%;max-width:390px;margin:0 auto}
 body.list .intro h2{font-size:32px}
 body.list .scripts{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;margin:0 -16px;padding:4px 16px 14px;scrollbar-width:none}
 body.list .g{flex:0 0 88%;max-width:450px;scroll-snap-align:center}
+body.list .par{scroll-snap-align:center}
+body.list .par .g{flex:0 0 450px;max-width:450px}
+@media (max-width:760px){
+  body.list .par{flex:0 0 88%;max-width:450px;flex-direction:column;gap:10px}
+  body.list .par .g{flex:none;width:100%;max-width:none}
+  body.list .refside{order:-1;width:auto;align-self:stretch;position:static}
+  body.list .refside .vid{max-width:220px}
+}
 body.list .vid{max-width:300px;margin:0 auto;width:100%}
 .scripts{display:flex;gap:24px;align-items:flex-start}
 body.onlypicks .g:not(.pick){display:none}
+body.onlypicks .par:not(:has(.g.pick)){display:none}
 body.onlypicks .row:not(:has(.g.pick)){display:none}
 @media (max-width:700px){
   .bar{gap:6px;padding:10px 12px}
@@ -461,7 +476,7 @@ body.list .piez{width:auto}
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <div class="alerta" id="alerta" hidden>Este navegador no está guardando lo que escribís (puede ser una ventana privada). Antes de cerrar, tocá «Enviar» o bajate un respaldo.</div>
 
-<script src="guiones.js?v=2026-10-19c"></script>
+<script src="guiones.js?v=2026-10-19d"></script>
 <script>
 const D = window.GUIONES;
 const $ = s => document.querySelector(s);
@@ -664,15 +679,15 @@ function poolGuiones(){
   return out;
 }
 function cardTanda(G, ahora){
-  const quien = q => q === 'E' ? 'Emanuel' : q === 'B' ? 'Imagen' : q === 'C' ? 'Chat de WhatsApp' : 'Víctor';
+  const quien = q => q === 'E' ? 'Emanuel' : q === 'B' ? 'Imagen' : q === 'C' ? 'Chat de WhatsApp' : q === 'P' ? 'En pantalla' : 'Víctor';
   const por = ahora && D.jornada.porque ? D.jornada.porque[G.r] : '';
   const vs = [{v: 'A', titulo: G.titulo, mecanica: 'la de la tanda', puntaje: null}].concat(G.versiones || []);
   const rec = ((G.recomendacion || '').match(/grabar\s+([ABC])/) || [])[1];
   const sel = vs.some(x => x.v === ver[G.r]) ? ver[G.r] : (vs.some(x => x.v === rec) ? rec : 'A');
   const guion = (X, base, conOpc) => `
-        <ol>${X.lineas.map((l, i) => `<li class="${l[1] === 'E' || l[1] === 'C' ? 'e' : 'v'}${l[1] === 'C' ? ' chat' : ''}"><span class="t">${esc(l[0])}</span><div><div class="q">${quien(l[1])}</div>${E(base + '|' + i, l[2], 'tx')}${l[3] ? `<span class="nt">${esc(l[3])}</span>` : ''}</div></li>`).join('')}</ol>
+        <ol>${X.lineas.map((l, i) => `<li class="${l[1] === 'E' || l[1] === 'C' || l[1] === 'P' ? 'e' : 'v'}${l[1] === 'C' ? ' chat' : ''}"><span class="t">${esc(l[0])}</span><div><div class="q">${quien(l[1])}</div>${E(base + '|' + i, l[2], 'tx')}${l[3] ? `<span class="nt">${esc(l[3])}</span>` : ''}</div></li>`).join('')}</ol>
         <div class="cierres"><div><b>Cierre:</b> ${E(base + '|cierre', X.cierre)}</div></div>
-        ${conOpc ? opciones(G) : ''}`;
+        ${conOpc ? opciones(X, base) : ''}`;
   const tabs = vs.length > 1 ? `<div class="vtabs" role="group" aria-label="Versiones">${vs.map(x => `<button type="button" data-vsel="${esc(G.r)}" data-v="${x.v}" aria-pressed="${x.v === sel}">${x.v}${x.v === 'A' ? ' · original' : ' · ' + esc(x.mecanica)}${x.puntaje ? ` <small>${x.puntaje}/10</small>` : ''}</button>`).join('')}</div>
         ${G.recomendacion ? `<p class="recom"><b>Recomendación:</b> ${esc(G.recomendacion)}</p>` : ''}` : '';
   const bloqueA = `<div class="vblk" data-vr="${esc(G.r)}" data-v="A"${sel === 'A' ? '' : ' hidden'}>
@@ -683,31 +698,37 @@ function cardTanda(G, ahora){
   const otros = (G.versiones || []).map(X => `<div class="vblk" data-vr="${esc(G.r)}" data-v="${X.v}"${sel === X.v ? '' : ' hidden'}>
       <div class="sec grab"><p class="lab"><b>Versión ${X.v} · ${esc(X.titulo)}</b></p>
         <p class="gnota">${esc(X.mecanica)}${X.meta ? ' · ' + esc(X.meta) : ''}${X.puntaje ? ' · ' + X.puntaje + '/10' : ''}${X.porque ? ' — ' + esc(X.porque) : ''}</p>
-        ${X.ej ? `<p class="ejlink" style="margin:0 0 10px">Ejemplo: <a href="https://www.instagram.com/reel/${esc(X.ej)}/" target="_blank" rel="noopener">${esc(X.ejde)} ↗</a></p>` : ''}${guion(X, G.r + '-' + X.v, false)}
+        ${guion(X, G.r + '-' + X.v, true)}
       </div>
       ${X.nota ? `<div class="sec"><p class="lab">Grabación</p><p class="gnota" style="margin:0">${esc(X.nota)}</p></div>` : ''}
     </div>`).join('');
-  return `<article class="card g tanda${ahora ? ' grabar' : ''}" data-k="${esc(G.r)}">
+  const refs = [Object.assign({}, G, {v: 'A', mecanica: G.tipo})].concat(G.versiones || []);
+  const lado = `<aside class="card ref refside" aria-label="Reel de referencia de ${esc(G.r)}">${refs.map(X => `<div class="vblk" data-vr="${esc(G.r)}" data-v="${X.v}"${sel === X.v ? '' : ' hidden'}>
+      <p class="who">Referencia · versión <b>${X.v}</b></p>
+      ${X.ej ? `<h4 class="refde">${esc(X.ejde)}</h4>
+      <div class="vid" data-embed="${esc(X.ej)}"><div class="ph"><button type="button">▶ Ver la referencia</button><a href="https://www.instagram.com/reel/${esc(X.ej)}/" target="_blank" rel="noopener">abrir en Instagram ↗</a></div></div>` : '<p class="sin">Esta versión no tiene reel de referencia todavía.</p>'}
+    </div>`).join('')}</aside>`;
+  return `<div class="par"><article class="card g tanda${ahora ? ' grabar' : ''}" data-k="${esc(G.r)}">
       <header>
         <span class="var">${esc(G.tipo)}</span>${ahora ? `<span class="tag-grabar">Grabar · ${ORDEN.indexOf(G.r) + 1} de ${ORDEN.length}</span>` : '<span class="tag-grabar luego">Más adelante</span>'}
         <h3>${esc(G.r)} · ${esc(G.titulo)}</h3>
         <p class="angle">${esc(G.meta)}${G.de ? ' · también en la fila del guion ' + esc(G.de) : ''}</p>
         ${por ? `<p class="porque">${esc(por)}</p>` : ''}
-        ${G.ej ? `<p class="ejlink">Ejemplo: <a href="https://www.instagram.com/reel/${esc(G.ej)}/" target="_blank" rel="noopener">${esc(G.ejde)} ↗</a></p>` : ''}
         ${tabs}
       </header>
       ${bloqueA}${otros}
-    </article>`;
+    </article>${lado}</div>`;
 }
 /* arranques y cierres opcionales: «Usar este» lo pone en el guion (se guarda como una edición más) */
-function opciones(G){
+function opciones(G, base){
+  base = base || G.r;
   const lista = (titulo, items, id, orig) => items && items.length ? `<details class="opc"><summary>${titulo}</summary><ol>${items.map(t => {
     const sel = edVal(id, orig) === t;
     return `<li class="${sel ? 'sel' : ''}"><span>${esc(t)}</span><button type="button" data-usar="${esc(id)}" data-txt="${esc(t)}">${sel ? 'Elegido' : 'Usar este'}</button></li>`;
   }).join('')}</ol></details>` : '';
   const hl = G.lineas[G.hookIdx || 0] || [];
-  return lista(`${(G.hooks || []).length} arranques más`, G.hooks, G.r + '|' + (G.hookIdx || 0), hl[2]) +
-         lista(`${(G.cierres || []).length} cierres más`, G.cierres, G.r + '|cierre', G.cierre);
+  return lista(`${(G.hooks || []).length} arranques más`, G.hooks, base + '|' + (G.hookIdx || 0), hl[2]) +
+         lista(`${(G.cierres || []).length} cierres más`, G.cierres, base + '|cierre', G.cierre);
 }
 function renderVariaciones(){
   const V = (D.tanda || {}).variaciones || []; if (!V.length) return '';
