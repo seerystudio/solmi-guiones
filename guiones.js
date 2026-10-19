@@ -822,7 +822,7 @@ window.GUIONES.estudios = {
    con tanda.py: si cambia el guion, se cambia allá y se vuelve a generar. */
 window.GUIONES.tanda = {
  "titulo": "Para grabar ahora",
- "resumen": "Los siete de esta grabación, elegidos entre las dos tandas, en el orden de la jornada: podcast, escritorio, de pie, teleprompter y oficina",
+ "resumen": "Siete reels, siete formatos nuevos, todos para que la gente escriba. En el orden de la jornada",
  "items": [
   {
    "r": "R15",
@@ -950,108 +950,7 @@ window.GUIONES.tanda = {
     "Si estás pensando en un fideicomiso, comentá CASA o escribinos y vemos si te sirve."
    ],
    "hookIdx": 0,
-   "versiones": [
-    {
-     "v": "B",
-     "titulo": "Te explicamos en un minuto cómo se cuida lo que construiste",
-     "mecanica": "te explico en un minuto",
-     "meta": "Duración ≈55 s",
-     "ej": "DdArHqygvX1",
-     "ejde": "@abogalexis",
-     "puntaje": 7,
-     "porque": "",
-     "nota": "",
-     "lineas": [
-      [
-       "0:00",
-       "V",
-       "Te explicamos en un minuto cómo se cuida lo que construiste. Con un ejemplo.",
-       "En pantalla: EN UN MINUTO"
-      ],
-      [
-       "0:05",
-       "V",
-       "Imaginate a Marta. Tiene un kiosco, la casa a su nombre y todo en la misma cuenta.",
-       "En pantalla: un ejemplo"
-      ],
-      [
-       "0:11",
-       "V",
-       "Si el kiosco se endeuda, como todo está mezclado y a su nombre, la deuda puede llegar a lo personal.",
-       "A validar"
-      ],
-      [
-       "0:18",
-       "V",
-       "Paso uno: mirar a nombre de quién está cada cosa y qué firmó.",
-       "En pantalla: 1"
-      ],
-      [
-       "0:23",
-       "V",
-       "Paso dos: separar. Una cuenta para el kiosco, otra para ella, y cuidado con las garantías personales.",
-       "A validar · En pantalla: 2"
-      ],
-      [
-       "0:30",
-       "V",
-       "Paso tres: elegir la herramienta. Puede ser una sociedad, un contrato o un fideicomiso. Depende de cada caso.",
-       "A validar · En pantalla: 3"
-      ],
-      [
-       "0:38",
-       "V",
-       "Y ojo: todo esto sirve si se hace a tiempo. Lo que se mueve con deudas encima se puede revisar.",
-       "A validar · En pantalla: ojo"
-      ]
-     ],
-     "cierre": "Si tenés un negocio y la casa a tu nombre, comentá CASA o mandanos un mensaje."
-    },
-    {
-     "v": "C",
-     "titulo": "Fideicomiso: para qué sí y para qué no",
-     "mecanica": "el contraste",
-     "meta": "Duración ≈50 s",
-     "ej": "DcCRoubO1re",
-     "ejde": "@abogados.trevino",
-     "puntaje": 8,
-     "porque": "habla de fideicomiso sin vender: dice para qué no sirve",
-     "nota": "",
-     "lineas": [
-      [
-       "0:00",
-       "V",
-       "Una cosa es usar un fideicomiso para construir. Otra muy distinta, usarlo para esconder. Te explicamos.",
-       "En pantalla: construir ≠ esconder"
-      ],
-      [
-       "0:06",
-       "V",
-       "Mucha gente escucha «fideicomiso» y piensa en salvar bienes cuando ya tiene deudas. Para eso no sirve: lo que se mueve con deudas encima se puede revisar.",
-       "A validar · En pantalla: para esconder: no"
-      ],
-      [
-       "0:16",
-       "V",
-       "Para lo que sí sirve: construir entre varios con reglas claras, que la empresa familiar siga cuando cambia de manos, o cuidar a alguien que no puede administrar lo suyo.",
-       "A validar · En pantalla: para construir: sí"
-      ],
-      [
-       "0:28",
-       "V",
-       "¿Cómo se arma? Se define para qué es, quién pone qué, quién lo administra y quién recibe. Y se arma a tiempo, a medida de cada caso.",
-       "A validar"
-      ],
-      [
-       "0:38",
-       "V",
-       "Y a veces la respuesta es que no te hace falta. También te lo decimos.",
-       ""
-      ]
-     ],
-     "cierre": "Si estás pensando en un fideicomiso, comentá CASA o mandanos un mensaje y vemos si te sirve."
-    }
-   ],
+   "versiones": [],
    "recomendacion": "grabar A (ranking). C es la mejor forma de hablar de fideicomiso sin sonar a vendedor: va para la próxima."
   },
   {
@@ -1181,150 +1080,7 @@ window.GUIONES.tanda = {
     "Mandáselo a quien esté por mandar una carta documento de bronca, y comentá CONSULTA si querés ayuda."
    ],
    "hookIdx": 0,
-   "versiones": [
-    {
-     "v": "B",
-     "titulo": "Ronda rápida: ¿se arregla o va a juicio?",
-     "mecanica": "ronda rápida",
-     "meta": "Duración ≈45 s",
-     "ej": "DbcPElHRNu0",
-     "ejde": "@clemente.jimenez_",
-     "puntaje": 10,
-     "porque": "el formato de lo guardado con el diferencial de Solmi; es el más fuerte de todos",
-     "nota": "",
-     "lineas": [
-      [
-       "0:00",
-       "V",
-       "Problemas de un negocio. ¿Se arregla o va a juicio?",
-       "En pantalla: ¿SE ARREGLA O JUICIO?"
-      ],
-      [
-       "0:03",
-       "E",
-       "Un cliente que te debe y te contesta los mensajes.",
-       ""
-      ],
-      [
-       "0:05",
-       "V",
-       "Se arregla. Un plan de pago por escrito, y listo.",
-       "En pantalla: Se arregla"
-      ],
-      [
-       "0:09",
-       "E",
-       "Un socio que se quiere ir.",
-       ""
-      ],
-      [
-       "0:10",
-       "V",
-       "Se arregla, casi siempre. Se valúa lo que hay y se acuerda la salida.",
-       "A validar · En pantalla: Se arregla"
-      ],
-      [
-       "0:15",
-       "E",
-       "Un proveedor que no entregó lo que pagaste.",
-       ""
-      ],
-      [
-       "0:16",
-       "V",
-       "Se arregla. Primero se reclama por escrito, y muchas veces se cierra ahí.",
-       "En pantalla: Se arregla"
-      ],
-      [
-       "0:21",
-       "E",
-       "Un vecino que te rompió la medianera.",
-       ""
-      ],
-      [
-       "0:22",
-       "V",
-       "Se arregla. Una mediación sirve mucho para esto.",
-       "A validar · En pantalla: Se arregla"
-      ],
-      [
-       "0:26",
-       "E",
-       "Alguien que no contesta nunca y no quiere arreglar nada.",
-       ""
-      ],
-      [
-       "0:28",
-       "V",
-       "Ahí sí, a veces, juicio. Pero sabiendo que lo intentamos.",
-       "En pantalla: Juicio"
-      ],
-      [
-       "0:33",
-       "V",
-       "La minoría termina en juicio. Por eso en el estudio buscamos soluciones alternativas, más rápidas y más eficaces.",
-       ""
-      ]
-     ],
-     "cierre": "¿Tu problema se arregla o va a juicio? Contalo en los comentarios o mandanos un mensaje."
-    },
-    {
-     "v": "C",
-     "titulo": "Imaginate a Laura y su panadería",
-     "mecanica": "el caso",
-     "meta": "Duración ≈50 s",
-     "ej": "",
-     "ejde": "",
-     "puntaje": 7,
-     "porque": "",
-     "nota": "",
-     "lineas": [
-      [
-       "0:00",
-       "V",
-       "Imaginate a Laura. Tiene una panadería y su mejor cliente, un restaurante, le debe tres meses.",
-       "En pantalla: un ejemplo"
-      ],
-      [
-       "0:07",
-       "V",
-       "Laura quiere hacerle juicio. Pero también quiere seguir vendiéndole.",
-       ""
-      ],
-      [
-       "0:12",
-       "V",
-       "Un juicio puede tardar, y probablemente pierda al cliente.",
-       "A validar"
-      ],
-      [
-       "0:16",
-       "V",
-       "Lo que se puede hacer: primero, hablar con el restaurante y proponer un plan de pago por escrito.",
-       "En pantalla: 1 · negociar"
-      ],
-      [
-       "0:24",
-       "V",
-       "Si no responde, una mediación: alguien en el medio ordena la charla.",
-       "A validar · En pantalla: 2 · mediar"
-      ],
-      [
-       "0:30",
-       "V",
-       "Y si nada funciona, recién ahí juicio.",
-       "En pantalla: 3 · juicio"
-      ],
-      [
-       "0:34",
-       "V",
-       "Así Laura cobra, y si se puede, sigue vendiendo. Todos pueden salir ganando.",
-       ""
-      ]
-     ],
-     "cierre": "Si un cliente te debe plata, comentá CONSULTA o mandanos un mensaje."
-    }
-   ],
+   "versiones": [],
    "recomendacion": "grabar B. Es la mejor pieza de las tres tandas."
   },
   {
@@ -1411,90 +1167,7 @@ window.GUIONES.tanda = {
     "Mandáselo a quien esté por ir a juicio, y comentá CONSULTA si querés que lo veamos."
    ],
    "hookIdx": 1,
-   "versiones": [
-    {
-     "v": "B",
-     "titulo": "Antes de hacerle juicio a alguien, hacete tres preguntas",
-     "mecanica": "la advertencia",
-     "meta": "Duración ≈45 s",
-     "ej": "Dc9goi4RFRd",
-     "ejde": "@abogadodanielleal",
-     "puntaje": 8,
-     "porque": "",
-     "nota": "",
-     "lineas": [
-      [
-       "0:00",
-       "V",
-       "Antes de hacerle juicio a alguien, hacete tres preguntas.",
-       "En pantalla: 3 PREGUNTAS"
-      ],
-      [
-       "0:04",
-       "V",
-       "Una: ¿qué querés conseguir? ¿Tener razón o resolver el problema? No siempre es lo mismo.",
-       "En pantalla: 1 · ¿qué querés?"
-      ],
-      [
-       "0:11",
-       "V",
-       "Dos: ¿cuánto tiempo puede esperar tu negocio? Un juicio puede ser largo, y la actividad tiene que seguir.",
-       "A validar · En pantalla: 2 · ¿cuánto podés esperar?"
-      ],
-      [
-       "0:19",
-       "V",
-       "Tres: ¿hay forma de acordar? Una negociación o una mediación muchas veces resuelven más rápido.",
-       "En pantalla: 3 · ¿se puede acordar?"
-      ],
-      [
-       "0:27",
-       "V",
-       "Si después de las tres el juicio sigue siendo el camino, vamos. Pero sabiendo por qué.",
-       ""
-      ]
-     ],
-     "cierre": "Si estás pensando en hacer un juicio, antes comentá CONSULTA o mandanos un mensaje."
-    },
-    {
-     "v": "C",
-     "titulo": "Una cosa es ganar un juicio, otra resolver tu problema",
-     "mecanica": "el contraste",
-     "meta": "Duración ≈40 s",
-     "ej": "",
-     "ejde": "",
-     "puntaje": 7,
-     "porque": "",
-     "nota": "",
-     "lineas": [
-      [
-       "0:00",
-       "V",
-       "Una cosa es ganar un juicio. Otra muy distinta es resolver tu problema. Te explicamos.",
-       "En pantalla: ganar ≠ resolver"
-      ],
-      [
-       "0:06",
-       "V",
-       "Podés ganar, y que pasen años. Podés ganar, y no cobrar. Podés ganar, y perder al cliente, al socio o al vecino.",
-       "A validar"
-      ],
-      [
-       "0:15",
-       "V",
-       "Por eso, cuando nos reunimos con los clientes, les explicamos los beneficios de llegar a un acuerdo: menos costos, más rápido, y el negocio sigue trabajando con normalidad.",
-       "De víctor"
-      ],
-      [
-       "0:26",
-       "V",
-       "Primero te escuchamos, después hablamos con la otra parte, y lo que se acuerda queda por escrito.",
-       ""
-      ]
-     ],
-     "cierre": "Si estás pensando ir a un abogado y no querés ir a juicio, comentá CONSULTA o comunicate con nosotros."
-    }
-   ],
+   "versiones": [],
    "recomendacion": "grabar A (podcast). B en teleprompter si sobra tiempo."
   },
   {
@@ -1575,96 +1248,7 @@ window.GUIONES.tanda = {
     "Si querés que veamos juntos las mejores opciones, comentá CONSULTA o escribinos."
    ],
    "hookIdx": 0,
-   "versiones": [
-    {
-     "v": "B",
-     "titulo": "Clip de podcast: ¿por qué un estudio y no un abogado solo?",
-     "mecanica": "clip de podcast",
-     "meta": "Duración ≈40 s",
-     "ej": "",
-     "ejde": "",
-     "puntaje": 8,
-     "porque": "en charla suena más natural que leído",
-     "nota": "",
-     "lineas": [
-      [
-       "0:00",
-       "E",
-       "Víctor, ¿por qué un estudio y no un abogado solo?",
-       ""
-      ],
-      [
-       "0:03",
-       "V",
-       "Porque es imposible que uno sea especialista en todo. Absolutamente.",
-       ""
-      ],
-      [
-       "0:07",
-       "V",
-       "Un problema en una empresa toca contratos, empleados, a veces la familia. Uno solo no llega a todo.",
-       ""
-      ],
-      [
-       "0:14",
-       "V",
-       "Por eso en el estudio tenemos como máximo estandarte el trabajo en equipo. Es el que nos hace crecer en todos los aspectos.",
-       ""
-      ],
-      [
-       "0:21",
-       "V",
-       "Y para el que viene es más simple: nos cuenta su problema una vez, y lo resolvemos entre todos.",
-       "A confirmar"
-      ]
-     ],
-     "cierre": "Si tenés un problema y no sabés por dónde empezar, comentá CONSULTA o mandanos un mensaje."
-    },
-    {
-     "v": "C",
-     "titulo": "Tres cosas que nos enseñó trabajar en equipo",
-     "mecanica": "teleprompter con lista",
-     "meta": "Duración ≈40 s",
-     "ej": "",
-     "ejde": "",
-     "puntaje": 7,
-     "porque": "sale de lo que Víctor dijo en Fortuna sobre la humildad y el equipo",
-     "nota": "",
-     "lineas": [
-      [
-       "0:00",
-       "V",
-       "Tres cosas que nos enseñó trabajar en equipo.",
-       ""
-      ],
-      [
-       "0:03",
-       "V",
-       "Una: nadie sabe todo. Es imposible que uno sea especialista en todo.",
-       "En pantalla: 1 · nadie sabe todo"
-      ],
-      [
-       "0:08",
-       "V",
-       "Dos: escuchar. Muchas soluciones aparecen cuando uno escucha de verdad, al cliente y al compañero.",
-       "De fortuna · En pantalla: 2 · escuchar"
-      ],
-      [
-       "0:15",
-       "V",
-       "Tres: aprenden todos. Los más jóvenes y los más experimentados.",
-       "En pantalla: 3 · aprenden todos"
-      ],
-      [
-       "0:20",
-       "V",
-       "Por eso en el estudio Solmi & Asociados el trabajo en equipo es nuestro máximo estandarte. Y el que gana es el cliente: una respuesta más sólida.",
-       ""
-      ]
-     ],
-     "cierre": "Si querés que te escuchemos, comentá CONSULTA o mandanos un mensaje."
-    }
-   ],
+   "versiones": [],
    "recomendacion": "grabar B en la sesión de podcast; queda más natural que el teleprompter."
   },
   {
@@ -1757,108 +1341,7 @@ window.GUIONES.tanda = {
     "Si tu negocio necesita esa plata, comentá CONSULTA o mandanos un mensaje."
    ],
    "hookIdx": 0,
-   "versiones": [
-    {
-     "v": "B",
-     "titulo": "Te explicamos qué hacer si un cliente no te paga",
-     "mecanica": "te explico en un minuto",
-     "meta": "Duración ≈45 s",
-     "ej": "",
-     "ejde": "",
-     "puntaje": 8,
-     "porque": "muy buscado y muy útil; se guarda",
-     "nota": "",
-     "lineas": [
-      [
-       "0:00",
-       "V",
-       "Un cliente no te paga. Te explicamos qué hacer, en orden.",
-       "En pantalla: CLIENTE QUE NO PAGA"
-      ],
-      [
-       "0:04",
-       "V",
-       "Uno: no te pelees por WhatsApp. Lo que escribís enojado queda.",
-       "En pantalla: 1"
-      ],
-      [
-       "0:09",
-       "V",
-       "Dos: reclamá por escrito, con fechas y montos claros.",
-       "A validar · En pantalla: 2"
-      ],
-      [
-       "0:14",
-       "V",
-       "Tres: proponé un plan de pago que se pueda cumplir, y firmalo.",
-       "En pantalla: 3"
-      ],
-      [
-       "0:19",
-       "V",
-       "Cuatro: si no responde, una mediación. Alguien en el medio ordena la charla.",
-       "A validar · En pantalla: 4"
-      ],
-      [
-       "0:25",
-       "V",
-       "Cinco: si nada funcionó, juicio. Pero con todo lo anterior ordenado.",
-       "En pantalla: 5"
-      ],
-      [
-       "0:30",
-       "V",
-       "Y ojo con dejar pasar el tiempo: hay plazos.",
-       "A validar · En pantalla: ojo"
-      ]
-     ],
-     "cierre": "Si alguien te debe plata, comentá CONSULTA o mandanos un mensaje."
-    },
-    {
-     "v": "C",
-     "titulo": "Falsa entrevista: ¿qué hacen cuando a alguien le deben plata?",
-     "mecanica": "falsa entrevista",
-     "meta": "Duración ≈40 s",
-     "ej": "DavyC1fDgAn",
-     "ejde": "@estudiorossiyasociados",
-     "puntaje": 7,
-     "porque": "",
-     "nota": "",
-     "lineas": [
-      [
-       "0:00",
-       "E",
-       "Víctor, ¿qué es lo primero que hacen cuando a alguien le deben plata?",
-       ""
-      ],
-      [
-       "0:03",
-       "V",
-       "Le preguntamos qué quiere: ¿tener razón o cobrar? Casi siempre es cobrar.",
-       ""
-      ],
-      [
-       "0:09",
-       "V",
-       "Entonces arrancamos por lo más rápido: hablamos con el que debe y buscamos un plan de pago, por escrito.",
-       ""
-      ],
-      [
-       "0:17",
-       "V",
-       "Si no responde, mediación. Y si nada funciona, juicio.",
-       "A validar"
-      ],
-      [
-       "0:22",
-       "V",
-       "Son soluciones más rápidas, más eficaces, y tu comercio sigue trabajando con normalidad.",
-       ""
-      ]
-     ],
-     "cierre": "Si un cliente no te paga, comentá CONSULTA o mandanos un mensaje."
-    }
-   ],
+   "versiones": [],
    "recomendacion": "grabar A (el POV tiene el mejor gancho visual) y B para la próxima."
   },
   {
@@ -1939,102 +1422,7 @@ window.GUIONES.tanda = {
     "Si querés simplificar algo que hoy te parece complicado, comentá CONSULTA o mandanos un mensaje."
    ],
    "hookIdx": 0,
-   "versiones": [
-    {
-     "v": "B",
-     "titulo": "Te explicamos qué es un fideicomiso en un minuto",
-     "mecanica": "te explico en un minuto",
-     "meta": "Duración ≈55 s",
-     "ej": "DdArHqygvX1",
-     "ejde": "@abogalexis",
-     "puntaje": 8,
-     "porque": "explica sin vender, con el ejemplo de los hermanos",
-     "nota": "",
-     "lineas": [
-      [
-       "0:00",
-       "V",
-       "Te explicamos qué es un fideicomiso en un minuto, con un ejemplo.",
-       "En pantalla: EN UN MINUTO"
-      ],
-      [
-       "0:04",
-       "V",
-       "Un fideicomiso es un contrato: alguien pone bienes para que otro los administre con un fin, a favor de quien se decida.",
-       "A validar · En pantalla: contrato · fin · administrador"
-      ],
-      [
-       "0:13",
-       "V",
-       "Ejemplo: tres hermanos quieren construir un edificio con un terreno del padre.",
-       "En pantalla: un ejemplo"
-      ],
-      [
-       "0:18",
-       "V",
-       "Ponen el terreno y la plata en un fideicomiso, alguien lo administra, y queda escrito qué departamento le toca a cada uno y qué pasa si uno se quiere ir.",
-       "A validar"
-      ],
-      [
-       "0:29",
-       "V",
-       "Para eso sirve: para construir con reglas claras.",
-       ""
-      ],
-      [
-       "0:33",
-       "V",
-       "Ojo: no sirve para esconder bienes cuando ya hay deudas. Y no siempre hace falta. Depende de cada caso.",
-       "A validar · En pantalla: ojo"
-      ]
-     ],
-     "cierre": "Si tenés un proyecto con otros, comentá CONSULTA o mandanos un mensaje."
-    },
-    {
-     "v": "C",
-     "titulo": "Una cosa es un abogado para pelear, otra uno para construir",
-     "mecanica": "el contraste",
-     "meta": "Duración ≈40 s",
-     "ej": "",
-     "ejde": "",
-     "puntaje": 7,
-     "porque": "",
-     "nota": "",
-     "lineas": [
-      [
-       "0:00",
-       "V",
-       "Una cosa es un abogado para pelear. Otra muy distinta, un abogado para construir.",
-       "En pantalla: pelear ≠ construir"
-      ],
-      [
-       "0:05",
-       "V",
-       "Casi todos nos llaman cuando ya se pelearon. Pero el derecho también es una herramienta de creación.",
-       ""
-      ],
-      [
-       "0:11",
-       "V",
-       "Un contrato bien hecho, una sociedad bien armada o un fideicomiso son la base para que un proyecto dure en el tiempo.",
-       ""
-      ],
-      [
-       "0:19",
-       "V",
-       "¿Cómo se usa? Antes de arrancar: qué pone cada uno, qué le toca y qué pasa si uno se quiere ir. Escrito y simple.",
-       ""
-      ],
-      [
-       "0:27",
-       "V",
-       "En una sociedad tan compleja, la clave está en simplificar.",
-       ""
-      ]
-     ],
-     "cierre": "Si estás por arrancar algo con otros, comentá CONSULTA o mandanos un mensaje."
-    }
-   ],
+   "versiones": [],
    "recomendacion": "grabar B cuando se valide la definición con Víctor."
   },
   {
@@ -2115,126 +1503,7 @@ window.GUIONES.tanda = {
     "Si firmaste algo y no sabés hasta dónde te compromete, comentá CASA o escribinos."
    ],
    "hookIdx": 0,
-   "versiones": [
-    {
-     "v": "B",
-     "titulo": "Imaginate a Jorge y su ferretería",
-     "mecanica": "el caso",
-     "meta": "Duración ≈50 s",
-     "ej": "DdJfXK8spxC",
-     "ejde": "@n.gabogados",
-     "puntaje": 8,
-     "porque": "la historia hace entender la garantía personal mejor que la explicación",
-     "nota": "",
-     "lineas": [
-      [
-       "0:00",
-       "V",
-       "Imaginate a Jorge. Tiene una ferretería y está seguro de que su casa no tiene nada que ver con el negocio.",
-       "En pantalla: un ejemplo"
-      ],
-      [
-       "0:07",
-       "V",
-       "Cuando alquiló el local, firmó él como garante. Cuando sacó un préstamo para mercadería, también.",
-       "A validar · En pantalla: garante del alquiler · garante del préstamo"
-      ],
-      [
-       "0:14",
-       "V",
-       "Un día el negocio anda mal y cierra. Y las deudas del negocio que tienen su firma personal lo van a buscar a él.",
-       "A validar"
-      ],
-      [
-       "0:22",
-       "V",
-       "A Jorge no le faltó voluntad. Le faltó saber hasta dónde lo comprometía cada firma.",
-       ""
-      ],
-      [
-       "0:27",
-       "V",
-       "¿Cómo se evita? Mirando antes qué firmás y a nombre de quién; separando lo del negocio de lo tuyo; y si hay que dar una garantía, sabiendo hasta dónde llega.",
-       "A validar · En pantalla: 1 · qué firmás · 2 · separar · 3 · hasta dónde"
-      ]
-     ],
-     "cierre": "Si firmaste como garante de tu negocio, comentá CASA o mandanos un mensaje."
-    },
-    {
-     "v": "C",
-     "titulo": "¿Me pueden sacar la casa? Ronda rápida",
-     "mecanica": "ronda rápida",
-     "meta": "Duración ≈45 s",
-     "ej": "DbcPElHRNu0",
-     "ejde": "@clemente.jimenez_",
-     "puntaje": 7,
-     "porque": "rápido, pero «depende» es una respuesta difícil de dar en una palabra",
-     "nota": "",
-     "lineas": [
-      [
-       "0:00",
-       "V",
-       "¿Una deuda de tu negocio puede llegar a tu casa? Vamos caso por caso.",
-       "En pantalla: ¿LLEGA A TU CASA?"
-      ],
-      [
-       "0:04",
-       "E",
-       "El negocio está a mi nombre.",
-       ""
-      ],
-      [
-       "0:06",
-       "V",
-       "Puede llegar. Si el negocio sos vos, sus deudas también.",
-       "A validar · En pantalla: Puede llegar"
-      ],
-      [
-       "0:11",
-       "E",
-       "Firmé como garante del préstamo.",
-       ""
-      ],
-      [
-       "0:12",
-       "V",
-       "Puede llegar. Tu firma te compromete a vos.",
-       "A validar · En pantalla: Puede llegar"
-      ],
-      [
-       "0:16",
-       "E",
-       "Uso la cuenta del negocio para mis gastos.",
-       ""
-      ],
-      [
-       "0:17",
-       "V",
-       "Ojo. Si está todo mezclado, cuesta separar lo tuyo de lo del negocio.",
-       "A validar · En pantalla: Ojo"
-      ],
-      [
-       "0:23",
-       "E",
-       "Lo ordené todo cuando no había problemas.",
-       ""
-      ],
-      [
-       "0:24",
-       "V",
-       "Ese es el camino. Lo que se ordena a tiempo es lo que mejor te cuida.",
-       "En pantalla: El camino"
-      ],
-      [
-       "0:29",
-       "V",
-       "En el estudio miramos a nombre de quién está cada cosa y qué firmaste, y armamos el plan para separar lo tuyo del negocio.",
-       ""
-      ]
-     ],
-     "cierre": "¿En cuál estás vos? Comentá CASA o mandanos un mensaje."
-    }
-   ],
+   "versiones": [],
    "recomendacion": "grabar A (la duda directa es la candidata al anuncio) y, si sobra tiempo, B."
   },
   {
@@ -2327,96 +1596,7 @@ window.GUIONES.tanda = {
     "Si querés sentarte con tu familia a ordenarlo, comentá SOCIO o escribinos."
    ],
    "hookIdx": 0,
-   "versiones": [
-    {
-     "v": "B",
-     "titulo": "Clip de podcast: ¿por qué se pelean los hermanos por el negocio?",
-     "mecanica": "clip de podcast",
-     "meta": "Duración ≈45 s",
-     "ej": "Dbb8EQJAPzB",
-     "ejde": "@leonardo.mata.abogado",
-     "puntaje": 8,
-     "porque": "se graba en la misma sesión que R17",
-     "nota": "",
-     "lineas": [
-      [
-       "0:00",
-       "E",
-       "Víctor, ¿por qué se pelean los hermanos por el negocio del padre?",
-       ""
-      ],
-      [
-       "0:03",
-       "V",
-       "En realidad, casi nunca es por la plata. Es porque nadie dejó claro quién decide.",
-       ""
-      ],
-      [
-       "0:09",
-       "V",
-       "El padre arma el negocio, los hijos entran a trabajar, y todo funciona mientras él está. El día que no está, cada hermano se acuerda distinto de lo que habían hablado.",
-       ""
-      ],
-      [
-       "0:20",
-       "V",
-       "Lo que funciona es hablarlo antes, con la mesa puesta, y dejarlo escrito: un acuerdo entre socios, un protocolo familiar o un plan para la sucesión, según cada familia.",
-       "A validar"
-      ],
-      [
-       "0:31",
-       "V",
-       "Nosotros nos sentamos con la familia, escuchamos a cada uno y lo ordenamos para que la actividad continúe.",
-       ""
-      ]
-     ],
-     "cierre": "Si trabajás con tu familia, comentá SOCIO o mandanos un mensaje."
-    },
-    {
-     "v": "C",
-     "titulo": "Imaginate un corralón, un padre y dos hijos",
-     "mecanica": "el caso",
-     "meta": "Duración ≈50 s",
-     "ej": "",
-     "ejde": "",
-     "puntaje": 8,
-     "porque": "",
-     "nota": "",
-     "lineas": [
-      [
-       "0:00",
-       "V",
-       "Imaginate un corralón. Lo armó el padre hace treinta años, y trabajan los dos hijos.",
-       "En pantalla: un ejemplo"
-      ],
-      [
-       "0:06",
-       "V",
-       "Uno atiende el mostrador todos los días. El otro viene cuando puede. Los dos cobran lo mismo, y nadie dice nada.",
-       ""
-      ],
-      [
-       "0:14",
-       "V",
-       "Hasta que el padre se enferma y hay que decidir quién sigue. Ahí aparece todo lo que no se habló.",
-       ""
-      ],
-      [
-       "0:21",
-       "V",
-       "Eso se ordena antes: quién decide, cuánto cobra cada uno según lo que hace, y qué pasa cuando el fundador ya no está. Y se deja escrito.",
-       "A validar · En pantalla: quién decide · cuánto cobra · quién sigue"
-      ],
-      [
-       "0:33",
-       "V",
-       "En el estudio lo vemos seguido. Y cuando se hace a tiempo, la familia sigue sentándose a la misma mesa.",
-       ""
-      ]
-     ],
-     "cierre": "Si trabajás con tu familia, comentá SOCIO o mandanos un mensaje."
-    }
-   ],
+   "versiones": [],
    "recomendacion": "grabar A (teleprompter con las tres cosas) y B en la sesión de podcast."
   },
   {
@@ -2497,126 +1677,7 @@ window.GUIONES.tanda = {
     "Si tenés un socio, un proveedor o un contrato que te preocupa, comentá CONSULTA o escribinos."
    ],
    "hookIdx": 0,
-   "versiones": [
-    {
-     "v": "B",
-     "titulo": "Una cosa es pelear un juicio, otra que no haga falta",
-     "mecanica": "el contraste",
-     "meta": "Duración ≈45 s",
-     "ej": "DcCRoubO1re",
-     "ejde": "@abogados.trevino",
-     "puntaje": 8,
-     "porque": "gancho claro y es el diferencial de Solmi; fácil de grabar en teleprompter",
-     "nota": "teleprompter, primer plano en la frase del contraste y plano medio en el resto.",
-     "lineas": [
-      [
-       "0:00",
-       "V",
-       "Una cosa es un abogado que te defiende en un juicio. Otra muy distinta es un estudio que hace que no llegues a uno. Te explicamos.",
-       "En pantalla: juicio vs. que no haga falta"
-      ],
-      [
-       "0:07",
-       "V",
-       "El que tiene un comercio o una empresa casi siempre llama al abogado cuando el problema ya explotó: un socio que se fue, un cliente que no paga, un contrato que nadie leyó.",
-       ""
-      ],
-      [
-       "0:16",
-       "V",
-       "En ese momento las opciones son menos, más lentas y más caras.",
-       "A validar"
-      ],
-      [
-       "0:20",
-       "V",
-       "Somos un estudio de amplia cobertura, enfocamos nuestra mirada en comercios y empresas. Y trabajamos para llegar antes.",
-       ""
-      ],
-      [
-       "0:27",
-       "V",
-       "¿Cómo? Revisando lo que firmás antes de firmarlo, dejando por escrito lo que hoy está de palabra, y cuando hay un conflicto, buscando un acuerdo para que la actividad continúe.",
-       "En pantalla: antes · por escrito · acuerdo"
-      ]
-     ],
-     "cierre": "Si tenés un comercio o una empresa, comentá CONSULTA o mandanos un mensaje."
-    },
-    {
-     "v": "C",
-     "titulo": "Ronda rápida: ¿para esto sirve un abogado?",
-     "mecanica": "ronda rápida",
-     "meta": "Duración ≈45 s",
-     "ej": "DbcPElHRNu0",
-     "ejde": "@clemente.jimenez_",
-     "puntaje": 9,
-     "porque": "el formato que más se repite en lo guardado; cada situación es un mini gancho",
-     "nota": "de pie o sentado en el escritorio, Emanuel fuera de cuadro. Una toma por respuesta.",
-     "lineas": [
-      [
-       "0:00",
-       "V",
-       "Te vamos a decir situaciones de un negocio. Vos adiviná si hace falta un abogado.",
-       "En pantalla: ¿HACE FALTA UN ABOGADO?"
-      ],
-      [
-       "0:04",
-       "E",
-       "Abrir un negocio con un amigo.",
-       ""
-      ],
-      [
-       "0:06",
-       "V",
-       "Sí. Antes de abrirlo, para que quede escrito qué pone cada uno y qué pasa si uno se va.",
-       "En pantalla: Sí · antes"
-      ],
-      [
-       "0:12",
-       "E",
-       "Firmar el alquiler del local.",
-       ""
-      ],
-      [
-       "0:13",
-       "V",
-       "Sí. Antes de firmar, para saber qué te comprometés a pagar y qué arriesgás.",
-       "A validar · En pantalla: Sí · antes de firmar"
-      ],
-      [
-       "0:19",
-       "E",
-       "Un cliente que no te paga.",
-       ""
-      ],
-      [
-       "0:20",
-       "V",
-       "Sí. Y antes de pelearte: muchas veces se resuelve con un acuerdo.",
-       "En pantalla: Sí · antes de pelear"
-      ],
-      [
-       "0:25",
-       "E",
-       "Que el negocio ande bien.",
-       ""
-      ],
-      [
-       "0:26",
-       "V",
-       "También. Es el mejor momento para ordenar todo.",
-       "En pantalla: También"
-      ],
-      [
-       "0:30",
-       "V",
-       "En el estudio nos enfocamos en comercios y empresas. Y buscamos acuerdos para que la actividad continúe.",
-       ""
-      ]
-     ],
-     "cierre": "¿Cuál de estas te pasó? Comentá CONSULTA o mandanos un mensaje."
-    }
-   ],
+   "versiones": [],
    "recomendacion": "grabar C. Es más ágil que la A y muestra lo que hace el estudio con ejemplos, sin presentarse."
   },
   {
@@ -2703,132 +1764,7 @@ window.GUIONES.tanda = {
     "Si querés saber cómo estás parado, comentá CONSULTA o mandanos un mensaje."
    ],
    "hookIdx": 0,
-   "versiones": [
-    {
-     "v": "B",
-     "titulo": "Verdadero o falso: la primera consulta",
-     "mecanica": "ronda rápida",
-     "meta": "Duración ≈45 s",
-     "ej": "DWb8wx1DIEK",
-     "ejde": "@alexabogadocivil «qué acaba en cárcel y qué no»",
-     "puntaje": 9,
-     "porque": "desarma uno por uno los miedos que frenan a consultar",
-     "nota": "escritorio, Víctor a cámara, Emanuel lee fuera de cuadro. «Verdadero» y «Falso» en placa grande.",
-     "lineas": [
-      [
-       "0:00",
-       "V",
-       "Lo que la gente cree de ir al abogado por primera vez. Verdadero o falso.",
-       "En pantalla: VERDADERO O FALSO"
-      ],
-      [
-       "0:04",
-       "E",
-       "Tengo que saber de leyes.",
-       ""
-      ],
-      [
-       "0:05",
-       "V",
-       "Falso. Nos contás con tus palabras; para eso estamos nosotros.",
-       "En pantalla: Falso"
-      ],
-      [
-       "0:10",
-       "E",
-       "Si consulto, ya hay juicio.",
-       ""
-      ],
-      [
-       "0:11",
-       "V",
-       "Falso. Consultar no te obliga a nada, y muchos problemas se arreglan sin juicio.",
-       "En pantalla: Falso"
-      ],
-      [
-       "0:17",
-       "E",
-       "Tengo que traer todo ordenado.",
-       ""
-      ],
-      [
-       "0:18",
-       "V",
-       "Falso. Traé lo que tengas: un contrato, un mensaje, un recibo. Aunque te parezca poca cosa.",
-       "En pantalla: Falso"
-      ],
-      [
-       "0:24",
-       "E",
-       "Lo que cuento queda entre nosotros.",
-       ""
-      ],
-      [
-       "0:25",
-       "V",
-       "Verdadero. Está protegido por el secreto profesional.",
-       "En pantalla: Verdadero"
-      ],
-      [
-       "0:29",
-       "E",
-       "La primera consulta se cobra.",
-       ""
-      ],
-      [
-       "0:30",
-       "V",
-       "Falso. La primera consulta no se cobra.",
-       "A confirmar · En pantalla: Falso"
-      ]
-     ],
-     "cierre": "¿Cuál creías que era verdad? Comentá CONSULTA o mandanos un mensaje."
-    },
-    {
-     "v": "C",
-     "titulo": "Imaginate a Carlos",
-     "mecanica": "el caso",
-     "meta": "Duración ≈45 s",
-     "ej": "DdJfXK8spxC",
-     "ejde": "@n.gabogados",
-     "puntaje": 7,
-     "porque": "cálido y fácil de seguir, pero el gancho tarda un segundo más",
-     "nota": "teleprompter. B-roll: una carta documento en un cajón.",
-     "lineas": [
-      [
-       "0:00",
-       "V",
-       "Imaginate a Carlos. Tiene una carta documento en el cajón hace un mes, y no la abre porque no quiere ir al abogado.",
-       "En pantalla: un ejemplo"
-      ],
-      [
-       "0:08",
-       "V",
-       "Le da miedo no entender nada, o que consultar sea meterse en un juicio.",
-       ""
-      ],
-      [
-       "0:13",
-       "V",
-       "El problema es que una carta documento suele tener plazos, y dejar pasar el tiempo puede perjudicarte.",
-       "De la web"
-      ],
-      [
-       "0:19",
-       "V",
-       "Si Carlos viene al estudio, esto es lo que pasa: lo escuchamos, lee con nosotros lo que le llegó, vemos dónde está parado y le explicamos sus opciones con palabras claras.",
-       ""
-      ],
-      [
-       "0:30",
-       "V",
-       "Y después decide él. Consultar no te obliga a nada.",
-       ""
-      ]
-     ],
-     "cierre": "Si tenés un papel que no te animás a abrir, comentá CONSULTA o mandanos un mensaje."
-    }
-   ],
+   "versiones": [],
    "recomendacion": "grabar B."
   },
   {
@@ -2909,138 +1845,7 @@ window.GUIONES.tanda = {
     "Si estás por abrir un negocio con alguien, comentá SOCIO o mandanos un mensaje."
    ],
    "hookIdx": 0,
-   "versiones": [
-    {
-     "v": "B",
-     "titulo": "Imaginate a dos amigos y una cervecería",
-     "mecanica": "el caso",
-     "meta": "Duración ≈50 s",
-     "ej": "",
-     "ejde": "",
-     "puntaje": 9,
-     "porque": "es la historia que le pasó a medio pueblo; se reconoce enseguida",
-     "nota": "",
-     "lineas": [
-      [
-       "0:00",
-       "V",
-       "Imaginate a dos amigos que abren una cervecería. Cincuenta y cincuenta, de palabra.",
-       "En pantalla: un ejemplo"
-      ],
-      [
-       "0:06",
-       "V",
-       "Uno pone la plata, el otro pone las horas. Durante tres años anda bárbaro.",
-       ""
-      ],
-      [
-       "0:11",
-       "V",
-       "Un día uno se quiere ir. ¿Cuánto le toca? ¿Lo que puso? ¿La mitad de lo que vale hoy? ¿Y quién le paga?",
-       "En pantalla: ¿cuánto le toca?"
-      ],
-      [
-       "0:19",
-       "V",
-       "Cada uno se acuerda distinto, y la amistad termina antes que el negocio.",
-       ""
-      ],
-      [
-       "0:24",
-       "V",
-       "Se evita con un acuerdo escrito al principio: qué pone cada uno, cómo se reparten las ganancias, quién decide y cómo sale el que se quiere ir.",
-       "A validar"
-      ],
-      [
-       "0:35",
-       "V",
-       "Y si ya están en ese lío, todavía se puede sentar a acordar una salida, sin juicio.",
-       ""
-      ]
-     ],
-     "cierre": "Si tenés un negocio con un amigo y no firmaron nada, comentá SOCIO o mandanos un mensaje."
-    },
-    {
-     "v": "C",
-     "titulo": "Ranking: lo que más le cuesta a un negocio no tener por escrito",
-     "mecanica": "ranking",
-     "meta": "Duración ≈50 s",
-     "ej": "DbQ_BeHBEOx",
-     "ejde": "Eder Salinas",
-     "puntaje": 8,
-     "porque": "",
-     "nota": "",
-     "lineas": [
-      [
-       "0:00",
-       "V",
-       "Ranking de lo que más le cuesta a un negocio no tener por escrito. Dale.",
-       "En pantalla: RANKING · columna del 1 al 5"
-      ],
-      [
-       "0:04",
-       "E",
-       "Las condiciones con los clientes.",
-       ""
-      ],
-      [
-       "0:05",
-       "V",
-       "Cuatro. Sin eso, cada atraso se discute de cero.",
-       "En pantalla: 4"
-      ],
-      [
-       "0:09",
-       "E",
-       "Lo que se arregló con un proveedor.",
-       ""
-      ],
-      [
-       "0:10",
-       "V",
-       "Tres. Precios, plazos y qué pasa si no entrega.",
-       "En pantalla: 3"
-      ],
-      [
-       "0:14",
-       "E",
-       "Quién firma por la empresa.",
-       ""
-      ],
-      [
-       "0:15",
-       "V",
-       "Cinco. Parece menor, hasta que alguien firma lo que no tenía que firmar.",
-       "En pantalla: 5"
-      ],
-      [
-       "0:20",
-       "E",
-       "El alquiler del local.",
-       ""
-      ],
-      [
-       "0:21",
-       "V",
-       "Dos. Ahí está tu lugar de trabajo: qué pagás, cuánto dura y qué pasa si te vas antes.",
-       "A validar · En pantalla: 2"
-      ],
-      [
-       "0:27",
-       "E",
-       "¿Y el número uno?",
-       ""
-      ],
-      [
-       "0:28",
-       "V",
-       "El acuerdo con tu socio. Qué pone cada uno, cómo se reparte, quién decide y qué pasa si uno se quiere ir. Es lo que más conflictos evita.",
-       "En pantalla: 1 · el acuerdo con tu socio"
-      ]
-     ],
-     "cierre": "¿Cuál te falta a vos? Comentá SOCIO o mandanos un mensaje."
-    }
-   ],
+   "versiones": [],
    "recomendacion": "grabar B."
   },
   {
@@ -3115,138 +1920,7 @@ window.GUIONES.tanda = {
     "¿Querés saber qué te sirve a vos? Comentá CASA o escribinos."
    ],
    "hookIdx": 0,
-   "versiones": [
-    {
-     "v": "B",
-     "titulo": "¿Esto protege tu casa? Sí o no",
-     "mecanica": "ronda rápida",
-     "meta": "Duración ≈45 s",
-     "ej": "DbcPElHRNu0",
-     "ejde": "@clemente.jimenez_",
-     "puntaje": 9,
-     "porque": "",
-     "nota": "",
-     "lineas": [
-      [
-       "0:00",
-       "V",
-       "Lo que hace la gente para proteger su casa. ¿La protege o no?",
-       "En pantalla: ¿LA PROTEGE?"
-      ],
-      [
-       "0:04",
-       "E",
-       "Ponerla a nombre de la pareja.",
-       ""
-      ],
-      [
-       "0:05",
-       "V",
-       "No. Sigue expuesta, solo que a los problemas de otra persona.",
-       "A validar · En pantalla: No"
-      ],
-      [
-       "0:10",
-       "E",
-       "Pasársela a un hijo.",
-       ""
-      ],
-      [
-       "0:11",
-       "V",
-       "Así nomás, no. La casa donde vivís pasa a ser de otro.",
-       "A validar · En pantalla: No"
-      ],
-      [
-       "0:16",
-       "E",
-       "Moverla cuando ya hay deudas.",
-       ""
-      ],
-      [
-       "0:17",
-       "V",
-       "No. Lo que se mueve a las apuradas se puede revisar.",
-       "A validar · En pantalla: No"
-      ],
-      [
-       "0:22",
-       "E",
-       "Separar el negocio de lo personal.",
-       ""
-      ],
-      [
-       "0:23",
-       "V",
-       "Sí. Es de lo que más ayuda.",
-       "A validar · En pantalla: Sí"
-      ],
-      [
-       "0:27",
-       "E",
-       "Ordenarlo antes, con asesoramiento.",
-       ""
-      ],
-      [
-       "0:28",
-       "V",
-       "Sí. Mirar qué tenés, qué firmaste y elegir la herramienta que te sirve a vos.",
-       "En pantalla: Sí"
-      ]
-     ],
-     "cierre": "¿Cuál habías escuchado? Comentá CASA o mandanos un mensaje."
-    },
-    {
-     "v": "C",
-     "titulo": "Si estás por poner la casa a nombre de otro, pensalo dos veces",
-     "mecanica": "la advertencia",
-     "meta": "Duración ≈45 s",
-     "ej": "Dc9goi4RFRd",
-     "ejde": "@abogadodanielleal",
-     "puntaje": 8,
-     "porque": "el gancho habla directo a quien está por hacerlo",
-     "nota": "",
-     "lineas": [
-      [
-       "0:00",
-       "V",
-       "Si estás pensando en poner tu casa a nombre de otro para protegerla, pensalo dos veces.",
-       ""
-      ],
-      [
-       "0:05",
-       "V",
-       "Es de lo que más vemos en el estudio, y casi nunca protege: la casa deja de ser tuya, pero no deja de estar expuesta.",
-       "A validar"
-      ],
-      [
-       "0:13",
-       "V",
-       "Y si ya hay deudas cuando la movés, eso se puede revisar.",
-       "A validar"
-      ],
-      [
-       "0:17",
-       "V",
-       "Te explicamos algo importante: proteger la casa no es esconderla. Es ordenar antes a nombre de quién está cada cosa y separar el negocio de lo tuyo.",
-       "En pantalla: proteger no es esconder"
-      ],
-      [
-       "0:28",
-       "V",
-       "Puede ser una sociedad, un contrato, un fideicomiso o, a veces, nada más que separar bien las cosas. Depende de cada caso.",
-       "A validar"
-      ],
-      [
-       "0:36",
-       "V",
-       "Después no digas que no te avisamos.",
-       ""
-      ]
-     ],
-     "cierre": "Si estás por hacerlo, antes comentá CASA o mandanos un mensaje."
-    }
-   ],
+   "versiones": [],
    "recomendacion": "grabar B. Se graba en la misma toma que la ronda rápida del R16-B."
   },
   {
@@ -3333,133 +2007,557 @@ window.GUIONES.tanda = {
     "Las puertas están abiertas: comentá CONSULTA o mandanos un mensaje."
    ],
    "hookIdx": 0,
-   "versiones": [
-    {
-     "v": "B",
-     "titulo": "Cinco preguntas rápidas sobre el estudio",
-     "mecanica": "ronda rápida de preguntas frecuentes",
-     "meta": "Duración ≈45 s",
-     "ej": "",
-     "ejde": "",
-     "puntaje": 9,
-     "porque": "responde lo que la gente se pregunta antes de escribir",
-     "nota": "",
-     "lineas": [
-      [
-       "0:00",
-       "E",
-       "Cinco preguntas rápidas sobre el estudio. ¿Dónde están?",
-       "En pantalla: 5 PREGUNTAS"
-      ],
-      [
-       "0:03",
-       "V",
-       "En Mitre 2250, San Pedro. Y trabajamos en todo el país, con presencia en CABA y el norte de la provincia.",
-       "En pantalla: 1 · dónde"
-      ],
-      [
-       "0:09",
-       "E",
-       "¿Con quién trabajan?",
-       ""
-      ],
-      [
-       "0:10",
-       "V",
-       "Con comercios, empresas y personas que quieren ordenar y proteger lo que construyeron.",
-       "En pantalla: 2 · con quién"
-      ],
-      [
-       "0:15",
-       "E",
-       "¿Siempre van a juicio?",
-       ""
-      ],
-      [
-       "0:16",
-       "V",
-       "Por supuesto que no. Priorizamos los acuerdos: negociación, mediación, conciliación.",
-       "En pantalla: 3 · juicio"
-      ],
-      [
-       "0:22",
-       "E",
-       "¿Cobran la primera consulta?",
-       ""
-      ],
-      [
-       "0:23",
-       "V",
-       "No. Y consultar no te obliga a nada.",
-       "A confirmar · En pantalla: 4 · la consulta"
-      ],
-      [
-       "0:27",
-       "E",
-       "¿Por qué Solmi & Asociados?",
-       ""
-      ],
-      [
-       "0:28",
-       "V",
-       "Porque trabajamos en equipo, y conocemos y vivimos las necesidades de los comercios. Que cada cliente sea su mejor versión es nuestro éxito.",
-       "En pantalla: 5 · por qué"
-      ]
-     ],
-     "cierre": "¿Te quedó otra pregunta? Dejala en los comentarios o mandanos un mensaje."
-    },
-    {
-     "v": "C",
-     "titulo": "Clip de podcast: cómo nació el estudio",
-     "mecanica": "clip de podcast",
-     "meta": "Duración ≈50 s",
-     "ej": "",
-     "ejde": "",
-     "puntaje": 8,
-     "porque": "",
-     "nota": "",
-     "lineas": [
-      [
-       "0:00",
-       "E",
-       "Víctor, ¿cómo llegaste al derecho?",
-       ""
-      ],
-      [
-       "0:03",
-       "V",
-       "Vengo del mundo de la empresa y los negocios. Ahí aparecían dudas, incertidumbres, problemas concretos, y así me fui acercando al derecho.",
-       "De fortuna"
-      ],
-      [
-       "0:13",
-       "V",
-       "Fue por vocación. Es una pasión, y la intriga permanente de aprender más todos los días.",
-       "De fortuna"
-      ],
-      [
-       "0:19",
-       "V",
-       "Por eso el estudio mira tanto a los comercios y las empresas: conocemos y vivimos sus necesidades desde adentro.",
-       ""
-      ],
-      [
-       "0:27",
-       "V",
-       "Y lo armamos en equipo, en San Pedro, que es mi lugar en el mundo, y trabajando también en Buenos Aires.",
-       ""
-      ],
-      [
-       "0:35",
-       "V",
-       "Siempre hay que mirar a futuro, a largo plazo. El que bien anda, bien acaba.",
-       ""
-      ]
-     ],
-     "cierre": "Si tenés un comercio o una empresa, comentá CONSULTA o mandanos un mensaje."
-    }
-   ],
+   "versiones": [],
    "recomendacion": "grabar B como reel y dejar A como fijado."
+  },
+  {
+   "r": "R22",
+   "tipo": "Chat de WhatsApp · carta documento",
+   "titulo": "Así es escribirnos: «me llegó una carta documento»",
+   "meta": "Duración ≈45 s",
+   "ej": "",
+   "ejde": "",
+   "nota": "sin cámara: es una grabación de pantalla del teléfono, más la voz de Víctor en el estudio. El chat se arma con un contacto de prueba; ningún dato real.",
+   "lineas": [
+    [
+     "0:00",
+     "C",
+     "Hola, me llegó una carta documento de mi ex inquilino del local. No entiendo nada. ¿Me pueden ayudar?",
+     "En pantalla: chat de WhatsApp · ejemplo · así es escribirnos"
+    ],
+    [
+     "0:05",
+     "V",
+     "Esto es lo que pasa cuando nos escribís. Así de simple.",
+     ""
+    ],
+    [
+     "0:09",
+     "C",
+     "Hola, soy Víctor, de Solmi & Asociados. Quedate tranquilo. ¿Me mandás una foto de la carta?",
+     "En pantalla: responde el estudio"
+    ],
+    [
+     "0:13",
+     "V",
+     "Te contestamos nosotros, sin vueltas. No hace falta que sepas de leyes ni que lo expliques bien: con una foto del papel alcanza para empezar.",
+     ""
+    ],
+    [
+     "0:20",
+     "C",
+     "Gracias. Es un reclamo por el depósito. Tiene plazo para contestar: no respondas nada por tu cuenta. ¿Podés venir el jueves a las 10?",
+     "En pantalla: antes llega la foto de la carta, borroneada"
+    ],
+    [
+     "0:27",
+     "V",
+     "Una carta documento suele tener plazos, y lo que contestes solo se puede usar después. Por eso conviene mirarla con alguien antes.",
+     "De la web"
+    ],
+    [
+     "0:35",
+     "V",
+     "La primera consulta no se cobra, y consultar no te obliga a nada.",
+     "A confirmar · En pantalla: 1ª consulta sin cargo"
+    ]
+   ],
+   "cierre": "Si tenés un papel que no entendés, mandanos un mensaje con una foto, o comentá CONSULTA y te escribimos.",
+   "hooks": [
+    "Hola, me llegó una carta documento de mi ex inquilino del local. No entiendo nada. ¿Me pueden ayudar?",
+    "Hola, me rebotó un cheque de un cliente. ¿Qué hago?",
+    "Hola, mi socio se quiere ir y no firmamos nada. ¿Me pueden orientar?",
+    "Hola, me llegó una notificación del juzgado. ¿Es urgente?",
+    "Hola, tengo que firmar el alquiler del local el lunes. ¿Lo pueden mirar?",
+    "Hola, mis papás tienen una casa y queremos ordenarlo antes. ¿Por dónde empezamos?",
+    "Hola, un cliente me debe tres meses. ¿Qué puedo hacer?",
+    "Hola, nunca hablé con un abogado. ¿Cómo es una consulta?",
+    "Hola, firmé como garante del préstamo del negocio. ¿Qué arriesgo?",
+    "Hola, me mandaron este papel y no sé si tengo que contestar."
+   ],
+   "cierres": [
+    "Si tenés un papel que no entendés, mandanos un mensaje con una foto, o comentá CONSULTA y te escribimos.",
+    "Escribinos como en este chat: mandanos un mensaje o comentá CONSULTA.",
+    "La primera consulta no se cobra: mandanos un mensaje o comentá CONSULTA.",
+    "Mandanos una foto del papel por mensaje, o comentá CONSULTA y te escribimos.",
+    "No hace falta que sepas de leyes: mandanos un mensaje o comentá CONSULTA.",
+    "Si te llegó algo y estás preocupado, mandanos un mensaje hoy, o comentá CONSULTA.",
+    "Comentá CONSULTA y te escribimos, o mandanos un mensaje cuando quieras.",
+    "Si tenés un problema con tu negocio, mandanos un mensaje o comentá CONSULTA.",
+    "¿Te pasó algo así? Mandanos un mensaje o contalo en los comentarios.",
+    "Te contestamos nosotros: mandanos un mensaje o comentá CONSULTA."
+   ],
+   "hookIdx": 0,
+   "versiones": [],
+   "recomendacion": ""
+  },
+  {
+   "r": "R23",
+   "tipo": "Respuesta a un comentario · socios",
+   "titulo": "Respondemos tu pregunta: «si mi socio se va, ¿se lleva la mitad?»",
+   "meta": "Duración ≈45 s",
+   "ej": "",
+   "ejde": "",
+   "nota": "Víctor sentado en el escritorio, a cámara, con el teléfono en la mano como si acabara de leer el comentario. Primer plano.",
+   "lineas": [
+    [
+     "0:00",
+     "V",
+     "«Si mi socio se va, ¿se lleva la mitad del negocio?» Buena pregunta. Te la respondemos.",
+     "Leyendo la burbuja · En pantalla: burbuja del comentario"
+    ],
+    [
+     "0:05",
+     "V",
+     "Depende de lo que hayan firmado. Y en la mayoría de los negocios chicos no firmaron nada.",
+     "A validar"
+    ],
+    [
+     "0:11",
+     "V",
+     "Si no hay nada escrito, cada uno se acuerda distinto de lo que puso y de lo que vale el negocio hoy. Ahí empieza la pelea.",
+     ""
+    ],
+    [
+     "0:18",
+     "V",
+     "Lo que se hace: primero, ordenar qué puso cada uno y cuánto vale hoy lo que tienen. Después, acordar cómo se le paga la parte al que se va: de una vez o en cuotas, para que el negocio siga funcionando.",
+     "A validar · En pantalla: 1 · qué puso cada uno · 2 · cómo se paga"
+    ],
+    [
+     "0:31",
+     "V",
+     "Y si todavía no se van, es el momento de dejarlo escrito: qué pasa si uno se quiere ir.",
+     ""
+    ]
+   ],
+   "cierre": "Dejá tu pregunta en los comentarios y te la respondemos en un video, o mandanos un mensaje si es urgente.",
+   "hooks": [
+    "«Si mi socio se va, ¿se lleva la mitad del negocio?» Buena pregunta. Te la respondemos.",
+    "Nos preguntaron: «¿mi socio se puede ir cuando quiera?» Te respondemos.",
+    "Esta pregunta nos la hacen todas las semanas: «si mi socio se va, ¿qué le toca?»",
+    "Respondemos tu pregunta: ¿cuánto vale la parte de un socio que se va?",
+    "«Mi socio se quiere ir y no firmamos nada.» Te decimos qué hacer.",
+    "¿Tu socio se puede llevar la mitad? Depende de una cosa.",
+    "Nos escribieron preocupados: su socio se quiere ir. Esto es lo que les dijimos.",
+    "Pregunta de un comerciante: «¿tengo que pagarle a mi socio si se va?»",
+    "«Somos socios de palabra y uno se quiere ir.» Te contamos cómo se resuelve.",
+    "La pregunta del día: ¿qué pasa cuando un socio se va de un negocio chico?"
+   ],
+   "cierres": [
+    "Dejá tu pregunta en los comentarios y te la respondemos en un video, o mandanos un mensaje si es urgente.",
+    "¿Tenés otra pregunta? Dejala en los comentarios o mandanos un mensaje.",
+    "Si tu socio se quiere ir, comentá SOCIO o mandanos un mensaje.",
+    "Preguntanos lo que quieras en los comentarios, o escribinos.",
+    "Comentá SOCIO y te escribimos, o mandanos un mensaje con tu caso.",
+    "Si querés dejarlo escrito antes de que pase, comentá SOCIO o mandanos un mensaje.",
+    "La próxima respuesta puede ser la tuya: dejá tu pregunta en los comentarios o escribinos.",
+    "Si tenés un negocio con alguien, comentá SOCIO o mandanos un mensaje.",
+    "¿Te pasó algo así? Contalo en los comentarios o por mensaje.",
+    "Si es urgente, mandanos un mensaje. Si no, dejá tu pregunta en los comentarios."
+   ],
+   "hookIdx": 0,
+   "versiones": [],
+   "recomendacion": ""
+  },
+  {
+   "r": "R24",
+   "tipo": "Entrevista en la calle · socios",
+   "titulo": "Preguntamos en la calle: «¿tenés algo firmado con tu socio?»",
+   "meta": "Duración ≈55 s",
+   "ej": "",
+   "ejde": "",
+   "nota": "media mañana, calle Mitre. Pedir permiso de imagen a cada persona (una autorización simple firmada o grabada a cámara). Víctor se graba aparte en el estudio. ⚠️ Si alguien nombra a su socio o su negocio de forma reconocible y no quiere aparecer, se descarta.",
+   "lineas": [
+    [
+     "0:00",
+     "E",
+     "Estamos en el centro de San Pedro. Pregunta: ¿tenés algo firmado con tu socio?",
+     "En pantalla: ¿TENÉS ALGO FIRMADO CON TU SOCIO?"
+    ],
+    [
+     "0:04",
+     "B",
+     "Respuestas de tres o cuatro comerciantes (no guionadas). Se buscan las típicas: «No, es mi hermano», «Somos amigos de toda la vida», «Nunca lo pensé»",
+     ""
+    ],
+    [
+     "0:20",
+     "E",
+     "Le preguntamos a un abogado. Víctor, ¿está mal?",
+     ""
+    ],
+    [
+     "0:23",
+     "V",
+     "No está mal. Es lo más común. El problema aparece el día que uno se quiere ir, se enferma o las cosas andan mal: ahí cada uno se acuerda distinto.",
+     ""
+    ],
+    [
+     "0:33",
+     "V",
+     "Con una hoja alcanza para empezar: qué pone cada uno, cómo se reparten las ganancias, quién decide y qué pasa si uno se quiere ir.",
+     "A validar · En pantalla: qué pone · cómo se reparte · quién decide · qué pasa si se va"
+    ],
+    [
+     "0:43",
+     "V",
+     "Firmarlo no es desconfiar del hermano o del amigo. Es cuidarlo.",
+     ""
+    ]
+   ],
+   "cierre": "¿Vos tenés algo firmado con tu socio? Comentá SOCIO o mandanos un mensaje.",
+   "hooks": [
+    "Estamos en el centro de San Pedro. Pregunta: ¿tenés algo firmado con tu socio?",
+    "Salimos a preguntarles a los comerciantes de San Pedro algo que nadie pregunta.",
+    "¿Cuántos comerciantes de San Pedro tienen algo firmado con su socio? Fuimos a ver.",
+    "Pregunta en la calle: si tu socio se va mañana, ¿qué pasa con el negocio?",
+    "Le preguntamos a la gente de San Pedro: ¿tu negocio está de palabra o por escrito?",
+    "Calle Mitre, media mañana. Una sola pregunta para los comerciantes.",
+    "¿Firmarías algo con tu hermano si abren un negocio? Les preguntamos en la calle.",
+    "San Pedro responde: ¿hace falta firmar con un socio que es amigo?",
+    "Fuimos a preguntar algo incómodo a los negocios del centro.",
+    "¿Vos tenés algo firmado con tu socio? Esto respondieron en San Pedro."
+   ],
+   "cierres": [
+    "¿Vos tenés algo firmado con tu socio? Comentá SOCIO o mandanos un mensaje.",
+    "¿Qué hubieras respondido vos? Contalo en los comentarios o por mensaje.",
+    "Si tu negocio está de palabra, comentá SOCIO o escribinos.",
+    "Mandáselo a tu socio, y si quieren dejarlo escrito, comentá SOCIO o mandanos un mensaje.",
+    "Comentá SOCIO y te escribimos, o mandanos un mensaje con tu caso.",
+    "Si querés que pasemos por tu negocio la próxima, dejá un comentario o escribinos.",
+    "¿Con cuál respuesta te identificaste? Contalo en los comentarios o por mensaje.",
+    "Si tenés un negocio en San Pedro, comentá SOCIO o mandanos un mensaje.",
+    "Una hoja alcanza para empezar: comentá SOCIO o escribinos y la armamos.",
+    "Si tu socio es familia, comentá SOCIO o mandanos un mensaje."
+   ],
+   "hookIdx": 0,
+   "versiones": [],
+   "recomendacion": ""
+  },
+  {
+   "r": "R25",
+   "tipo": "Papel en la mesa · alquiler del local",
+   "titulo": "Antes de firmar el alquiler del local, mirá esto",
+   "meta": "Duración ≈50 s",
+   "ej": "",
+   "ejde": "",
+   "nota": "cenital con el celular en un brazo o trípode, luz pareja. Cerca, una taza y las llaves de un local para dar contexto.",
+   "lineas": [
+    [
+     "0:00",
+     "V",
+     "Si estás por alquilar un local, antes de firmar mirá estas cuatro cosas.",
+     "En pantalla: ANTES DE FIRMAR EL ALQUILER DEL LOCAL"
+    ],
+    [
+     "0:04",
+     "V",
+     "El problema: el contrato del local se firma apurado, porque querés abrir. Y lo que firmaste te acompaña años.",
+     ""
+    ],
+    [
+     "0:10",
+     "V",
+     "Uno: cuánto dura y qué pasa si te querés ir antes.",
+     "A validar · En pantalla: 1 · duración y salida"
+    ],
+    [
+     "0:16",
+     "V",
+     "Dos: cómo y cada cuánto aumenta.",
+     "En pantalla: 2 · aumentos"
+    ],
+    [
+     "0:21",
+     "V",
+     "Tres: quién paga los arreglos del local.",
+     "En pantalla: 3 · arreglos"
+    ],
+    [
+     "0:26",
+     "V",
+     "Cuatro: la garantía. Si la firmás vos como persona, estás poniendo en juego lo tuyo, no solo el negocio.",
+     "A validar · En pantalla: 4 · la garantía"
+    ],
+    [
+     "0:34",
+     "V",
+     "Si algo de esto no está claro, se negocia antes de firmar. Después es más difícil.",
+     ""
+    ]
+   ],
+   "cierre": "Si estás por firmar, mandanos un mensaje y lo vemos con vos, o comentá CONSULTA.",
+   "hooks": [
+    "Si estás por alquilar un local, antes de firmar mirá estas cuatro cosas.",
+    "Cuatro cosas del contrato del local que casi nadie lee.",
+    "Antes de firmar el alquiler de tu local, marcá esto.",
+    "El contrato del local se firma apurado. Estas cuatro cosas te acompañan años.",
+    "¿Vas a abrir un local? Mirá esto antes de firmar.",
+    "La cláusula del alquiler que te puede costar la casa.",
+    "Lo que tenés que preguntar antes de firmar el alquiler de un local.",
+    "Te marcamos las cuatro partes del contrato que más problemas traen.",
+    "Si firmás la garantía del local vos, mirá esto.",
+    "Cuatro preguntas antes de alquilar un local para tu negocio."
+   ],
+   "cierres": [
+    "Si estás por firmar, mandanos un mensaje y lo vemos con vos, o comentá CONSULTA.",
+    "¿Ya firmaste y no estás seguro? Comentá CONSULTA o escribinos.",
+    "Guardalo para cuando alquiles, y si tenés dudas, mandanos un mensaje.",
+    "Si la garantía la firmaste vos, comentá CASA o mandanos un mensaje.",
+    "Comentá CONSULTA y te escribimos, o mandanos un mensaje con tu contrato.",
+    "Si estás por abrir un local, mandanos un mensaje o comentá CONSULTA.",
+    "Mandáselo a quien esté por alquilar, y si quiere ayuda, que nos escriba.",
+    "¿Cuál de las cuatro no habías mirado? Contalo en los comentarios o por mensaje.",
+    "Si querés negociar algo antes de firmar, mandanos un mensaje o comentá CONSULTA.",
+    "Antes de firmar, escribinos: comentá CONSULTA o mandanos un mensaje."
+   ],
+   "hookIdx": 0,
+   "versiones": [],
+   "recomendacion": ""
+  },
+  {
+   "r": "R26",
+   "tipo": "Noticia en pantalla · cheques",
+   "titulo": "Te rebotó un cheque: qué hacer, en orden",
+   "meta": "Duración ≈50 s",
+   "ej": "",
+   "ejde": "",
+   "nota": "Víctor a cámara, plano medio, en un fondo liso de la oficina (para que el recorte salga limpio). La nota se elige el día que se edita.",
+   "lineas": [
+    [
+     "0:00",
+     "V",
+     "Cada vez más comercios reciben cheques que rebotan. Si te pasó, esto es lo que conviene hacer.",
+     "Señalando la nota de fondo · A confirmar · En pantalla: captura de la nota"
+    ],
+    [
+     "0:07",
+     "V",
+     "El problema no es solo la plata que no entra. Es que tu negocio la necesitaba para pagar lo suyo.",
+     ""
+    ],
+    [
+     "0:13",
+     "V",
+     "Uno: guardá el cheque y el comprobante del rechazo. No los pierdas.",
+     "A validar · En pantalla: 1 · guardá todo"
+    ],
+    [
+     "0:18",
+     "V",
+     "Dos: reclamá por escrito, con fecha y monto. Nada de pelearse por WhatsApp.",
+     "En pantalla: 2 · reclamá por escrito"
+    ],
+    [
+     "0:24",
+     "V",
+     "Tres: proponé un plan de pago que se pueda cumplir, y firmalo.",
+     "En pantalla: 3 · plan de pago"
+    ],
+    [
+     "0:29",
+     "V",
+     "Cuatro: si no responde, hay caminos para reclamarlo. Y conviene no dejar pasar el tiempo, porque hay plazos.",
+     "A validar · En pantalla: 4 · no dejes pasar el tiempo"
+    ],
+    [
+     "0:37",
+     "V",
+     "En el estudio buscamos que cobres sin perder meses en un juicio, y si se puede, sin perder al cliente.",
+     ""
+    ]
+   ],
+   "cierre": "Si te rebotó un cheque, mandanos un mensaje con una foto, o comentá CONSULTA.",
+   "hooks": [
+    "Cada vez más comercios reciben cheques que rebotan. Si te pasó, esto es lo que conviene hacer.",
+    "Te rebotó un cheque. Qué hacer, en orden.",
+    "Las noticias hablan de más cheques rechazados. Si te tocó, mirá esto.",
+    "Un cliente te pagó con un cheque sin fondos. Cuatro pasos.",
+    "¿Te rebotó un cheque y no sabés por dónde empezar?",
+    "Lo primero que tenés que hacer cuando te rebota un cheque.",
+    "Cheque rechazado: lo que nunca tenés que hacer y lo que sí.",
+    "La cadena de pagos está complicada. Si te rebotó un cheque, guardá este video.",
+    "No te pelees por WhatsApp: si te rebotó un cheque, hacé esto.",
+    "Te rebotó un cheque y tu negocio necesita esa plata. Escuchá."
+   ],
+   "cierres": [
+    "Si te rebotó un cheque, mandanos un mensaje con una foto, o comentá CONSULTA.",
+    "¿Te pasó este mes? Contalo en los comentarios o por mensaje.",
+    "Comentá CONSULTA y te escribimos, o mandanos un mensaje con tu caso.",
+    "Si un cliente te debe, mandanos un mensaje o comentá CONSULTA.",
+    "Mandáselo a un comerciante que lo necesite, y si quiere ayuda, que nos escriba.",
+    "Si querés cobrar sin perder al cliente, comentá CONSULTA o escribinos.",
+    "No dejes pasar el tiempo: mandanos un mensaje hoy o comentá CONSULTA.",
+    "¿Cuántos cheques te rebotaron este año? Contalo en los comentarios o por mensaje.",
+    "Si tenés cheques sin cobrar, comentá CONSULTA o mandanos un mensaje.",
+    "Escribinos con una foto del cheque y lo vemos: mensaje o comentá CONSULTA."
+   ],
+   "hookIdx": 0,
+   "versiones": [],
+   "recomendacion": ""
+  },
+  {
+   "r": "R27",
+   "tipo": "Detrás de escena · el estudio",
+   "titulo": "Un día en el estudio",
+   "meta": "Duración ≈45 s",
+   "ej": "",
+   "ejde": "",
+   "nota": "un día de semana, con el celular, sin trípode: planos cortos y cercanos. Pedir permiso a quien aparezca; si alguien del equipo no quiere salir, de espaldas o manos. Ninguna carpeta ni pantalla con datos de clientes a la vista.",
+   "lineas": [
+    [
+     "0:00",
+     "B",
+     "La persiana o la puerta de Mitre 2250 abriéndose a la mañana",
+     "En pantalla: UN DÍA EN EL ESTUDIO"
+    ],
+    [
+     "0:02",
+     "V",
+     "Mucha gente no le escribe a un abogado porque no sabe con qué se va a encontrar. Esto es lo que hay del otro lado.",
+     ""
+    ],
+    [
+     "0:09",
+     "B",
+     "El café, los escritorios, el mapa y el cuadro, alguien del equipo llegando",
+     ""
+    ],
+    [
+     "0:12",
+     "V",
+     "Somos un equipo: los más jóvenes y los más experimentados. Es imposible que uno sea especialista en todo, y por eso el trabajo en equipo es nuestro máximo estandarte.",
+     ""
+    ],
+    [
+     "0:22",
+     "B",
+     "Víctor contestando un WhatsApp; una charla en la mesa de reuniones vista de espaldas",
+     ""
+    ],
+    [
+     "0:24",
+     "V",
+     "Contestamos los mensajes, nos sentamos con la gente y la escuchamos. Muchas cosas se arreglan acá, en esta mesa, sin juicio.",
+     ""
+    ],
+    [
+     "0:33",
+     "B",
+     "Un apretón de manos en la puerta, la tarde sobre San Pedro",
+     ""
+    ],
+    [
+     "0:35",
+     "V",
+     "Las puertas del estudio están abiertas para vos. Y la primera consulta no se cobra.",
+     "A confirmar · De la web · En pantalla: Mitre 2250 · San Pedro"
+    ]
+   ],
+   "cierre": "Si querés venir a charlar, mandanos un mensaje o comentá CONSULTA.",
+   "hooks": [
+    "Mucha gente no le escribe a un abogado porque no sabe con qué se va a encontrar. Esto es lo que hay del otro lado.",
+    "Un día en el estudio Solmi & Asociados.",
+    "¿Cómo es por dentro un estudio de abogados de San Pedro?",
+    "Esto es lo que pasa en el estudio mientras vos pensás si escribirnos.",
+    "Te mostramos el estudio, de la mañana a la tarde.",
+    "Antes de venir, mirá dónde vas a sentarte.",
+    "Así arranca el día en Mitre 2250.",
+    "Un estudio de abogados, sin corbata y sin misterio.",
+    "Las puertas del estudio, abiertas. Pasá.",
+    "Lo que no se ve de un estudio jurídico."
+   ],
+   "cierres": [
+    "Si querés venir a charlar, mandanos un mensaje o comentá CONSULTA.",
+    "La primera consulta no se cobra: mandanos un mensaje o comentá CONSULTA.",
+    "¿Querés conocernos? Escribinos o comentá CONSULTA.",
+    "Comentá CONSULTA y te escribimos, o mandanos un mensaje cuando quieras.",
+    "Las puertas están abiertas: mandanos un mensaje o comentá CONSULTA.",
+    "Si tenés un problema y no sabés por dónde empezar, escribinos o comentá CONSULTA.",
+    "¿Te imaginabas así un estudio de abogados? Contalo en los comentarios o por mensaje.",
+    "Si estás en San Pedro o la zona, mandanos un mensaje o comentá CONSULTA.",
+    "Te esperamos con un café: escribinos o comentá CONSULTA.",
+    "Si querés que te escuchemos, mandanos un mensaje o comentá CONSULTA."
+   ],
+   "hookIdx": 1,
+   "versiones": [],
+   "recomendacion": ""
+  },
+  {
+   "r": "R28",
+   "tipo": "Dos caminos · la casa de los padres",
+   "titulo": "Dos familias, la misma casa",
+   "meta": "Duración ≈55 s",
+   "ej": "DcuOzmjFBhd",
+   "ejde": "Dos caminos · @estudiorossiyasociados",
+   "nota": "una mesa de comedor, cuatro o cinco personas (familia o conocidos que acepten salir), dos tomas de cada lado con el mismo encuadre. Víctor aparte, en el estudio. ⚠️ Es Familia y Sucesiones: entra porque es la sucesión ordenada, antes del conflicto (BRIEF §10), pero conviene avisarle a Sergio Rosa.",
+   "lineas": [
+    [
+     "0:00",
+     "V",
+     "Dos familias. Los mismos padres, la misma casa. Mirá cómo termina cada una.",
+     "En pantalla: DOS FAMILIAS, LA MISMA CASA"
+    ],
+    [
+     "0:05",
+     "V",
+     "En las dos, los padres tienen una casa y tres hijos. Y un día, los padres ya no están.",
+     ""
+    ],
+    [
+     "0:11",
+     "V",
+     "En esta, nadie había hablado nada. Uno quiere vender, otro quiere vivir ahí, el tercero no contesta. La casa queda trabada, y los hermanos dejan de hablarse.",
+     "Lado derecho, la mesa en silencio · A validar · En pantalla: no lo hablaron"
+    ],
+    [
+     "0:24",
+     "V",
+     "En esta, los padres lo hablaron en vida, con todos sentados a la mesa, y lo dejaron por escrito.",
+     "Lado izquierdo, la misma mesa, tranquila · En pantalla: lo hablaron antes"
+    ],
+    [
+     "0:32",
+     "V",
+     "¿Cómo se hace? Primero, una charla en familia. Después, elegir la herramienta que corresponde: puede ser un testamento, una donación o un fideicomiso. Depende de cada familia.",
+     "A validar · En pantalla: charla · herramienta"
+    ],
+    [
+     "0:44",
+     "V",
+     "Lo que cuida a una familia no es la casa. Es lo que se habló antes.",
+     "A cámara, en el estudio"
+    ]
+   ],
+   "cierre": "¿En tu familia ya lo hablaron? Comentá CASA o mandanos un mensaje.",
+   "hooks": [
+    "Dos familias. Los mismos padres, la misma casa. Mirá cómo termina cada una.",
+    "La misma casa, dos finales distintos.",
+    "Lo que pasa con la casa de tus padres cuando nadie habló nada.",
+    "Dos familias heredan la misma casa. Una sigue unida.",
+    "¿Qué pasa con la casa de tus padres el día que ya no están?",
+    "En una familia lo hablaron. En la otra, no.",
+    "La herencia que une y la herencia que separa.",
+    "Tres hermanos, una casa y una charla que nadie tuvo.",
+    "Lo que cuida a una familia no es la casa.",
+    "Si tus padres tienen una casa, mirá este video con ellos."
+   ],
+   "cierres": [
+    "¿En tu familia ya lo hablaron? Comentá CASA o mandanos un mensaje.",
+    "Mandáselo a tus hermanos, y si quieren ordenarlo, comentá CASA o escribinos.",
+    "¿Cuál de las dos familias es la tuya? Contalo en los comentarios o por mensaje.",
+    "Comentá CASA y te escribimos, o mandanos un mensaje con tu caso.",
+    "Si tus padres tienen una casa, comentá CASA o mandanos un mensaje.",
+    "Si quieren hablarlo en familia y no saben cómo, escribinos o comentá CASA.",
+    "La primera consulta no se cobra: comentá CASA o mandanos un mensaje.",
+    "Si ya están trabados con una casa familiar, mandanos un mensaje o comentá CASA.",
+    "Miralo con tus padres, y si tienen dudas, comentá CASA o escribinos.",
+    "Si querés que la casa siga uniendo a la familia, comentá CASA o mandanos un mensaje."
+   ],
+   "hookIdx": 0,
+   "versiones": [],
+   "recomendacion": ""
   }
  ],
  "variaciones": [
@@ -3567,17 +2665,17 @@ window.GUIONES.tanda = {
  ]
 };
 
-/* La jornada: los 7 que se graban, en orden de escenografía (podcast → escritorio → de pie → teleprompter → oficina).
+/* La jornada: los 7 que se graban (2026-10-19, siete formatos distintos), en orden de escenografía (podcast → escritorio → de pie → teleprompter → oficina).
    Elegidos el 18/10/2026 entre R9–R20. El resto queda guionado para más adelante. */
 window.GUIONES.jornada = {
-  orden: ["R17", "R19", "R11", "R15", "R13", "R18", "R21"],
+  orden: ["R24", "R27", "R23", "R25", "R26", "R28", "R22"],
   porque: {
-    R17: "El formato del ejemplo que más nos gustó, con lo que ustedes dicen siempre: el acuerdo antes que el juicio.",
-    R19: "La frase de las soluciones alternativas, contada con humor.",
-    R11: "Una duda que se hace cualquiera que tiene un negocio. Es la candidata para el próximo anuncio.",
-    R15: "El ranking como en el ejemplo: Emanuel te nombra cosas y vos las ubicás. El fideicomiso entra como una opción más.",
-    R13: "Es el tema que mejor le funcionó a otro estudio parecido.",
-    R18: "El trabajo en equipo, en teleprompter y con tus palabras: las de la radio, las de Fortuna y las que escribiste acá.",
-    R21: "Todo el estudio en un minuto: quiénes somos, qué hacemos, cómo trabajamos y cómo es la primera consulta. Puede ir fijado."
+    R24: "Lo más local que hay: comerciantes de San Pedro en la vereda. Nadie lo hace en la zona y se comparte en el pueblo.",
+    R27: "Mucha gente no escribe porque no sabe con qué se va a encontrar. Acá ve la puerta, la oficina y las caras.",
+    R23: "Abre una serie: la gente pregunta en los comentarios y respondemos en video. Cada respuesta pide la próxima pregunta.",
+    R25: "Útil y concreto: el que está por firmar el alquiler lo guarda y escribe para que le miren el suyo.",
+    R26: "Tema del momento: le pasa hoy al comerciante, y es de lo que más mueve a escribir.",
+    R28: "El tema que más rinde en Instagram con «fideicomiso»: la casa de los padres. Sin vender ninguna herramienta.",
+    R22: "Muestra qué pasa cuando alguien escribe, para que escribir deje de dar miedo. Reemplaza al R19, va fijado y al anuncio."
   }
 };
