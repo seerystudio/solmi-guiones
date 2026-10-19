@@ -912,3 +912,107 @@ window.GUIONES.grabar = {
     cierreA: "Si trabajás con tu familia, comentá SOCIO o mandanos un mensaje."
   }
 };
+
+/* Estudios que hacen lo mismo (relevado el 18/10/2026). Sale de
+   vault-obsidian-git/clientes/estudio-solmi/REFERENCIAS-ESTUDIOS.md. Las vistas son las de ese día. */
+window.GUIONES.estudios = {
+  n: 5,
+  titulo: "Estudios que hacen lo mismo",
+  resumen: "Seis cuentas de abogados que le hablan a empresas, a familias con patrimonio o que buscan el acuerdo. Qué les funciona y qué tomamos. En San Pedro nadie hace esto: el lugar está libre",
+  labels: ["Qué les funciona", "Qué tomamos para Solmi & Asociados", "Qué pide"],
+  items: [
+    {
+      id: "DdtZn1suVqc", formato: "Un estudio de empresas que habla en plural",
+      cuenta: "@rahalmatias.abogado", datos: "Sintowski Rahal Abogados, CABA · 7.573 seguidores",
+      tags: ["Empresas y PyMEs", "Siempre en plural", "Titular en mayúsculas"],
+      mecanica: [
+        "Es el más parecido a ustedes: la cara es una persona, pero habla el estudio. Su bio dice «Protegemos lo que construís».",
+        "Cada publicación abre con un titular fuerte: «TU EMPRESA NECESITA UN ABOGADO. NO SOLO CUANDO APARECE UN PROBLEMA». Es la que más rindió.",
+        "Habla de papeles concretos: «Te piden el acta y no está. El banco, el socio o el inversor miran lo que quedó escrito»."
+      ],
+      ideas: [
+        "El plural de estudio con tu cara, como ya lo estamos haciendo.",
+        "Ganchos de «lo que quedó escrito», que van con el guion del error de todo de palabra (2A).",
+        "Una frase propia para la bio que diga lo mismo con palabras de ustedes. No copiamos la suya."
+      ],
+      pide: "Nada nuevo: confirma el camino de los guiones que ya están."
+    },
+    {
+      id: "DeeTAAGhEof", formato: "La noticia que le toca a tu negocio",
+      cuenta: "@abogado_pyme", datos: "Abogado PyME, laboral del lado de la empresa · 14 mil en Instagram, 23 mil en TikTok",
+      tags: ["Noticia del día", "Para dueños de PyME", "Canal de WhatsApp"],
+      mecanica: [
+        "Toma lo que salió en las noticias (reforma laboral, cambios para las PyMEs) y dice qué significa para el dueño.",
+        "Le habla siempre al que tiene el negocio, nunca al empleado. Sus reels andan entre mil y seis mil vistas; en TikTok, hasta diecinueve mil.",
+        "Cierra mandando a un canal de WhatsApp gratis «para dueños o gerentes de PyME»."
+      ],
+      ideas: [
+        "Un formato nuevo: «Esto salió hoy y esto cambia para tu comercio», en calma y sin opinar de política.",
+        "Un canal de WhatsApp o lista de difusión del estudio como cierre: nadie tiene que contestar uno por uno.",
+        "Solo del lado de la empresa: es lo que ustedes ya hacen."
+      ],
+      pide: "Que ustedes nos avisen cuando sale algo que les cambia algo a sus clientes. Lo grabamos rápido, con el texto armado."
+    },
+    {
+      id: "DecsKb6uvv9", formato: "Empresas familiares: el tema que más rinde",
+      cuenta: "@myc.abogados", datos: "Márquez y Calderón, Córdoba · 4.181 seguidores",
+      tags: ["Empresa familiar", "Sucesión", "Su mejor reel"],
+      mecanica: [
+        "Sus reels comunes andan por las mil vistas.",
+        "El que habla de qué pasa con la empresa familiar cuando la sucesión no está planificada llegó a 8.035: ocho veces más.",
+        "No cambió el formato: cambió el tema."
+      ],
+      ideas: [
+        "Es la prueba de que el guion de las empresas familiares que llegan a los nietos (3A) es de los fuertes.",
+        "Conviene adelantarlo en la grilla."
+      ],
+      pide: "Nada nuevo: es el 3A, que ya está para grabar."
+    },
+    {
+      id: "Cj6VsfqJD91", formato: "La historia del estudio, contada",
+      cuenta: "@andrea.perunetti", datos: "Andrea Perunetti, patrimonio y familia · 20 mil seguidores",
+      tags: ["Presentación", "Una historia", "184 mil vistas"],
+      mecanica: [
+        "Su video más visto es la historia de cómo armó su estudio: de dónde viene y por qué trabaja así.",
+        "No es una lista de áreas: es un relato con principio y final.",
+        "Usa palabra en comentarios para mandar un link («Escribí CONGRESO»)."
+      ],
+      ideas: [
+        "El fijado «Quiénes somos» como historia: venís de la empresa, conocés las dos sillas del escritorio y por eso armaron un estudio que trabaja en equipo.",
+        "Cerrado en el estudio, no en vos solo: la historia termina en el equipo."
+      ],
+      pide: "Un rato de charla para contarnos tu historia con la empresa. Con eso armamos el guion."
+    },
+    {
+      id: "DdhdOcuh1IJ", formato: "Una duda concreta que toca el bolsillo",
+      cuenta: "@s.o.s.ayudalegal", datos: "Silvina Stranges Palermo, previsional · 122 mil seguidores",
+      tags: ["Otro rubro", "630 mil vistas", "«Escribinos»"],
+      mecanica: [
+        "Es la cuenta de abogados que más rinde de todas las que miramos: videos de 630 mil y un millón de vistas.",
+        "Siempre una duda que tiene mucha gente y que toca la plata («¿podés comprar los aportes que te faltan?»), con respuesta de sí.",
+        "Cierra en plural: «escribinos a nuestro WhatsApp»."
+      ],
+      ideas: [
+        "Lo que la hace explotar es la pregunta, no la producción.",
+        "La más parecida que tenemos es «Si al negocio le va mal, ¿me pueden sacar la casa?» (1B): por eso es candidata al anuncio.",
+        "Buscar más preguntas así, de sí o no, que se haga cualquiera que tiene un negocio o una casa."
+      ],
+      pide: "Que nos cuentes qué pregunta te hacen todos en la primera charla. De ahí salen los próximos."
+    },
+    {
+      id: "DdJfXK8spxC", formato: "Un caso contado como historia",
+      cuenta: "@n.gabogados", datos: "NG Abogados, CABA · 8.410 seguidores",
+      tags: ["Caso con nombre", "Sucesiones", "Historia de 30 segundos"],
+      mecanica: [
+        "Sus mejores reels son casos contados como un cuento: «Graciela aportó desde 1997…».",
+        "En sucesiones: «Muchas familias llegan convencidas de que entre hermanos todo se divide en partes iguales. Y no siempre es así».",
+        "Uno se queda para saber cómo termina."
+      ],
+      ideas: [
+        "Casos de comercios y empresas contados como historia, con un nombre inventado y dicho como ejemplo.",
+        "Recién cuando sepamos qué permite el colegio de abogados sobre mostrar casos."
+      ],
+      pide: "Que nos digas si el colegio pone algún límite para contar casos, aunque sean inventados."
+    }
+  ]
+};
