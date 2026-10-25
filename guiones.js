@@ -822,7 +822,7 @@ window.GUIONES.estudios = {
    con tanda.py: si cambia el guion, se cambia allá y se vuelve a generar. */
 window.GUIONES.tanda = {
  "titulo": "Para grabar ahora",
- "resumen": "Once reels para que la gente escriba, cada uno con tres versiones, su referencia al lado y sus propios arranques y cierres. Abre en la recomendada; la jornada no repite formato",
+ "resumen": "Reels para que la gente escriba (R33–R36, contratos agrarios, para la grabación del 26-10), cada uno con tres versiones, su referencia al lado y sus propios arranques y cierres. Abre en la recomendada; la jornada no repite formato",
  "items": [
   {
    "r": "R15",
@@ -6938,6 +6938,1056 @@ window.GUIONES.tanda = {
     }
    ],
    "recomendacion": "grabar A (el caso). Se entiende sin saber nada de sucesiones. Antes de publicar, avisarle a Sergio Rosa (BRIEF §10)."
+  },
+  {
+   "r": "R33",
+   "tipo": "Papel en la mesa · arriendo del campo",
+   "titulo": "Antes de arrendar el campo: lo que tiene que decir el contrato",
+   "meta": "Duración ≈60 s",
+   "ej": "DeHp3Qyucg7",
+   "ejde": "Esta cláusula · @reyessulbaran.juridico",
+   "nota": "cámara desde arriba sobre el escritorio, un contrato impreso (sin nombres ni datos) y una lapicera. Víctor marca cada punto con la lapicera mientras habla; su cara en el arranque y en el cierre. B-roll opcional: un lote sembrado, una tranquera (campo de la zona, sin carteles).",
+   "lineas": [
+    [
+     "0:00",
+     "V",
+     "Si vas a dar tu campo en arriendo, o vas a arrendar uno, antes de firmar mirá estas cinco cosas.",
+     "En pantalla: ANTES DE ARRENDAR EL CAMPO"
+    ],
+    [
+     "0:05",
+     "V",
+     "En la zona se sigue arrendando de palabra, entre vecinos. Y anda bien, hasta que un año no llueve, se vende el campo o fallece alguno de los dos.",
+     ""
+    ],
+    [
+     "0:13",
+     "V",
+     "La ley pide que estos contratos estén por escrito, y tiene reglas que valen aunque el papel diga otra cosa.",
+     "A validar · En pantalla: por escrito"
+    ],
+    [
+     "0:20",
+     "V",
+     "Uno: quién firma. Tiene que firmar el que realmente puede dar el campo. Si es de varios hermanos o de una sociedad, todos los que corresponden.",
+     "A validar · En pantalla: 1 · quién firma"
+    ],
+    [
+     "0:28",
+     "V",
+     "Dos: qué se entrega. Los lotes, las hectáreas y en qué estado están los alambrados, las aguadas y las mejoras.",
+     "En pantalla: 2 · qué se entrega"
+    ],
+    [
+     "0:35",
+     "V",
+     "Tres: el precio. Muchos lo fijan en quintales de un producto. Lo importante es que diga cuánto, cuándo y cómo se paga.",
+     "A validar · En pantalla: 3 · precio y pago"
+    ],
+    [
+     "0:42",
+     "V",
+     "Cuatro: el plazo. La ley fija un mínimo de tres años. Si el contrato dice menos, igual rige el mínimo, salvo los contratos por una o dos cosechas, que tienen sus propias reglas.",
+     "A validar · En pantalla: 4 · el plazo"
+    ],
+    [
+     "0:52",
+     "V",
+     "Cinco: el uso. Para qué es el campo, que no se subarriende sin permiso del dueño y cómo se cuida el suelo.",
+     "A validar · En pantalla: 5 · uso y cuidado"
+    ],
+    [
+     "0:59",
+     "V",
+     "Un contrato bien hecho no es desconfianza. Es lo que permite que el dueño y el productor sigan trabajando juntos muchos años.",
+     ""
+    ]
+   ],
+   "cierre": "Si vas a arrendar o a dar tu campo en arriendo, comentá CONSULTA o mandanos un mensaje y revisamos el contrato antes de firmar.",
+   "hooks": [
+    "Si vas a dar tu campo en arriendo, o vas a arrendar uno, antes de firmar mirá estas cinco cosas.",
+    "Cinco cosas que tiene que decir el contrato de arriendo de tu campo.",
+    "Antes de entregar tu campo, revisá esto en el contrato.",
+    "¿Tu campo está arrendado de palabra? Esto es lo que tendría que estar por escrito.",
+    "El contrato de arriendo de un campo, punto por punto.",
+    "Si estás por arrendar un campo, no firmes sin mirar estos cinco puntos.",
+    "Lo que más se olvida en un contrato de arriendo rural.",
+    "Dueño o productor: esto les conviene a los dos.",
+    "Un arriendo de campo bien hecho tiene cinco cosas. Te las mostramos.",
+    "En San Pedro se arrienda mucho de palabra. Esto es lo que conviene dejar escrito."
+   ],
+   "cierres": [
+    "Si vas a arrendar o a dar tu campo en arriendo, comentá CONSULTA o mandanos un mensaje y revisamos el contrato antes de firmar.",
+    "Si tu campo está arrendado de palabra, comentá CONSULTA o escribinos.",
+    "Si ya tenés un contrato y no sabés si le falta algo, mandanos un mensaje o comentá CONSULTA.",
+    "Si sos productor y vas a tomar un campo, comentá CONSULTA o escribinos.",
+    "Si el campo es de la familia, mandanos un mensaje o comentá CONSULTA y vemos quién tiene que firmar.",
+    "Mandáselo al que te arrienda el campo, y si tienen dudas, comentá CONSULTA o escribinos.",
+    "Si querés que revisemos tu contrato antes de la próxima campaña, comentá CONSULTA o mandanos un mensaje.",
+    "La primera consulta no se cobra: escribinos o comentá CONSULTA.",
+    "Si tenés un campo en la zona y querés dejar todo en orden, mandanos un mensaje o comentá CONSULTA.",
+    "¿Cuál de los cinco le falta a tu contrato? Comentá CONSULTA o escribinos."
+   ],
+   "hookIdx": 0,
+   "versiones": [
+    {
+     "r": "R33",
+     "v": "B",
+     "titulo": "Ranking: lo que más problemas trae en un arriendo de campo",
+     "mecanica": "el ranking",
+     "meta": "Duración ≈50 s",
+     "ej": "DbQ_BeHBEOx",
+     "ejde": "El ranking · Eder Salinas",
+     "puntaje": 9,
+     "porque": "el formato favorito, con cosas que todos en la zona vieron pasar",
+     "nota": "de pie junto al mapa, con saco. Emanuel lee fuera de cuadro. Columna del 1 al 5 a la izquierda; el 1 aparece último.",
+     "lineas": [
+      [
+       "0:00",
+       "V",
+       "Lo que más problemas trae en un arriendo de campo. Del uno al cinco, el uno es el peor.",
+       "En pantalla: RANKING · EL ARRIENDO DEL CAMPO"
+      ],
+      [
+       "0:05",
+       "E",
+       "Las mejoras que nadie anotó.",
+       ""
+      ],
+      [
+       "0:07",
+       "V",
+       "Cinco. Al final nadie se acuerda quién puso el alambrado o hizo la aguada.",
+       "En pantalla: 5"
+      ],
+      [
+       "0:12",
+       "E",
+       "El precio sin fecha de pago.",
+       ""
+      ],
+      [
+       "0:14",
+       "V",
+       "Cuatro. Dice cuánto, pero no cuándo ni cómo. Y ahí empiezan las diferencias.",
+       "En pantalla: 4"
+      ],
+      [
+       "0:19",
+       "E",
+       "El contrato por un año, porque sí.",
+       ""
+      ],
+      [
+       "0:21",
+       "V",
+       "Tres. La ley tiene un plazo mínimo. Si no es un contrato por una o dos cosechas bien hecho, puede quedar por tres años.",
+       "A validar · En pantalla: 3"
+      ],
+      [
+       "0:29",
+       "E",
+       "El que subarrienda sin avisar.",
+       ""
+      ],
+      [
+       "0:31",
+       "V",
+       "Dos. El que arrienda no puede subarrendar ni ceder el contrato sin permiso expreso del dueño.",
+       "A validar · En pantalla: 2"
+      ],
+      [
+       "0:37",
+       "E",
+       "¿Y el número uno?",
+       ""
+      ],
+      [
+       "0:38",
+       "V",
+       "El arriendo de palabra. La palabra vale mientras están los dos que la dieron. Y la ley pide que esté por escrito.",
+       "A validar · En pantalla: 1"
+      ],
+      [
+       "0:45",
+       "V",
+       "Todos se arreglan con un buen contrato, antes de entregar el campo.",
+       ""
+      ]
+     ],
+     "cierre": "Si tenés un campo arrendado de palabra, comentá CONSULTA o mandanos un mensaje y lo pasamos a un contrato.",
+     "hooks": [
+      "Lo que más problemas trae en un arriendo de campo. Del uno al cinco, el uno es el peor.",
+      "Ranking: los errores más caros al arrendar un campo.",
+      "Cinco cosas que rompen un arriendo de campo, ordenadas.",
+      "Del que menos al que más: lo que complica un arriendo rural.",
+      "¿Qué es lo peor que puede tener un arriendo de campo? Lo rankeamos.",
+      "Te nombramos cinco problemas del arriendo. Víctor les pone un número.",
+      "Ranking del campo: lo que más conflictos trae entre dueño y productor.",
+      "Cinco errores de arriendo que vemos en la zona. ¿Cuál es el número uno?",
+      "Arriendos de campo: del error chico al que más cuesta.",
+      "Lo que nunca debería pasar en un arriendo. Del cinco al uno."
+     ],
+     "cierres": [
+      "Si tenés un campo arrendado de palabra, comentá CONSULTA o mandanos un mensaje y lo pasamos a un contrato.",
+      "¿Cuál te pasó? Comentá CONSULTA o escribinos.",
+      "Si tu arriendo tiene alguno de estos cinco, mandanos un mensaje o comentá CONSULTA.",
+      "Si alguien te subarrendó sin avisar, comentá CONSULTA o escribinos.",
+      "Si nadie anotó las mejoras de tu campo, mandanos un mensaje o comentá CONSULTA.",
+      "Si firmaste por un año y no sabés hasta cuándo dura, comentá CONSULTA o escribinos.",
+      "Mandáselo al que te arrienda el campo y, si tienen dudas, comentá CONSULTA o escribinos.",
+      "Si querés ordenar tu arriendo antes de la próxima siembra, mandanos un mensaje o comentá CONSULTA.",
+      "Si estás por arrendar, antes comentá CONSULTA o mandanos un mensaje.",
+      "La primera consulta no se cobra: comentá CONSULTA o escribinos."
+     ],
+     "hookIdx": 0
+    },
+    {
+     "r": "R33",
+     "v": "C",
+     "titulo": "Clip de podcast: «En el campo, todo se arreglaba de palabra»",
+     "mecanica": "clip de podcast",
+     "meta": "Duración ≈50 s",
+     "ej": "Dbb8EQJAPzB",
+     "ejde": "Clip de podcast · @leonardo.mata.abogado",
+     "puntaje": 8,
+     "porque": "charla con la voz de Víctor, para el que creció arrendando de palabra",
+     "nota": "set de podcast, dos sillas y micrófonos. Subtítulo palabra por palabra al centro.",
+     "lineas": [
+      [
+       "0:00",
+       "E",
+       "En el campo, todo se arreglaba de palabra. ¿Está mal?",
+       ""
+      ],
+      [
+       "0:03",
+       "V",
+       "En realidad, la palabra vale. El problema es que vale mientras están los dos que la dieron.",
+       "En pantalla: LA PALABRA VALE, PERO…"
+      ],
+      [
+       "0:09",
+       "V",
+       "Pasan los años, se vende el campo, fallece el dueño, entran los hijos. Y nadie se acuerda igual de lo que se habló.",
+       ""
+      ],
+      [
+       "0:16",
+       "V",
+       "La ley de arrendamientos rurales pide que el contrato esté por escrito. Y tiene reglas que protegen a las dos partes, aunque no las hayan escrito.",
+       "A validar"
+      ],
+      [
+       "0:24",
+       "E",
+       "¿Y qué tiene que decir ese papel?",
+       ""
+      ],
+      [
+       "0:26",
+       "V",
+       "Lo básico: quién firma, qué campo se entrega y en qué estado, el precio, cuándo se paga y hasta cuándo dura.",
+       "En pantalla: quién · qué · precio · plazo"
+      ],
+      [
+       "0:34",
+       "V",
+       "Y algo que nos gusta mucho: qué hacen si hay un problema. Un año sin lluvia, una diferencia en el pago. Que se sienten a hablar antes de ir a juicio.",
+       ""
+      ],
+      [
+       "0:43",
+       "V",
+       "Como decimos siempre: el que bien anda, bien acaba.",
+       ""
+      ]
+     ],
+     "cierre": "Si tenés un arriendo de palabra y querés pasarlo a un contrato, comentá CONSULTA o mandanos un mensaje.",
+     "hooks": [
+      "En el campo, todo se arreglaba de palabra. ¿Está mal?",
+      "¿La palabra alcanza para arrendar un campo?",
+      "Mi viejo arrendó toda la vida de palabra. ¿Hace falta un contrato?",
+      "Entre vecinos, ¿hace falta firmar algo?",
+      "La palabra vale. Pero ¿hasta cuándo?",
+      "¿Qué pasa con un arriendo de palabra cuando se vende el campo?",
+      "¿Por qué un abogado te diría que pongas por escrito un arriendo de toda la vida?",
+      "Arriendo de palabra: lo hablamos con Víctor.",
+      "¿Un contrato de campo es desconfiar del otro?",
+      "El campo, la palabra y el papel. Una charla corta."
+     ],
+     "cierres": [
+      "Si tenés un arriendo de palabra y querés pasarlo a un contrato, comentá CONSULTA o mandanos un mensaje.",
+      "Si tu campo se arrienda de palabra hace años, escribinos o comentá CONSULTA.",
+      "Si querés que el próximo arriendo quede por escrito, mandanos un mensaje o comentá CONSULTA.",
+      "Si en tu familia hay un campo arrendado de palabra, comentá CONSULTA o escribinos.",
+      "Si querés un contrato que cuide a los dos, mandanos un mensaje o comentá CONSULTA.",
+      "Si preferís arreglar las diferencias sin juicio, comentá CONSULTA o escribinos.",
+      "Mandáselo al que te arrienda, y si lo quieren ordenar, comentá CONSULTA o mandanos un mensaje.",
+      "Si tenés dudas sobre tu arriendo, dejalas en los comentarios o mandanos un mensaje.",
+      "La primera consulta no se cobra: escribinos o comentá CONSULTA.",
+      "Si sos de la zona y tenés campo, comentá CONSULTA o mandanos un mensaje."
+     ],
+     "hookIdx": 0
+    }
+   ],
+   "recomendacion": "grabar A (papel en la mesa). Es el más útil y el que más se guarda. B (ranking) en la misma sesión de pie junto al mapa si hay tiempo."
+  },
+  {
+   "r": "R34",
+   "tipo": "Falsa entrevista · contrato por cosecha",
+   "titulo": "¿Se puede arrendar el campo por una sola cosecha?",
+   "meta": "Duración ≈50 s",
+   "ej": "DavyC1fDgAn",
+   "ejde": "Falsa entrevista · @estudiorossiyasociados",
+   "nota": "Víctor sentado de costado, Emanuel pregunta fuera de cuadro. Una toma por respuesta.",
+   "lineas": [
+    [
+     "0:00",
+     "E",
+     "Víctor, ¿puedo alquilar mi campo solo por una cosecha?",
+     "En pantalla: ¿POR UNA SOLA COSECHA?"
+    ],
+    [
+     "0:03",
+     "V",
+     "Se puede. Pero no de cualquier manera, y es de lo que más vemos mal hecho.",
+     ""
+    ],
+    [
+     "0:08",
+     "V",
+     "En los arrendamientos rurales, la regla es un plazo mínimo de tres años. El contrato por una cosecha es la excepción.",
+     "A validar · En pantalla: la regla: 3 años"
+    ],
+    [
+     "0:15",
+     "E",
+     "¿Y qué hace falta para que valga?",
+     ""
+    ],
+    [
+     "0:17",
+     "V",
+     "Que sea realmente por una o dos cosechas, como máximo. Que esté por escrito. Y muchas veces se presenta ante el juez para que quede firme que es accidental.",
+     "A validar · En pantalla: hasta 2 cosechas · por escrito"
+    ],
+    [
+     "0:27",
+     "E",
+     "¿Y si no se hace así?",
+     ""
+    ],
+    [
+     "0:29",
+     "V",
+     "Puede terminar tomándose como un arrendamiento común, con el plazo mínimo de la ley. Y lo mismo puede pasar si se renueva todos los años con el mismo productor por el mismo campo.",
+     "A validar"
+    ],
+    [
+     "0:39",
+     "V",
+     "Por eso, antes de sembrar: cuántas cosechas, qué cultivo, cuándo se devuelve el campo y cómo se paga. Todo por escrito, y revisado antes, no después de la cosecha.",
+     "En pantalla: cosechas · cultivo · entrega · pago"
+    ]
+   ],
+   "cierre": "Si vas a dar o a tomar un campo por una campaña, comentá CONSULTA o mandanos un mensaje.",
+   "hooks": [
+    "Víctor, ¿puedo alquilar mi campo solo por una cosecha?",
+    "Víctor, ¿se puede arrendar un campo por una sola campaña?",
+    "Víctor, ¿qué es un contrato accidental?",
+    "Víctor, si alquilo el campo por un año, ¿es por un año?",
+    "Víctor, ¿el arriendo por una cosecha tiene algún riesgo?",
+    "Víctor, todos los años le alquilo el campo al mismo por una campaña. ¿Está bien?",
+    "Víctor, ¿cuánto tiempo dura como mínimo un arriendo de campo?",
+    "Víctor, ¿qué hace falta para alquilar un campo por una cosecha?",
+    "Víctor, ¿un contrato por una campaña es igual que un arriendo común?",
+    "Víctor, quiero recuperar el campo en un año. ¿Cómo lo arriendo?"
+   ],
+   "cierres": [
+    "Si vas a dar o a tomar un campo por una campaña, comentá CONSULTA o mandanos un mensaje.",
+    "Si todos los años renovás con el mismo productor, comentá CONSULTA o escribinos.",
+    "Si ya sembraron y no sabés qué firmaste, mandanos un mensaje o comentá CONSULTA.",
+    "Si querés armar bien el contrato antes de la siembra, comentá CONSULTA o escribinos.",
+    "Si querés recuperar tu campo en un plazo corto, mandanos un mensaje o comentá CONSULTA.",
+    "Si sos productor y tomás campos por campaña, comentá CONSULTA o escribinos.",
+    "La primera consulta no se cobra: escribinos o comentá CONSULTA.",
+    "Mandáselo a quien te alquila el campo, y si tienen dudas, comentá CONSULTA o mandanos un mensaje.",
+    "Si tenés un contrato por una cosecha y querés que lo revisemos, comentá CONSULTA o escribinos.",
+    "Si te quedó una duda sobre la campaña, dejala en los comentarios o mandanos un mensaje."
+   ],
+   "hookIdx": 0,
+   "versiones": [
+    {
+     "r": "R34",
+     "v": "B",
+     "titulo": "Verdadero o falso: el contrato por una cosecha",
+     "mecanica": "verdadero o falso",
+     "meta": "Duración ≈50 s",
+     "ej": "DcwgRl6gRAd",
+     "ejde": "Verdadero o falso · @jl_abogados",
+     "puntaje": 8,
+     "porque": "desarma una creencia por toma",
+     "nota": "Víctor sentado, Emanuel lee fuera de cuadro. «Verdadero» y «Falso» en placa, una toma por respuesta.",
+     "lineas": [
+      [
+       "0:00",
+       "V",
+       "Lo que se cree del contrato por una cosecha. Verdadero o falso.",
+       "En pantalla: VERDADERO O FALSO"
+      ],
+      [
+       "0:03",
+       "E",
+       "Si firmo por un año, es por un año.",
+       ""
+      ],
+      [
+       "0:05",
+       "V",
+       "Falso. En un arrendamiento común, la ley fija un mínimo de tres años, aunque el papel diga menos.",
+       "A validar · En pantalla: Falso"
+      ],
+      [
+       "0:12",
+       "E",
+       "Se puede hacer un contrato por una o dos cosechas.",
+       ""
+      ],
+      [
+       "0:14",
+       "V",
+       "Verdadero. Es la excepción: hasta dos cosechas como máximo.",
+       "A validar · En pantalla: Verdadero"
+      ],
+      [
+       "0:19",
+       "E",
+       "Lo renuevo todos los años con el mismo y listo.",
+       ""
+      ],
+      [
+       "0:21",
+       "V",
+       "Falso. Renovarlo una y otra vez puede hacer que se tome como un arrendamiento común.",
+       "A validar · En pantalla: Falso"
+      ],
+      [
+       "0:27",
+       "E",
+       "Si es solo para que pasten los animales, es distinto.",
+       ""
+      ],
+      [
+       "0:29",
+       "V",
+       "Verdadero. El pastoreo por menos de un año tiene otras reglas.",
+       "A validar · En pantalla: Verdadero"
+      ],
+      [
+       "0:34",
+       "E",
+       "Conviene revisarlo antes de sembrar.",
+       ""
+      ],
+      [
+       "0:36",
+       "V",
+       "Verdadero. Después de la cosecha ya es tarde para corregirlo.",
+       "En pantalla: Verdadero"
+      ]
+     ],
+     "cierre": "Si vas a dar o tomar un campo por una campaña, comentá CONSULTA o mandanos un mensaje.",
+     "hooks": [
+      "Lo que se cree del contrato por una cosecha. Verdadero o falso.",
+      "Verdadero o falso: arrendar el campo por una campaña.",
+      "Cinco cosas que se dicen del arriendo por una cosecha. ¿Cuáles son ciertas?",
+      "«Si firmo por un año, es por un año.» ¿Verdadero o falso?",
+      "Arriendo de campo: mitos y verdades, rápido.",
+      "Lo que se dice en el campo sobre los contratos. Verdadero o falso.",
+      "¿Se puede renovar todos los años por una cosecha? Verdadero o falso.",
+      "Cinco frases sobre el contrato accidental. Víctor responde.",
+      "Verdadero o falso, para el que alquila su campo por campaña.",
+      "Lo que todos creen del arriendo por una cosecha, y no siempre es así."
+     ],
+     "cierres": [
+      "Si vas a dar o tomar un campo por una campaña, comentá CONSULTA o mandanos un mensaje.",
+      "¿Cuál creías vos? Comentá CONSULTA o escribinos.",
+      "Si te sorprendió alguna, mandanos un mensaje o comentá CONSULTA.",
+      "Si renovás todos los años con el mismo, comentá CONSULTA o escribinos.",
+      "Si es para pastoreo y tenés dudas, mandanos un mensaje o comentá CONSULTA.",
+      "Si querés revisarlo antes de sembrar, comentá CONSULTA o escribinos.",
+      "Mandáselo al que te alquila el campo y comentá CONSULTA o escribinos si tienen dudas.",
+      "Si tenés otra frase que siempre escuchaste, dejala en los comentarios o mandanos un mensaje.",
+      "La primera consulta no se cobra: comentá CONSULTA o escribinos.",
+      "Si querés saber qué contrato te conviene, mandanos un mensaje o comentá CONSULTA."
+     ],
+     "hookIdx": 0
+    },
+    {
+     "r": "R34",
+     "v": "C",
+     "titulo": "La noticia: quieren derogar la ley de arrendamientos rurales",
+     "mecanica": "la noticia",
+     "meta": "Duración ≈50 s",
+     "ej": "Db661pnRLe0",
+     "ejde": "Teleprompter · @clemente.jimenez_",
+     "puntaje": 8,
+     "porque": "tema del momento en el campo, explicado con calma",
+     "nota": "teleprompter, sentado, tono de noticia, sin opinar sobre el Gobierno ni la política (BRIEF §5). B-roll: titular genérico armado en edición (sin logos de medios), un lote, una tranquera.",
+     "lineas": [
+      [
+       "0:00",
+       "V",
+       "Hay un proyecto para derogar la ley de arrendamientos rurales. Si alquilás tu campo, o trabajás campos alquilados, te contamos qué está en juego.",
+       "En pantalla: LA LEY DE ARRENDAMIENTOS"
+      ],
+      [
+       "0:08",
+       "V",
+       "Es la ley que rige hace décadas los alquileres de campo y las aparcerías: el plazo mínimo, el contrato por escrito, los contratos por una o dos cosechas.",
+       "A validar"
+      ],
+      [
+       "0:16",
+       "V",
+       "El proyecto propone sacarla, y que esos contratos se rijan por el Código Civil y Comercial, como cualquier otro.",
+       "A confirmar · En pantalla: proyecto · todavía no es ley"
+      ],
+      [
+       "0:23",
+       "V",
+       "La Federación Agraria se opuso: dice que hay que actualizarla, pero no eliminarla, y que se perderían los contratos por cosecha.",
+       "A confirmar"
+      ],
+      [
+       "0:31",
+       "V",
+       "Hoy la ley sigue vigente. Así que si vas a firmar, firmá con las reglas de hoy: por escrito, con quien corresponde y con el plazo bien puesto.",
+       "A confirmar · En pantalla: hoy rige la ley"
+      ],
+      [
+       "0:40",
+       "V",
+       "Y si la ley cambia, lo que conviene es revisar los contratos con tiempo, antes de la próxima campaña, no en medio de un problema.",
+       ""
+      ]
+     ],
+     "cierre": "Si tenés un campo alquilado y querés saber cómo te afecta, comentá CONSULTA o mandanos un mensaje.",
+     "hooks": [
+      "Hay un proyecto para derogar la ley de arrendamientos rurales. Si alquilás tu campo, o trabajás campos alquilados, te contamos qué está en juego.",
+      "Quieren derogar la ley de arrendamientos rurales. ¿Qué cambia para tu campo?",
+      "La ley que rige los alquileres de campo podría desaparecer. Te explicamos.",
+      "Si alquilás tu campo, esta noticia te interesa.",
+      "¿Qué pasa con tu contrato si derogan la ley de arrendamientos?",
+      "Ley de arrendamientos rurales: qué propone el proyecto y qué rige hoy.",
+      "Se habla mucho de la ley de arrendamientos. Te lo contamos sin vueltas.",
+      "Contratos por cosecha, plazo mínimo, aparcería: todo eso está en discusión.",
+      "Productores y dueños de campo: lo que tienen que saber de esta noticia.",
+      "¿Se termina el contrato por una cosecha? Te contamos qué se discute."
+     ],
+     "cierres": [
+      "Si tenés un campo alquilado y querés saber cómo te afecta, comentá CONSULTA o mandanos un mensaje.",
+      "Si estás por firmar un arriendo, comentá CONSULTA o escribinos y lo hacemos con las reglas de hoy.",
+      "Si trabajás campos por cosecha, mandanos un mensaje o comentá CONSULTA.",
+      "Si querés revisar tus contratos antes de la próxima campaña, comentá CONSULTA o escribinos.",
+      "Si tenés dudas con esta noticia, dejalas en los comentarios o mandanos un mensaje.",
+      "La primera consulta no se cobra: escribinos o comentá CONSULTA.",
+      "Mandáselo a quien tenga campo y comentá CONSULTA o escribinos si tienen dudas.",
+      "Si querés que te avisemos cómo sigue, comentá CONSULTA o mandanos un mensaje.",
+      "Si tu contrato vence pronto, mandanos un mensaje o comentá CONSULTA.",
+      "Si sos productor y arrendás, comentá CONSULTA o escribinos."
+     ],
+     "hookIdx": 0
+    }
+   ],
+   "recomendacion": "grabar A (falsa entrevista). Explica la regla y la excepción sin que suene a clase. C (la noticia) conviene grabarlo también: es el tema del momento, pero se publica solo después de verificar cómo está el proyecto."
+  },
+  {
+   "r": "R35",
+   "tipo": "El caso · quién firma el arriendo",
+   "titulo": "El campo es de varios: ¿quién firma el arriendo?",
+   "meta": "Duración ≈55 s",
+   "ej": "DdJfXK8spxC",
+   "ejde": "@n.gabogados",
+   "nota": "Víctor sentado, a cámara, tono de relato tranquilo. B-roll: una tranquera, un contrato con varias líneas de firma (sin nombres), una carpeta con papeles.",
+   "lineas": [
+    [
+     "0:00",
+     "V",
+     "Imaginate un productor que arrienda un campo. Firma con uno de los hermanos, que le dice que habla por todos. Paga dos campañas, y al tercer año aparece otro hermano diciendo que él nunca firmó nada.",
+     "En pantalla: UN EJEMPLO"
+    ],
+    [
+     "0:11",
+     "V",
+     "El problema no fue el precio ni el plazo. Fue con quién firmó.",
+     "En pantalla: ¿CON QUIÉN FIRMASTE?"
+    ],
+    [
+     "0:15",
+     "V",
+     "Si el campo es de una sucesión, firma el administrador; si no hay, todos los herederos o alguien con un poder de todos.",
+     "A validar · En pantalla: sucesión · administrador o todos"
+    ],
+    [
+     "0:23",
+     "V",
+     "Si es de una sociedad, hay que ver que quien firma esté autorizado. Y si es de un fideicomiso, en general firma el fiduciario.",
+     "A validar · En pantalla: sociedad · fideicomiso"
+    ],
+    [
+     "0:31",
+     "V",
+     "Firmar con quien no corresponde puede hacerte perder lo que pagaste, o traerte problemas para seguir en el campo.",
+     "A validar"
+    ],
+    [
+     "0:37",
+     "V",
+     "Lo que conviene: antes de firmar, pedí los papeles. El título del campo, la declaratoria si es una sucesión, el estatuto si es una sociedad. Los revisamos y, si falta alguien, se suma antes de sembrar.",
+     "A validar · En pantalla: título · declaratoria · estatuto"
+    ]
+   ],
+   "cierre": "Si vas a arrendar un campo que es de varios dueños, comentá CONSULTA o mandanos un mensaje y vemos quién tiene que firmar.",
+   "hooks": [
+    "Imaginate un productor que arrienda un campo. Firma con uno de los hermanos, que le dice que habla por todos.",
+    "Un ejemplo: un productor pagó dos campañas, y al tercer año apareció otro dueño.",
+    "El error en un arriendo de campo no siempre es el precio. A veces es con quién firmaste.",
+    "Si el campo que vas a arrendar es de varios, mirá este ejemplo.",
+    "Un productor, un campo de una familia y una sola firma. Te contamos qué puede pasar.",
+    "¿Quién tiene que firmar el arriendo si el campo es de una sucesión?",
+    "Pagó todo en término, y aun así tuvo un problema. Un ejemplo.",
+    "Antes de arrendar un campo, preguntá esto: ¿de quién es?",
+    "Un ejemplo que vemos en la zona: el campo es de varios hermanos y firma uno solo.",
+    "Si arrendás un campo de una sociedad o de una sucesión, esto te importa."
+   ],
+   "cierres": [
+    "Si vas a arrendar un campo que es de varios dueños, comentá CONSULTA o mandanos un mensaje y vemos quién tiene que firmar.",
+    "Si ya firmaste con uno solo, escribinos o comentá CONSULTA.",
+    "Si el campo es de una sucesión, mandanos un mensaje o comentá CONSULTA.",
+    "Si el campo es de una sociedad o un fideicomiso, comentá CONSULTA o escribinos.",
+    "Si querés que revisemos los papeles antes de sembrar, mandanos un mensaje o comentá CONSULTA.",
+    "Si sos productor y arrendás varios campos, comentá CONSULTA o escribinos.",
+    "La primera consulta no se cobra: escribinos o comentá CONSULTA.",
+    "Mandáselo a un productor que conozcas, y si tiene dudas, que comente CONSULTA o nos escriba.",
+    "Si no sabés quién es el dueño del campo que arrendás, mandanos un mensaje o comentá CONSULTA.",
+    "Si querés firmar tranquilo, comentá CONSULTA o mandanos un mensaje."
+   ],
+   "hookIdx": 0,
+   "versiones": [
+    {
+     "r": "R35",
+     "v": "B",
+     "titulo": "Respondemos: «Heredamos un campo con mis hermanos. ¿Firmamos todos el arriendo?»",
+     "mecanica": "respuesta a un comentario",
+     "meta": "Duración ≈45 s",
+     "ej": "DdmtqPdRiJ_",
+     "ejde": "Respondemos dudas · @lch.abogados",
+     "puntaje": 8,
+     "porque": "la pregunta tal como la haría Alicia, antes de que haya conflicto",
+     "nota": "Víctor sentado, el comentario como placa arriba (escrito por nosotros, sin usuario real).",
+     "lineas": [
+      [
+       "0:00",
+       "V",
+       "Nos preguntaron: “Heredamos un campo con mis hermanos y queremos alquilarlo. ¿Firmamos todos o alcanza con uno?”",
+       "En pantalla: COMENTARIO EN PANTALLA"
+      ],
+      [
+       "0:07",
+       "V",
+       "Mientras no se hizo la partición, el campo es de todos. Ninguno tiene “su parte” marcada.",
+       "A validar · En pantalla: el campo es de todos"
+      ],
+      [
+       "0:14",
+       "V",
+       "Por eso, lo más seguro es que firmen todos los herederos, o uno con un poder de los demás. Si hay administrador designado en la sucesión, firma él.",
+       "A validar · En pantalla: todos · un poder · el administrador"
+      ],
+      [
+       "0:23",
+       "V",
+       "Si firma uno solo, el que arrienda puede tener problemas después, y entre hermanos pueden aparecer reclamos.",
+       "A validar"
+      ],
+      [
+       "0:29",
+       "V",
+       "Lo que conviene: ponerse de acuerdo antes, entre todos, en el precio y en quién cobra. Y dejarlo por escrito.",
+       ""
+      ]
+     ],
+     "cierre": "Si heredaron un campo y lo quieren alquilar, comentá CONSULTA o mandanos un mensaje y lo ordenamos con todos.",
+     "hooks": [
+      "Nos preguntaron: «Heredamos un campo con mis hermanos y queremos alquilarlo. ¿Firmamos todos o alcanza con uno?»",
+      "«¿Puede alquilar el campo uno solo de los hermanos?» Te respondemos.",
+      "Respondemos un comentario: el campo heredado y el arriendo.",
+      "«Mi hermano quiere alquilar el campo de la familia. ¿Tengo que firmar?» Te contamos.",
+      "Una pregunta que nos llega seguido: el campo de la familia, ¿quién lo alquila?",
+      "Heredaron un campo y lo quieren alquilar. Esto es lo primero.",
+      "«Somos cuatro hermanos y un campo.» Respondemos tu pregunta.",
+      "¿Hace falta la firma de todos para alquilar un campo heredado?",
+      "Te leemos una pregunta y la respondemos: campo, hermanos y arriendo.",
+      "El campo es de todos los hermanos. ¿Quién firma el alquiler?"
+     ],
+     "cierres": [
+      "Si heredaron un campo y lo quieren alquilar, comentá CONSULTA o mandanos un mensaje y lo ordenamos con todos.",
+      "Si tenés una pregunta parecida, dejala en los comentarios o mandanos un mensaje.",
+      "Si en la familia no se ponen de acuerdo en el precio, escribinos o comentá CONSULTA.",
+      "Si uno de los hermanos vive lejos, mandanos un mensaje o comentá CONSULTA.",
+      "Si ya alquilaron con una sola firma, comentá CONSULTA o escribinos.",
+      "Mandáselo a tus hermanos y, si quieren ordenarlo, comentá CONSULTA o escribinos.",
+      "Si quieren definir quién cobra y cómo se reparte, mandanos un mensaje o comentá CONSULTA.",
+      "La primera consulta no se cobra: escribinos o comentá CONSULTA.",
+      "Si el campo todavía está a nombre de tus padres, comentá CONSULTA o mandanos un mensaje.",
+      "Si querés que el arriendo quede firme para todos, comentá CONSULTA o escribinos."
+     ],
+     "hookIdx": 0
+    },
+    {
+     "r": "R35",
+     "v": "C",
+     "titulo": "POV: llegás al estudio con un contrato firmado por uno solo",
+     "mecanica": "POV, la consulta",
+     "meta": "Duración ≈45 s",
+     "ej": "Dbo8iYZR1M7",
+     "ejde": "POV · @clemente.jimenez_",
+     "puntaje": 8,
+     "porque": "la cámara es el productor; buen gancho visual",
+     "nota": "escritorio, la cámara en el lugar del cliente. Víctor mira a lente y hojea un contrato (sin datos legibles).",
+     "lineas": [
+      [
+       "0:00",
+       "V",
+       "A ver el contrato… ¿Quién te firmó? ¿Y el campo de quién es?",
+       "En pantalla: POV: ARRENDASTE UN CAMPO"
+      ],
+      [
+       "0:05",
+       "V",
+       "Ajá. De una sucesión, y te firmó uno de los hijos. Bien que viniste antes de sembrar.",
+       ""
+      ],
+      [
+       "0:11",
+       "V",
+       "Cuando el campo es de varios, tiene que firmar quien puede obligarlos a todos: el administrador, todos los herederos o alguien con poder de ellos.",
+       "A validar"
+      ],
+      [
+       "0:20",
+       "V",
+       "Si no, lo que pagaste puede quedar en el aire.",
+       "A validar"
+      ],
+      [
+       "0:24",
+       "V",
+       "Hacemos esto: pedimos la declaratoria, vemos quiénes son los dueños y les proponemos firmar todos, o dar un poder. Se arregla con una conversación, no con un juicio.",
+       "A validar · En pantalla: declaratoria · dueños · firma"
+      ]
+     ],
+     "cierre": "Si arrendaste un campo y no sabés si firmó quien correspondía, comentá CONSULTA o mandanos un mensaje.",
+     "hooks": [
+      "A ver el contrato… ¿Quién te firmó? ¿Y el campo de quién es?",
+      "POV: arrendaste un campo y venís a que lo miremos.",
+      "Pasá, sentate. ¿Este es el contrato del campo?",
+      "POV: firmaste el arriendo con uno de los hijos del dueño.",
+      "A ver… dice que el campo es de una sucesión. ¿Quién firmó?",
+      "POV: llegás al estudio con un contrato de campo y una duda.",
+      "Bien que viniste antes de sembrar. A ver qué firmaste.",
+      "¿Te lo firmó el dueño o alguien de la familia?",
+      "POV: arrendaste un campo de varios hermanos.",
+      "Antes de mirar el precio, miramos otra cosa: quién firmó."
+     ],
+     "cierres": [
+      "Si arrendaste un campo y no sabés si firmó quien correspondía, comentá CONSULTA o mandanos un mensaje.",
+      "Si estás por firmar, traelo antes: comentá CONSULTA o escribinos.",
+      "Si el campo es de una sucesión, mandanos un mensaje o comentá CONSULTA.",
+      "Si querés que miremos tu contrato, comentá CONSULTA o escribinos.",
+      "La primera consulta no se cobra: escribinos o comentá CONSULTA.",
+      "Si te firmó uno solo de los dueños, mandanos un mensaje o comentá CONSULTA.",
+      "Mandáselo a un productor que arriende campos, y comentá CONSULTA o escribinos.",
+      "Si preferís arreglarlo hablando, sin juicio, comentá CONSULTA o mandanos un mensaje.",
+      "Si tenés dudas con tu arriendo, dejalas en los comentarios o mandanos un mensaje.",
+      "Antes de la próxima siembra, comentá CONSULTA o escribinos."
+     ],
+     "hookIdx": 0
+    }
+   ],
+   "recomendacion": "grabar A (el caso). Se entiende sin saber nada de derecho y el problema se ve venir."
+  },
+  {
+   "r": "R36",
+   "tipo": "El contraste · arrendamiento o aparcería",
+   "titulo": "Arrendamiento o aparcería: no es lo mismo",
+   "meta": "Duración ≈55 s",
+   "ej": "DcCRoubO1re",
+   "ejde": "@abogados.trevino",
+   "nota": "teleprompter de pie, junto al mapa. Placa dividida en dos (alquiler · porcentaje) que se completa en cada frase.",
+   "lineas": [
+    [
+     "0:00",
+     "V",
+     "Una cosa es alquilar tu campo. Otra, darlo a porcentaje. Parecen lo mismo, y no lo son.",
+     "En pantalla: ALQUILER vs. PORCENTAJE"
+    ],
+    [
+     "0:05",
+     "V",
+     "En el arrendamiento, el productor te paga un precio por usar el campo. Sea un año bueno o un año malo.",
+     "A validar · En pantalla: arrendamiento · precio"
+    ],
+    [
+     "0:12",
+     "V",
+     "En la aparcería se reparten lo que se cosecha. Si el año es bueno, ganan los dos. Si es malo, pierden los dos.",
+     "A validar · En pantalla: aparcería · se reparte"
+    ],
+    [
+     "0:19",
+     "V",
+     "Y no importa cómo se llame el papel: si se reparten la cosecha, es aparcería, aunque diga arrendamiento.",
+     "A validar"
+    ],
+    [
+     "0:26",
+     "V",
+     "Los dos tienen reglas de la ley que no se pueden saltear: tienen que estar por escrito y tienen un plazo mínimo.",
+     "A validar"
+    ],
+    [
+     "0:33",
+     "V",
+     "¿Cuál conviene? Depende. De cuánto riesgo querés correr, de si vos ponés algo, como semilla, maquinaria o animales, y de cuánto conocés al que va a trabajar el campo.",
+     "En pantalla: riesgo · qué ponés · confianza"
+    ],
+    [
+     "0:43",
+     "V",
+     "Lo que hacemos: nos sentamos con las dos partes, definimos quién pone qué y cómo se paga, y armamos el contrato que corresponde.",
+     ""
+    ]
+   ],
+   "cierre": "Si estás pensando cómo dar tu campo, comentá CONSULTA o mandanos un mensaje y lo vemos con vos.",
+   "hooks": [
+    "Una cosa es alquilar tu campo. Otra, darlo a porcentaje. Parecen lo mismo, y no lo son.",
+    "Arrendamiento o aparcería: no es lo mismo, y conviene saberlo antes de firmar.",
+    "¿Alquilás tu campo o lo das a porcentaje? Te explicamos la diferencia.",
+    "Si tenés un campo que no trabajás, esta diferencia te importa.",
+    "Alquiler o porcentaje: cuál conviene depende de esto.",
+    "Dos formas de dar tu campo. Una con precio fijo, otra con riesgo compartido.",
+    "¿Qué te conviene: que te paguen un alquiler o repartir la cosecha?",
+    "Lo que tenés que saber antes de dar tu campo a porcentaje.",
+    "Arrendamiento y aparcería, explicados sin palabras difíciles.",
+    "Un vecino te ofrece trabajar tu campo. Antes de decir que sí, mirá esto."
+   ],
+   "cierres": [
+    "Si estás pensando cómo dar tu campo, comentá CONSULTA o mandanos un mensaje y lo vemos con vos.",
+    "Si te ofrecieron trabajarlo a porcentaje, escribinos o comentá CONSULTA.",
+    "Si no sabés qué contrato tenés hoy, mandanos un mensaje o comentá CONSULTA.",
+    "Si querés comparar las dos opciones para tu caso, comentá CONSULTA o escribinos.",
+    "Si vas a poner semilla, maquinaria o animales, mandanos un mensaje o comentá CONSULTA.",
+    "La primera consulta no se cobra: escribinos o comentá CONSULTA.",
+    "Mandáselo a quien tenga un campo en la familia, y comentá CONSULTA o escribinos.",
+    "Si querés un contrato claro para los dos, mandanos un mensaje o comentá CONSULTA.",
+    "¿Vos qué hacés con tu campo, alquiler o porcentaje? Comentá CONSULTA o escribinos.",
+    "Si sos productor y te ofrecen un campo, comentá CONSULTA o mandanos un mensaje."
+   ],
+   "hookIdx": 0,
+   "versiones": [
+    {
+     "r": "R36",
+     "v": "B",
+     "titulo": "Ronda rápida: ¿arrendamiento, aparcería u otra cosa?",
+     "mecanica": "ronda rápida",
+     "meta": "Duración ≈45 s",
+     "ej": "DbcPElHRNu0",
+     "ejde": "@clemente.jimenez_",
+     "puntaje": 8,
+     "porque": "cinco situaciones del campo, una respuesta corta cada una",
+     "nota": "Víctor de pie, plano medio. Emanuel fuera de cuadro. Una palabra grande en pantalla por respuesta.",
+     "lineas": [
+      [
+       "0:00",
+       "V",
+       "Cinco situaciones del campo. ¿Es arrendamiento, aparcería u otra cosa?",
+       "En pantalla: ¿QUÉ CONTRATO ES?"
+      ],
+      [
+       "0:04",
+       "E",
+       "Te pagan un precio fijo por usar el campo.",
+       ""
+      ],
+      [
+       "0:06",
+       "V",
+       "Arrendamiento.",
+       "A validar · En pantalla: Arrendamiento"
+      ],
+      [
+       "0:08",
+       "E",
+       "Se reparten lo que se cosecha.",
+       ""
+      ],
+      [
+       "0:10",
+       "V",
+       "Aparcería, aunque el papel diga alquiler.",
+       "A validar · En pantalla: Aparcería"
+      ],
+      [
+       "0:14",
+       "E",
+       "Le das animales para criar y se reparten las crías.",
+       ""
+      ],
+      [
+       "0:17",
+       "V",
+       "También es aparcería.",
+       "A validar · En pantalla: Aparcería"
+      ],
+      [
+       "0:20",
+       "E",
+       "Solo para que pasten unos meses.",
+       ""
+      ],
+      [
+       "0:22",
+       "V",
+       "Pastoreo. Si es por menos de un año, tiene otras reglas.",
+       "A validar · En pantalla: Pastoreo"
+      ],
+      [
+       "0:27",
+       "E",
+       "Para una o dos cosechas.",
+       ""
+      ],
+      [
+       "0:29",
+       "V",
+       "Contrato accidental. Por escrito, y bien hecho, o puede tomarse como un arrendamiento común.",
+       "A validar · En pantalla: Accidental"
+      ],
+      [
+       "0:35",
+       "V",
+       "Cada uno tiene sus reglas. Por eso conviene saber cuál estás firmando.",
+       ""
+      ]
+     ],
+     "cierre": "Si no sabés qué contrato tenés con tu campo, comentá CONSULTA o mandanos un mensaje.",
+     "hooks": [
+      "Cinco situaciones del campo. ¿Es arrendamiento, aparcería u otra cosa?",
+      "¿Qué contrato tenés con tu campo? Cinco situaciones, respuesta rápida.",
+      "Ronda rápida de contratos de campo.",
+      "Te decimos una situación, Víctor te dice qué contrato es.",
+      "Precio fijo, porcentaje, pastoreo… ¿qué contrato es cada uno?",
+      "Cinco formas de dar un campo, y cómo se llama cada una.",
+      "¿Alquiler o aparcería? Respondé antes que Víctor.",
+      "Contratos del campo en cuarenta segundos.",
+      "Cinco preguntas rápidas sobre los contratos del campo.",
+      "No todo lo que se firma en el campo es un alquiler. Ronda rápida."
+     ],
+     "cierres": [
+      "Si no sabés qué contrato tenés con tu campo, comentá CONSULTA o mandanos un mensaje.",
+      "¿Cuántas acertaste? Comentá CONSULTA o escribinos.",
+      "Si tu situación no estaba en la lista, contanos en los comentarios o mandanos un mensaje.",
+      "Si das tu campo para pastoreo, mandanos un mensaje o comentá CONSULTA.",
+      "Si se reparten la cosecha y el papel dice alquiler, comentá CONSULTA o escribinos.",
+      "Si tenés animales en aparcería, mandanos un mensaje o comentá CONSULTA.",
+      "La primera consulta no se cobra: escribinos o comentá CONSULTA.",
+      "Mandáselo a un productor que conozcas, y comentá CONSULTA o escribinos.",
+      "Si querés que el próximo contrato sea el que corresponde, mandanos un mensaje o comentá CONSULTA.",
+      "Si vas a firmar uno de estos, antes comentá CONSULTA o escribinos."
+     ],
+     "hookIdx": 0
+    },
+    {
+     "r": "R36",
+     "v": "C",
+     "titulo": "Así es escribirnos si te ofrecen trabajar tu campo",
+     "mecanica": "chat de WhatsApp en pantalla",
+     "meta": "Duración ≈45 s",
+     "ej": "DU5r_mnDkj5",
+     "ejde": "Consultas por WhatsApp · @estudiojuridicoarancibia",
+     "puntaje": 7,
+     "porque": "muestra qué pasa cuando alguien escribe; sin cámara",
+     "nota": "sin cámara: pantalla de WhatsApp armada en edición y la voz de Víctor en off.",
+     "lineas": [
+      [
+       "0:00",
+       "C",
+       "Hola, tengo un campo chico que no trabajo. Un vecino me ofrece pagarme un alquiler o trabajarlo a porcentaje. ¿Qué me conviene?",
+       ""
+      ],
+      [
+       "0:06",
+       "V",
+       "Una consulta que nos llega seguido. Te mostramos qué le contestamos.",
+       ""
+      ],
+      [
+       "0:10",
+       "C",
+       "Hola, gracias por escribirnos. Son dos contratos distintos: en el alquiler cobrás un precio fijo; a porcentaje se reparten la cosecha y también el riesgo.",
+       "A validar"
+      ],
+      [
+       "0:18",
+       "C",
+       "Para ver cuál te conviene necesitamos saber: si vas a poner algo vos, cómo querés cobrar y por cuánto tiempo.",
+       ""
+      ],
+      [
+       "0:25",
+       "V",
+       "Y en los dos casos, por escrito: la ley lo pide y les da reglas claras a los dos.",
+       "A validar"
+      ],
+      [
+       "0:31",
+       "C",
+       "Si querés, mandanos lo que te ofreció tu vecino y lo vemos juntos. La primera consulta no se cobra.",
+       ""
+      ]
+     ],
+     "cierre": "Si te ofrecieron trabajar tu campo, comentá CONSULTA o mandanos un mensaje.",
+     "hooks": [
+      "«Hola, tengo un campo chico que no trabajo. Un vecino me ofrece pagarme un alquiler o trabajarlo a porcentaje. ¿Qué me conviene?»",
+      "Esto nos escribieron por WhatsApp. Te mostramos qué contestamos.",
+      "«¿Me conviene alquilar el campo o darlo a porcentaje?» Una consulta real de todos los días.",
+      "Así es escribirnos si te ofrecen trabajar tu campo.",
+      "Un mensaje que nos llega seguido, y nuestra respuesta.",
+      "¿Qué pasa cuando nos escribís por tu campo? Mirá.",
+      "«Un vecino me quiere alquilar el campo.» Así lo respondemos.",
+      "Te mostramos una consulta por WhatsApp sobre un campo.",
+      "Alquiler o porcentaje: la pregunta que más nos hacen los dueños de campo.",
+      "Escribir a un abogado no es complicado. Mirá este chat."
+     ],
+     "cierres": [
+      "Si te ofrecieron trabajar tu campo, comentá CONSULTA o mandanos un mensaje.",
+      "Escribinos como en este chat, o comentá CONSULTA.",
+      "Si tenés un campo que no trabajás, mandanos un mensaje o comentá CONSULTA.",
+      "La primera consulta no se cobra: escribinos o comentá CONSULTA.",
+      "Si querés que veamos la oferta que te hicieron, mandanos un mensaje o comentá CONSULTA.",
+      "Si no sabés qué te conviene, comentá CONSULTA o escribinos.",
+      "Mandáselo a quien tenga un campo en la familia, y comentá CONSULTA o escribinos.",
+      "Si tenés una duda parecida, dejala en los comentarios o mandanos un mensaje.",
+      "Si sos productor y querés proponer un acuerdo claro, comentá CONSULTA o escribinos.",
+      "Un mensaje alcanza para empezar: escribinos o comentá CONSULTA."
+     ],
+     "hookIdx": 0
+    }
+   ],
+   "recomendacion": "grabar A (el contraste). Es la duda de base de todo dueño de campo, y el formato no se repite en la jornada."
   }
  ],
  "variaciones": [
@@ -7036,8 +8086,12 @@ window.GUIONES.tanda = {
 /* La jornada: los 7 que se graban (2026-10-19, siete formatos distintos), en orden de escenografía (podcast → escritorio → de pie → teleprompter → oficina).
    Elegidos el 18/10/2026 entre R9–R20. El resto queda guionado para más adelante. */
 window.GUIONES.jornada = {
-  orden: ["R26", "R9", "R25", "R31", "R23", "R28", "R30", "R29", "R24", "R27", "R22"],
+  orden: ["R33", "R34", "R35", "R36", "R26", "R9", "R25", "R31", "R23", "R28", "R30", "R29", "R24", "R27", "R22"],
   porque: {
+    R33: "Contratos agrarios (grabación del 26-10). En la zona se arrienda de palabra: las cinco cosas que tiene que decir el contrato del campo. Recomendada: A, papel en la mesa; B (ranking) en la misma sesión si hay tiempo. ⚠️ Antes de publicar, verificar que la ley de arrendamientos siga vigente (hay un proyecto para derogarla).",
+    R34: "El contrato por una o dos cosechas: la excepción al plazo mínimo y lo que más se hace mal. Recomendada: A, falsa entrevista. Grabar también C, la noticia del proyecto para derogar la ley, y publicarla después de verificar cómo está.",
+    R35: "Con quién se firma si el campo es de una sucesión, una sociedad o un fideicomiso. Sale del artículo «Precauciones para arrendar campos» del Dr. Jorge Solmi. Recomendada: A, el caso. Avisar a Sergio Rosa (nombra la sucesión).",
+    R36: "Alquiler o porcentaje: la duda de base del que tiene un campo y no lo trabaja. Recomendada: A, el contraste, de pie junto al mapa.",
     R26: "El único de la casa de los padres en esta jornada, y el tema que más rinde con «fideicomiso». Recomendada: B, en la sesión de podcast.",
     R9: "La presentación: va fijada primera en el perfil. Armada con lo que escribió Víctor en «Los 3 videos fijados», más el respaldo de Perfil y Fortuna. Recomendada: A, teleprompter.",
     R25: "De las preguntas que más se buscan: «me citaron a una mediación, ¿tengo que ir?». Y la mediación es lo que mejor hace el estudio. Recomendada: A, respuesta a una pregunta.",
