@@ -8103,8 +8103,165 @@ window.GUIONES.tanda = {
     "La primera consulta no se cobra: comentá CONSULTA o escribinos."
    ],
    "hookIdx": 0,
-   "versiones": [],
-   "recomendacion": ""
+   "versiones": [
+    {
+     "r": "R37",
+     "v": "B",
+     "titulo": "El consejo en el café: «¿Le vas a dejar el campo a tus hijos?»",
+     "mecanica": "el consejo en el café",
+     "meta": "Duración ≈60 s",
+     "ej": "DV9hhY3EbKK",
+     "ejde": "El consejo en el café · @abogadocecilio",
+     "puntaje": 9,
+     "porque": "formato nuevo, cálido: Víctor aconseja a alguien que tiene enfrente, como en una charla, sin sonar a clase",
+     "nota": "Estructura: problema (0:00–0:04) → explicación del problema (0:05–0:20) → solución (0:21) → explicación de la solución (0:25–0:50) → pedido. Mesa de café al aire libre (vereda o patio), Víctor sentado de saco con un café adelante; en primer plano, desenfocado, el hombro y la nuca de Emanuel, que no habla. Plano medio fijo, subtítulo palabra por palabra abajo. Víctor le habla a él, no a la cámara.",
+     "lineas": [
+      [
+       "0:00",
+       "V",
+       "¿Así que le vas a dejar el campo a tus hijos? Qué bueno. Pero tené en cuenta esto antes de hacerlo.",
+       "En pantalla: ¿LE VAS A DEJAR EL CAMPO A TUS HIJOS?"
+      ],
+      [
+       "0:05",
+       "V",
+       "Si hacés un testamento, el campo sigue siendo tuyo mientras vivas. Pero cuando no estés, tus hijos igual van a tener que hacer la sucesión para poder tenerlo.",
+       "A validar · En pantalla: EL PROBLEMA · TESTAMENTO → SUCESIÓN"
+      ],
+      [
+       "0:14",
+       "V",
+       "Y si se lo dejás en vida, pasa a ser de ellos ahora. Dejás de ser dueño, y las decisiones ya no son tuyas.",
+       "A validar · En pantalla: EN VIDA → DEJÁS DE SER DUEÑO"
+      ],
+      [
+       "0:21",
+       "V",
+       "Hay otra opción que te recomendamos mirar: un fideicomiso.",
+       "En pantalla: LA SOLUCIÓN"
+      ],
+      [
+       "0:25",
+       "V",
+       "Ponés el campo a nombre de un fiduciario. Vos lo seguís disfrutando mientras vivas, y dejás escrito que, cuando no estés, pase a tus hijos.",
+       "A validar · En pantalla: campo → fiduciario → hijos"
+      ],
+      [
+       "0:34",
+       "V",
+       "Así queda definido de antemano quién lo recibe y cuándo, y tus hijos no tienen que decidir nada en el peor momento.",
+       "A validar"
+      ],
+      [
+       "0:42",
+       "V",
+       "No siempre es la herramienta: depende de cada familia. Por eso lo vemos juntos.",
+       ""
+      ],
+      [
+       "0:47",
+       "V",
+       "Sabemos que no es una decisión fácil. Qué bueno que la estés pensando ahora.",
+       ""
+      ]
+     ],
+     "cierre": "Si en tu familia hay un campo, comentá CONSULTA o mandanos un mensaje.",
+     "hooks": [
+      "¿Así que le vas a dejar el campo a tus hijos? Qué bueno. Pero tené en cuenta esto antes de hacerlo.",
+      "¿Estás pensando cómo dejarles el campo a tus hijos? Escuchá esto primero.",
+      "Antes de hacer el testamento del campo, tené en cuenta esto.",
+      "¿Querés dejar el campo ordenado? Qué bueno. Hay algo que conviene saber.",
+      "¿Pensás pasarles el campo a tus hijos en vida? Antes, mirá esto.",
+      "Si el campo va a ser de tus hijos, esto te va a servir."
+     ],
+     "cierres": [
+      "Si en tu familia hay un campo, comentá CONSULTA o mandanos un mensaje.",
+      "Si lo estás pensando, comentá CONSULTA o escribinos y lo vemos juntos.",
+      "Mandáselo a quien tenga un campo en la familia, y comentá CONSULTA o escribinos.",
+      "La primera consulta no se cobra: comentá CONSULTA o escribinos."
+     ],
+     "hookIdx": 0
+    },
+    {
+     "r": "R37",
+     "v": "C",
+     "titulo": "Clip de podcast: «¿Testamento o fideicomiso para el campo?»",
+     "mecanica": "clip de podcast",
+     "meta": "Duración ≈60 s",
+     "ej": "Dbb8EQJAPzB",
+     "ejde": "Clip de podcast · @leonardo.mata.abogado",
+     "puntaje": 8,
+     "porque": "la misma charla en el set de podcast, con más voz de Víctor",
+     "nota": "Estructura: problema (0:00–0:03) → explicación del problema (0:04–0:17) → solución (0:19) → explicación de la solución (0:22–0:43) → pedido. Set de podcast, dos sillas y micrófonos. Frases de Víctor en Perfil y Fortuna («herramienta de creación», «mirar a futuro», «el que bien anda, bien acaba»).",
+     "lineas": [
+      [
+       "0:00",
+       "E",
+       "¿Qué es mejor para dejar el campo a los hijos: un testamento o dejárselo en vida?",
+       "En pantalla: ¿TESTAMENTO O EN VIDA?"
+      ],
+      [
+       "0:04",
+       "V",
+       "En realidad, las dos tienen un problema.",
+       "En pantalla: EL PROBLEMA"
+      ],
+      [
+       "0:07",
+       "V",
+       "Con el testamento, el campo sigue siendo tuyo, pero cuando no estés tus hijos van a tener que hacer la sucesión. Y dejándoselo en vida, dejás de ser dueño antes de tiempo.",
+       "A validar · En pantalla: testamento → sucesión · en vida → dejás de ser dueño"
+      ],
+      [
+       "0:18",
+       "E",
+       "¿Y entonces?",
+       ""
+      ],
+      [
+       "0:19",
+       "V",
+       "Una herramienta que usamos mucho es el fideicomiso.",
+       "En pantalla: LA SOLUCIÓN"
+      ],
+      [
+       "0:22",
+       "V",
+       "El campo queda a nombre de un fiduciario. El dueño lo sigue disfrutando mientras vive, y queda escrito quién lo recibe y cuándo.",
+       "A validar"
+      ],
+      [
+       "0:31",
+       "V",
+       "Para nosotros el derecho también es una herramienta de creación: no es solo resolver problemas, es dejar una base firme para lo que viene.",
+       ""
+      ],
+      [
+       "0:39",
+       "V",
+       "Siempre hay que mirar a futuro, a largo plazo. El que bien anda, bien acaba.",
+       ""
+      ]
+     ],
+     "cierre": "Si en tu familia hay un campo, comentá CONSULTA o mandanos un mensaje.",
+     "hooks": [
+      "¿Qué es mejor para dejar el campo a los hijos: un testamento o dejárselo en vida?",
+      "Testamento o en vida: la pregunta de toda familia con campo.",
+      "¿Cómo se deja un campo ordenado para los hijos?",
+      "¿El testamento alcanza para dejar el campo ordenado?",
+      "Una charla sobre el campo y los hijos que conviene tener antes.",
+      "¿Para qué sirve un fideicomiso en una familia con campo?"
+     ],
+     "cierres": [
+      "Si en tu familia hay un campo, comentá CONSULTA o mandanos un mensaje.",
+      "Si querés que lo veamos con tu familia, comentá CONSULTA o escribinos.",
+      "Contanos en los comentarios cómo lo están pensando, o mandanos un mensaje.",
+      "La primera consulta no se cobra: comentá CONSULTA o escribinos."
+     ],
+     "hookIdx": 0
+    }
+   ],
+   "recomendacion": "grabar A (POV). B (el café) es el formato nuevo y conviene grabarlo también para probarlo; C si hay sesión de podcast."
   },
   {
    "r": "R38",
@@ -8220,8 +8377,183 @@ window.GUIONES.tanda = {
     "La primera consulta no se cobra: comentá CONSULTA o escribinos."
    ],
    "hookIdx": 0,
-   "versiones": [],
-   "recomendacion": ""
+   "versiones": [
+    {
+     "r": "R38",
+     "v": "B",
+     "titulo": "El banco: el dueño que vende y el que se asocia",
+     "mecanica": "el banco",
+     "meta": "Duración ≈55 s",
+     "ej": "DalNb38xFNN",
+     "ejde": "El banco: uno y otro · @dr.juanpablogalvez",
+     "puntaje": 9,
+     "porque": "formato nuevo: dos personas en un banco, cada una con su cartel, contestan alternando; el contraste se entiende sin audio",
+     "nota": "Estructura: problema (0:00–0:16) → solución (0:17) → explicación de la solución (0:22–0:45, en contraste) → pedido. Un banco de plaza o de la costanera, los dos sentados con las piernas cruzadas, plano general fijo. Arriba de cada uno, su cartel (EL QUE VENDE · EL QUE SE ASOCIA) todo el video; subtítulo debajo de quien habla. Son personajes: Víctor habla en primera persona como el dueño del campo, y vuelve al plural del estudio al final.",
+     "lineas": [
+      [
+       "0:00",
+       "E",
+       "Tengo un campo y no tengo plata para trabajarlo. Lo vendí.",
+       "En pantalla: carteles arriba: EL QUE VENDE · EL QUE SE ASOCIA"
+      ],
+      [
+       "0:04",
+       "V",
+       "Tengo un campo y no tengo plata para trabajarlo. Armé un fideicomiso.",
+       ""
+      ],
+      [
+       "0:08",
+       "E",
+       "Me quedé sin el campo.",
+       "En pantalla: EL PROBLEMA"
+      ],
+      [
+       "0:10",
+       "V",
+       "Sigo teniendo mi parte del proyecto.",
+       "A validar"
+      ],
+      [
+       "0:12",
+       "E",
+       "Si lo alquilaba, cobraba el alquiler y nada más de lo que producía.",
+       "A validar"
+      ],
+      [
+       "0:17",
+       "V",
+       "Puse el campo; un inversor puso la plata y un productor el trabajo.",
+       "En pantalla: LA SOLUCIÓN"
+      ],
+      [
+       "0:22",
+       "E",
+       "Arreglamos de palabra cómo seguía.",
+       ""
+      ],
+      [
+       "0:24",
+       "V",
+       "Un fiduciario cuida lo que pusimos y hace cumplir lo que firmamos.",
+       "A validar · En pantalla: FIDUCIARIO"
+      ],
+      [
+       "0:29",
+       "E",
+       "No sé qué me toca de lo que se cosechó.",
+       ""
+      ],
+      [
+       "0:32",
+       "V",
+       "Está escrito cómo se reparte lo que da la campaña y qué pasa cuando termina.",
+       "A validar"
+      ],
+      [
+       "0:37",
+       "E",
+       "¿Cómo sabés todo eso?",
+       ""
+      ],
+      [
+       "0:39",
+       "V",
+       "Lo vimos con el estudio antes de firmar. Y no siempre hace falta un fideicomiso: primero se mira el proyecto.",
+       ""
+      ]
+     ],
+     "cierre": "Si tenés un campo y un proyecto con otros, comentá CONSULTA o mandanos un mensaje.",
+     "hooks": [
+      "Tengo un campo y no tengo plata para trabajarlo. Lo vendí. / Armé un fideicomiso.",
+      "Dos dueños de campo, el mismo problema y dos decisiones distintas.",
+      "El que vende el campo y el que se asocia. Mirá la diferencia.",
+      "Tener un campo parado: lo que hace uno y lo que hace el otro.",
+      "Mismo campo, misma falta de plata. Uno lo vendió y el otro no.",
+      "¿Vender el campo o asociarte? Mirá a estos dos."
+     ],
+     "cierres": [
+      "Si tenés un campo y un proyecto con otros, comentá CONSULTA o mandanos un mensaje.",
+      "¿Vos de qué lado estás? Comentá CONSULTA o escribinos.",
+      "Mandáselo a quien tenga un campo parado, y comentá CONSULTA o escribinos.",
+      "La primera consulta no se cobra: comentá CONSULTA o escribinos."
+     ],
+     "hookIdx": 0
+    },
+    {
+     "r": "R38",
+     "v": "C",
+     "titulo": "Teleprompter: un fideicomiso, explicado con un campo",
+     "mecanica": "teleprompter con motion graphics",
+     "meta": "Duración ≈55 s",
+     "ej": "CzsLyJKMxE0",
+     "ejde": "Explicado con un ejemplo · @jorgecervantesmx",
+     "puntaje": 8,
+     "porque": "a cámara con el ejemplo armado en pantalla completa, para guardar",
+     "nota": "Estructura: problema (0:00–0:10) → solución (0:11) → explicación de la solución (0:16–0:47) → pedido. Teleprompter de pie junto al mapa; el ejemplo en motion graphics a pantalla completa (estilo 1019-01), nada encima de Víctor.",
+     "lineas": [
+      [
+       "0:00",
+       "V",
+       "Vos tenés el campo. Otro tiene la plata. Y un tercero sabe trabajarlo.",
+       "En pantalla: campo · plata · tractor"
+      ],
+      [
+       "0:04",
+       "V",
+       "El problema: si cada uno arregla por su lado, nadie sabe qué le toca, y el que pone más arriesga de más.",
+       "En pantalla: EL PROBLEMA"
+      ],
+      [
+       "0:11",
+       "V",
+       "Una forma de ponerse de acuerdo es un fideicomiso. Y no, no es solo para edificios.",
+       "En pantalla: LA SOLUCIÓN"
+      ],
+      [
+       "0:16",
+       "V",
+       "Cada uno pone lo suyo en el proyecto, y eso lo administra un fiduciario, que tiene la obligación de cuidarlo y de cumplir lo que se firmó.",
+       "A validar · En pantalla: los tres entran a una caja: FIDUCIARIO"
+      ],
+      [
+       "0:26",
+       "V",
+       "Antes de arrancar queda escrito para qué es, cómo se reparte lo que produce el campo y qué pasa cuando termina.",
+       "A validar · En pantalla: para qué · cómo se reparte · cuándo termina"
+      ],
+      [
+       "0:34",
+       "V",
+       "Y si está bien armado, lo que entra al fideicomiso queda separado de los problemas de cada uno.",
+       "A validar"
+      ],
+      [
+       "0:41",
+       "V",
+       "No siempre hace falta: a veces alcanza con un buen contrato. Por eso primero vemos el proyecto, y después la herramienta.",
+       ""
+      ]
+     ],
+     "cierre": "Si tenés un campo y un proyecto con otros, comentá CONSULTA o mandanos un mensaje.",
+     "hooks": [
+      "Vos tenés el campo. Otro tiene la plata. Y un tercero sabe trabajarlo.",
+      "Fideicomiso. Parece una palabra de edificios. Te la explicamos con un campo.",
+      "¿Qué es un fideicomiso? Explicado con un campo.",
+      "Un campo, una persona con plata y otra que sabe trabajar la tierra.",
+      "Cómo ponerse de acuerdo para trabajar un campo entre tres.",
+      "El fideicomiso no es solo para edificios. Mirá."
+     ],
+     "cierres": [
+      "Si tenés un campo y un proyecto con otros, comentá CONSULTA o mandanos un mensaje.",
+      "Si querés saber si un fideicomiso te sirve, comentá CONSULTA o escribinos.",
+      "Guardalo y mandáselo a quien tenga un campo, y comentá CONSULTA si querés verlo.",
+      "La primera consulta no se cobra: comentá CONSULTA o escribinos."
+     ],
+     "hookIdx": 0
+    }
+   ],
+   "recomendacion": "grabar A (POV). B (el banco) es el formato nuevo: grabarlo en la misma salida, se entiende sin audio."
   },
   {
    "r": "R39",
@@ -8331,8 +8663,177 @@ window.GUIONES.tanda = {
     "La primera consulta no se cobra: comentá CONSULTA o escribinos."
    ],
    "hookIdx": 0,
-   "versiones": [],
-   "recomendacion": ""
+   "versiones": [
+    {
+     "r": "R39",
+     "v": "B",
+     "titulo": "El banco: arriendo de palabra y arriendo con contrato",
+     "mecanica": "el banco",
+     "meta": "Duración ≈50 s",
+     "ej": "DalNb38xFNN",
+     "ejde": "El banco: uno y otro · @dr.juanpablogalvez",
+     "puntaje": 9,
+     "porque": "el contraste de a dos es el tema: lo mismo, de palabra y por escrito",
+     "nota": "Estructura: problema (0:00–0:20, del lado de palabra) → solución y su explicación (0:21–0:41, del lado con contrato) → pedido. Banco al aire libre, plano general fijo, carteles arriba de cada uno todo el video. Personajes en primera persona; el cierre, en plural del estudio.",
+     "lineas": [
+      [
+       "0:00",
+       "E",
+       "Le di el campo a un vecino. De palabra.",
+       "En pantalla: carteles arriba: DE PALABRA · CON CONTRATO"
+      ],
+      [
+       "0:03",
+       "V",
+       "Le di el campo a un vecino. Con contrato.",
+       ""
+      ],
+      [
+       "0:06",
+       "E",
+       "Me pagó tarde y no tengo nada que diga cuándo tenía que pagar.",
+       "En pantalla: EL PROBLEMA"
+      ],
+      [
+       "0:10",
+       "V",
+       "Está escrito el precio, cuándo se paga y cómo.",
+       ""
+      ],
+      [
+       "0:13",
+       "E",
+       "Me devolvió el campo cuando quiso.",
+       ""
+      ],
+      [
+       "0:15",
+       "V",
+       "Está escrito cuándo se entrega el campo y en qué estado.",
+       ""
+      ],
+      [
+       "0:18",
+       "E",
+       "Cada uno se acuerda distinto de lo que hablamos.",
+       ""
+      ],
+      [
+       "0:21",
+       "V",
+       "Están claras las obligaciones de cada uno, los riesgos, los plazos y las garantías.",
+       "En pantalla: LA SOLUCIÓN · obligaciones · riesgos · plazos · garantías"
+      ],
+      [
+       "0:27",
+       "E",
+       "Y si hay un problema, no sé cómo se arregla.",
+       ""
+      ],
+      [
+       "0:30",
+       "V",
+       "Si hay un problema, está escrito cómo nos sentamos a resolverlo, antes de ir a juicio.",
+       ""
+      ],
+      [
+       "0:35",
+       "E",
+       "¿Y por qué lo pusiste por escrito?",
+       ""
+      ],
+      [
+       "0:37",
+       "V",
+       "Porque la ley de arrendamientos lo pide, y porque un contrato claro cuida la relación.",
+       "A validar"
+      ]
+     ],
+     "cierre": "Si vas a dar o a tomar un campo, comentá CONSULTA o mandanos un mensaje.",
+     "hooks": [
+      "Le di el campo a un vecino. De palabra. / Con contrato.",
+      "Dos dueños de campo: uno arrienda de palabra y el otro con contrato.",
+      "Arriendo de palabra y arriendo con contrato. Mirá la diferencia.",
+      "El mismo vecino, el mismo campo. Uno firmó y el otro no.",
+      "¿De palabra o por escrito? Mirá a estos dos.",
+      "Lo que le pasa al que arrienda de palabra, y al que no."
+     ],
+     "cierres": [
+      "Si vas a dar o a tomar un campo, comentá CONSULTA o mandanos un mensaje.",
+      "¿Vos de qué lado estás? Comentá CONSULTA o escribinos.",
+      "Si arrendás de palabra, comentá CONSULTA o escribinos y lo ponemos por escrito.",
+      "La primera consulta no se cobra: comentá CONSULTA o escribinos."
+     ],
+     "hookIdx": 0
+    },
+    {
+     "r": "R39",
+     "v": "C",
+     "titulo": "Respondemos: «Le voy a dar el campo a un vecino de palabra, ¿está mal?»",
+     "mecanica": "respuesta a una pregunta",
+     "meta": "Duración ≈50 s",
+     "ej": "DdmtqPdRiJ_",
+     "ejde": "@lch.abogados · respondemos dudas",
+     "puntaje": 8,
+     "porque": "arranca con una pregunta como la que escriben en los comentarios, y muestra que escribir tiene respuesta",
+     "nota": "Estructura: problema (0:00–0:03) → explicación (0:04–0:19) → solución (0:20) → explicación de la solución (0:24–0:38) → pedido. Escritorio, Víctor a cámara; la pregunta aparece como un comentario de Instagram a pantalla completa en el arranque.",
+     "lineas": [
+      [
+       "0:00",
+       "P",
+       "Le voy a dar el campo a un vecino para que lo trabaje. Lo arreglamos de palabra. ¿Está mal?",
+       "En pantalla: la pregunta como comentario de Instagram"
+      ],
+      [
+       "0:04",
+       "V",
+       "No está mal confiar. El problema es que de palabra cada uno se acuerda distinto.",
+       "En pantalla: EL PROBLEMA"
+      ],
+      [
+       "0:10",
+       "V",
+       "Si un día no te paga, o no te devuelve el campo cuando esperabas, no hay nada escrito que muestre qué arreglaron. Y la ley de arrendamientos pide que el contrato sea por escrito.",
+       "A validar"
+      ],
+      [
+       "0:20",
+       "V",
+       "Lo que recomendamos: un contrato por escrito, antes de que entre al campo.",
+       "En pantalla: LA SOLUCIÓN"
+      ],
+      [
+       "0:24",
+       "V",
+       "Con las obligaciones de cada uno, los riesgos, los plazos y condiciones, y las garantías. Y qué pasa si alguien no cumple y cómo se resuelve.",
+       "En pantalla: obligaciones · riesgos · plazos · garantías"
+      ],
+      [
+       "0:34",
+       "V",
+       "No es desconfiar. Un contrato claro cuida la relación con tu vecino.",
+       ""
+      ]
+     ],
+     "cierre": "Si vas a dar o a tomar un campo, comentá CONSULTA o mandanos un mensaje con tu pregunta.",
+     "hooks": [
+      "«Le voy a dar el campo a un vecino de palabra. ¿Está mal?» Respondemos.",
+      "Nos preguntaron si está mal arrendar de palabra. Esta es la respuesta.",
+      "Una pregunta que nos llega seguido: ¿hace falta un contrato si es un conocido?",
+      "«Siempre arrendamos de palabra.» Respondemos.",
+      "¿Hace falta un contrato para dar el campo a un vecino?",
+      "Respondemos una duda sobre arriendos de campo."
+     ],
+     "cierres": [
+      "Si vas a dar o a tomar un campo, comentá CONSULTA o mandanos un mensaje con tu pregunta.",
+      "Dejanos tu pregunta en los comentarios o mandanos un mensaje.",
+      "Si arrendás de palabra, comentá CONSULTA o escribinos.",
+      "La primera consulta no se cobra: comentá CONSULTA o escribinos."
+     ],
+     "hookIdx": 0
+    }
+   ],
+   "recomendacion": "grabar B (el banco): el tema es un contraste y el formato nuevo lo muestra solo. A (POV) en la misma salida."
   },
   {
    "r": "R40",
@@ -8436,8 +8937,171 @@ window.GUIONES.tanda = {
     "La primera consulta no se cobra: comentá CONSULTA o escribinos."
    ],
    "hookIdx": 0,
-   "versiones": [],
-   "recomendacion": ""
+   "versiones": [
+    {
+     "r": "R40",
+     "v": "B",
+     "titulo": "El consejo en el café: «¿Arrancás la campaña?»",
+     "mecanica": "el consejo en el café",
+     "meta": "Duración ≈55 s",
+     "ej": "DV9hhY3EbKK",
+     "ejde": "El consejo en el café · @abogadocecilio",
+     "puntaje": 9,
+     "porque": "el tono del formato nuevo encaja con el tema: alguien que arranca algo y un consejo antes de hacerlo",
+     "nota": "Estructura: problema (0:00–0:08) → explicación (0:09–0:18) → solución (0:19) → explicación de la solución (0:22–0:43) → pedido. Mesa de café al aire libre, Víctor sentado con un café; Emanuel de espaldas y desenfocado en primer plano, sin hablar.",
+     "lineas": [
+      [
+       "0:00",
+       "V",
+       "¿Así que arrancás la campaña? Qué bueno. Pero tené en cuenta esto antes.",
+       "En pantalla: ¿ARRANCÁS LA CAMPAÑA?"
+      ],
+      [
+       "0:04",
+       "V",
+       "Los problemas legales casi nunca aparecen en la siembra. Aparecen después.",
+       "En pantalla: EL PROBLEMA"
+      ],
+      [
+       "0:09",
+       "V",
+       "Cuando un contrato «por una cosecha» termina siendo un arrendamiento de tres años, cuando un título trabado frena una venta, o cuando nadie sabe quién decide y el campo se paraliza.",
+       "A validar · En pantalla: contrato · título · quién decide"
+      ],
+      [
+       "0:19",
+       "V",
+       "Por eso te recomendamos tener tres cosas en orden.",
+       "En pantalla: LA SOLUCIÓN"
+      ],
+      [
+       "0:22",
+       "V",
+       "Los contratos bien encuadrados: arrendamiento, aparcería y contratos accidentales tienen reglas propias.",
+       "A validar · En pantalla: 1 · CONTRATOS"
+      ],
+      [
+       "0:28",
+       "V",
+       "La tierra en regla: títulos, inscripción, gravámenes, servidumbres y catastro.",
+       "A validar · En pantalla: 2 · LA TIERRA"
+      ],
+      [
+       "0:33",
+       "V",
+       "Y quién decide y quién sigue, si hay una sociedad o una empresa familiar.",
+       "A validar · En pantalla: 3 · QUIÉN DECIDE"
+      ],
+      [
+       "0:38",
+       "V",
+       "El campo produce. Los contratos protegen. Y prevenir siempre sale más barato que litigar.",
+       ""
+      ]
+     ],
+     "cierre": "Si tenés una empresa agropecuaria y querés revisar cómo estás, comentá CONSULTA o mandanos un mensaje.",
+     "hooks": [
+      "¿Así que arrancás la campaña? Qué bueno. Pero tené en cuenta esto antes.",
+      "Antes de sembrar, tené en cuenta esto.",
+      "¿Arrancás la campaña? Hay tres cosas que conviene tener en orden.",
+      "Los problemas del campo no aparecen en la siembra. Escuchá esto.",
+      "Un consejo antes de la campaña.",
+      "¿Tenés todo listo para la campaña? Mirá esto."
+     ],
+     "cierres": [
+      "Si tenés una empresa agropecuaria y querés revisar cómo estás, comentá CONSULTA o mandanos un mensaje.",
+      "¿Cuál de las tres tenés pendiente? Comentá CONSULTA o escribinos.",
+      "Mandáselo a quien arranque la campaña, y comentá CONSULTA o escribinos.",
+      "La primera consulta no se cobra: comentá CONSULTA o escribinos."
+     ],
+     "hookIdx": 0
+    },
+    {
+     "r": "R40",
+     "v": "C",
+     "titulo": "Ranking: lo que más frena a un campo",
+     "mecanica": "el ranking",
+     "meta": "Duración ≈55 s",
+     "ej": "DbQ_BeHBEOx",
+     "ejde": "El ranking · Eder Salinas",
+     "puntaje": 8,
+     "porque": "el formato favorito, con tres problemas que todos en la zona vieron pasar y la solución en el número uno",
+     "nota": "Estructura: problema y su explicación (0:00–0:31, puesto por puesto) → solución (0:32) → explicación de la solución (0:35–0:43) → pedido. De pie junto al mapa, con saco; Emanuel lee fuera de cuadro. Columna del 3 al 1 a la izquierda; el 1 aparece último.",
+     "lineas": [
+      [
+       "0:00",
+       "V",
+       "Lo que más frena a un campo. Del tres al uno.",
+       "En pantalla: RANKING · LO QUE FRENA UN CAMPO"
+      ],
+      [
+       "0:03",
+       "E",
+       "Nadie sabe quién decide.",
+       ""
+      ],
+      [
+       "0:05",
+       "V",
+       "Tres. Si hay una sociedad o una empresa familiar y no está escrito quién decide y cómo se transmite el campo, todo se paraliza.",
+       "A validar · En pantalla: 3 · EL PROBLEMA"
+      ],
+      [
+       "0:14",
+       "E",
+       "El título trabado.",
+       ""
+      ],
+      [
+       "0:16",
+       "V",
+       "Dos. Un problema con los títulos, una inscripción o un gravamen frena una venta o un arriendo.",
+       "A validar · En pantalla: 2"
+      ],
+      [
+       "0:23",
+       "E",
+       "El contrato «por una cosecha».",
+       ""
+      ],
+      [
+       "0:25",
+       "V",
+       "Uno. Si queda mal encuadrado, puede terminar siendo un arrendamiento de tres años.",
+       "A validar · En pantalla: 1"
+      ],
+      [
+       "0:32",
+       "V",
+       "Los tres se evitan antes de la campaña.",
+       "En pantalla: LA SOLUCIÓN"
+      ],
+      [
+       "0:35",
+       "V",
+       "Contratos bien encuadrados, la tierra en regla, y escrito quién decide y quién sigue. El campo produce. Los contratos protegen.",
+       "A validar · En pantalla: contratos · tierra · quién decide"
+      ]
+     ],
+     "cierre": "¿Cuál de las tres tenés pendiente? Comentá CONSULTA o mandanos un mensaje.",
+     "hooks": [
+      "Lo que más frena a un campo. Del tres al uno.",
+      "Ranking: los problemas legales que más aparecen en el campo.",
+      "Tres cosas que paralizan un campo. La primera no es el clima.",
+      "Del tres al uno: lo que conviene tener en orden antes de la campaña.",
+      "Ranking de lo que más frena una venta o un arriendo de campo.",
+      "El número uno de este ranking se firma en cada campaña."
+     ],
+     "cierres": [
+      "¿Cuál de las tres tenés pendiente? Comentá CONSULTA o mandanos un mensaje.",
+      "Si tenés una empresa agropecuaria, comentá CONSULTA o escribinos.",
+      "¿Estás de acuerdo con el número uno? Comentá CONSULTA o mandanos un mensaje.",
+      "La primera consulta no se cobra: comentá CONSULTA o escribinos."
+     ],
+     "hookIdx": 0
+    }
+   ],
+   "recomendacion": "grabar B (el café): el formato nuevo le queda justo al tema. A (POV) en la misma salida si hay tiempo."
   },
   {
    "r": "R41",
@@ -8603,9 +9267,87 @@ window.GUIONES.tanda = {
       "Si querés ordenarlo, comentá CONSULTA o mandanos un mensaje."
      ],
      "hookIdx": 0
+    },
+    {
+     "r": "R41",
+     "v": "C",
+     "titulo": "Falsa entrevista: «Víctor, el campo es de los cuatro hermanos»",
+     "mecanica": "falsa entrevista",
+     "meta": "Duración ≈55 s",
+     "ej": "DavyC1fDgAn",
+     "ejde": "Falsa entrevista · @estudiorossiyasociados",
+     "puntaje": 8,
+     "porque": "en el estudio, sentado, para el día que no se sale a grabar afuera",
+     "nota": "Estructura: problema (0:00–0:03) → explicación (0:04–0:18) → solución (0:20) → explicación de la solución (0:23–0:44) → pedido. Víctor sentado de costado en el escritorio, Emanuel pregunta fuera de cuadro.",
+     "lineas": [
+      [
+       "0:00",
+       "E",
+       "Víctor, el campo es de los cuatro hermanos. ¿Por qué cada arriendo es un lío?",
+       "En pantalla: ¿POR QUÉ CADA ARRIENDO ES UN LÍO?"
+      ],
+      [
+       "0:04",
+       "V",
+       "Porque cuando el campo es de varios, para arrendarlo tienen que firmar todos, o alguien con un poder de todos.",
+       "A validar · En pantalla: EL PROBLEMA"
+      ],
+      [
+       "0:11",
+       "V",
+       "Si uno no está o no puede, el arriendo se frena. Y si a uno le va mal en lo suyo, su parte puede quedar complicada.",
+       "A validar"
+      ],
+      [
+       "0:19",
+       "E",
+       "¿Y cómo se ordena?",
+       ""
+      ],
+      [
+       "0:20",
+       "V",
+       "Una forma es un fideicomiso de administración.",
+       "En pantalla: LA SOLUCIÓN"
+      ],
+      [
+       "0:23",
+       "V",
+       "Los hermanos aportan el campo. Un fiduciario de confianza lo administra: arrienda, cobra y reparte, como dice el contrato. Ellos siguen siendo los beneficiarios.",
+       "A validar"
+      ],
+      [
+       "0:33",
+       "V",
+       "Y queda escrito cómo se decide, qué pasa si uno quiere salir y qué pasa cuando alguno ya no esté.",
+       "A validar"
+      ],
+      [
+       "0:40",
+       "V",
+       "A veces conviene una sociedad. Por eso nos sentamos con todos los hermanos.",
+       ""
+      ]
+     ],
+     "cierre": "Si el campo de tu familia es de varios, comentá CONSULTA o mandanos un mensaje.",
+     "hooks": [
+      "«Víctor, el campo es de los cuatro hermanos. ¿Por qué cada arriendo es un lío?»",
+      "«Víctor, ¿quién firma el arriendo si el campo es de varios hermanos?»",
+      "«Víctor, ¿cómo se administra un campo de familia?»",
+      "«Víctor, ¿un fideicomiso sirve para un campo de hermanos?»",
+      "«Víctor, uno de mis hermanos vive afuera. ¿Cómo arrendamos el campo?»",
+      "«Víctor, ¿qué pasa si uno de los dueños del campo tiene una deuda?»"
+     ],
+     "cierres": [
+      "Si el campo de tu familia es de varios, comentá CONSULTA o mandanos un mensaje.",
+      "Lo vemos con todos: comentá CONSULTA o escribinos.",
+      "Mandáselo a tus hermanos, y comentá CONSULTA o escribinos.",
+      "La primera consulta no se cobra: comentá CONSULTA o escribinos."
+     ],
+     "hookIdx": 0
     }
    ],
-   "recomendacion": "grabar A (POV), en la misma salida que R37–R40. B si no se graba afuera."
+   "recomendacion": "grabar A (POV), en la misma salida que R37–R40. B (el caso) o C (falsa entrevista) si no se graba afuera."
   },
   {
    "r": "R42",
@@ -8789,9 +9531,87 @@ window.GUIONES.tanda = {
       "Antes de comprar, comentá CONSULTA o escribinos."
      ],
      "hookIdx": 0
+    },
+    {
+     "r": "R42",
+     "v": "C",
+     "titulo": "Papel en la mesa: lo que tiene que decir el contrato antes de comprar un campo entre varios",
+     "mecanica": "papel en la mesa",
+     "meta": "Duración ≈55 s",
+     "ej": "DeHp3Qyucg7",
+     "ejde": "Esta cláusula · @reyessulbaran.juridico",
+     "puntaje": 8,
+     "porque": "útil y para guardar: se ven las cuatro cosas escritas a mano",
+     "nota": "Estructura: problema (0:00–0:13) → solución (0:14) → explicación de la solución (0:22–0:43) → pedido. Escritorio, cámara cenital: Víctor escribe a mano los cuatro puntos en una hoja mientras los dice.",
+     "lineas": [
+      [
+       "0:00",
+       "V",
+       "Si vas a comprar un campo con amigos, antes de poner un peso, esto tiene que estar escrito.",
+       "En pantalla: manos de Víctor sobre una hoja en blanco"
+      ],
+      [
+       "0:05",
+       "V",
+       "El problema: si lo ponen a nombre de los tres y uno tiene una deuda, se separa o fallece, esa parte puede trabar el campo entero.",
+       "A validar · En pantalla: EL PROBLEMA"
+      ],
+      [
+       "0:14",
+       "V",
+       "Por eso muchas veces se compra con un fideicomiso: el campo a nombre de un fiduciario, y un contrato que diga cuatro cosas.",
+       "A validar · En pantalla: LA SOLUCIÓN"
+      ],
+      [
+       "0:22",
+       "V",
+       "Uno: qué pone y qué le toca a cada uno.",
+       "En pantalla: escribe: 1 · QUÉ PONE Y QUÉ LE TOCA"
+      ],
+      [
+       "0:26",
+       "V",
+       "Dos: cómo se decide.",
+       "En pantalla: 2 · CÓMO SE DECIDE"
+      ],
+      [
+       "0:29",
+       "V",
+       "Tres: cómo se reparte lo que produce el campo.",
+       "En pantalla: 3 · CÓMO SE REPARTE"
+      ],
+      [
+       "0:33",
+       "V",
+       "Y cuatro: qué pasa si uno se quiere ir, a qué precio y en qué plazo.",
+       "En pantalla: 4 · SI UNO SE VA"
+      ],
+      [
+       "0:38",
+       "V",
+       "Bien armado, lo del fideicomiso queda separado de los problemas personales de cada uno.",
+       "A validar"
+      ]
+     ],
+     "cierre": "Si vas a comprar un campo con otros, comentá CONSULTA o mandanos un mensaje.",
+     "hooks": [
+      "Si vas a comprar un campo con amigos, antes de poner un peso, esto tiene que estar escrito.",
+      "Cuatro cosas que tiene que decir el contrato antes de comprar un campo entre varios.",
+      "¿Comprás un campo en grupo? Anotá esto.",
+      "Antes de comprar un campo con otros, escribí esto.",
+      "Lo que nadie escribe cuando compra un campo entre amigos.",
+      "Comprar un campo entre varios: el papel que tiene que estar antes."
+     ],
+     "cierres": [
+      "Si vas a comprar un campo con otros, comentá CONSULTA o mandanos un mensaje.",
+      "Guardalo para el día que compren, y comentá CONSULTA si querés que lo veamos.",
+      "Mandáselo a con quien vas a comprar, y comentá CONSULTA o escribinos.",
+      "La primera consulta no se cobra: comentá CONSULTA o escribinos."
+     ],
+     "hookIdx": 0
     }
    ],
-   "recomendacion": "grabar A (POV), en la misma salida que R37–R40. B si se graba en el estudio."
+   "recomendacion": "grabar A (POV), en la misma salida que R37–R40. B (verdadero o falso) o C (papel en la mesa) si se graba en el estudio."
   }
  ],
  "variaciones": [
@@ -8892,12 +9712,12 @@ window.GUIONES.tanda = {
 window.GUIONES.jornada = {
   orden: ["R37", "R38", "R39", "R40", "R41", "R42", "R33", "R34", "R35", "R36", "R26", "R9", "R25", "R31", "R23", "R28", "R30", "R29", "R24", "R27", "R22"],
   porque: {
-    R37: "Nuevo (5-11). POV como el de Fer Loy: la cámara pregunta, Víctor camina en el pasto y explica. ¿Testamento o dejar el campo en vida? Con las palabras de la referencia. Validar con Víctor.",
-    R38: "Nuevo (5-11). POV: tengo el campo pero no la plata para trabajarlo. El fideicomiso explicado con un campo, con las palabras de Jorge Cervantes. Termina en «no siempre hace falta». Validar con Víctor.",
-    R39: "Nuevo (5-11). POV junto a una tranquera: le doy el campo a un vecino de palabra. Lo que tiene que estar claro y qué pasa si sale mal (carrusel de Lucía Rivoiro). ⚠️ Verificar que la ley de arrendamientos siga vigente.",
-    R40: "Nuevo (5-11). POV en el campo: arranca la campaña, ¿qué tengo que tener en orden? Tres frentes: contratos, la tierra en regla y quién decide (carrusel de Lucía Rivoiro). Validar con Víctor.",
-    R41: "Nuevo (5-11). Campo y fideicomiso: cuatro hermanos con un campo y cuatro firmas para cada arriendo; el fideicomiso de administración. Dos opciones: A en POV (misma salida que R37–R40) o B, el caso, en el escritorio.",
-    R42: "Nuevo (5-11). Campo y fideicomiso: comprar un campo entre amigos sin que la deuda o la salida de uno trabe todo. Dos opciones: A en POV o B, verdadero o falso, junto al mapa.",
+    R37: "Nuevo (5-11). ¿Testamento o dejar el campo en vida? Tres formatos: A POV (como Fer Loy), B el consejo en el café (formato nuevo), C clip de podcast. Validar con Víctor.",
+    R38: "Nuevo (5-11). Tengo el campo pero no la plata para trabajarlo: el fideicomiso explicado con un campo. Tres formatos: A POV, B el banco (formato nuevo: el que vende y el que se asocia), C teleprompter con motion graphics. Validar con Víctor.",
+    R39: "Nuevo (5-11). Le doy el campo a un vecino de palabra. Tres formatos: A POV, B el banco (formato nuevo: de palabra y con contrato), recomendada; C respondemos una pregunta. ⚠️ Verificar que la ley de arrendamientos siga vigente.",
+    R40: "Nuevo (5-11). Arranca la campaña, ¿qué tengo que tener en orden? Tres formatos: A POV, B el consejo en el café (formato nuevo), recomendada; C ranking. Validar con Víctor.",
+    R41: "Nuevo (5-11). Cuatro hermanos con un campo y cuatro firmas para cada arriendo: el fideicomiso de administración. Tres formatos: A POV, B el caso, C falsa entrevista.",
+    R42: "Nuevo (5-11). Comprar un campo entre amigos sin que la deuda o la salida de uno trabe todo. Tres formatos: A POV, B verdadero o falso, C papel en la mesa.",
     R33: "Contratos agrarios (grabación del 26-10). En la zona se arrienda de palabra: las cinco cosas que tiene que decir el contrato del campo. Recomendada: A, papel en la mesa; B (ranking) en la misma sesión si hay tiempo. ⚠️ Antes de publicar, verificar que la ley de arrendamientos siga vigente (hay un proyecto para derogarla).",
     R34: "El contrato por una o dos cosechas: la excepción al plazo mínimo y lo que más se hace mal. Recomendada: A, falsa entrevista. Grabar también C, la noticia del proyecto para derogar la ley, y publicarla después de verificar cómo está.",
     R35: "Con quién se firma si el campo es de una sucesión, una sociedad o un fideicomiso. Sale del artículo «Precauciones para arrendar campos» del Dr. Jorge Solmi. Recomendada: A, el caso. Avisar a Sergio Rosa (nombra la sucesión).",
