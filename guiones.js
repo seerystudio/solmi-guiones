@@ -7993,10 +7993,10 @@ window.GUIONES.tanda = {
    "r": "R37",
    "tipo": "POV · testamento o en vida",
    "titulo": "POV: ¿testamento o se lo dejo en vida?",
-   "meta": "Duración ≈60 s",
+   "meta": "Duración ≈65 s",
    "ej": "Dd1PmlSCZxb",
    "ejde": "POV · @ferloymx",
-   "nota": "POV al aire libre, en el pasto. Emanuel graba y mete la mano en cuadro en cada pregunta; Víctor camina hacia la cámara en la primera respuesta y se para a explicar. Una toma por intercambio. El «De hecho, puede que ninguna de las dos» se graba tres veces con distinta pausa.",
+   "nota": "Estructura: problema (0:00–0:08) → explicación del problema (0:09–0:26) → solución (0:27) → explicación de la solución (0:29–1:00) → pedido. POV al aire libre, en el pasto. Emanuel graba y mete la mano en cuadro en cada pregunta; Víctor camina hacia la cámara en la primera respuesta y se para a explicar. Una toma por intercambio. «De hecho, las dos tienen un problema» se graba tres veces con distinta pausa.",
    "lineas": [
     [
      "0:00",
@@ -8019,59 +8019,59 @@ window.GUIONES.tanda = {
     [
      "0:09",
      "V",
-     "De hecho, puede que ninguna de las dos.",
-     ""
+     "De hecho, las dos tienen un problema.",
+     "En pantalla: EL PROBLEMA"
     ],
     [
      "0:11",
      "V",
-     "Porque con una, tus hijos igual van a tener que hacer la sucesión, y con la otra dejás de ser dueño antes de morir.",
-     "A validar · En pantalla: ícono: testamento · en vida"
+     "Con el testamento, el campo sigue siendo tuyo mientras vivas. Pero cuando no estés, tus hijos igual van a tener que hacer la sucesión para poder tenerlo, y eso puede llevar tiempo.",
+     "A validar · En pantalla: 1 · TESTAMENTO → SUCESIÓN"
     ],
     [
-     "0:17",
+     "0:20",
+     "V",
+     "Y si se lo dejás en vida, el campo pasa a ser de ellos ahora. Dejás de ser dueño antes de morir, y las decisiones ya no son tuyas.",
+     "A validar · En pantalla: 2 · EN VIDA → DEJÁS DE SER DUEÑO"
+    ],
+    [
+     "0:27",
      "V",
      "Otra opción puede ser un fideicomiso.",
-     ""
+     "En pantalla: LA SOLUCIÓN"
     ],
     [
-     "0:19",
+     "0:29",
      "E",
      "¿Y eso cómo funciona?",
      ""
     ],
     [
-     "0:20",
+     "0:30",
      "V",
      "Te lo explicamos. Imaginá que tenés un campo y querés que sea de tus hijos cuando no estés. Pero no antes, para que no haya sorpresas y lo disfrutes mientras vivas.",
      "En pantalla: ícono: campo"
     ],
     [
-     "0:28",
+     "0:38",
      "V",
-     "Si hacés un testamento, cuando no estés, tus hijos van a tener que hacer la sucesión, y el proceso para tener el campo puede ser largo.",
-     "A validar"
-    ],
-    [
-     "0:35",
-     "V",
-     "En cambio, si hacés un fideicomiso y ponés el campo a nombre de un fiduciario, podés seguir disfrutando del campo mientras vivas. Y establecer que, cuando no estés, pase a tus hijos.",
+     "Hacés un fideicomiso y ponés el campo a nombre de un fiduciario. Vos podés seguir disfrutando del campo mientras vivas, y dejás establecido que, cuando no estés, pase a tus hijos.",
      "A validar · En pantalla: ícono: campo → fiduciario → hijos"
     ],
     [
-     "0:44",
+     "0:47",
      "V",
      "La clave está en que el campo queda a nombre del fiduciario, y ya queda escrito quién lo recibe y cuándo. Así queda todo definido de antemano.",
      "A validar"
     ],
     [
-     "0:52",
+     "0:55",
      "E",
      "¿Y eso sirve para cualquier familia?",
      ""
     ],
     [
-     "0:54",
+     "0:57",
      "V",
      "Depende de cada caso. Por eso nos sentamos con la familia y lo vemos juntos.",
      ""
@@ -8110,10 +8110,10 @@ window.GUIONES.tanda = {
    "r": "R38",
    "tipo": "POV · fideicomiso en el campo",
    "titulo": "POV: tengo el campo pero no la plata para trabajarlo",
-   "meta": "Duración ≈65 s",
+   "meta": "Duración ≈70 s",
    "ej": "Dd1PmlSCZxb",
    "ejde": "POV · @ferloymx",
-   "nota": "POV al aire libre, mejor con el campo de fondo. Mismo esquema que R37: Emanuel pregunta con la mano en cuadro, Víctor camina y se para a explicar. Los íconos van a pantalla completa entre frases, no encima de Víctor.",
+   "nota": "Estructura: problema (0:00–0:07) → explicación del problema (0:08–0:29) → solución (0:30) → explicación de la solución (0:32–1:05) → pedido. POV al aire libre, mejor con el campo de fondo. Emanuel pregunta con la mano en cuadro, Víctor camina y se para a explicar. Los íconos van a pantalla completa entre frases, no encima de Víctor.",
    "lineas": [
     [
      "0:00",
@@ -8136,65 +8136,59 @@ window.GUIONES.tanda = {
     [
      "0:08",
      "V",
-     "De hecho, hay otra: un fideicomiso.",
-     ""
+     "El problema es que las dos te dejan afuera.",
+     "En pantalla: EL PROBLEMA"
     ],
     [
-     "0:11",
-     "E",
-     "¿Eso no es para edificios?",
-     ""
-    ],
-    [
-     "0:12",
+     "0:10",
      "V",
-     "También. Es un contrato por medio del cual una persona aporta bienes con una finalidad determinada, y le encomienda tanto el objetivo como esos bienes a un fiduciario.",
-     "A validar · En pantalla: FIDEICOMISO"
+     "Si lo vendés, te quedás sin el campo. Si lo alquilás, cobrás un alquiler, pero no participás de lo que el campo produce.",
+     "A validar · En pantalla: 1 · VENDER → SIN CAMPO · 2 · ALQUILAR → SOLO EL ALQUILER"
     ],
     [
-     "0:21",
+     "0:17",
      "V",
-     "Te lo explicamos más simple con un ejemplo. Vos tenés la tierra, pero no el capital o los conocimientos para poder trabajarla.",
-     "En pantalla: ícono: campo"
+     "Vos tenés la tierra, pero no el capital o los conocimientos para poder trabajarla. Y por otro lado, conocés personas que pueden ser productores o inversores, que podrían aportar tanto los recursos como el trabajo del campo.",
+     "En pantalla: ícono: campo · plata · tractor"
     ],
     [
      "0:28",
-     "V",
-     "Por otro lado, conocés personas que pueden ser productores o inversores, que podrían aportar tanto los recursos como el trabajo del campo.",
-     "En pantalla: ícono: plata · tractor"
-    ],
-    [
-     "0:35",
      "E",
-     "¿Y cómo nos cuidamos todos?",
+     "¿Y cómo nos ponemos de acuerdo?",
      ""
     ],
     [
-     "0:37",
+     "0:30",
      "V",
-     "Justamente, por medio del fideicomiso. Las partes aportan el campo y los recursos, y se determina para qué: por ejemplo, la producción de una campaña.",
+     "Por medio de un fideicomiso.",
+     "En pantalla: LA SOLUCIÓN"
+    ],
+    [
+     "0:32",
+     "V",
+     "Es un contrato por medio del cual una persona aporta bienes con una finalidad determinada, y le encomienda tanto el objetivo como esos bienes a un fiduciario.",
+     "A validar · En pantalla: FIDEICOMISO"
+    ],
+    [
+     "0:40",
+     "V",
+     "En tu caso: las partes aportan el campo y los recursos, y se determina para qué. Por ejemplo, la producción de una campaña.",
      "A validar · En pantalla: los tres entran a una caja"
     ],
     [
-     "0:45",
+     "0:47",
      "V",
-     "La propiedad de esos bienes se transmite a un fiduciario, que se encarga de cuidarlos y de hacer que se cumplan los objetivos.",
-     "A validar · En pantalla: FIDUCIARIO"
+     "Esos bienes se transmiten a un fiduciario, que se encarga de cuidarlos y de hacer que se cumplan los objetivos. Y una vez terminada la campaña, los beneficios que genera el negocio se reparten entre las partes, como beneficiarios.",
+     "A validar · En pantalla: FIDUCIARIO · la caja reparte"
     ],
     [
-     "0:51",
-     "V",
-     "Y una vez terminada la campaña, los beneficios que genera el negocio se reparten entre las partes, como beneficiarios.",
-     "A validar · En pantalla: la caja reparte"
-    ],
-    [
-     "0:57",
+     "0:58",
      "E",
      "¿Y eso es seguro?",
      ""
     ],
     [
-     "0:58",
+     "0:59",
      "V",
      "Este tipo de contratos son excelentes mecanismos para hacer negocios brindando seguridad jurídica a ambas partes. Pero no siempre hace falta: primero vemos tu proyecto.",
      ""
@@ -8233,10 +8227,10 @@ window.GUIONES.tanda = {
    "r": "R39",
    "tipo": "POV · arriendo de palabra",
    "titulo": "POV: le doy el campo a un vecino, de palabra",
-   "meta": "Duración ≈55 s",
+   "meta": "Duración ≈60 s",
    "ej": "Dd1PmlSCZxb",
    "ejde": "POV · @ferloymx",
-   "nota": "POV junto a una tranquera o un alambrado. Emanuel arranca señalando el campo; Víctor camina hacia la cámara en «¿Y qué arreglaron?». Las dos listas van a pantalla completa, con un tilde por palabra.",
+   "nota": "Estructura: problema (0:00–0:08) → explicación del problema (0:09–0:25) → solución (0:27) → explicación de la solución (0:30–0:55) → pedido. POV junto a una tranquera o un alambrado. Emanuel arranca señalando el campo; Víctor camina hacia la cámara en «¿Y qué arreglaron?». Las dos listas van a pantalla completa, con un tilde por palabra.",
    "lineas": [
     [
      "0:00",
@@ -8259,53 +8253,53 @@ window.GUIONES.tanda = {
     [
      "0:09",
      "V",
-     "Eso es lo que pasa si sale bien. ¿Y si algo sale mal?",
-     ""
+     "Ese es el problema: eso es lo que pasa si sale bien. ¿Y si algo sale mal?",
+     "En pantalla: EL PROBLEMA"
     ],
     [
-     "0:12",
-     "E",
-     "¿Qué puede salir mal? Es mi vecino.",
-     ""
-    ],
-    [
-     "0:14",
+     "0:13",
      "V",
-     "Ojalá nada. Pero antes de cerrar un acuerdo, hay cosas que tienen que estar claras.",
+     "De palabra, cada uno se acuerda distinto. Si un día no te paga, o no te devuelve el campo cuando esperabas, no hay nada escrito que muestre qué arreglaron.",
      ""
     ],
     [
-     "0:18",
-     "V",
-     "Las obligaciones de cada parte. La distribución de riesgos. Los plazos y condiciones. Y las garantías.",
-     "En pantalla: lista: obligaciones · riesgos · plazos · garantías"
-    ],
-    [
-     "0:26",
-     "E",
-     "¿Y si igual sale mal?",
-     ""
-    ],
-    [
-     "0:27",
-     "V",
-     "Por eso también tiene que quedar escrito qué pasa si alguien no cumple, quién se hace responsable y cómo se resuelve un conflicto.",
-     "En pantalla: lista: incumplimiento · responsabilidad · cómo se resuelve"
-    ],
-    [
-     "0:35",
+     "0:21",
      "V",
      "Y en el campo hay algo más: la ley de arrendamientos pide que el contrato sea por escrito.",
      "A validar · En pantalla: POR ESCRITO"
     ],
     [
-     "0:41",
+     "0:26",
+     "E",
+     "¿Entonces qué hago?",
+     ""
+    ],
+    [
+     "0:27",
+     "V",
+     "Un contrato por escrito, antes de que entre al campo.",
+     "En pantalla: LA SOLUCIÓN"
+    ],
+    [
+     "0:30",
+     "V",
+     "Con cuatro cosas claras: las obligaciones de cada parte, la distribución de riesgos, los plazos y condiciones, y las garantías.",
+     "En pantalla: lista: obligaciones · riesgos · plazos · garantías"
+    ],
+    [
+     "0:38",
+     "V",
+     "Y también qué pasa si algo sale mal: qué pasa si alguien no cumple, quién se hace responsable y cómo se resuelve un conflicto.",
+     "En pantalla: lista: incumplimiento · responsabilidad · cómo se resuelve"
+    ],
+    [
+     "0:46",
      "E",
      "Pero si lo pongo por escrito, ¿no parece que desconfío de él?",
      ""
     ],
     [
-     "0:43",
+     "0:48",
      "V",
      "Al contrario. Un contrato claro cuida la relación. No se trata solamente de firmar. Se trata de saber qué estás firmando.",
      ""
@@ -8344,10 +8338,10 @@ window.GUIONES.tanda = {
    "r": "R40",
    "tipo": "POV · antes de la campaña",
    "titulo": "POV: arranca la campaña, ¿qué tengo que tener en orden?",
-   "meta": "Duración ≈55 s",
+   "meta": "Duración ≈65 s",
    "ej": "Dd1PmlSCZxb",
    "ejde": "POV · @ferloymx",
-   "nota": "POV en el campo, mejor con maquinaria o un lote sembrado de fondo. Emanuel señala la maquinaria en la primera pregunta; Víctor camina hacia la cámara en «¿Vos qué tenés en orden hoy?». Los tres frentes van a pantalla completa, numerados.",
+   "nota": "Estructura: problema (0:00–0:08) → explicación del problema (0:09–0:25) → solución (0:27) → explicación de la solución (0:31–0:57) → pedido. POV en el campo, mejor con maquinaria o un lote sembrado de fondo. Emanuel señala la maquinaria en la primera pregunta; Víctor camina hacia la cámara en «¿Vos qué tenés en orden hoy?». Los tres frentes van a pantalla completa, numerados.",
    "lineas": [
     [
      "0:00",
@@ -8370,43 +8364,49 @@ window.GUIONES.tanda = {
     [
      "0:09",
      "V",
-     "Eso es lo que hace producir al campo. Pero el campo produce, y los contratos protegen.",
-     "En pantalla: EL CAMPO PRODUCE. LOS CONTRATOS PROTEGEN."
+     "Eso hace producir al campo. El problema es que los problemas legales casi nunca aparecen en la siembra. Aparecen después.",
+     "En pantalla: EL PROBLEMA"
     ],
     [
-     "0:14",
-     "E",
-     "¿Qué contratos?",
-     ""
-    ],
-    [
-     "0:15",
+     "0:16",
      "V",
-     "Primero, que estén bien encuadrados. Arrendamiento, aparcería y contratos accidentales tienen reglas propias. Si un acuerdo «por una cosecha» queda mal encuadrado, puede tratarse como un arrendamiento con el plazo mínimo de la ley.",
-     "A validar · En pantalla: 1 · CONTRATOS BIEN ENCUADRADOS"
+     "Cuando un contrato «por una cosecha» termina siendo un arrendamiento de tres años, cuando un título trabado frena una venta, o cuando nadie sabe quién decide y el campo se paraliza.",
+     "A validar · En pantalla: contrato · título · quién decide"
     ],
     [
      "0:26",
-     "V",
-     "Segundo, la tierra en regla: títulos, inscripción, gravámenes, servidumbres y catastro. Un problema con los papeles del campo frena una operación.",
-     "A validar · En pantalla: 2 · LA TIERRA, EN REGLA"
-    ],
-    [
-     "0:34",
-     "V",
-     "Tercero, quién decide y quién sigue: si hay una sociedad o una empresa familiar, que esté definido cómo se toman las decisiones y cómo se transmite el campo.",
-     "A validar · En pantalla: 3 · ESTRUCTURA Y CONTINUIDAD"
-    ],
-    [
-     "0:42",
      "E",
-     "¿Y eso no se ve cuando aparece el problema?",
+     "¿Y cómo lo evito?",
      ""
     ],
     [
-     "0:44",
+     "0:27",
      "V",
-     "Se puede. Pero los problemas legales casi nunca aparecen en la siembra. Aparecen después. Y prevenir siempre sale más barato que litigar.",
+     "El campo produce. Los contratos protegen. Antes de la campaña, tres cosas en orden.",
+     "En pantalla: LA SOLUCIÓN"
+    ],
+    [
+     "0:31",
+     "V",
+     "Primero, los contratos bien encuadrados. Arrendamiento, aparcería y contratos accidentales tienen reglas propias: el de una cosecha tiene que ser por escrito y por una cosecha de verdad.",
+     "A validar · En pantalla: 1 · CONTRATOS BIEN ENCUADRADOS"
+    ],
+    [
+     "0:40",
+     "V",
+     "Segundo, la tierra en regla: títulos, inscripción, gravámenes, servidumbres y catastro, revisados antes de comprar, vender o arrendar.",
+     "A validar · En pantalla: 2 · LA TIERRA, EN REGLA"
+    ],
+    [
+     "0:47",
+     "V",
+     "Tercero, quién decide y quién sigue: si hay una sociedad o una empresa familiar, que esté escrito cómo se toman las decisiones y cómo se transmite el campo.",
+     "A validar · En pantalla: 3 · ESTRUCTURA Y CONTINUIDAD"
+    ],
+    [
+     "0:55",
+     "V",
+     "Prevenir siempre sale más barato que litigar.",
      ""
     ]
    ],
