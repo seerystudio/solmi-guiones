@@ -8892,7 +8892,7 @@ window.GUIONES.tanda = {
 window.GUIONES.jornada = {
   orden: ["R37", "R38", "R39", "R40", "R41", "R42", "R33", "R34", "R35", "R36", "R26", "R9", "R25", "R31", "R23", "R28", "R30", "R29", "R24", "R27", "R22"],
   porque: {
-    R37: "Nuevo (5-11). POV como el de Fer Loy: la cámara pregunta, Víctor camina en el pasto y explica. ¿Testamento o dejar el campo en vida? Con las palabras de la referencia. ⚠️ Avisar a Sergio Rosa (toca sucesiones) y validar con Víctor.",
+    R37: "Nuevo (5-11). POV como el de Fer Loy: la cámara pregunta, Víctor camina en el pasto y explica. ¿Testamento o dejar el campo en vida? Con las palabras de la referencia. Validar con Víctor.",
     R38: "Nuevo (5-11). POV: tengo el campo pero no la plata para trabajarlo. El fideicomiso explicado con un campo, con las palabras de Jorge Cervantes. Termina en «no siempre hace falta». Validar con Víctor.",
     R39: "Nuevo (5-11). POV junto a una tranquera: le doy el campo a un vecino de palabra. Lo que tiene que estar claro y qué pasa si sale mal (carrusel de Lucía Rivoiro). ⚠️ Verificar que la ley de arrendamientos siga vigente.",
     R40: "Nuevo (5-11). POV en el campo: arranca la campaña, ¿qué tengo que tener en orden? Tres frentes: contratos, la tierra en regla y quién decide (carrusel de Lucía Rivoiro). Validar con Víctor.",
