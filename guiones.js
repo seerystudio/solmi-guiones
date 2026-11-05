@@ -822,7 +822,7 @@ window.GUIONES.estudios = {
    con tanda.py: si cambia el guion, se cambia allá y se vuelve a generar. */
 window.GUIONES.tanda = {
  "titulo": "Para grabar ahora",
- "resumen": "Reels para que la gente escriba (R37–R40, POV de fideicomiso y campo, nuevos del 5-11; R33–R36, contratos agrarios), cada uno con tres versiones, su referencia al lado y sus propios arranques y cierres. Abre en la recomendada; la jornada no repite formato",
+ "resumen": "Reels para que la gente escriba (R37–R42, POV de fideicomiso y campo, nuevos del 5-11; R41 y R42 con dos opciones; R33–R36, contratos agrarios), cada uno con tres versiones, su referencia al lado y sus propios arranques y cierres. Abre en la recomendada; la jornada no repite formato",
  "items": [
   {
    "r": "R15",
@@ -8438,6 +8438,360 @@ window.GUIONES.tanda = {
    "hookIdx": 0,
    "versiones": [],
    "recomendacion": ""
+  },
+  {
+   "r": "R41",
+   "tipo": "POV · campo de varios hermanos",
+   "titulo": "POV: somos cuatro hermanos con un campo",
+   "meta": "Duración ≈60 s",
+   "ej": "Dd1PmlSCZxb",
+   "ejde": "POV · @ferloymx",
+   "nota": "Estructura: problema (0:00–0:09) → explicación del problema (0:10–0:25) → solución (0:27) → explicación de la solución (0:30–0:54) → pedido. POV junto a una tranquera. Emanuel arranca mostrando cuatro dedos a cámara; Víctor camina hacia la cámara en «¿Y cómo lo hacen hoy?».",
+   "lineas": [
+    [
+     "0:00",
+     "E",
+     "Víctor, el campo es de los cuatro hermanos. Cada vez que lo arrendamos, hay que juntar cuatro firmas.",
+     "En pantalla: ¿CUATRO FIRMAS POR CADA ARRIENDO? (la mano muestra cuatro dedos"
+    ],
+    [
+     "0:05",
+     "V",
+     "¿Y cómo lo hacen hoy?",
+     ""
+    ],
+    [
+     "0:07",
+     "E",
+     "Y… uno viaja, otro firma después, otro manda un poder.",
+     ""
+    ],
+    [
+     "0:10",
+     "V",
+     "Ese es el problema: cuando el campo es de varios, para arrendarlo tienen que firmar todos, o alguien con un poder de todos.",
+     "A validar · En pantalla: EL PROBLEMA"
+    ],
+    [
+     "0:17",
+     "V",
+     "Si uno no está, no puede o no quiere, el arriendo se frena. Y si a uno de los hermanos le va mal en lo suyo, su parte del campo puede quedar complicada.",
+     "A validar · En pantalla: 1 · FALTA UNA FIRMA · 2 · LA DEUDA DE UNO"
+    ],
+    [
+     "0:26",
+     "E",
+     "¿Y cómo lo ordenamos?",
+     ""
+    ],
+    [
+     "0:27",
+     "V",
+     "Una forma es un fideicomiso de administración.",
+     "En pantalla: LA SOLUCIÓN"
+    ],
+    [
+     "0:30",
+     "V",
+     "Los cuatro aportan el campo al fideicomiso. Un fiduciario, que puede ser una persona de confianza, lo administra: arrienda, cobra y reparte lo que da el campo, como dice el contrato.",
+     "A validar · En pantalla: ícono: cuatro → caja → fiduciario"
+    ],
+    [
+     "0:40",
+     "V",
+     "Ustedes siguen siendo los beneficiarios, cada uno con su parte. Y queda escrito cómo se decide, qué pasa si uno quiere salir y qué pasa cuando alguno ya no esté.",
+     "A validar · En pantalla: cómo se decide · si uno sale · cuando no esté"
+    ],
+    [
+     "0:50",
+     "V",
+     "No es la única forma: a veces conviene una sociedad. Por eso lo vemos con los cuatro.",
+     ""
+    ]
+   ],
+   "cierre": "Si el campo de tu familia es de varios, comentá CONSULTA o mandanos un mensaje.",
+   "hooks": [
+    "«Víctor, el campo es de los cuatro hermanos. Cada vez que lo arrendamos, hay que juntar cuatro firmas.»",
+    "«Víctor, heredamos el campo entre hermanos. ¿Quién lo administra?»",
+    "«Víctor, ¿para arrendar el campo de la familia tenemos que firmar todos?»",
+    "«Víctor, uno de mis hermanos vive afuera y cada arriendo es un lío. ¿Qué hacemos?»",
+    "«Víctor, ¿un fideicomiso sirve para un campo de varios hermanos?»",
+    "«Víctor, nos llevamos bien entre hermanos. ¿Hace falta ordenar el campo igual?»",
+    "«Víctor, ¿qué pasa con el campo si uno de los hermanos tiene una deuda?»",
+    "«Víctor, ¿cómo se reparte lo que da un campo de cuatro dueños?»",
+    "«Víctor, el campo es de todos y nadie quiere ocuparse. ¿Cómo lo hacemos?»",
+    "«Víctor, ¿y si uno de mis hermanos quiere vender su parte del campo?»"
+   ],
+   "cierres": [
+    "Si el campo de tu familia es de varios, comentá CONSULTA o mandanos un mensaje.",
+    "Si para cada arriendo hay que juntar firmas, comentá CONSULTA o escribinos.",
+    "Mandáselo a tus hermanos, y comentá CONSULTA o escribinos.",
+    "Si querés ordenarlo antes de que sea un problema, comentá CONSULTA o mandanos un mensaje.",
+    "Lo vemos con todos: comentá CONSULTA o mandanos un mensaje.",
+    "La primera consulta no se cobra: comentá CONSULTA o escribinos."
+   ],
+   "hookIdx": 0,
+   "versiones": [
+    {
+     "r": "R41",
+     "v": "B",
+     "titulo": "El caso: cuatro hermanos, un campo y cuatro firmas",
+     "mecanica": "el caso",
+     "meta": "Duración ≈60 s",
+     "ej": "DdJfXK8spxC",
+     "ejde": "El caso · @n.gabogados",
+     "puntaje": 8,
+     "porque": "el mismo contenido contado como un ejemplo, a cámara en el escritorio, para el que prefiere no salir a grabar afuera",
+     "nota": "Estructura: problema (0:00–0:06) → explicación (0:07–0:23) → solución (0:24) → explicación de la solución (0:28–0:52) → pedido. Víctor sentado en el escritorio, a cámara, tono de relato tranquilo. Es un ejemplo, no un caso real: se dice como ejemplo.",
+     "lineas": [
+      [
+       "0:00",
+       "V",
+       "Imaginate cuatro hermanos con un campo. Se llevan bien. Y aun así, cada arriendo es un problema.",
+       "En pantalla: UN EJEMPLO"
+      ],
+      [
+       "0:07",
+       "V",
+       "Para arrendarlo tienen que firmar los cuatro, o alguien con un poder de todos. Uno vive afuera, otro firma tarde, y el contratista espera.",
+       "A validar · En pantalla: EL PROBLEMA"
+      ],
+      [
+       "0:16",
+       "V",
+       "Y si a uno de los hermanos le va mal en lo suyo, su parte del campo puede quedar complicada. Con ella, el arriendo de todos.",
+       "A validar"
+      ],
+      [
+       "0:24",
+       "V",
+       "Lo que les propusimos: un fideicomiso de administración.",
+       "En pantalla: LA SOLUCIÓN"
+      ],
+      [
+       "0:28",
+       "V",
+       "Los cuatro aportan el campo. Un fiduciario de confianza lo administra: arrienda, cobra y reparte lo que da el campo, como dice el contrato.",
+       "A validar · En pantalla: cuatro → caja → fiduciario"
+      ],
+      [
+       "0:37",
+       "V",
+       "Ellos siguen siendo los beneficiarios, cada uno con su parte. Y queda escrito cómo se decide, qué pasa si uno quiere salir y qué pasa cuando alguno ya no esté.",
+       "A validar"
+      ],
+      [
+       "0:47",
+       "V",
+       "No siempre es la herramienta: a veces conviene una sociedad. Por eso nos sentamos con todos.",
+       ""
+      ]
+     ],
+     "cierre": "Si el campo de tu familia es de varios, comentá CONSULTA o mandanos un mensaje.",
+     "hooks": [
+      "Imaginate cuatro hermanos con un campo. Se llevan bien. Y aun así, cada arriendo es un problema.",
+      "Cuatro hermanos, un campo y cuatro firmas para cada arriendo.",
+      "Un campo de familia, varios dueños y un arriendo que no se puede firmar.",
+      "Esto pasa en muchas familias con campo, aunque se lleven bien.",
+      "El problema de un campo de varios no siempre es una pelea.",
+      "¿Quién firma el arriendo si el campo es de cuatro hermanos?"
+     ],
+     "cierres": [
+      "Si el campo de tu familia es de varios, comentá CONSULTA o mandanos un mensaje.",
+      "Si te pasa algo parecido, contalo en los comentarios o mandanos un mensaje.",
+      "Mandáselo a tus hermanos, y comentá CONSULTA o escribinos.",
+      "Si querés ordenarlo, comentá CONSULTA o mandanos un mensaje."
+     ],
+     "hookIdx": 0
+    }
+   ],
+   "recomendacion": "grabar A (POV), en la misma salida que R37–R40. B si no se graba afuera."
+  },
+  {
+   "r": "R42",
+   "tipo": "POV · comprar un campo entre amigos",
+   "titulo": "POV: vamos a comprar un campo entre amigos",
+   "meta": "Duración ≈60 s",
+   "ej": "Dd1PmlSCZxb",
+   "ejde": "POV · @ferloymx",
+   "nota": "Estructura: problema (0:00–0:08) → explicación del problema (0:09–0:24) → solución (0:25) → explicación de la solución (0:29–0:51) → pedido. POV en un campo abierto o un lote. Emanuel señala el campo en la primera pregunta; Víctor camina hacia la cámara en «¿Y si mañana uno se quiere ir?».",
+   "lineas": [
+    [
+     "0:00",
+     "E",
+     "Víctor, con dos amigos vamos a comprar un campo. Lo ponemos a nombre de los tres y listo, ¿no?",
+     "En pantalla: ¿A NOMBRE DE LOS TRES Y LISTO?"
+    ],
+    [
+     "0:05",
+     "V",
+     "¿Y si mañana uno se quiere ir?",
+     ""
+    ],
+    [
+     "0:07",
+     "E",
+     "Y… le compramos la parte.",
+     ""
+    ],
+    [
+     "0:09",
+     "V",
+     "¿A qué precio? ¿Y si no tienen la plata? Ese es el problema.",
+     "En pantalla: EL PROBLEMA"
+    ],
+    [
+     "0:13",
+     "V",
+     "Si el campo está a nombre de los tres, cada uno es dueño de una parte. Si uno tiene una deuda, se separa o fallece, esa parte puede quedar trabada. Y con ella, el campo entero.",
+     "A validar · En pantalla: deuda · separación · fallecimiento"
+    ],
+    [
+     "0:23",
+     "E",
+     "¿Y entonces cómo lo compramos?",
+     ""
+    ],
+    [
+     "0:25",
+     "V",
+     "Muchas veces, cuando varios compran un campo, se arma un fideicomiso.",
+     "En pantalla: LA SOLUCIÓN"
+    ],
+    [
+     "0:29",
+     "V",
+     "El campo se compra a nombre de un fiduciario. Cada uno pone su parte, y en el contrato queda escrito qué le toca a cada uno, cómo se decide, cómo se reparte lo que produce y qué pasa si uno se quiere ir.",
+     "A validar · En pantalla: ícono: tres aportes → caja: FIDUCIARIO"
+    ],
+    [
+     "0:41",
+     "V",
+     "Y si está bien armado, lo que está en el fideicomiso queda separado de los problemas personales de cada uno.",
+     "A validar · En pantalla: la caja aparte"
+    ],
+    [
+     "0:48",
+     "V",
+     "Antes de comprar, se ponen de acuerdo en todo eso. Después es tarde.",
+     ""
+    ]
+   ],
+   "cierre": "Si vas a comprar un campo con otros, comentá CONSULTA o mandanos un mensaje.",
+   "hooks": [
+    "«Víctor, con dos amigos vamos a comprar un campo. Lo ponemos a nombre de los tres y listo, ¿no?»",
+    "«Víctor, ¿cómo se compra un campo entre varios?»",
+    "«Víctor, vamos a comprar un campo en sociedad con amigos. ¿Qué firmamos?»",
+    "«Víctor, ¿qué pasa si uno de los que compramos el campo se quiere ir?»",
+    "«Víctor, ¿a nombre de quién ponemos el campo si somos tres?»",
+    "«Víctor, ¿un fideicomiso sirve para comprar un campo?»",
+    "«Víctor, si uno de los socios del campo tiene una deuda, ¿qué pasa?»",
+    "«Víctor, compramos el campo entre todos. ¿Y si uno se separa?»",
+    "«Víctor, ¿cómo nos repartimos lo que da un campo que compramos entre varios?»",
+    "«Víctor, antes de comprar el campo con mis amigos, ¿qué tenemos que hablar?»"
+   ],
+   "cierres": [
+    "Si vas a comprar un campo con otros, comentá CONSULTA o mandanos un mensaje.",
+    "Antes de comprar, escribinos o comentá CONSULTA.",
+    "Mandáselo a con quien vas a comprar, y comentá CONSULTA o escribinos.",
+    "Si ya compraron entre varios y no firmaron nada, comentá CONSULTA o mandanos un mensaje.",
+    "Si querés saber si un fideicomiso les sirve, comentá CONSULTA o escribinos.",
+    "La primera consulta no se cobra: comentá CONSULTA o escribinos."
+   ],
+   "hookIdx": 0,
+   "versiones": [
+    {
+     "r": "R42",
+     "v": "B",
+     "titulo": "Verdadero o falso: comprar un campo entre amigos",
+     "mecanica": "verdadero o falso",
+     "meta": "Duración ≈55 s",
+     "ej": "DcwgRl6gRAd",
+     "ejde": "Verdadero o falso · @jl_abogados",
+     "puntaje": 8,
+     "porque": "desarma tres creencias y cierra con la solución explicada",
+     "nota": "Estructura: problema (0:00–0:13) → explicación (0:14–0:21) → solución (0:22–0:26) → explicación de la solución (0:27–0:47) → pedido. De pie junto al mapa, con saco; Emanuel lee fuera de cuadro. Placa grande de Verdadero / Falso / Depende en cada respuesta, a pantalla completa.",
+     "lineas": [
+      [
+       "0:00",
+       "V",
+       "Comprar un campo entre amigos. Verdadero o falso.",
+       "En pantalla: VERDADERO O FALSO"
+      ],
+      [
+       "0:03",
+       "E",
+       "Lo ponemos a nombre de los tres y listo.",
+       ""
+      ],
+      [
+       "0:05",
+       "V",
+       "Falso. Cada uno queda dueño de una parte, y si uno tiene una deuda, se separa o fallece, esa parte puede trabar el campo entero.",
+       "A validar · En pantalla: Falso · EL PROBLEMA"
+      ],
+      [
+       "0:14",
+       "E",
+       "Si uno se quiere ir, le compramos la parte.",
+       ""
+      ],
+      [
+       "0:16",
+       "V",
+       "Depende. ¿A qué precio? ¿Y si no tienen la plata? Si no está escrito antes, es una discusión.",
+       "En pantalla: Depende"
+      ],
+      [
+       "0:22",
+       "E",
+       "Un fideicomiso sirve para comprar un campo entre varios.",
+       ""
+      ],
+      [
+       "0:24",
+       "V",
+       "Verdadero. Es una de las formas.",
+       "En pantalla: Verdadero · LA SOLUCIÓN"
+      ],
+      [
+       "0:27",
+       "V",
+       "El campo se compra a nombre de un fiduciario, y en el contrato queda qué le toca a cada uno, cómo se decide, cómo se reparte lo que produce y qué pasa si uno se quiere ir.",
+       "A validar"
+      ],
+      [
+       "0:38",
+       "V",
+       "Y si está bien armado, lo que está en el fideicomiso queda separado de los problemas personales de cada uno.",
+       "A validar"
+      ],
+      [
+       "0:45",
+       "V",
+       "Todo eso se habla antes de comprar. Después es tarde.",
+       ""
+      ]
+     ],
+     "cierre": "Si vas a comprar un campo con otros, comentá CONSULTA o mandanos un mensaje.",
+     "hooks": [
+      "Comprar un campo entre amigos. Verdadero o falso.",
+      "Lo que se cree cuando varios compran un campo. Verdadero o falso.",
+      "¿Vas a comprar un campo con otros? Verdadero o falso.",
+      "Tres cosas que se escuchan antes de comprar un campo en grupo.",
+      "Campo entre varios: lo que es verdad y lo que no.",
+      "Antes de comprar un campo con amigos, mirá esto."
+     ],
+     "cierres": [
+      "Si vas a comprar un campo con otros, comentá CONSULTA o mandanos un mensaje.",
+      "¿Cuál de las tres creías? Contalo en los comentarios o mandanos un mensaje.",
+      "Mandáselo a con quien vas a comprar, y comentá CONSULTA o escribinos.",
+      "Antes de comprar, comentá CONSULTA o escribinos."
+     ],
+     "hookIdx": 0
+    }
+   ],
+   "recomendacion": "grabar A (POV), en la misma salida que R37–R40. B si se graba en el estudio."
   }
  ],
  "variaciones": [
@@ -8536,12 +8890,14 @@ window.GUIONES.tanda = {
 /* La jornada: los 7 que se graban (2026-10-19, siete formatos distintos), en orden de escenografía (podcast → escritorio → de pie → teleprompter → oficina).
    Elegidos el 18/10/2026 entre R9–R20. El resto queda guionado para más adelante. */
 window.GUIONES.jornada = {
-  orden: ["R37", "R38", "R39", "R40", "R33", "R34", "R35", "R36", "R26", "R9", "R25", "R31", "R23", "R28", "R30", "R29", "R24", "R27", "R22"],
+  orden: ["R37", "R38", "R39", "R40", "R41", "R42", "R33", "R34", "R35", "R36", "R26", "R9", "R25", "R31", "R23", "R28", "R30", "R29", "R24", "R27", "R22"],
   porque: {
     R37: "Nuevo (5-11). POV como el de Fer Loy: la cámara pregunta, Víctor camina en el pasto y explica. ¿Testamento o dejar el campo en vida? Con las palabras de la referencia. ⚠️ Avisar a Sergio Rosa (toca sucesiones) y validar con Víctor.",
     R38: "Nuevo (5-11). POV: tengo el campo pero no la plata para trabajarlo. El fideicomiso explicado con un campo, con las palabras de Jorge Cervantes. Termina en «no siempre hace falta». Validar con Víctor.",
     R39: "Nuevo (5-11). POV junto a una tranquera: le doy el campo a un vecino de palabra. Lo que tiene que estar claro y qué pasa si sale mal (carrusel de Lucía Rivoiro). ⚠️ Verificar que la ley de arrendamientos siga vigente.",
     R40: "Nuevo (5-11). POV en el campo: arranca la campaña, ¿qué tengo que tener en orden? Tres frentes: contratos, la tierra en regla y quién decide (carrusel de Lucía Rivoiro). Validar con Víctor.",
+    R41: "Nuevo (5-11). Campo y fideicomiso: cuatro hermanos con un campo y cuatro firmas para cada arriendo; el fideicomiso de administración. Dos opciones: A en POV (misma salida que R37–R40) o B, el caso, en el escritorio.",
+    R42: "Nuevo (5-11). Campo y fideicomiso: comprar un campo entre amigos sin que la deuda o la salida de uno trabe todo. Dos opciones: A en POV o B, verdadero o falso, junto al mapa.",
     R33: "Contratos agrarios (grabación del 26-10). En la zona se arrienda de palabra: las cinco cosas que tiene que decir el contrato del campo. Recomendada: A, papel en la mesa; B (ranking) en la misma sesión si hay tiempo. ⚠️ Antes de publicar, verificar que la ley de arrendamientos siga vigente (hay un proyecto para derogarla).",
     R34: "El contrato por una o dos cosechas: la excepción al plazo mínimo y lo que más se hace mal. Recomendada: A, falsa entrevista. Grabar también C, la noticia del proyecto para derogar la ley, y publicarla después de verificar cómo está.",
     R35: "Con quién se firma si el campo es de una sucesión, una sociedad o un fideicomiso. Sale del artículo «Precauciones para arrendar campos» del Dr. Jorge Solmi. Recomendada: A, el caso. Avisar a Sergio Rosa (nombra la sucesión).",
