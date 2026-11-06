@@ -822,7 +822,7 @@ window.GUIONES.estudios = {
    con tanda.py: si cambia el guion, se cambia allá y se vuelve a generar. */
 window.GUIONES.tanda = {
  "titulo": "Para grabar ahora",
- "resumen": "Reels para que la gente escriba (R37–R42, POV de fideicomiso y campo, nuevos del 5-11; R41 y R42 con dos opciones; R33–R36, contratos agrarios), cada uno con tres versiones, su referencia al lado y sus propios arranques y cierres. Abre en la recomendada; la jornada no repite formato",
+ "resumen": "Reels para que la gente escriba (R43–R45, fideicomiso sin campo, nuevos del 6-11; R37–R42, fideicomiso y campo, del 5-11; R41 y R42 con dos opciones; R33–R36, contratos agrarios), cada uno con tres versiones, su referencia al lado y sus propios arranques y cierres. Abre en la recomendada; la jornada no repite formato",
  "items": [
   {
    "r": "R15",
@@ -9612,6 +9612,780 @@ window.GUIONES.tanda = {
     }
    ],
    "recomendacion": "grabar A (POV), en la misma salida que R37–R40. B (verdadero o falso) o C (papel en la mesa) si se graba en el estudio."
+  },
+  {
+   "r": "R43",
+   "tipo": "Teleprompter · fideicomiso con un terreno",
+   "titulo": "Tengo un terreno pero no la plata para construir",
+   "meta": "Duración ≈65 s",
+   "ej": "CzsLyJKMxE0",
+   "ejde": "Explicado con un ejemplo · @jorgecervantesmx",
+   "nota": "Estructura: problema (0:00–0:09) → explicación del problema (0:10–0:26) → solución (0:27) → explicación de la solución (0:30–1:04) → pedido. Teleprompter de pie junto al mapa, con saco. Los íconos (terreno, billetes, casco de obra, la caja que los junta, el edificio que se reparte) van como insertos a pantalla completa entre frases, nada encima de Víctor; solo la placa del arranque va sobre el video.",
+   "lineas": [
+    [
+     "0:00",
+     "V",
+     "Tenés un terreno donde se puede construir. Pero no tenés la plata, ni sabés cómo llevar adelante una obra.",
+     "En pantalla: TENÉS EL TERRENO. ¿Y LA OBRA?"
+    ],
+    [
+     "0:06",
+     "V",
+     "El problema es que las dos salidas que se ven primero te dejan afuera.",
+     "En pantalla: EL PROBLEMA"
+    ],
+    [
+     "0:10",
+     "V",
+     "Si lo vendés, lo cobrás una vez y lo que se construya ahí ya no es tuyo. Si lo dejás como está, sigue siendo un terreno.",
+     "En pantalla: 1 · VENDERLO · 2 · ESPERAR"
+    ],
+    [
+     "0:17",
+     "V",
+     "Y por otro lado, conocés personas que pueden ser inversores o constructores, que podrían aportar tanto los recursos como el trabajo. Pero nadie quiere arriesgar de más sin saber qué le toca.",
+     "En pantalla: terreno · plata · obra"
+    ],
+    [
+     "0:27",
+     "V",
+     "Una forma de ponerse de acuerdo es un fideicomiso.",
+     "En pantalla: LA SOLUCIÓN"
+    ],
+    [
+     "0:30",
+     "V",
+     "Es un contrato por medio del cual una persona aporta bienes con una finalidad determinada, y le encomienda tanto el objetivo como esos bienes a un fiduciario.",
+     "A validar · En pantalla: FIDEICOMISO"
+    ],
+    [
+     "0:38",
+     "V",
+     "En tu caso: vos aportás el terreno, los inversores la plata y el constructor la obra. Y queda escrito para qué: por ejemplo, hacer un edificio de departamentos.",
+     "A validar · En pantalla: los tres entran a una caja"
+    ],
+    [
+     "0:47",
+     "V",
+     "El fiduciario se encarga de cuidar esos bienes y de que se cumpla el objetivo. Y cuando termina la obra, cada uno recibe lo que se acordó: unidades, o lo que deje la venta.",
+     "A validar · En pantalla: FIDUCIARIO · la caja reparte"
+    ],
+    [
+     "0:57",
+     "V",
+     "Son excelentes mecanismos para hacer negocios con seguridad jurídica para todas las partes. Pero no siempre hacen falta: primero miramos el proyecto, después la herramienta.",
+     ""
+    ]
+   ],
+   "cierre": "Si tenés un terreno y un proyecto con otros, comentá CONSULTA o mandanos un mensaje.",
+   "hooks": [
+    "Tenés un terreno donde se puede construir. Pero no tenés la plata, ni sabés cómo llevar adelante una obra.",
+    "Tenés el terreno. Otro tiene la plata. Y un tercero sabe construir. ¿Cómo se ponen de acuerdo?",
+    "¿Tenés un terreno y no la plata para construir? No hace falta venderlo.",
+    "Un fideicomiso, explicado con un terreno.",
+    "¿Qué es un fideicomiso? Te lo explicamos con un ejemplo.",
+    "Antes de vender ese terreno, mirá esto.",
+    "Cómo se construye un edificio entre varios sin que nadie arriesgue de más.",
+    "Te ofrecieron comprar tu terreno. Hay otra opción.",
+    "El terreno que tenés parado puede ser parte de un proyecto.",
+    "Fideicomiso: no es para esconder nada. Es para construir."
+   ],
+   "cierres": [
+    "Si tenés un terreno y un proyecto con otros, comentá CONSULTA o mandanos un mensaje.",
+    "Si te ofrecieron comprar tu terreno, antes de decidir comentá CONSULTA o escribinos.",
+    "Si querés saber si un fideicomiso te sirve, comentá CONSULTA o mandanos un mensaje.",
+    "Mandáselo a quien tenga un terreno parado, y comentá CONSULTA o escribinos.",
+    "Primero vemos el proyecto: comentá CONSULTA o mandanos un mensaje.",
+    "La primera consulta no se cobra: comentá CONSULTA o escribinos."
+   ],
+   "hookIdx": 0,
+   "versiones": [
+    {
+     "r": "R43",
+     "v": "B",
+     "titulo": "POV: «tengo este terreno y no la plata para construir»",
+     "mecanica": "POV",
+     "meta": "Duración ≈60 s",
+     "ej": "Dd1PmlSCZxb",
+     "ejde": "POV · @ferloymx",
+     "puntaje": 8,
+     "porque": "el formato que eligió Emanuel, grabado en un terreno de verdad: la mano señala el lote y se entiende sin audio",
+     "nota": "Estructura: problema (0:00–0:07) → explicación (0:08–0:23) → solución (0:26) → explicación de la solución (0:28–0:52) → pedido. POV en un lote baldío. Emanuel graba con una mano y con la otra señala el terreno; Víctor, con saco, camina hacia la cámara en «¿Vos qué pensás hacer?».",
+     "lineas": [
+      [
+       "0:00",
+       "E",
+       "Víctor, tengo este terreno y no tengo la plata para construir. ¿Lo vendo?",
+       "En pantalla: ¿LO VENDO? · la mano señala el terreno"
+      ],
+      [
+       "0:04",
+       "V",
+       "¿Vos qué pensás hacer?",
+       ""
+      ],
+      [
+       "0:06",
+       "E",
+       "Y… me ofrecieron comprarlo. O lo dejo así.",
+       ""
+      ],
+      [
+       "0:08",
+       "V",
+       "Ese es el problema: si lo vendés, lo cobrás una vez y lo que se construya ya no es tuyo. Y si lo dejás, sigue siendo un terreno.",
+       "En pantalla: EL PROBLEMA"
+      ],
+      [
+       "0:15",
+       "V",
+       "Vos tenés la tierra, pero no el capital ni la obra. Y hay inversores y constructores que sí, pero no se van a meter sin saber qué les toca.",
+       "En pantalla: terreno · plata · obra"
+      ],
+      [
+       "0:24",
+       "E",
+       "¿Y cómo nos ponemos de acuerdo?",
+       ""
+      ],
+      [
+       "0:26",
+       "V",
+       "Por medio de un fideicomiso.",
+       "En pantalla: LA SOLUCIÓN"
+      ],
+      [
+       "0:28",
+       "V",
+       "Vos aportás el terreno, ellos la plata y la obra, y todo eso queda a cargo de un fiduciario, que lo cuida y hace que se cumpla lo que firmaron.",
+       "A validar · En pantalla: los tres entran a una caja: FIDUCIARIO"
+      ],
+      [
+       "0:38",
+       "V",
+       "En el contrato queda qué pone cada uno y qué recibe cuando termina la obra: unidades, o lo que deje la venta.",
+       "A validar"
+      ],
+      [
+       "0:45",
+       "E",
+       "¿Y eso es seguro?",
+       ""
+      ],
+      [
+       "0:46",
+       "V",
+       "Es un mecanismo para hacer negocios con seguridad jurídica para todos. Pero no siempre hace falta: primero vemos tu proyecto.",
+       ""
+      ]
+     ],
+     "cierre": "Si tenés un terreno y un proyecto con otros, comentá CONSULTA o mandanos un mensaje.",
+     "hooks": [
+      "«Víctor, tengo este terreno y no tengo la plata para construir. ¿Lo vendo?»",
+      "«Víctor, me ofrecieron comprar el terreno. ¿Lo vendo?»",
+      "«Víctor, ¿cómo construyo en mi terreno si no tengo la plata?»",
+      "«Víctor, ¿qué es un fideicomiso? Explicámelo con este terreno.»",
+      "«Víctor, unos conocidos quieren poner la plata para construir acá. ¿Qué firmamos?»",
+      "«Víctor, ¿un fideicomiso sirve para un terreno chico?»"
+     ],
+     "cierres": [
+      "Si tenés un terreno y un proyecto con otros, comentá CONSULTA o mandanos un mensaje.",
+      "Antes de vender el terreno, comentá CONSULTA o escribinos.",
+      "Mandáselo a quien tenga un terreno parado, y comentá CONSULTA o escribinos.",
+      "La primera consulta no se cobra: comentá CONSULTA o escribinos."
+     ],
+     "hookIdx": 0
+    },
+    {
+     "r": "R43",
+     "v": "C",
+     "titulo": "Chat de WhatsApp: «tengo un terreno y unos conocidos quieren poner la plata»",
+     "mecanica": "chat de WhatsApp en pantalla",
+     "meta": "Duración ≈50 s",
+     "ej": "DU5r_mnDkj5",
+     "ejde": "Consultas por WhatsApp · @estudiojuridicoarancibia",
+     "puntaje": 8,
+     "porque": "muestra la consulta tal como llega y baja la barrera de escribir; se graba sin salir del estudio",
+     "nota": "Estructura: problema (0:00–0:09) → explicación (0:10–0:18) → solución (0:19–0:24) → explicación de la solución (0:24–0:43) → pedido. Grabación de pantalla con un contacto de prueba, ningún dato real. Voz de Víctor en el estudio; si sale a cámara, en un recuadro chico abajo, sin tapar el chat.",
+     "lineas": [
+      [
+       "0:00",
+       "C",
+       "Hola. Tengo un terreno en San Pedro y unos conocidos quieren poner la plata para construir. ¿Cómo lo armamos para que nadie salga perjudicado?",
+       "En pantalla: chat de WhatsApp · ejemplo"
+      ],
+      [
+       "0:06",
+       "V",
+       "Una consulta así tiene un problema adentro: cada uno pone algo distinto.",
+       "En pantalla: EL PROBLEMA"
+      ],
+      [
+       "0:10",
+       "V",
+       "Uno pone el terreno, otros la plata, otro la obra. Si se arregla de palabra, nadie sabe bien qué le toca, y el que pone más arriesga de más.",
+       "En pantalla: terreno · plata · obra"
+      ],
+      [
+       "0:19",
+       "C",
+       "Gracias por escribirnos. Para estos casos se suele usar un fideicomiso. ¿Nos contás qué quieren construir?",
+       "En pantalla: responde el estudio"
+      ],
+      [
+       "0:24",
+       "V",
+       "Un fideicomiso es un contrato: cada uno aporta lo suyo para un objetivo, y un fiduciario lo cuida y hace que se cumpla.",
+       "A validar · En pantalla: LA SOLUCIÓN"
+      ],
+      [
+       "0:32",
+       "V",
+       "Queda escrito qué pone cada uno, qué recibe cuando termina la obra y qué pasa si algo cambia en el camino.",
+       "A validar"
+      ],
+      [
+       "0:39",
+       "V",
+       "No siempre es la herramienta. Por eso primero preguntamos por el proyecto.",
+       ""
+      ]
+     ],
+     "cierre": "Si tenés un terreno y un proyecto, escribinos como en este chat, o comentá CONSULTA.",
+     "hooks": [
+      "Así llega una consulta por un terreno y un proyecto entre varios.",
+      "«Tengo un terreno y unos conocidos quieren poner la plata.» Así lo respondemos.",
+      "Un mensaje que nos puede llegar mañana, y cómo lo vemos.",
+      "¿Qué pasa cuando nos escribís por un terreno? Mirá.",
+      "No hace falta saber qué es un fideicomiso para escribirnos. Mirá este chat.",
+      "Un terreno, unos inversores y un chat con el estudio."
+     ],
+     "cierres": [
+      "Si tenés un terreno y un proyecto, escribinos como en este chat, o comentá CONSULTA.",
+      "Un mensaje alcanza para empezar: escribinos o comentá CONSULTA.",
+      "Si tenés una duda parecida, dejala en los comentarios o mandanos un mensaje.",
+      "La primera consulta no se cobra: escribinos o comentá CONSULTA."
+     ],
+     "hookIdx": 0
+    }
+   ],
+   "recomendacion": "grabar A (teleprompter con motion graphics), de pie junto al mapa. B (POV) si se sale a un terreno; C (chat) se arma sin grabar a Víctor en cámara."
+  },
+  {
+   "r": "R44",
+   "tipo": "Papel en la mesa · fideicomiso en pozo",
+   "titulo": "Entrar a un fideicomiso para comprar en pozo",
+   "meta": "Duración ≈60 s",
+   "ej": "DeHp3Qyucg7",
+   "ejde": "Esta cláusula · @reyessulbaran.juridico",
+   "nota": "Estructura: problema (0:00–0:10) → explicación del problema (0:11–0:17) → solución (0:18) → explicación de la solución (0:21–0:52) → pedido. Escritorio, cámara cenital: Víctor escribe a mano los cinco puntos en una hoja mientras los dice; al final da vuelta un contrato de ejemplo sobre la mesa (sin datos reales).",
+   "lineas": [
+    [
+     "0:00",
+     "V",
+     "Si vas a poner tus ahorros en un departamento en pozo con un fideicomiso, antes de firmar, mirá estas cinco cosas.",
+     "En pantalla: manos de Víctor sobre una hoja en blanco"
+    ],
+    [
+     "0:05",
+     "V",
+     "El problema: muchos firman creyendo que compraron un departamento. Y en realidad entraron a un fideicomiso.",
+     "A validar · En pantalla: EL PROBLEMA"
+    ],
+    [
+     "0:11",
+     "V",
+     "No es lo mismo. Lo que vas a recibir, cuándo y cuánto termina costando lo dice ese contrato. Y casi nadie lo lee entero.",
+     "A validar"
+    ],
+    [
+     "0:18",
+     "V",
+     "Por eso, antes de poner un peso, esto tiene que estar claro.",
+     "En pantalla: LA SOLUCIÓN"
+    ],
+    [
+     "0:21",
+     "V",
+     "Uno: quién es el fiduciario y quién construye. No siempre son los mismos.",
+     "A validar · En pantalla: escribe: 1 · QUIÉN ES QUIÉN"
+    ],
+    [
+     "0:26",
+     "V",
+     "Dos: qué unidad te toca y cuándo la vas a escriturar.",
+     "A validar · En pantalla: 2 · QUÉ TE TOCA Y CUÁNDO"
+    ],
+    [
+     "0:31",
+     "V",
+     "Tres: qué pasa si la obra cuesta más de lo previsto. En muchos fideicomisos, la diferencia la ponen los que entraron.",
+     "A validar · En pantalla: 3 · SI SUBE LA OBRA"
+    ],
+    [
+     "0:38",
+     "V",
+     "Cuatro: qué pasa si un mes no podés pagar, o si te querés ir.",
+     "A validar · En pantalla: 4 · SI NO PODÉS SEGUIR"
+    ],
+    [
+     "0:43",
+     "V",
+     "Y cinco: qué pasa si la obra se atrasa o se frena, y cómo se resuelve un conflicto.",
+     "A validar · En pantalla: 5 · SI SALE MAL"
+    ],
+    [
+     "0:49",
+     "V",
+     "No se trata solamente de firmar. Se trata de saber qué estás firmando.",
+     ""
+    ]
+   ],
+   "cierre": "Si estás por entrar a un fideicomiso en pozo, comentá CONSULTA o mandanos un mensaje y lo revisamos antes.",
+   "hooks": [
+    "Si vas a poner tus ahorros en un departamento en pozo con un fideicomiso, antes de firmar, mirá estas cinco cosas.",
+    "¿Comprás en pozo? No estás comprando un departamento. Te explicamos.",
+    "Cinco cosas que tiene que decir el contrato antes de entrar a un fideicomiso en pozo.",
+    "Antes de firmar un fideicomiso al costo, anotá esto.",
+    "Lo que casi nadie lee cuando entra a un fideicomiso.",
+    "Departamento en pozo: el papel que hay que leer antes de poner un peso.",
+    "¿Qué pasa si la obra cuesta más de lo previsto? Está en el contrato. Mirá dónde.",
+    "Si entraste a un fideicomiso y no leíste el contrato, mirá esto.",
+    "No se trata solamente de firmar. Se trata de saber qué estás firmando.",
+    "Tus ahorros en un pozo: cinco preguntas antes de firmar."
+   ],
+   "cierres": [
+    "Si estás por entrar a un fideicomiso en pozo, comentá CONSULTA o mandanos un mensaje y lo revisamos antes.",
+    "Guardalo para el día que firmes, y comentá CONSULTA si querés que lo veamos.",
+    "Si ya firmaste y algo no está claro, comentá CONSULTA o escribinos.",
+    "Mandáselo a quien esté por comprar en pozo, y comentá CONSULTA o escribinos.",
+    "¿Cuál de las cinco no sabías? Contalo en los comentarios o mandanos un mensaje.",
+    "La primera consulta no se cobra: comentá CONSULTA o escribinos."
+   ],
+   "hookIdx": 0,
+   "versiones": [
+    {
+     "r": "R44",
+     "v": "B",
+     "titulo": "Respondemos una pregunta: «entré a un fideicomiso en pozo, ¿qué miro del contrato?»",
+     "mecanica": "respuesta a una pregunta",
+     "meta": "Duración ≈55 s",
+     "ej": "DdmtqPdRiJ_",
+     "ejde": "Respondemos dudas · @lch.abogados",
+     "puntaje": 8,
+     "porque": "la duda dicha como la diría el que ya firmó; se graba en el escritorio en una toma",
+     "nota": "Estructura: problema (0:00–0:11) → explicación (0:12–0:18) → solución (0:19) → explicación de la solución (0:22–0:46) → pedido. Víctor sentado de costado en el escritorio; la pregunta aparece en una burbuja como de comentario en el arranque. Es una pregunta de ejemplo: no se presenta como de un cliente real.",
+     "lineas": [
+      [
+       "0:00",
+       "V",
+       "Te respondemos una pregunta: «Puse mis ahorros en un departamento en pozo, con un fideicomiso. ¿Qué tengo que mirar del contrato?»",
+       "En pantalla: burbuja de la pregunta"
+      ],
+      [
+       "0:06",
+       "V",
+       "Primero, el problema: firmaste para entrar a un fideicomiso, no para comprar un departamento terminado.",
+       "A validar · En pantalla: EL PROBLEMA"
+      ],
+      [
+       "0:12",
+       "V",
+       "Lo que recibís, cuándo y cuánto termina costando no lo decide lo que te dijeron en la venta: lo dice ese contrato.",
+       "A validar"
+      ],
+      [
+       "0:19",
+       "V",
+       "Por eso, lo que tenés que buscar en el contrato es esto.",
+       "En pantalla: LA SOLUCIÓN"
+      ],
+      [
+       "0:22",
+       "V",
+       "Quién es el fiduciario y quién construye. Qué unidad te toca y cuándo se escritura.",
+       "A validar · En pantalla: quién es quién · qué te toca"
+      ],
+      [
+       "0:29",
+       "V",
+       "Qué pasa si la obra cuesta más de lo previsto, porque muchas veces la diferencia la ponen los que entraron.",
+       "A validar · En pantalla: si sube la obra"
+      ],
+      [
+       "0:35",
+       "V",
+       "Y qué pasa si no podés seguir pagando, si la obra se atrasa o se frena.",
+       "A validar · En pantalla: si no podés seguir · si sale mal"
+      ],
+      [
+       "0:41",
+       "V",
+       "Si ya firmaste y algo de esto no está claro, se puede revisar ahora, antes de que haya un problema.",
+       ""
+      ]
+     ],
+     "cierre": "Si entraste a un fideicomiso en pozo, comentá CONSULTA o mandanos un mensaje con tu contrato.",
+     "hooks": [
+      "Te respondemos una pregunta: «Puse mis ahorros en un departamento en pozo, con un fideicomiso. ¿Qué tengo que mirar del contrato?»",
+      "«Entré a un fideicomiso en pozo. ¿Qué miro del contrato?» Te respondemos.",
+      "Una pregunta de alguien que ya firmó un fideicomiso en pozo.",
+      "¿Ya firmaste un fideicomiso y no sabés qué dice? Te respondemos.",
+      "«¿Compré un departamento o entré a un fideicomiso?» Te respondemos.",
+      "Una duda que conviene sacarse antes de que la obra avance."
+     ],
+     "cierres": [
+      "Si entraste a un fideicomiso en pozo, comentá CONSULTA o mandanos un mensaje con tu contrato.",
+      "Si tenés otra duda, dejala en los comentarios o mandanos un mensaje.",
+      "Mandá una foto del contrato por mensaje, o comentá CONSULTA.",
+      "La primera consulta no se cobra: comentá CONSULTA o escribinos."
+     ],
+     "hookIdx": 0
+    },
+    {
+     "r": "R44",
+     "v": "C",
+     "titulo": "El banco: el que firmó sin leer y el que lo revisó antes",
+     "mecanica": "el banco",
+     "meta": "Duración ≈50 s",
+     "ej": "DalNb38xFNN",
+     "ejde": "El banco: uno y otro · @dr.juanpablogalvez",
+     "puntaje": 8,
+     "porque": "el contraste entre los dos se entiende sin audio; es el formato nuevo, en otro tema que R38 y R39",
+     "nota": "Estructura: problema (0:00–0:15) → solución (0:19) → explicación de la solución (0:19–0:36) → remate y pedido. Los dos sentados en un banco de plaza, cada uno con su cartel arriba todo el video, contestan alternando. Los dos hablan en primera persona porque son personajes; Víctor vuelve al plural del estudio en el remate y el cierre.",
+     "lineas": [
+      [
+       "0:00",
+       "E",
+       "Compré un departamento en pozo. Firmé donde me dijeron.",
+       "En pantalla: carteles arriba: EL QUE FIRMÓ SIN LEER · EL QUE LO REVISÓ ANTES"
+      ],
+      [
+       "0:04",
+       "V",
+       "Compré en pozo con un fideicomiso. Antes de firmar, lo revisé.",
+       ""
+      ],
+      [
+       "0:08",
+       "E",
+       "Me llegó un aviso: la obra subió y tengo que poner más.",
+       "A validar · En pantalla: EL PROBLEMA"
+      ],
+      [
+       "0:12",
+       "V",
+       "Ya sabía que podía pasar, y cómo se calculaba. Estaba en el contrato.",
+       "A validar"
+      ],
+      [
+       "0:16",
+       "E",
+       "No sé quién es el fiduciario ni a quién reclamarle.",
+       ""
+      ],
+      [
+       "0:19",
+       "V",
+       "Sé quién es el fiduciario y quién construye.",
+       "En pantalla: LA SOLUCIÓN"
+      ],
+      [
+       "0:22",
+       "E",
+       "No sé cuándo me dan la escritura.",
+       ""
+      ],
+      [
+       "0:24",
+       "V",
+       "Sé qué unidad me toca y cuándo se escritura.",
+       "A validar"
+      ],
+      [
+       "0:27",
+       "E",
+       "Si un mes no puedo pagar, no sé qué pasa.",
+       ""
+      ],
+      [
+       "0:30",
+       "V",
+       "Sé qué pasa si no puedo pagar, si me quiero ir y si la obra se frena.",
+       "A validar"
+      ],
+      [
+       "0:35",
+       "E",
+       "¿Cómo sabés todo eso?",
+       ""
+      ],
+      [
+       "0:37",
+       "V",
+       "Lo leímos con el estudio antes de firmar. No se trata solamente de firmar: se trata de saber qué estás firmando.",
+       ""
+      ]
+     ],
+     "cierre": "Si estás por entrar a un fideicomiso en pozo, comentá CONSULTA o mandanos un mensaje.",
+     "hooks": [
+      "«Compré un departamento en pozo. Firmé donde me dijeron.»",
+      "El que firmó sin leer y el que lo revisó antes.",
+      "Dos personas compraron en pozo. Una sola sabe qué firmó.",
+      "«Me llegó un aviso: la obra subió y tengo que poner más.»",
+      "Fideicomiso en pozo: el que leyó el contrato y el que no.",
+      "¿Cuál de los dos sos?"
+     ],
+     "cierres": [
+      "Si estás por entrar a un fideicomiso en pozo, comentá CONSULTA o mandanos un mensaje.",
+      "¿Cuál de los dos sos? Contalo en los comentarios o mandanos un mensaje.",
+      "Mandáselo a quien esté por comprar en pozo, y comentá CONSULTA o escribinos.",
+      "La primera consulta no se cobra: comentá CONSULTA o escribinos."
+     ],
+     "hookIdx": 0
+    }
+   ],
+   "recomendacion": "grabar A (papel en la mesa): es el más útil y se guarda. C (el banco) en la misma salida que R38–R39 si se graba el banco."
+  },
+  {
+   "r": "R45",
+   "tipo": "El consejo en el café · hijos chicos",
+   "titulo": "Mis hijos son chicos: si me pasa algo, ¿quién maneja lo que les dejo?",
+   "meta": "Duración ≈60 s",
+   "ej": "DV9hhY3EbKK",
+   "ejde": "El consejo en el café · @abogadocecilio",
+   "nota": "Estructura: problema (0:00–0:08) → explicación del problema (0:09–0:21) → solución (0:22) → explicación de la solución (0:26–0:49) → pedido. Mesa de café al aire libre, Víctor sentado con un café, tono cálido y tranquilo; Emanuel de espaldas y desenfocado en primer plano, sin hablar. Nada de golpes de efecto: es una charla.",
+   "lineas": [
+    [
+     "0:00",
+     "V",
+     "¿Tenés hijos chicos y algo a tu nombre? Bien. Hay una pregunta que conviene hacerse ahora.",
+     "En pantalla: ¿Y SI TE PASA ALGO?"
+    ],
+    [
+     "0:05",
+     "V",
+     "Si a vos te pasa algo, ¿quién maneja lo que les dejás a tus hijos?",
+     "En pantalla: EL PROBLEMA"
+    ],
+    [
+     "0:09",
+     "V",
+     "Mientras son menores, ellos no lo pueden manejar. Lo administra un tutor, con el control de un juez para muchas decisiones.",
+     "A validar"
+    ],
+    [
+     "0:17",
+     "V",
+     "Y cuando cumplen la mayoría de edad, lo reciben todo junto, estén preparados o no.",
+     "A validar"
+    ],
+    [
+     "0:22",
+     "V",
+     "Una forma de dejarlo definido es un fideicomiso pensado para ellos.",
+     "En pantalla: LA SOLUCIÓN"
+    ],
+    [
+     "0:26",
+     "V",
+     "Elegís a una persona de confianza como fiduciario, que administra esos bienes para tus hijos.",
+     "A validar · En pantalla: ícono: bienes → caja → hijos"
+    ],
+    [
+     "0:32",
+     "V",
+     "Y queda escrito para qué se usan, por ejemplo, el estudio, la salud o la casa, y desde cuándo los manejan ellos. Lo decidís vos.",
+     "A validar · En pantalla: para qué · quién administra · desde cuándo"
+    ],
+    [
+     "0:41",
+     "V",
+     "Se puede armar en vida o dejarlo en un testamento. Y tiene que respetar lo que a cada hijo le corresponde por ley: por eso se arma con tiempo, no a las apuradas.",
+     "A validar"
+    ]
+   ],
+   "cierre": "Si tenés hijos chicos y querés dejarlo ordenado, comentá CONSULTA o mandanos un mensaje.",
+   "hooks": [
+    "¿Tenés hijos chicos y algo a tu nombre? Bien. Hay una pregunta que conviene hacerse ahora.",
+    "Si a vos te pasa algo, ¿quién maneja lo que les dejás a tus hijos?",
+    "Un consejo para padres con hijos chicos.",
+    "No alcanza con saber quién hereda. Hay que pensar quién lo maneja.",
+    "¿Tus hijos son chicos? Tené en cuenta esto.",
+    "Lo que les dejás a tus hijos, ¿lo van a poder usar?",
+    "Un fideicomiso no es solo para empresarios. Escuchá esto.",
+    "Si tenés bienes o hijos que proteger, este es el momento.",
+    "Pensar en esto no es pensar en lo malo. Es dejarlo ordenado.",
+    "Una charla que conviene tener con un café, y no después."
+   ],
+   "cierres": [
+    "Si tenés hijos chicos y querés dejarlo ordenado, comentá CONSULTA o mandanos un mensaje.",
+    "Mandáselo a alguien que acaba de ser papá o mamá, y comentá CONSULTA o escribinos.",
+    "Si te lo preguntaste alguna vez, comentá CONSULTA o mandanos un mensaje.",
+    "Cada familia es un caso: comentá CONSULTA o escribinos y lo vemos juntos.",
+    "Si querés saber si un fideicomiso te sirve, comentá CONSULTA o mandanos un mensaje.",
+    "La primera consulta no se cobra: comentá CONSULTA o escribinos."
+   ],
+   "hookIdx": 0,
+   "versiones": [
+    {
+     "r": "R45",
+     "v": "B",
+     "titulo": "Falsa entrevista: «Víctor, mis hijos son chicos. Si me pasa algo, ¿qué pasa con lo que tengo?»",
+     "mecanica": "falsa entrevista",
+     "meta": "Duración ≈55 s",
+     "ej": "DavyC1fDgAn",
+     "ejde": "Falsa entrevista · @estudiorossiyasociados",
+     "puntaje": 8,
+     "porque": "la pregunta en boca del que la tiene; en el estudio, sentado, sin salir a grabar",
+     "nota": "Estructura: problema (0:00–0:08) → explicación (0:09–0:19) → solución (0:22) → explicación de la solución (0:25–0:48) → pedido. Víctor sentado de costado en el escritorio, Emanuel pregunta fuera de cuadro.",
+     "lineas": [
+      [
+       "0:00",
+       "E",
+       "Víctor, mis hijos son chicos. Si a mí me pasa algo, ¿qué pasa con lo que tengo?",
+       "En pantalla: SI ME PASA ALGO, ¿QUÉ PASA CON LO QUE TENGO?"
+      ],
+      [
+       "0:05",
+       "V",
+       "Lo que tenés pasa a tus hijos. El problema es quién lo maneja.",
+       "En pantalla: EL PROBLEMA"
+      ],
+      [
+       "0:09",
+       "V",
+       "Mientras son menores, ellos no pueden. Lo administra un tutor, con el control de un juez para muchas decisiones. Y cuando cumplen la mayoría de edad, lo reciben todo junto.",
+       "A validar"
+      ],
+      [
+       "0:20",
+       "E",
+       "¿Y eso se puede ordenar antes?",
+       ""
+      ],
+      [
+       "0:22",
+       "V",
+       "Sí. Una forma es un fideicomiso para tus hijos.",
+       "En pantalla: LA SOLUCIÓN"
+      ],
+      [
+       "0:25",
+       "V",
+       "Elegís a alguien de confianza como fiduciario, que administra esos bienes para ellos, y queda escrito para qué se usan y desde cuándo los manejan ellos.",
+       "A validar · En pantalla: para qué · quién · desde cuándo"
+      ],
+      [
+       "0:36",
+       "V",
+       "Se puede armar en vida o dejarlo en un testamento. Y respeta lo que a cada hijo le corresponde por ley.",
+       "A validar"
+      ],
+      [
+       "0:43",
+       "V",
+       "No es para cualquier caso. Por eso nos sentamos, vemos qué tenés y qué querés que pase.",
+       ""
+      ]
+     ],
+     "cierre": "Si tenés hijos chicos y querés dejarlo ordenado, comentá CONSULTA o mandanos un mensaje.",
+     "hooks": [
+      "«Víctor, mis hijos son chicos. Si a mí me pasa algo, ¿qué pasa con lo que tengo?»",
+      "«Víctor, ¿quién maneja lo que les dejo a mis hijos si son menores?»",
+      "«Víctor, ¿un fideicomiso sirve para proteger a mis hijos?»",
+      "«Víctor, ¿a qué edad reciben mis hijos lo que les dejo?»",
+      "«Víctor, tengo hijos chicos. ¿Hago un testamento?»",
+      "«Víctor, ¿cómo dejo ordenado lo mío si mis hijos todavía son chicos?»"
+     ],
+     "cierres": [
+      "Si tenés hijos chicos y querés dejarlo ordenado, comentá CONSULTA o mandanos un mensaje.",
+      "Lo vemos con tiempo: comentá CONSULTA o escribinos.",
+      "Mandáselo a quien tenga hijos chicos, y comentá CONSULTA o escribinos.",
+      "La primera consulta no se cobra: comentá CONSULTA o escribinos."
+     ],
+     "hookIdx": 0
+    },
+    {
+     "r": "R45",
+     "v": "C",
+     "titulo": "Clip de podcast: «lo que les dejás a tus hijos, ¿quién lo maneja?»",
+     "mecanica": "clip de podcast",
+     "meta": "Duración ≈60 s",
+     "ej": "Dbb8EQJAPzB",
+     "ejde": "Clip de podcast · @leonardo.mata.abogado",
+     "puntaje": 7,
+     "porque": "el tema pide calma y la charla con micrófono la da; se graba en la misma sesión que los otros podcasts",
+     "nota": "Estructura: problema (0:05–0:10) → explicación (0:11–0:21) → solución (0:24) → explicación de la solución (0:31–0:49) → pedido. Set de podcast, dos micrófonos; plano de Víctor con Emanuel de costado.",
+     "lineas": [
+      [
+       "0:00",
+       "E",
+       "¿Qué es lo que más se le escapa a un padre con hijos chicos cuando piensa en dejar las cosas en orden?",
+       ""
+      ],
+      [
+       "0:05",
+       "V",
+       "Que no alcanza con saber quién recibe. Hay que pensar quién lo va a manejar.",
+       "En pantalla: EL PROBLEMA"
+      ],
+      [
+       "0:11",
+       "V",
+       "Si los chicos son menores, ellos no lo pueden administrar. Lo hace un tutor, con el control de un juez para muchas decisiones. Y a la mayoría de edad reciben todo de golpe.",
+       "A validar"
+      ],
+      [
+       "0:22",
+       "E",
+       "¿Y qué se puede hacer?",
+       ""
+      ],
+      [
+       "0:24",
+       "V",
+       "Una herramienta es el fideicomiso. Elegís a una persona de confianza que lo administre para ellos.",
+       "A validar · En pantalla: LA SOLUCIÓN"
+      ],
+      [
+       "0:31",
+       "V",
+       "Y lo dejás escrito: para qué se usa, el estudio, la salud, la casa, y en qué momento lo pasan a manejar ellos.",
+       "A validar"
+      ],
+      [
+       "0:39",
+       "V",
+       "Siempre respetando lo que a cada hijo le corresponde por ley. Se puede hacer en vida o en un testamento.",
+       "A validar"
+      ],
+      [
+       "0:45",
+       "V",
+       "No es una cuestión de tener mucho. Es una cuestión de que lo que tengas les sirva.",
+       ""
+      ]
+     ],
+     "cierre": "Si tenés hijos chicos y querés dejarlo ordenado, comentá CONSULTA o mandanos un mensaje.",
+     "hooks": [
+      "«¿Qué es lo que más se le escapa a un padre con hijos chicos cuando piensa en dejar las cosas en orden?»",
+      "«No alcanza con saber quién recibe. Hay que pensar quién lo va a manejar.»",
+      "«¿Un fideicomiso es para gente con mucha plata?»",
+      "«¿Qué pasa con lo que heredan los chicos mientras son menores?»",
+      "«Si tenés hijos chicos, ¿por dónde empezás a ordenar lo tuyo?»",
+      "«No es una cuestión de tener mucho.»"
+     ],
+     "cierres": [
+      "Si tenés hijos chicos y querés dejarlo ordenado, comentá CONSULTA o mandanos un mensaje.",
+      "Si te quedó una duda, dejala en los comentarios o mandanos un mensaje.",
+      "Mandáselo a quien tenga hijos chicos, y comentá CONSULTA o escribinos.",
+      "La primera consulta no se cobra: comentá CONSULTA o escribinos."
+     ],
+     "hookIdx": 0
+    }
+   ],
+   "recomendacion": "grabar A (el consejo en el café): el tono cálido le queda al tema. B (falsa entrevista) en el estudio; C en la sesión de podcast."
   }
  ],
  "variaciones": [
@@ -9710,8 +10484,11 @@ window.GUIONES.tanda = {
 /* La jornada: los 7 que se graban (2026-10-19, siete formatos distintos), en orden de escenografía (podcast → escritorio → de pie → teleprompter → oficina).
    Elegidos el 18/10/2026 entre R9–R20. El resto queda guionado para más adelante. */
 window.GUIONES.jornada = {
-  orden: ["R37", "R38", "R39", "R40", "R41", "R42", "R33", "R34", "R35", "R36", "R26", "R9", "R25", "R31", "R23", "R28", "R30", "R29", "R24", "R27", "R22"],
+  orden: ["R43", "R44", "R45", "R37", "R38", "R39", "R40", "R41", "R42", "R33", "R34", "R35", "R36", "R26", "R9", "R25", "R31", "R23", "R28", "R30", "R29", "R24", "R27", "R22"],
   porque: {
+    R43: "Nuevo (6-11). Fideicomiso sin campo: tengo un terreno pero no la plata para construir, con el ejemplo original de Jorge Cervantes. Tres formatos: A teleprompter con motion graphics, recomendada; B POV en un terreno; C chat de WhatsApp. Validar con Víctor.",
+    R44: "Nuevo (6-11). Fideicomiso sin campo: entrar a un fideicomiso para comprar en pozo y las cinco cosas que tiene que decir el contrato (de los carruseles de Lucía Rivoiro). Tres formatos: A papel en la mesa, recomendada; B respuesta a una pregunta; C el banco. Validar con Víctor.",
+    R45: "Nuevo (6-11). Fideicomiso sin campo: hijos chicos, ¿quién maneja lo que les dejás? (de Sofía Sola, sin cifras ni promesas). Tres formatos: A el consejo en el café, recomendada; B falsa entrevista; C clip de podcast. Validar con Víctor.",
     R37: "Nuevo (5-11). ¿Testamento o dejar el campo en vida? Tres formatos: A POV (como Fer Loy), B el consejo en el café (formato nuevo), C clip de podcast. Validar con Víctor.",
     R38: "Nuevo (5-11). Tengo el campo pero no la plata para trabajarlo: el fideicomiso explicado con un campo. Tres formatos: A POV, B el banco (formato nuevo: el que vende y el que se asocia), C teleprompter con motion graphics. Validar con Víctor.",
     R39: "Nuevo (5-11). Le doy el campo a un vecino de palabra. Tres formatos: A POV, B el banco (formato nuevo: de palabra y con contrato), recomendada; C respondemos una pregunta. ⚠️ Verificar que la ley de arrendamientos siga vigente.",
