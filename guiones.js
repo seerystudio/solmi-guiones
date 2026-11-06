@@ -10497,7 +10497,7 @@ window.GUIONES.jornada = {
     R42: "Nuevo (5-11). Comprar un campo entre amigos sin que la deuda o la salida de uno trabe todo. Tres formatos: A POV, B verdadero o falso, C papel en la mesa.",
     R33: "Contratos agrarios (grabación del 26-10). En la zona se arrienda de palabra: las cinco cosas que tiene que decir el contrato del campo. Recomendada: A, papel en la mesa; B (ranking) en la misma sesión si hay tiempo. ⚠️ Antes de publicar, verificar que la ley de arrendamientos siga vigente (hay un proyecto para derogarla).",
     R34: "El contrato por una o dos cosechas: la excepción al plazo mínimo y lo que más se hace mal. Recomendada: A, falsa entrevista. Grabar también C, la noticia del proyecto para derogar la ley, y publicarla después de verificar cómo está.",
-    R35: "Con quién se firma si el campo es de una sucesión, una sociedad o un fideicomiso. Sale del artículo «Precauciones para arrendar campos» del Dr. Jorge Solmi. Recomendada: A, el caso. Avisar a Sergio Rosa (nombra la sucesión).",
+    R35: "Con quién se firma si el campo es de una sucesión, una sociedad o un fideicomiso. Sale del artículo «Precauciones para arrendar campos» del Dr. Jorge Solmi. Recomendada: A, el caso.",
     R36: "Alquiler o porcentaje: la duda de base del que tiene un campo y no lo trabaja. Recomendada: A, el contraste, de pie junto al mapa.",
     R26: "El único de la casa de los padres en esta jornada, y el tema que más rinde con «fideicomiso». Recomendada: B, en la sesión de podcast.",
     R9: "La presentación: va fijada primera en el perfil. Armada con lo que escribió Víctor en «Los 3 videos fijados», más el respaldo de Perfil y Fortuna. Recomendada: A, teleprompter.",
